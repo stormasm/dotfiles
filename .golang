@@ -1,0 +1,89 @@
+
+# Go lang environment variables
+
+export GOROOT=/mia/golang/go
+export GOROOT_BOOTSTRAP=/mia/golang/go1.4.2
+
+### Start global commands
+
+alias b='./build'
+alias bgtn='mkdir src; cd src; mkdir github.com; cd github.com; mkdir attic-labs; cd attic-labs'
+alias bgts='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
+alias gcme='rm -fr bin pkg src'
+alias gex='cd $GOPATH/go-examples'
+
+alias gg='go get'
+alias gr='go run'
+alias goc='rm -fr src; rm -fr pkg; rm -fr bin'
+alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
+alias gop='export GOPATH=${PWD}; export GOBIN=${PWD}/bin; PATH=$PATH:$GOPATH/bin'
+alias gopc='env | grep GOPATH'
+alias goreman='/tmp59/bin/goreman'
+alias gst='cd $GOPATH/src/github.com/stormasm'
+alias gt='go test ./...'
+alias gtb='go test -v -bench .'
+alias gtb1='go test -v -bench=SlowIcingManyIcers'
+alias gtv='go test -v'
+alias gtv1='go test -v -run 'Ag''
+
+alias ltest='ls -l *_test.go'
+alias lslt='ls -l *_test.go'
+alias rmgt='rm *_test.go'
+
+### End global commands
+
+### start bolt
+
+alias bdb='cd $GOPATH/src/github.com/boltdb/bolt'
+alias bdbc='cd src/github.com/boltdb/bolt/cmd/bolt'
+alias bdbcc='cd cmd/bolt'
+
+### end bolt
+
+
+### start bleve
+
+alias beer='beer-search'
+alias beert='cd $GOPATH/beer-search'
+alias beerjs='cd $GOPATH/beer-search/static/js'
+alias bls='cd $GOPATH/src/github.com/blevesearch/bleve'
+
+alias blsclean='rm -fr analysis cmd config docs document http index numeric_util registry search test vendor'
+
+### end bleve
+
+### start elastic
+
+alias esg='cd $GOPATH/src/github.com/stormasm/es'
+alias ess='cd $GOPATH/src/gopkg.in/olivere/elastic.v3'
+alias es1='blevelastic01'
+alias gec='cd $GOPATH/src/github.com/stormasm/go-elastic/cmd/ge'
+alias ges='cd $GOPATH/src/github.com/stormasm/go-elastic'
+alias ge='$GOPATH/src/github.com/stormasm/go-elastic/cmd/ge/ge'
+
+### end elastic
+
+### start goplo.io
+
+alias ch8='cd $GOPATH/src/gopl.io/ch8'
+
+### end
+
+### start hugo
+
+alias hugo='/tmp65/bin/hugo'
+
+### end hugo
+
+### start leveldb
+
+alias cdb='cd $GOPATH/src/github.com/cockroachdb/cockroach'
+alias edb='cd $GOPATH/src/github.com/coreos/etcd'
+alias idb='cd $GOPATH/src/github.com/influxdata/influxdb'
+alias ldb='cd $GOPATH/src/github.com/syndtr/goleveldb/leveldb'
+alias ndb='cd $GOPATH/src/github.com/attic-labs/noms'
+alias pdb='cd $GOPATH/src/github.com/prometheus/prometheus'
+
+### end leveldb
+
+alias chhs='cd $GOPATH/jsontools/chhs'

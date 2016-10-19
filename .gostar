@@ -1,0 +1,3 @@
+
+alias goq='cd $GOPATH/src/github.com/PuerkitoBio/goquery'
+alias gos='cd $GOPATH/src/github.com/stormasm/gostar1'

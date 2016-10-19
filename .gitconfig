@@ -1,0 +1,8 @@
+[user]
+	name = Michael Angerman
+	email = stormasm@gmail.com
+[core]
+	editor = emacs
+	deltaBaseCacheLimit = 1G
+[credential]
+	helper = osxkeychain

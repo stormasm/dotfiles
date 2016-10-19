@@ -1,0 +1,87 @@
+
+alias 81t='cd /tmp81/types'
+alias 81to='cd /tmp81/typesonly'
+
+### attic-labs
+
+alias nc='cd $GOPATH/src/github.com/attic-labs/noms/go/chunks'
+alias ncmd='cd $GOPATH/src/github.com/attic-labs/noms/cmd/noms'
+alias ns='cd $GOPATH/src/github.com/attic-labs/noms/go'
+alias nsam='cd $GOPATH/src/github.com/attic-labs/noms/samples/go'
+alias nst='cd $GOPATH/src/github.com/attic-labs/noms'
+alias nty='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
+
+### stormasm
+alias nss='cd $GOPATH/src/github.com/stormasm/noms/go'
+alias nsc='cd $GOPATH/src/github.com/stormasm/noms/go/chunks'
+alias nscmd='cd $GOPATH/src/github.com/stormasm/noms/cmd/noms'
+alias nssam='cd $GOPATH/src/github.com/stormasm/noms/samples/go'
+
+### noms javascript
+
+alias nsj='cd $GOPATH/src/github.com/attic-labs/noms/js/noms/src'
+alias nsn='cd $GOPATH/src/github.com/attic-labs/noms/js/noms/src'
+
+### noms commands
+
+alias nd='noms ds http://demo.noms.io/cli-tour' 
+alias nd1='noms sync http://demo.noms.io/cli-tour::sf-film-locations /tmp67/d1::sf-film-locations'
+
+alias hr1='./hr --ds /tmp67/my-noms::hr add-person 42 Abigail Architect'
+alias hr2='./hr --ds /tmp67/my-noms::hr add-person 43 Samuel "Chief Laser Operator"'
+alias hr3='./hr --ds /tmp67/my-noms::hr list-persons'
+
+alias hr4='./hr --ds /tmp67/my-noms::hr1 add-person 52 Iris A'
+alias hr5='./hr --ds /tmp67/my-noms::hr1 add-person 53 Michael B'
+alias hr6='./hr --ds /tmp67/my-noms::hr1 list-persons'
+
+### Noms demo server
+alias rndb='demo-server --authkey "rock" --ldb-dir "/tmp67/myldb"'
+
+### noms remove test files
+
+alias rmnomst='cd chunks; rmgt; cd ./../constants; rmgt; cd ./../d; rmgt; cd ./../datas; rmgt; cd ./../dataset; rmgt; cd ./../hash; rmgt; cd ./../marshal; rmgt; cd ./../merge; rmgt; cd ./../perf; rmgt; cd ./../spec; rmgt; cd ./../types; rmgt; cd ./../util; rmgt; cd ./../walk; rmgt; cd ./..'
+
+### Noms more stuff
+
+### Noms grab repo, Bleve too
+
+alias nbinit='go get github.com/attic-labs/noms/cmd/noms; go get github.com/blevesearch/bleve/cmd/bleve'
+alias bninit='go get github.com/attic-labs/noms/cmd/noms; go get github.com/blevesearch/bleve/cmd/bleve'
+
+alias ninit='go get github.com/attic-labs/noms/cmd/noms'
+
+alias nbt='cd $GOPATH/src/github.com/stormasm'
+
+### nomsbolt
+
+alias nb='cd $GOPATH/src/github.com/stormasm/nomsbolt'
+alias nbc='cd $GOPATH/src/github.com/stormasm/nomsbolt/go/chunks'
+alias nbh='cd $GOPATH/src/github.com/stormasm/nomsbolt/samples/go/hr'
+
+alias nb1='gtv -run BoltDBStoreBasic'
+alias nb2='gtv -run BoltDBStore'
+alias nb3='gtv -run BoltDBStoreBatch'
+
+### nomsleveldb
+
+alias nlt='cd $GOPATH/src/github.com/stormasm/nomsleveldb'
+alias nlc='cd $GOPATH/src/github.com/stormasm/nomsleveldb/go/chunks'
+alias nlh='cd $GOPATH/src/github.com/stormasm/nomsleveldb/samples/go/hr'
+
+alias nl1='gtv -run LevelDB'
+alias nl2='gtv -run MemoryStore'
+
+### nomsredis
+
+alias nrt='cd $GOPATH/src/github.com/stormasm/nomsredis'
+alias nrc='cd $GOPATH/src/github.com/stormasm/nomsredis/go/chunks'
+alias nrh='cd $GOPATH/src/github.com/stormasm/nomsredis/samples/go/hr'
+
+alias nr1='gtv -run Redis'
+
+### This is used initially to get rid of noms cruft including javascript code
+alias nstrip='rm -fr .git; rm -fr doc; rm -fr js; rm -fr tools; rm -fr samples/js; rm codecov.yml'
+
+### This is used in the chunks package to get rid of stuff you don't need for testing
+alias cstrip='git rm chunk_test.go; git rm dynamo_store*; git rm put_cache.go; git rm read_through*; git rm remote_requests_test.go'
