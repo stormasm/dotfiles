@@ -1,7 +1,9 @@
 
 export RACK_ENV=development
 
-export PYENV_VERSION=3.5.2
+#export PYENV_VERSION=3.5.2
+export PYENV_VERSION=system
+
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.10.0rc0-py3-none-any.whl
 
 export PATH=/Users/ma/.pyenv/shims:/Users/ma/.rvm/bin:/miahugo:/miagit/bin:/mia/redis/src:/mianode/node/bin:/mia/golang/go/bin:/mia/golang/bin:$PATH
