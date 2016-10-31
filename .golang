@@ -2,7 +2,16 @@
 # Go lang environment variables
 
 export GOROOT=/mia/golang/go
-export GOROOT_BOOTSTRAP=/mia/golang/go1.4.2
+export GOROOT_BOOTSTRAP=/mia/golang/go
+
+### Go Source Code
+
+alias gosrc='cd /tmp69/go/src'
+alias gosrcjson='cd /tmp69/go/src/encoding/json'
+
+### Go Source Code Tests
+
+alias gtjson='go tool dist test -run go_test:encoding/json'
 
 ### Start global commands
 
@@ -19,7 +28,7 @@ alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
 alias gop='export GOPATH=${PWD}; export GOBIN=${PWD}/bin; PATH=$PATH:$GOPATH/bin'
 alias gopc='env | grep GOPATH'
 alias goreman='/tmp59/bin/goreman'
-alias gst='cd $GOPATH/src/github.com/stormasm'
+
 alias gt='go test ./...'
 alias gtb='go test -v -bench .'
 alias gtb1='go test -v -bench=SlowIcingManyIcers'
@@ -28,7 +37,9 @@ alias gtv1='go test -v -run 'Ag''
 
 alias ltest='ls -l *_test.go'
 alias lslt='ls -l *_test.go'
-alias rmgt='rm *_test.go'
+alias rmtest='rm *_test.go'
+
+alias sasm='cd $GOPATH/src/github.com/stormasm'
 
 ### End global commands
 
@@ -71,7 +82,7 @@ alias ch8='cd $GOPATH/src/gopl.io/ch8'
 
 ### start hugo
 
-alias hugo='/tmp65/bin/hugo'
+#alias hugo='/tmp65/bin/hugo'
 
 ### end hugo
 

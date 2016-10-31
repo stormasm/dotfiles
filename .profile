@@ -133,14 +133,6 @@ alias br3b='curl -L http://127.0.0.1:2379/v2/keys/mykey3'
 alias br3c='curl -L http://127.0.0.1:2379/v2/keys/mykey3 -XDELETE -d value="hb the scientist"'
 
 #
-# Hugo
-#
-
-alias goh="hugo server -p 3000"
-alias gohugo="hugo server -p 3000"
-alias hug="hugo server -p 3000"
-
-#
 # Jekyll is in 2 places 1) /miajek and 2) /miastormnode
 #
 

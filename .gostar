@@ -1,5 +1,22 @@
 
+#
+# Gostar
+#
 
 alias gogh='cd $GOPATH/src/github.com/google/go-github'
 alias goq='cd $GOPATH/src/github.com/PuerkitoBio/goquery'
-alias gos='cd $GOPATH/src/github.com/stormasm/gostar1'
+alias gos='cd $GOPATH/src/github.com/stormasm/gostar2'
+alias gos1='cd $GOPATH/src/github.com/stormasm/gostar1'
+alias jt='cd $GOPATH/src/github.com/stormasm/jsontools/examples'
+
+#
+# Hugo
+#
+
+alias hgt='mkdir src; cd src; mkdir github.com; cd github.com; mkdir spf13; cd spf13'
+alias hs='cd $GOPATH/src/github.com/spf13/hugo'
+
+alias goh="hugo server -p 3000"
+alias gohugo="hugo server -p 3000"
+alias hug="hugo server -p 3000"
+
