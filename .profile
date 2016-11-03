@@ -105,9 +105,9 @@ alias dot='cd /miadotfiles'
 alias dotc='cd /miadotfiles/current'
 alias dotcc='cd /miadotfiles/current; ls -al'
 
-alias dotcp='cd ~; cp .gitconfig /miadotfiles/current; cp .bash_login /miadotfiles/current; cp .profile /miadotfiles/current; cp .python /miadotfiles/current; cp .golang /miadotfiles/current; cp .noms /miadotfiles/current; cp .gostar /miadotfiles/current; cp .secret /miadotfiles/current'
+alias dotcp='cd ~; cp .gitconfig /miadotfiles/current; cp .bash_login /miadotfiles/current; cp .profile /miadotfiles/current; cp .python /miadotfiles/current; cp .golang /miadotfiles/current; cp .noms /miadotfiles/current; cp .gostar /miadotfiles/current; cp .secret /miadotfiles/current; cp .nodejs /miadotfiles/current'
 
-alias dotdiff='cd ~; diff .profile /miadotfiles/current/.profile; diff .python /miadotfiles/current/.python; diff .golang /miadotfiles/current/.golang; diff .noms /miadotfiles/current/.noms; diff .gostar /miadotfiles/current/.gostar; diff .secret /miadotfiles/current/.secret'
+alias dotdiff='cd ~; diff .profile /miadotfiles/current/.profile; diff .python /miadotfiles/current/.python; diff .golang /miadotfiles/current/.golang; diff .noms /miadotfiles/current/.noms; diff .gostar /miadotfiles/current/.gostar; diff .secret /miadotfiles/current/.secret; diff .nodejs /miadotfiles/current/.nodejs'
 
 #
 # Redis
@@ -451,11 +451,10 @@ alias pgrestoreschema='/mia/postgresql/bin/pg_restore -O -d spinnakr_development
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-[[ -s "$HOME/.secret" ]] && source "$HOME/.secret"
-[[ -s "$HOME/.python" ]] && source "$HOME/.python"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.golang" ]] && source "$HOME/.golang"
-[[ -s "$HOME/.noms" ]] && source "$HOME/.noms"
+[[ -s "$HOME/.nodejs" ]] && source "$HOME/.nodejs"
+[[ -s "$HOME/.python" ]] && source "$HOME/.python"
 [[ -s "$HOME/.gostar" ]] && source "$HOME/.gostar"
-
+[[ -s "$HOME/.noms" ]] && source "$HOME/.noms"
+[[ -s "$HOME/.secret" ]] && source "$HOME/.secret"
