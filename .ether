@@ -1,0 +1,25 @@
+### ethereum
+
+### This is the geth that all commands below look to
+### This does the exact same thing as the next command rgeth
+### But does not allow the UI or anyone to connect to it via rpc
+alias geth='/tmp80/go-ethereum/build/bin/geth'
+
+### Run normally downloading all of the data
+alias rgeth='geth --rpc --rpccorsdomain "http://localhost:8000"'
+
+### Just show all of the current data, don't get new blocks
+alias rgeth1='geth --rpc --rpccorsdomain "http://localhost:8000" --nodiscover'
+
+### Test network with just one block in it
+alias rgetht='geth --olympic --datadir "/tmp77" --rpc --rpccorsdomain "http://localhost:8000"'
+
+
+
+###
+### I can't figure out how to run these curl commands as an alias so just cut and paste
+###
+alias ethversion2='curl -L "http://localhost:8545" -X POST --data '{"jsonrpc":"2.0","method":"eth_protocolVersion","params":"[]","id":67}''
+alias ethmostrecentblock='curl -L "http://localhost:8545" -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}''
+###
+
