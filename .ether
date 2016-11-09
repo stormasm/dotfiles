@@ -1,3 +1,19 @@
+
+alias rmdb='cd /tmp74; rm -fr adba'
+
+alias mketh='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum'
+
+alias mketh1='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum; mkdir go-ethereum; cd go-ethereum'
+
+alias mktrie='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
+
+alias eth='cd $GOPATH/src/github.com/ethereum/go-ethereum'
+
+alias trie='cd $GOPATH/src/github.com/ethereum/go-ethereum/trie'
+alias trieget='go get github.com/davecgh/go-spew/spew; go get gopkg.in/check.v1'
+
+alias trie1='cd $GOPATH/src/github.com/stormasm/trie1'
+
 ### ethereum
 
 ### This is the geth that all commands below look to
