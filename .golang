@@ -17,7 +17,6 @@ alias gtjson='go tool dist test -run go_test:encoding/json'
 
 alias b='./build'
 alias bgtn='mkdir src; cd src; mkdir github.com; cd github.com; mkdir attic-labs; cd attic-labs'
-alias bgts='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 alias gcme='rm -fr bin pkg src'
 alias gex='cd $GOPATH/go-examples'
 
@@ -39,6 +38,7 @@ alias ltest='ls -l *_test.go'
 alias lslt='ls -l *_test.go'
 alias rmtest='rm *_test.go'
 
+alias mksasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 alias sasm='cd $GOPATH/src/github.com/stormasm'
 
 ### End global commands
