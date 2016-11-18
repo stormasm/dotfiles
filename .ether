@@ -19,18 +19,29 @@ alias trie1='cd $GOPATH/src/github.com/stormasm/trie1'
 ### This is the geth that all commands below look to
 ### This does the exact same thing as the next command rgeth
 ### But does not allow the UI or anyone to connect to it via rpc
-alias geth='/tmp80/go-ethereum/build/bin/geth'
+### alias geth='/tmp80/go-ethereum/build/bin/geth'
+### alias gethd='/tmp79/go-ethereum/build/bin/geth'
 
 ### Run normally downloading all of the data
 alias rgeth='geth --rpc --rpccorsdomain "http://localhost:8000"'
 
+### For console and solidity
+
+alias sgeth='geth --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0.0.1" --rpccorsdomain "localhost" --solc solcjs console'
+
+alias rgeth0='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 0'
+alias rgeth1='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 1'
+alias rgeth2='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 2'
+alias rgeth3='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 3'
+alias rgeth4='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 4'
+alias rgeth5='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 5'
+alias rgeth6='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 6'
+
 ### Just show all of the current data, don't get new blocks
-alias rgeth1='geth --rpc --rpccorsdomain "http://localhost:8000" --nodiscover'
+alias rgethnd='geth --rpc --rpccorsdomain "http://localhost:8000" --nodiscover'
 
 ### Test network with just one block in it
 alias rgetht='geth --olympic --datadir "/tmp77" --rpc --rpccorsdomain "http://localhost:8000"'
-
-
 
 ###
 ### I can't figure out how to run these curl commands as an alias so just cut and paste
