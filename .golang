@@ -22,7 +22,6 @@ alias gex='cd $GOPATH/go-examples'
 
 alias gg='go get'
 alias gr='go run'
-alias goc='rm -fr src; rm -fr pkg; rm -fr bin'
 alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
 alias gop='export GOPATH=${PWD}; export GOBIN=${PWD}/bin; PATH=$PATH:$GOPATH/bin'
 alias gopc='env | grep GOPATH'

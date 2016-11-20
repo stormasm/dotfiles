@@ -85,3 +85,13 @@ alias nstrip='rm -fr .git; rm -fr doc; rm -fr js; rm -fr tools; rm -fr samples/j
 
 ### This is used in the chunks package to get rid of stuff you don't need for testing
 alias cstrip='git rm chunk_test.go; git rm dynamo_store*; git rm put_cache.go; git rm read_through*; git rm remote_requests_test.go'
+
+### Hacker Noms
+
+alias hnoms='cd $GOPATH/src/github.com/stormasm/hackernoms1'
+
+alias hnc='pushd $PWD; cd /tmp; rm -fr my-noms*; popd'
+
+alias hnf='go run fetch.go /tmp/my-noms::hn'
+alias hns='go run sync.go /tmp/my-noms::hn'
+alias hno='go run organize.go /tmp/my-noms::hn /tmp/my-noms-org::hn'
