@@ -1,4 +1,6 @@
 
+alias mknoms='mkdir src; cd src; mkdir github.com; cd github.com; mkdir attic-labs; cd attic-labs'
+
 alias 81t='cd /tmp81/types'
 alias 81to='cd /tmp81/typesonly'
 
@@ -10,6 +12,8 @@ alias ns='cd $GOPATH/src/github.com/attic-labs/noms/go'
 alias nsam='cd $GOPATH/src/github.com/attic-labs/noms/samples/go'
 alias nst='cd $GOPATH/src/github.com/attic-labs/noms'
 alias nty='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
+alias ntype='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
+alias ntypes='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
 
 ### stormasm
 alias nss='cd $GOPATH/src/github.com/stormasm/noms/go'

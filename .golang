@@ -16,7 +16,6 @@ alias gtjson='go tool dist test -run go_test:encoding/json'
 ### Start global commands
 
 alias b='./build'
-alias bgtn='mkdir src; cd src; mkdir github.com; cd github.com; mkdir attic-labs; cd attic-labs'
 alias gcme='rm -fr bin pkg src'
 alias gex='cd $GOPATH/go-examples'
 
