@@ -31,13 +31,13 @@ alias nsn='cd $GOPATH/src/github.com/attic-labs/noms/js/noms/src'
 alias nd='noms ds http://demo.noms.io/cli-tour' 
 alias nd1='noms sync http://demo.noms.io/cli-tour::sf-film-locations /tmp67/d1::sf-film-locations'
 
-alias hr1='./hr --ds /tmp67/my-noms::hr add-person 42 Abigail Architect'
-alias hr2='./hr --ds /tmp67/my-noms::hr add-person 43 Samuel "Chief Laser Operator"'
-alias hr3='./hr --ds /tmp67/my-noms::hr list-persons'
+alias hr1='hr --ds /tmp67/my-noms::hr add-person 42 Abigail Architect'
+alias hr2='hr --ds /tmp67/my-noms::hr add-person 43 Samuel "Chief Laser Operator"'
+alias hr3='hr --ds /tmp67/my-noms::hr list-persons'
 
-alias hr4='./hr --ds /tmp67/my-noms::hr1 add-person 52 Iris A'
-alias hr5='./hr --ds /tmp67/my-noms::hr1 add-person 53 Michael B'
-alias hr6='./hr --ds /tmp67/my-noms::hr1 list-persons'
+alias hr4='hr --ds /tmp67/my-noms::hr1 add-person 52 Iris A'
+alias hr5='hr --ds /tmp67/my-noms::hr1 add-person 53 Michael B'
+alias hr6='hr --ds /tmp67/my-noms::hr1 list-persons'
 
 ### Noms demo server
 alias rndb='demo-server --authkey "rock" --ldb-dir "/tmp67/myldb"'
