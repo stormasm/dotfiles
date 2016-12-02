@@ -158,7 +158,7 @@ alias ndiff10='noms diff ldb:/tmp67/hr/ldb::hr bolt:/tmp68/hr/bolt::hr'
 alias ndiff10a='noms diff ldb:/tmp67/hr/ldb::hr1 bolt:/tmp68/hr/bolt::hr1'
 
 alias ndiff10b='noms diff bolt:/tmp68/hr/bolt::hr ldb:/tmp67/hr/ldb::hr'
-alias ndiff10c='noms diff bolt:/tmp68/hr/bolt::hr1 ldb:/tmp67/hr/bolt::hr1'
+alias ndiff10c='noms diff bolt:/tmp68/hr/bolt::hr1 ldb:/tmp67/hr/ldb::hr1'
 
 alias ndiff10d='noms diff bolt:/tmp68/hr/bolt::hr1 bolt:/tmp68/hr/bolt::hr'
 alias ndiff10e='noms diff bolt:/tmp68/hr/bolt::hr bolt:/tmp68/hr/bolt::hr1'
