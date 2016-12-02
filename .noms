@@ -20,6 +20,8 @@ alias nss='cd $GOPATH/src/github.com/stormasm/noms/go'
 alias nsc='cd $GOPATH/src/github.com/stormasm/noms/go/chunks'
 alias nscmd='cd $GOPATH/src/github.com/stormasm/noms/cmd/noms'
 alias nssam='cd $GOPATH/src/github.com/stormasm/noms/samples/go'
+alias nshr='cd $GOPATH/src/github.com/stormasm/noms/samples/go/hr'
+
 
 ### noms javascript
 
@@ -50,6 +52,12 @@ alias hr3b='hr --ds bolt:/tmp67/hr/bolt::hr list-persons'
 alias hr4b='hr --ds bolt:/tmp67/hr/bolt::hr1 add-person 52 Ron A'
 alias hr5b='hr --ds bolt:/tmp67/hr/bolt::hr1 add-person 53 Nancy H'
 alias hr6b='hr --ds bolt:/tmp67/hr/bolt::hr1 list-persons'
+
+alias nshowhr='noms show bolt:/tmp67/hr/bolt::hr'
+alias nshowhr1='noms show bolt:/tmp67/hr/bolt::hr1'
+
+alias nloghr='noms log bolt:/tmp67/hr/bolt::hr'
+alias nloghr1='noms log bolt:/tmp67/hr/bolt::hr1'
 
 ### noms commands hr redis
 
