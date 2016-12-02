@@ -56,8 +56,14 @@ alias hr6b='hr --ds bolt:/tmp67/hr/bolt::hr1 list-persons'
 alias nshowhr='noms show bolt:/tmp67/hr/bolt::hr'
 alias nshowhr1='noms show bolt:/tmp67/hr/bolt::hr1'
 
+alias nshowhr68='noms show bolt:/tmp68/hr/bolt::hr'
+alias nshowhr168='noms show bolt:/tmp68/hr/bolt::hr1'
+
 alias nloghr='noms log bolt:/tmp67/hr/bolt::hr'
 alias nloghr1='noms log bolt:/tmp67/hr/bolt::hr1'
+
+alias nloghr68='noms log bolt:/tmp68/hr/bolt::hr'
+alias nloghr168='noms log bolt:/tmp68/hr/bolt::hr1'
 
 ### noms commands hr redis
 
@@ -132,3 +138,30 @@ alias hno='go run organize.go /tmp/hn1::hn /tmp/hn1org::hn'
 
 ###
 alias nomsui='noms-ui --port 57408 /tmp20/src/github.com/attic-labs/noms/samples/js/splore'
+
+### Noms sync commands
+
+alias nsync1='noms sync http://demo.noms.io/cli-tour::sf-film-locations ldb:/tmp67/cli-tour/ldb::sf-film-locations'
+alias nsync2='noms sync http://demo.noms.io/cli-tour::sf-film-locations bolt:/tmp67/cli-tour/bolt::sf-film-locations'
+alias nsync3='noms sync ldb:/tmp67/cli-tour/ldb::sf-film-locations bolt:/tmp67/cli-tour/bolt::sf-film-locations'
+
+alias nsync10='noms sync ldb:/tmp67/hr/ldb::hr bolt:/tmp68/hr/bolt::hr'
+alias nsync10a='noms sync ldb:/tmp67/hr/ldb::hr1 bolt:/tmp68/hr/bolt::hr1'
+
+### Noms diff commands
+
+alias ndiff1='noms diff http://demo.noms.io/cli-tour::sf-film-locations ldb:/tmp67/cli-tour/ldb::sf-film-locations'
+alias ndiff2='noms diff http://demo.noms.io/cli-tour::sf-film-locations bolt:/tmp67/cli-tour/bolt::sf-film-locations'
+alias ndiff3='noms diff ldb:/tmp67/cli-tour/ldb::sf-film-locations bolt:/tmp67/cli-tour/bolt::sf-film-locations'
+
+alias ndiff10='noms diff ldb:/tmp67/hr/ldb::hr bolt:/tmp68/hr/bolt::hr'
+alias ndiff10a='noms diff ldb:/tmp67/hr/ldb::hr1 bolt:/tmp68/hr/bolt::hr1'
+
+alias ndiff10b='noms diff bolt:/tmp68/hr/bolt::hr ldb:/tmp67/hr/ldb::hr'
+alias ndiff10c='noms diff bolt:/tmp68/hr/bolt::hr1 ldb:/tmp67/hr/bolt::hr1'
+
+alias ndiff10d='noms diff bolt:/tmp68/hr/bolt::hr1 bolt:/tmp68/hr/bolt::hr'
+alias ndiff10e='noms diff bolt:/tmp68/hr/bolt::hr bolt:/tmp68/hr/bolt::hr1'
+
+alias ndiff10f='noms diff ldb:/tmp67/hr/ldb::hr1 ldb:/tmp67/hr/ldb::hr'
+alias ndiff10g='noms diff ldb:/tmp67/hr/ldb::hr ldb:/tmp67/hr/ldb::hr1'
