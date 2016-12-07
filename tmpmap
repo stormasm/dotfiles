@@ -1,0 +1,151 @@
+
+Current running repos
+
+35 nomscs1 working --- pick up here upon return from washougal
+37 bp4 nomsbolt
+
+19 elastic-go
+
+20 Noms legacy pre rafael nbs check in...
+21 Noms new
+22 Noms Grep ONLY
+23 Hacker Noms
+30 Kubernetes
+31 Bleve
+32 Bleve
+56 meteor / mist
+
+60 Golang binaries {goreman, panicparse}
+70 smart tables, typescript, angular
+
+90 stormasm geth1
+
+50 gostar, jsontools
+51 gostar, jsontools
+52 hugo
+53 rauch blog
+54 reflections
+
+24 latest github version of noms, always up to date
+27 location of noms databases
+29 archive of noms databases
+
+00 working on noms leveldb
+01 working on noms bolt
+02 working on noms redis
+03 working on noms bolt
+04 working on noms stack, showing the flow of the commit...
+
+05 bleve, noms, other bolt / goleveldb examples
+14 bleve, noms
+99 bs
+
+All of these numbers are /tmpXX where XX is the number below...
+
+---------------------------------------------
+        00 - 10 = misc
+---------------------------------------------
+
+08 Mastering Concurrency in Go Book
+09 kubernetes virgin only
+10 data, opendatacache
+
+---------------------------------------------
+        10 - 20 = Go Elasticsearch, Bleve
+---------------------------------------------
+
+11 bleve beer search
+
+---------------------------------------------
+        20 - 29 = golang
+---------------------------------------------
+
+20 
+22 Location of Noms go source code... for grep ONLY
+23 Elastic
+
+---------------------------------------------
+        25 - 29 = noms databases
+---------------------------------------------
+
+---------------------------------------------
+        30 - 39 = golang
+---------------------------------------------
+
+
+30 kubernetes
+31
+32 
+33
+34
+
+35
+36
+37
+38 
+39
+
+---------------------------------------------
+        40 - 49 = python, gensim, jupyter, tensorflow
+---------------------------------------------
+
+42 tensorflow
+43 gensim tutorial
+44 jupyter
+45 gensim
+   
+---------------------------------------------
+        50 - 59 = golang
+---------------------------------------------
+
+50 bs, goquery, cascadia, gostar
+51 
+52 hugo
+53 hugo example ralch blog
+55
+56
+57 algolia hn-search
+57
+58
+59
+
+---------------------------------------------
+        60 - 69 = golang
+---------------------------------------------
+
+60 Golang Binaries {panicparse}
+61 The Go Language (only)
+62 The Go Language Encoders and other language packages
+
+63
+64
+65
+66
+
+67 Noms Databases (only)
+68 Noms Databases (only)
+69 Noms Databases (only)
+
+---------------------------------------------
+        70 - 79 = Ethereum
+---------------------------------------------
+
+79 Decred
+
+---------------------------------------------
+        80 - 89 = Ethereum
+---------------------------------------------
+
+---------------------------------------------
+        90 - 99 = archives
+---------------------------------------------
+90 geth
+91 dumping ground
+92 dumping ground
+93 organic
+94 github resume
+95 spinnakr archive
+96 
+97 
+98 top-repos, resume
+99 bs, dumping ground

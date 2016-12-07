@@ -7,6 +7,7 @@ alias 81to='cd /tmp81/typesonly'
 ### attic-labs
 
 alias nc='cd $GOPATH/src/github.com/attic-labs/noms/go/chunks'
+alias nspec='cd $GOPATH/src/github.com/attic-labs/noms/go/spec'
 alias ncmd='cd $GOPATH/src/github.com/attic-labs/noms/cmd/noms'
 alias ns='cd $GOPATH/src/github.com/attic-labs/noms/go'
 alias nsam='cd $GOPATH/src/github.com/attic-labs/noms/samples/go'
@@ -14,10 +15,12 @@ alias nst='cd $GOPATH/src/github.com/attic-labs/noms'
 alias nty='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
 alias ntype='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
 alias ntypes='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
+alias nhr='cd $GOPATH/src/github.com/attic-labs/noms/samples/go/hr'
 
 ### stormasm
 alias nss='cd $GOPATH/src/github.com/stormasm/noms/go'
 alias nsc='cd $GOPATH/src/github.com/stormasm/noms/go/chunks'
+alias nsspec='cd $GOPATH/src/github.com/stormasm/noms/go/spec'
 alias nscmd='cd $GOPATH/src/github.com/stormasm/noms/cmd/noms'
 alias nssam='cd $GOPATH/src/github.com/stormasm/noms/samples/go'
 alias nshr='cd $GOPATH/src/github.com/stormasm/noms/samples/go/hr'
@@ -99,26 +102,17 @@ alias nb='cd $GOPATH/src/github.com/stormasm/nomsbolt'
 alias nbc='cd $GOPATH/src/github.com/stormasm/nomsbolt/go/chunks'
 alias nbh='cd $GOPATH/src/github.com/stormasm/nomsbolt/samples/go/hr'
 
-alias nb1='gtv -run BoltDBStoreBasic'
-alias nb2='gtv -run BoltDBStore'
-alias nb3='gtv -run BoltDBStoreBatch'
-
 ### nomsleveldb
 
 alias nlt='cd $GOPATH/src/github.com/stormasm/nomsleveldb'
 alias nlc='cd $GOPATH/src/github.com/stormasm/nomsleveldb/go/chunks'
 alias nlh='cd $GOPATH/src/github.com/stormasm/nomsleveldb/samples/go/hr'
 
-alias nl1='gtv -run LevelDB'
-alias nl2='gtv -run MemoryStore'
-
 ### nomsredis
 
 alias nrt='cd $GOPATH/src/github.com/stormasm/nomsredis'
 alias nrc='cd $GOPATH/src/github.com/stormasm/nomsredis/go/chunks'
 alias nrh='cd $GOPATH/src/github.com/stormasm/nomsredis/samples/go/hr'
-
-alias nr1='gtv -run Redis'
 
 ### This is used initially to get rid of noms cruft including javascript code
 alias nstrip='rm -fr .git; rm -fr doc; rm -fr js; rm -fr tools; rm -fr samples/js; rm codecov.yml'
@@ -165,3 +159,16 @@ alias ndiff10e='noms diff bolt:/tmp68/hr/bolt::hr bolt:/tmp68/hr/bolt::hr1'
 
 alias ndiff10f='noms diff ldb:/tmp67/hr/ldb::hr1 ldb:/tmp67/hr/ldb::hr'
 alias ndiff10g='noms diff ldb:/tmp67/hr/ldb::hr ldb:/tmp67/hr/ldb::hr1'
+
+### gtv
+
+alias nb1='gtv -run BoltDBStoreBasic'
+alias nb2='gtv -run BoltDBStore'
+alias nb3='gtv -run BoltDBStoreBatch'
+
+alias nl1='gtv -run LevelDB'
+alias nl2='gtv -run MemoryStore'
+
+alias nr1='gtv -run Redis'
+
+alias gtva='gtv -run BoltDatabaseSpec'
