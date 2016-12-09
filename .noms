@@ -1,4 +1,6 @@
 
+
+alias nal='cd $GOPATH/src/github.com/attic-labs'
 alias mknoms='mkdir src; cd src; mkdir github.com; cd github.com; mkdir attic-labs; cd attic-labs'
 
 alias 81t='cd /tmp81/types'

@@ -58,16 +58,7 @@ alias er='electron .'
 alias erun='electron .'
 alias files='ulimit -n 2000'
 alias g='go run'
-alias gb='git branch'
-alias gco='git checkout'
-alias gll='gem list --local'
-alias gl='git log'
-alias gsl='git log --stat'
-alias gls='git log --stat'
-alias gpo='git push origin'
-alias grso='git remote show origin'
-alias gs='git status'
-alias gitsubmodule='git submodule update --init --recursive'
+alias grh='grep -RH'
 alias gu='unicorn -p 4567'
 alias h='history'
 alias hc='history -c'
@@ -98,6 +89,19 @@ alias rpretty='ruby-beautify --overwrite'
 alias sp='source /Users/ma/.profile'
 alias t=date
 alias tmp='cd /tmp'
+
+### git commands
+
+alias gb='git branch'
+alias gco='git checkout'
+alias gll='gem list --local'
+alias gl='git log'
+alias gsl='git log --stat'
+alias gls='git log --stat'
+alias gpo='git push origin'
+alias grso='git remote show origin'
+alias gs='git status'
+alias gitsubmodule='git submodule update --init --recursive'
 
 #
 # Dot
