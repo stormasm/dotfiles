@@ -1,18 +1,24 @@
 
 Current running repos
 
-35 nomscs1 working --- pick up here upon return from washougal
-37 bp4 nomsbolt
-
 19 elastic-go
 
-20 Noms legacy pre rafael nbs check in...
+20 Noms new
 21 Noms new
 22 Noms Grep ONLY
 23 Hacker Noms
-30 Kubernetes
-31 Bleve
-32 Bleve
+
+24 latest github version of noms, always up to date
+27 location of noms databases
+29 archive of noms databases
+
+30 New work on Hackernoms
+
+50 gostar, jsontools
+51 gostar, jsontools
+52 hugo
+53 rauch blog
+54 reflections
 56 meteor / mist
 
 60 Golang binaries {goreman, panicparse}
@@ -20,24 +26,6 @@ Current running repos
 
 90 stormasm geth1
 
-50 gostar, jsontools
-51 gostar, jsontools
-52 hugo
-53 rauch blog
-54 reflections
-
-24 latest github version of noms, always up to date
-27 location of noms databases
-29 archive of noms databases
-
-00 working on noms leveldb
-01 working on noms bolt
-02 working on noms redis
-03 working on noms bolt
-04 working on noms stack, showing the flow of the commit...
-
-05 bleve, noms, other bolt / goleveldb examples
-14 bleve, noms
 99 bs
 
 All of these numbers are /tmpXX where XX is the number below...
@@ -60,9 +48,10 @@ All of these numbers are /tmpXX where XX is the number below...
         20 - 29 = golang
 ---------------------------------------------
 
-20 
-22 Location of Noms go source code... for grep ONLY
-23 Elastic
+20 Noms new 
+21 Noms new
+22 Noms grep ONLY
+23 Hackernoms
 
 ---------------------------------------------
         25 - 29 = noms databases
@@ -72,8 +61,7 @@ All of these numbers are /tmpXX where XX is the number below...
         30 - 39 = golang
 ---------------------------------------------
 
-
-30 kubernetes
+30 
 31
 32 
 33
@@ -117,7 +105,7 @@ All of these numbers are /tmpXX where XX is the number below...
 61 The Go Language (only)
 62 The Go Language Encoders and other language packages
 
-63
+63 Kubernetes
 64
 65
 66
