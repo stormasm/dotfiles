@@ -130,8 +130,8 @@ alias hnoms='cd $GOPATH/src/github.com/stormasm/hackernoms1'
 alias hnc='pushd $PWD; cd /tmp; rm -fr my-noms*; popd'
 
 alias hnf='go run fetch.go /tmp25/hn1::hn'
-alias hns='go run sync.go /tmp/hn2::hn'
-alias hno='go run organize.go /tmp/hn1::hn /tmp/hn1org::hn'
+alias hns='go run sync.go /tmp25/hn2::hn'
+alias hno='go run organize.go /tmp25/hn1::hn /tmp25/hn1org::hn'
 
 ###
 alias nomsui='noms-ui --port 57408 /tmp20/src/github.com/attic-labs/noms/samples/js/splore'
