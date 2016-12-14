@@ -92,8 +92,11 @@ alias tmp='cd /tmp'
 
 ### git commands
 
+alias ga='git add'
 alias gb='git branch'
 alias gco='git checkout'
+alias gcom='git commit -m'
+alias gd='git diff'
 alias gll='gem list --local'
 alias gl='git log'
 alias gsl='git log --stat'
