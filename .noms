@@ -131,6 +131,9 @@ alias hnomss='cd $GOPATH/src/github.com/stormasm/hackernoms1/shortstory'
 alias hnshow='noms show /tmp25/hn1::hn'
 alias hnshownp='noms show --no-pager /tmp25/hn1::hn'
 
+alias hnshowss='noms show /tmp25/hn1ss::hn'
+alias hnshowpss='noms show --no-pager /tmp25/hn1ss::hn'
+
 alias hnc='pushd $PWD; cd /tmp; rm -fr my-noms*; popd'
 
 alias hnf='go run fetch.go /tmp25/hn1::hn'
