@@ -1,7 +1,8 @@
 
-
-alias nal='cd $GOPATH/src/github.com/attic-labs'
+alias nta='cd $GOPATH/src/github.com/attic-labs'
+alias nts='cd $GOPATH/src/github.com/stormasm'
 alias mknoms='mkdir src; cd src; mkdir github.com; cd github.com; mkdir attic-labs; cd attic-labs'
+alias mknomss='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 
 alias 81t='cd /tmp81/types'
 alias 81to='cd /tmp81/typesonly'
@@ -97,7 +98,7 @@ alias bninit='go get github.com/attic-labs/noms/cmd/noms; go get github.com/blev
 
 alias ninit='go get github.com/attic-labs/noms/cmd/noms'
 
-alias nbt='cd $GOPATH/src/github.com/stormasm'
+
 
 ### nomsbolt
 
