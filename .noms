@@ -126,21 +126,33 @@ alias cstrip='git rm chunk_test.go; git rm dynamo_store*; git rm put_cache.go; g
 
 ### Hacker Noms
 
-alias hnoms='cd $GOPATH/src/github.com/stormasm/hackernoms1'
-alias hnomss='cd $GOPATH/src/github.com/stormasm/hackernoms1/shortstory'
+alias hnoms='cd $GOPATH/src/github.com/stormasm/hackernoms'
+alias hnomss='cd $GOPATH/src/github.com/stormasm/hackernoms/shortstory'
 
-alias hnshow='noms show /tmp25/hn1::hn'
-alias hnshownp='noms show --no-pager /tmp25/hn1::hn'
+alias hnoms1='cd $GOPATH/src/github.com/stormasm/hackernoms1'
+alias hnomss1='cd $GOPATH/src/github.com/stormasm/hackernoms1/shortstory'
 
-alias hnshowss='noms show /tmp25/hn1ss::hn'
-alias hnshowpss='noms show --no-pager /tmp25/hn1ss::hn'
+alias hnshow='noms show /tmp25/hn2::hn'
+alias hnshownp='noms show --no-pager /tmp25/hn2::hn'
+
+alias hnshow1='noms show /tmp25/hn1::hn'
+alias hnshow1np='noms show --no-pager /tmp25/hn1::hn'
+
+alias hnshow1ss='noms show /tmp25/hn1ss::hn'
+alias hnshow1npss='noms show --no-pager /tmp25/hn1ss::hn'
 
 alias hnc='pushd $PWD; cd /tmp; rm -fr my-noms*; popd'
 
-alias hnf='go run fetch.go /tmp25/hn1::hn'
-alias hnsync='go run sync.go /tmp25/hn2::hn'
-alias hno='go run organize.go /tmp25/hn1::hn /tmp25/hn1org::hn'
-alias hns='go run shortstory.go /tmp25/hn1::hn /tmp25/hn1ss::hn'
+alias hnf='go run fetch.go /tmp25/hn2::hn'
+alias hnp='go run process.go /tmp25/hn2::hn /tmp25/hn2ss::hn'
+
+alias hnf1='go run fetch.go /tmp25/hn1::hn'
+alias hns1='go run shortstory.go /tmp25/hn1::hn /tmp25/hn1ss::hn'
+
+# save for awhile
+#alias hnsync='go run sync.go /tmp25/hn2::hn'
+#alias hno='go run organize.go /tmp25/hn1::hn /tmp25/hn1org::hn'
+
 
 ###
 alias nomsui='noms-ui --port 57408 /tmp20/src/github.com/attic-labs/noms/samples/js/splore'
