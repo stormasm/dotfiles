@@ -100,6 +100,7 @@ alias gcomm='git commit -m'
 alias gd='git diff'
 alias gll='gem list --local'
 alias gl='git log'
+alias gp='git pull'
 alias gsl='git log --stat'
 alias gls='git log --stat'
 alias gpo='git push origin'
@@ -166,11 +167,10 @@ alias snrun='bundle exec jekyll serve'
 # Elastic Search
 #
 
-#alias es='cd /miaes/elasticsearch'
-alias es2='cd /miaes/elasticsearch2'
-alias est='cd /miaes'
-
+alias es='cd /miaes/elasticsearch'
+alias esdata='cd /miaes/elasticsearch/data/nodes/0'
 alias esrun='/miaes/elasticsearch/bin/elasticsearch'
+alias est='cd /miaes'
 
 # Elastic Search Set Environment Variable
 

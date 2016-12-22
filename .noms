@@ -1,5 +1,10 @@
 
-alias nta='cd $GOPATH/src/github.com/attic-labs'
+alias nt='cd $GOPATH/src/github.com/attic-labs/noms'
+alias nomst='cd $GOPATH/src/github.com/attic-labs/noms'
+
+alias att='cd $GOPATH/src/github.com/attic-labs'
+alias attic='cd $GOPATH/src/github.com/attic-labs'
+alias al='cd $GOPATH/src/github.com/attic-labs'
 alias asm='cd $GOPATH/src/github.com/stormasm'
 alias stormasm='cd $GOPATH/src/github.com/stormasm'
 alias mkvendor='mkdir vendor; cd vendor; mkdir github.com; cd github.com; mkdir attic-labs; cd attic-labs'
@@ -16,7 +21,6 @@ alias nspec='cd $GOPATH/src/github.com/attic-labs/noms/go/spec'
 alias ncmd='cd $GOPATH/src/github.com/attic-labs/noms/cmd/noms'
 alias ns='cd $GOPATH/src/github.com/attic-labs/noms/go'
 alias nsam='cd $GOPATH/src/github.com/attic-labs/noms/samples/go'
-alias nt='cd $GOPATH/src/github.com/attic-labs/noms'
 alias nty='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
 alias ntype='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
 alias ntypes='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
@@ -198,3 +202,8 @@ alias nl2='gtv -run MemoryStore'
 alias nr1='gtv -run Redis'
 
 alias gtva='gtv -run BoltDatabaseSpec'
+
+### Nomsdex
+
+alias ndex='cd $GOPATH/src/github.com/attic-labs/noms/samples/go/nomdex'
+

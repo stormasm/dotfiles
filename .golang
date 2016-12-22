@@ -36,6 +36,7 @@ alias lslt='ls -l *_test.go'
 alias rmtest='rm *_test.go'
 
 alias mksasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
+alias sgh='cd $GOPATH/src/github.com'
 alias sasm='cd $GOPATH/src/github.com/stormasm'
 
 ### End global commands
@@ -60,8 +61,17 @@ alias blsclean='rm -fr analysis cmd config docs document http index numeric_util
 
 ### end bleve
 
+### start hacker elastic
+
+alias hef='cd $GOPATH/src/github.com/stormasm/hackerelastic1/fetch'
+alias hee='cd $GOPATH/src/github.com/stormasm/hackerelastic1/elastic'
+alias her='cd $GOPATH/src/github.com/stormasm/hackerelastic1/redis'
+
+### end hacker elastic
+
 ### start elastic
 
+alias el='cd $GOPATH/src/github.com/olivere/elastic'
 alias esg='cd $GOPATH/src/github.com/stormasm/es'
 alias ess='cd $GOPATH/src/gopkg.in/olivere/elastic.v3'
 alias es1='blevelastic01'
