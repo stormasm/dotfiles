@@ -36,8 +36,8 @@ alias lslt='ls -l *_test.go'
 alias rmtest='rm *_test.go'
 
 alias mksasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
-alias sgh='cd $GOPATH/src/github.com'
-alias sasm='cd $GOPATH/src/github.com/stormasm'
+alias gh='cd $GOPATH/src/github.com'
+alias asm='cd $GOPATH/src/github.com/stormasm'
 
 ### End global commands
 
@@ -71,10 +71,17 @@ alias her='cd $GOPATH/src/github.com/stormasm/hackerelastic1/redis'
 
 ### start elastic
 
-alias el='cd $GOPATH/src/github.com/olivere/elastic'
-alias esg='cd $GOPATH/src/github.com/stormasm/es'
-alias ess='cd $GOPATH/src/gopkg.in/olivere/elastic.v3'
-alias es1='blevelastic01'
+alias ee='cd $GOPATH/src/github.com/stormasm/elastic-examples'
+alias eebi='cd $GOPATH/src/github.com/stormasm/elastic-examples/bulkinsert'
+
+alias bi='bulkinsert -index nm -type santafe -n 10 -bulk-size 5'
+alias essbi='cd $GOPATH/src/github.com/olivere/elastic/recipes/bulk_insert'
+alias ess='cd $GOPATH/src/github.com/olivere/elastic'
+
+alias els='cd $GOPATH/src/gopkg.in/olivere/elastic.v3'
+
+### go elastic
+
 alias gec='cd $GOPATH/src/github.com/stormasm/go-elastic/cmd/ge'
 alias ges='cd $GOPATH/src/github.com/stormasm/go-elastic'
 alias ge='$GOPATH/src/github.com/stormasm/go-elastic/cmd/ge/ge'

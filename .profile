@@ -179,7 +179,7 @@ alias esenv1='export ELASTIC_SEARCH_IP=localhost'
 # Elastic Search Cache Clear
 
 alias escc="curl -XPOST 'http://localhost:9200/_cache/clear'"
-alias esflush="curl -XDELETE 'http://localhost:9200/_all'"
+alias esflush="curl -XDELETE 'http://localhost:9200/_all/?pretty=true'"
 
 # Logstash
 
