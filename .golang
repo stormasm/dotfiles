@@ -71,14 +71,22 @@ alias her='cd $GOPATH/src/github.com/stormasm/hackerelastic1/redis'
 
 ### start elastic
 
-alias ee='cd $GOPATH/src/github.com/stormasm/elastic-examples'
-alias eebi='cd $GOPATH/src/github.com/stormasm/elastic-examples/bulkinsert'
+alias es1='cd $GOPATH/src/github.com/stormasm/elastic'
 
-alias bi='bulkinsert -index nm -type santafe -n 10 -bulk-size 5'
+alias ee='cd $GOPATH/src/github.com/stormasm/elastic-examples'
+alias eebi='cd $GOPATH/src/github.com/stormasm/elastic-examples/bulk'
+
+alias bi='bulk -index nm -type santafe -n 10 -bulk-size 5'
+alias bis='bulkstring -index nm -type santafe -n 10 -bulk-size 5'
 alias essbi='cd $GOPATH/src/github.com/olivere/elastic/recipes/bulk_insert'
 alias ess='cd $GOPATH/src/github.com/olivere/elastic'
 
 alias els='cd $GOPATH/src/gopkg.in/olivere/elastic.v3'
+
+### elastic testing
+
+alias estb='gtv -run BulkStringRequest'
+alias estba='gtv -run BulkStringRequestSetString'
 
 ### go elastic
 
