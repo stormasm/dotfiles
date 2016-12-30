@@ -1,18 +1,21 @@
 
 Current running repos
 
-19 elastic-go
+00 nomscs1
+01 nomscs2
+19 hackerelastic, olivere/elastic
 
-20 Noms new
+20 Noms new, Bleve new
 21 Noms new
 22 Noms Grep ONLY
 23 Hacker Noms
+24 Hacker Noms
 
-24 latest github version of noms, always up to date
 27 location of noms databases
 29 archive of noms databases
 
-30 New work on Hackernoms
+30 bleve
+31 golucene, lucene, elasticsearch
 
 50 gostar, jsontools
 51 gostar, jsontools
@@ -39,7 +42,7 @@ All of these numbers are /tmpXX where XX is the number below...
 10 data, opendatacache
 
 ---------------------------------------------
-        10 - 20 = Go Elasticsearch, Bleve
+        10 - 20 = Go Elasticsearch, legacy bleve
 ---------------------------------------------
 
 11 bleve beer search
@@ -52,13 +55,14 @@ All of these numbers are /tmpXX where XX is the number below...
 21 Noms new
 22 Noms grep ONLY
 23 Hackernoms
+24 Hackernoms
 
 ---------------------------------------------
         25 - 29 = noms databases
 ---------------------------------------------
 
 ---------------------------------------------
-        30 - 39 = golang
+        30 - 39 = golang, new bleve, golucene
 ---------------------------------------------
 
 30 
