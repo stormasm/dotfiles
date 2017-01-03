@@ -17,7 +17,7 @@ alias gtjson='go tool dist test -run go_test:encoding/json'
 
 alias b='./build'
 alias gcme='rm -fr bin pkg src'
-alias gex='cd $GOPATH/go-examples'
+alias gex='cd $GOPATH/src/github.com/stormasm/go-examples'
 
 alias gg='go get'
 alias gr='go run'
@@ -61,6 +61,12 @@ alias blsclean='rm -fr analysis cmd config docs document http index numeric_util
 
 ### end bleve
 
+### start redigo
+
+alias re='cd $GOPATH/src/github.com/stormasm/redigo-examples'
+
+### end redigo
+
 ### start hacker elastic
 
 alias hef='cd $GOPATH/src/github.com/stormasm/hackerelastic1/fetch'
@@ -74,6 +80,8 @@ alias her='cd $GOPATH/src/github.com/stormasm/hackerelastic1/redis'
 alias es1='cd $GOPATH/src/github.com/stormasm/elastic'
 
 alias ee='cd $GOPATH/src/github.com/stormasm/elastic-examples'
+alias eh='cd $GOPATH/src/github.com/stormasm/elastichacker'
+
 alias eebi='cd $GOPATH/src/github.com/stormasm/elastic-examples/bulk'
 
 alias bi='bulk -index nm -type santafe -n 10 -bulk-size 5'
