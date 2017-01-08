@@ -19,6 +19,7 @@ alias b='./build'
 alias gcme='rm -fr bin pkg src'
 alias gex='cd $GOPATH/src/github.com/stormasm/go-examples'
 
+alias gf='go fmt'
 alias gg='go get'
 alias gr='go run'
 alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
@@ -85,6 +86,7 @@ alias eh='cd $GOPATH/src/github.com/stormasm/elastichacker'
 alias eebi='cd $GOPATH/src/github.com/stormasm/elastic-examples/bulk'
 
 alias bi='bulk -index nm -type santafe -n 10 -bulk-size 5'
+alias bid='bulkdata2 -index movie -type omdb -n 10 -bulk-size 5'
 alias bis='bulkstring -index nm -type santafe -n 10 -bulk-size 5'
 alias essbi='cd $GOPATH/src/github.com/olivere/elastic/recipes/bulk_insert'
 alias ess='cd $GOPATH/src/github.com/olivere/elastic'
@@ -119,7 +121,7 @@ alias ch8='cd $GOPATH/src/gopl.io/ch8'
 ### start leveldb
 
 alias cdb='cd $GOPATH/src/github.com/cockroachdb/cockroach'
-alias edb='cd $GOPATH/src/github.com/coreos/etcd'
+
 alias idb='cd $GOPATH/src/github.com/influxdata/influxdb'
 alias ldb='cd $GOPATH/src/github.com/syndtr/goleveldb/leveldb'
 alias ndb='cd $GOPATH/src/github.com/attic-labs/noms'
@@ -128,3 +130,22 @@ alias pdb='cd $GOPATH/src/github.com/prometheus/prometheus'
 ### end leveldb
 
 alias chhs='cd $GOPATH/jsontools/chhs'
+
+alias ggrep='gogrep -timeout 10000ms .'
+
+### Start etcd
+
+alias etcd='cd $GOPATH/src/github.com/coreos/etcd'
+alias et='cd $GOPATH/src/github.com/coreos/etcd'
+
+### Start raft
+alias ra='cd $GOPATH/src/github.com/coreos/etcd/raft'
+alias raft='cd $GOPATH/src/github.com/coreos/etcd/raft'
+
+alias rh='cd $GOPATH/src/github.com/hashicorp/raft'
+alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
+
+
+### Start tendermint
+alias ten='cd $GOPATH/src/github.com/tendermint/tendermint'
+alias tent='cd $GOPATH/src/github.com/tendermint'
