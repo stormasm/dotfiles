@@ -36,7 +36,7 @@ alias ltest='ls -l *_test.go'
 alias lslt='ls -l *_test.go'
 alias rmtest='rm *_test.go'
 
-alias mksasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
+alias mkasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 alias gh='cd $GOPATH/src/github.com'
 alias asm='cd $GOPATH/src/github.com/stormasm'
 
