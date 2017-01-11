@@ -21,8 +21,10 @@ alias mketh1='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum
 
 alias mktrie='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 
+### Paths to ethereum dir structure
 alias eth='cd $GOPATH/src/github.com/ethereum/go-ethereum'
 
+alias p2p='cd $GOPATH/src/github.com/ethereum/go-ethereum/p2p'
 alias trie='cd $GOPATH/src/github.com/ethereum/go-ethereum/trie'
 alias trieget='go get github.com/davecgh/go-spew/spew; go get gopkg.in/check.v1'
 
