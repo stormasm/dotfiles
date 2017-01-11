@@ -61,3 +61,4 @@ alias block159395="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":
 
 alias block159400="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockTransactionCountByNumber\",\"params\":[\"0x26ea8\"],\"id\":1}'"
 
+alias grhp2p='grep -RH "p2p." *'
