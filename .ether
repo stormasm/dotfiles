@@ -6,6 +6,7 @@
 # cd /tmp80; gop
 #
 alias rgethnd='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0'
+alias rgethndc='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 console'
 ###
 
 ###
