@@ -1,13 +1,17 @@
 
-
 ###
 # To run ethereum without getting new blocks
 #
-# cd /tmp80; gop
 #
 alias rgethnd='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0'
+
+## Turn on the console
 alias rgethndc='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 console'
 ###
+
+### Run normally downloading all of the data
+##  This allows P2P to run without turning it off
+alias rgeth='geth --rpc --rpccorsdomain "http://localhost:8000"'
 
 ###
 # To run the block explorer
@@ -16,26 +20,21 @@ alias rgethx='cd /tmp82/explorer; npm start'
 ###
 
 alias mketh='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum'
-
 alias mketh1='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum; mkdir go-ethereum; cd go-ethereum'
 
 alias mktrie='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 
 ### Paths to ethereum dir structure
 alias eth='cd $GOPATH/src/github.com/ethereum/go-ethereum'
+alias ethp2p='cd $GOPATH/src/github.com/ethereum/go-ethereum/p2p'
+alias ethsw='cd $GOPATH/src/github.com/ethereum/go-ethereum/swarm'
+alias ethswarm='cd $GOPATH/src/github.com/ethereum/go-ethereum/swarm'
+alias ethtrie='cd $GOPATH/src/github.com/ethereum/go-ethereum/trie'
 
-alias p2p='cd $GOPATH/src/github.com/ethereum/go-ethereum/p2p'
-alias trie='cd $GOPATH/src/github.com/ethereum/go-ethereum/trie'
-alias trieget='go get github.com/davecgh/go-spew/spew; go get gopkg.in/check.v1'
+### trie
 
 alias trie1='cd $GOPATH/src/github.com/stormasm/trie1'
-
-### Run normally downloading all of the data
-alias rgeth='geth --rpc --rpccorsdomain "http://localhost:8000"'
-
-### For console and solidity
-
-alias sgeth='geth --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0.0.1" --rpccorsdomain "localhost" --solc solcjs console'
+alias trieget='go get github.com/davecgh/go-spew/spew; go get gopkg.in/check.v1'
 
 alias rgeth0='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 0'
 alias rgeth1='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 1'
@@ -51,7 +50,8 @@ alias rgethnnd='geth --rpc --rpccorsdomain "http://localhost:8000" --nodiscover'
 ### Test network with just one block in it
 alias rgetht='geth --olympic --datadir "/tmp77" --rpc --rpccorsdomain "http://localhost:8000"'
 
-
+### Grep commands
+alias grhp2p='grep -RH "p2p." *'
 
 ### Curl commands as aliases
 ##  Note that you have to escape all of the quotes
@@ -61,9 +61,8 @@ alias block159395="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":
 
 alias block159400="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockTransactionCountByNumber\",\"params\":[\"0x26ea8\"],\"id\":1}'"
 
-alias grhp2p='grep -RH "p2p." *'
-
-### Swarm
+### Start Swarm
+##
 
 export SWARMDATA=/tmp67/swarm/bzz
 
@@ -74,3 +73,10 @@ alias swarmaccnew='geth --maxpeers 0 --datadir $SWARMDATA account new'
 export BZZKEY=432361df3760147a0f14e16734ef6b553fbd0b01
 
 alias swarmrun='swarm --bzzaccount $BZZKEY --datadir $SWARMDATA'
+
+### End Swarm
+##
+
+### For console and solidity
+
+alias sgeth='geth --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0.0.1" --rpccorsdomain "localhost" --solc solcjs console'
