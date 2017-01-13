@@ -62,3 +62,15 @@ alias block159395="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":
 alias block159400="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockTransactionCountByNumber\",\"params\":[\"0x26ea8\"],\"id\":1}'"
 
 alias grhp2p='grep -RH "p2p." *'
+
+### Swarm
+
+export SWARMDATA=/tmp67/swarm/bzz
+
+# This creates a new account when you blow away /tmp67/swarm and start anew
+alias swarmaccnew='geth --maxpeers 0 --datadir $SWARMDATA account new'
+
+### Swarm set address that comes back from account new
+export BZZKEY=432361df3760147a0f14e16734ef6b553fbd0b01
+
+alias swarmrun='swarm --bzzaccount $BZZKEY --datadir $SWARMDATA'
