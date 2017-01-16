@@ -32,6 +32,8 @@ alias gtb='go test -v -bench .'
 alias gtb1='go test -v -bench=SlowIcingManyIcers'
 alias gtv='go test -v'
 
+alias gtvr='gtv -run'
+
 alias ltest='ls -l *_test.go'
 alias lslt='ls -l *_test.go'
 alias rmtest='rm *_test.go'
