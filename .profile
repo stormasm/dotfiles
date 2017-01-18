@@ -158,7 +158,7 @@ alias eb='cd /miajek/etcd.info/_posts'
 alias resumeold='cd /miajek/resume; rvm gemset use ghpages'
 alias resume='cd /miajek/link15; rvm gemset use ghpages'
 alias link15='cd /miajek/link15; rvm gemset use ghpages'
-alias jekrun='bundle exec jekyll serve'
+alias jekrun='bundle exec jekyll serve -P 3000'
 alias vitae='cd /miajek/vitae'
 
 alias sn='cd /miastormnode/stormnode.github.io; rvm gemset use stormnode'

@@ -1,4 +1,10 @@
 
+19 etcd
+79 ethereum stormasm fork
+80 ethereum
+82 ethereum block explorer
+84 tendermint
+
 Current running repos
 
 00 nomscs1
@@ -25,7 +31,11 @@ Current running repos
 56 meteor / mist
 
 60 Golang binaries {goreman, panicparse}
-70 smart tables, typescript, angular
+
+70 Channel Study
+70 Kubernetes
+
+84 tendermint
 
 90 stormasm geth1
 
@@ -119,25 +129,26 @@ All of these numbers are /tmpXX where XX is the number below...
 69 Noms Databases (only)
 
 ---------------------------------------------
-        70 - 79 = Ethereum
+        70 - 79 = Golang Channel Study
 ---------------------------------------------
 
-79 Decred
 
 ---------------------------------------------
         80 - 89 = Ethereum
 ---------------------------------------------
 
+84 Tendermint
+
 ---------------------------------------------
         90 - 99 = archives
 ---------------------------------------------
-90 geth
-91 dumping ground
-92 dumping ground
-93 organic
-94 github resume
-95 spinnakr archive
-96 
-97 
-98 top-repos, resume
+90
+91
+92
+93
+94
+95 archive
+96 hackernews-who-is-hiring, top-repos
+97 abackup
+98 github jekyll websites see also /miajek
 99 bs, dumping ground
