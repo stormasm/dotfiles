@@ -1,0 +1,28 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "f4162625-63da-4a7d-8d4f-444e066ca75b"
+    general:
+      _analyticsUserId: "bf273892-c526-4c85-acf3-fe9341a0ac5d"
+  "atom-ethereum-interface":
+    useTestRpc: true
+  "autocomplete-plus":
+    enableAutoActivation: false
+  core:
+    disabledPackages: [
+      "linter-rubocop"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    fontSize: 17
+    invisibles: {}
+    tabLength: 4
+  "exception-reporting":
+    userId: "37f7da2f-a997-64e8-fa58-bd92a59bbec1"
+  "ruby-block":
+    highlightLineNumber: true
+  welcome:
+    showOnStartup: false
