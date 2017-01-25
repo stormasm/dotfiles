@@ -83,6 +83,8 @@ alias n='node'
 alias op='cd /miajek/octopress'
 alias p='python'
 alias r='ruby'
+alias rmhtml='rm *.html'
+alias rmjson='rm *.json'
 alias rmat='xattr -c'
 alias rpretty='ruby-beautify --overwrite'
 
@@ -306,137 +308,6 @@ alias ns1='lsof -i -n -P | grep bitcoind'
 # The orginal version is saved in .profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
-
-## Git Commands Github
-
-## jobs.git commands
-alias ghclone='git clone git@github.com:stormabq/jobs.git'
-alias ghpull='git pull git@github.com:stormabq/jobs.git master'
-alias ghpush='git push origin master'
-
-alias ghcloneb='git clone -b gh-pages git@github.com:stormabq/jobs.git'
-alias ghpushb='git push origin gh-pages'
-
-#
-# MySQL specific commands
-#
-
-alias mysqlstart='cd /mia/mysql; ./bin/mysqld_safe'
-alias mysqlstop='cd /mia/mysql; ./bin/mysqladmin -u root shutdown'
-alias mysqld1='mysqladmin -u root drop spinnakr_development'
-alias mysqlc1='mysqladmin -u root create spinnakr_development'
-alias mysqlc2='mysql -u root spinnakr_development < spinnakr_development.sql'
-alias mysqldump='mysqldump -u root spinnakr_development > spinnakr_development.sql'
-
-#
-# BuzzSumo Find commands
-#
-
-alias find1='find . -name "*regression*" -print'
-
-#
-# BuzzSumo Deploy commands
-#
-
-alias cpd='cap production deploy'
-
-alias dhtml='rm *.html'
-alias djson='rm *.json'
-alias rmhtml='rm *.html'
-alias rmjson='rm *.json'
-alias rmh='rm *.json; rm *.html'
-alias rmj='rm *.json; rm *.html'
-
-#
-# BuzzSumo Database Initialization
-#
-
-alias bst700='cd db; psql -U postgres < create_from_scratch.sql; cd ..'
-alias bst701='bundle exec rake db:schema:load --trace'
-alias bst702='bundle exec rake db:schema:load --trace RAILS_ENV=test'
-alias bst703='bundle exec rake db:test:prepare --trace'
-alias bst710='cd doc/db; psql -U postgres buzzsumo < vbulletin_drop.sql; cd ../..'
-alias bst710t='cd doc/db; psql -U postgres buzzsumo_test < vbulletin_drop.sql; cd ../..'
-
-alias bstdb='bundle exec rake db:migrate RAILS_ENV=test'
-alias bstdb1='bundle exec rake db:migrate --trace'
-
-alias bstdbgo='bs; bst700; bst701; bst702; bstdb; bstdb1'
-
-alias dback='rails runner "JobManager.new.runJob(\"DatabaseBackupManagerTest.new.backup()\")"'
-alias dbackgo='cd data; psql -U postgres buzzsumo < dback.sql; cd ..'
-
-#
-# BuzzSumo PostgreSQL installed in /Library/PostgreSQL
-#
-
-alias pgt='psql -U postgres buzzsumo_test'
-alias pg='psql -U postgres buzzsumo'
-
-alias pgstart='/Library/PostgreSQL/9.2/bin/postgres -D /pgdata/data -p 5433 >logfile 2>&1 &'
-alias pgstop='/Library/PostgreSQL/9.2/bin/pg_ctl -p 5433 -D /pgdata/data stop'
-
-alias pgo='cd /Library/PostgreSQL/9.2'
-
-alias pgc='/mia/postgresql/bin/createdb spinnakr_development'
-alias pgd='/mia/postgresql/bin/dropdb spinnakr_development'
-
-alias pgoldstart='/mia/postgresql/bin/postgres -D /mia/postgresql/data >logfile 2>&1 &'
-alias pgoldstop='/mia/postgresql/bin/pg_ctl -D /mia/postgresql/data stop'
-
-alias pg1='/Library/PostgreSQL/9.2/bin/initdb -D /pgdata/data'
-alias pg2='/Library/PostgreSQL/9.2/bin/postgres -D /pgdata/data -p 5433 >logfile 2>&1 &'
-alias pgt3='/mia/postgresql/bin/createdb test'
-alias pgt4='/mia/postgresql/bin/psql test'
-
-alias pg3='/mia/postgresql/bin/createdb spinnakr_development'
-alias pg4='/mia/postgresql/bin/dropdb spinnakr_development'
-alias pg5='/mia/postgresql/bin/psql spinnakr_development'
-
-#
-# PostgreSQL Spinnakr built from src specific commands
-#
-
-alias pgoldc='/mia/postgresql/bin/createdb spinnakr_development'
-alias pgoldd='/mia/postgresql/bin/dropdb spinnakr_development'
-
-alias pgoldstart='/mia/postgresql/bin/postgres -D /mia/postgresql/data >logfile 2>&1 &'
-alias pgoldstop='/mia/postgresql/bin/pg_ctl -D /mia/postgresql/data stop'
-
-alias pgold1='/mia/postgresql/bin/initdb -D /mia/postgresql/data'
-alias pgold2='/mia/postgresql/bin/postgres -D /mia/postgresql/data >logfile 2>&1 &'
-alias pgoldt3='/mia/postgresql/bin/createdb test'
-alias pgoldt4='/mia/postgresql/bin/psql test'
-
-alias pgold3='/mia/postgresql/bin/createdb spinnakr_development'
-alias pgold4='/mia/postgresql/bin/dropdb spinnakr_development'
-alias pgold5='/mia/postgresql/bin/psql spinnakr_development'
-
-#
-# Postgresql Site Migration Project
-#
-
-alias pgc100='/mia/postgresql/bin/createdb recommendations'
-alias pgd100='/mia/postgresql/bin/dropdb recommendations'
-alias pgc101='/mia/postgresql/bin/createdb novarsv'
-alias pgd101='/mia/postgresql/bin/dropdb novarsv'
-
-alias pgdumpmaster='/mia/postgresql/bin/pg_dump -O -Fc spinnakr_development > spinnakr_development.dump'
-
-alias pgrestoremaster='cd /miadb; /mia/postgresql/bin/pg_restore -O -d spinnakr_development spinnakr_development.dump'
-
-alias pgdump100='/mia/postgresql/bin/pg_dump -O -T actions -T recommendations -T searches -T visits -T visitors -Fc spinnakr_production > novarsv.dump '
-
-alias pgdump100ns='/mia/postgresql/bin/pg_dump -s -O -t actions -t recommendations -t searches -t visits -t visitors -Fc spinnakr_development > schemaonly.dump'
-
-alias pgdump101='/mia/postgresql/bin/pg_dump -O -T actions -T searches -T visits -T visitors -Fc spinnakr_development > novarsv-rec.dump'
-
-alias pgdumprec='/mia/postgresql/bin/pg_dump -O -t recommendations -Fc spinnakr_production > rec.dump'
-
-alias pgrestorenovarsv='/mia/postgresql/bin/pg_restore -O -d novarsv novarsv.dump'
-alias pgrestorerec='/mia/postgresql/bin/pg_restore -O -d recommendations rec.dump'
-alias pgrestoresd='/mia/postgresql/bin/pg_restore -O -d spinnakr_development novarsv.dump'
-alias pgrestoreschema='/mia/postgresql/bin/pg_restore -O -d spinnakr_development schemaonly.dump'
 
 #
 # Comcast
