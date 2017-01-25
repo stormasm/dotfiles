@@ -25,7 +25,7 @@ alias gr='go run'
 alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
 alias gop='export GOPATH=${PWD}; export GOBIN=${PWD}/bin; PATH=$PATH:$GOPATH/bin'
 alias gopc='env | grep GOPATH'
-alias goreman='/tmp59/bin/goreman'
+alias gms='goreman start'
 
 alias gt='go test ./...'
 alias gtb='go test -v -bench .'
@@ -41,6 +41,9 @@ alias rmtest='rm *_test.go'
 alias mkasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 alias mkgh='mkdir src; cd src; mkdir github.com; cd github.com'
 alias gh='cd $GOPATH/src/github.com'
+alias src='cd $GOPATH/src'
+alias bin='cd $GOPATH/bin'
+
 alias asm='cd $GOPATH/src/github.com/stormasm'
 
 ### End global commands
