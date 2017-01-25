@@ -131,22 +131,6 @@ alias rediscsent='cd /mia/redis/src; ./redis-cli -p 26379'
 alias redislog='cd /mia/redislog'
 
 #
-#  Golang
-#
-
-alias br1a='curl -L http://127.0.0.1:2379/v2/keys/mykey1 -XPUT -d value="sam the man"'
-alias br1b='curl -L http://127.0.0.1:2379/v2/keys/mykey1'
-alias br1c='curl -L http://127.0.0.1:2379/v2/keys/mykey1 -XDELETE -d value="sam the man"'
-
-alias br2a='curl -L http://127.0.0.1:2379/v2/keys/mykey2 -XPUT -d value="iris the woman"'
-alias br2b='curl -L http://127.0.0.1:2379/v2/keys/mykey2'
-alias br2c='curl -L http://127.0.0.1:2379/v2/keys/mykey2 -XDELETE -d value="iris the woman"'
-
-alias br3a='curl -L http://127.0.0.1:2379/v2/keys/mykey3 -XPUT -d value="hb the scientist"'
-alias br3b='curl -L http://127.0.0.1:2379/v2/keys/mykey3'
-alias br3c='curl -L http://127.0.0.1:2379/v2/keys/mykey3 -XDELETE -d value="hb the scientist"'
-
-#
 # Jekyll is in 2 places 1) /miajek and 2) /miastormnode
 #
 

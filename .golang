@@ -139,19 +139,6 @@ alias chhs='cd $GOPATH/jsontools/chhs'
 
 alias ggrep='gogrep -timeout 10000ms .'
 
-### Start etcd
-
-alias etcd='cd $GOPATH/src/github.com/coreos/etcd'
-alias et='cd $GOPATH/src/github.com/coreos/etcd'
-
-### Start raft
-alias ra='cd $GOPATH/src/github.com/coreos/etcd/raft'
-alias raft='cd $GOPATH/src/github.com/coreos/etcd/raft'
-
-alias rh='cd $GOPATH/src/github.com/hashicorp/raft'
-alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
-
-
 ### Start tendermint
 alias ten='cd $GOPATH/src/github.com/tendermint/tendermint'
 alias tent='cd $GOPATH/src/github.com/tendermint'
@@ -162,3 +149,44 @@ alias natsd='gnatsd -V -D -m 3000'
 
 ### Start go-datastructures
 alias gdata='cd $GOPATH/src/github.com/stormasm/go-datastructures'
+
+###
+### Start etcd
+###
+### Note Leave etcd at the bottom of this file because
+### I am thinking of breaking this stuff out to its own file called raft or etcd
+
+alias rh='cd $GOPATH/src/github.com/hashicorp/raft'
+alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
+
+alias etcd='cd $GOPATH/src/github.com/coreos/etcd'
+alias et='cd $GOPATH/src/github.com/coreos/etcd'
+
+### Start raft
+alias ra='cd $GOPATH/src/github.com/coreos/etcd/raft'
+alias raft='cd $GOPATH/src/github.com/coreos/etcd/raft'
+
+#
+#  Get and set etcd keys
+#
+
+alias br1a='curl -L http://127.0.0.1:2379/v2/keys/mykey1 -XPUT -d value="sam the man"'
+alias br1b='curl -L http://127.0.0.1:2379/v2/keys/mykey1'
+alias br1c='curl -L http://127.0.0.1:2379/v2/keys/mykey1 -XDELETE -d value="sam the man"'
+
+alias br2a='curl -L http://127.0.0.1:2379/v2/keys/mykey2 -XPUT -d value="iris the woman"'
+alias br2b='curl -L http://127.0.0.1:2379/v2/keys/mykey2'
+alias br2c='curl -L http://127.0.0.1:2379/v2/keys/mykey2 -XDELETE -d value="iris the woman"'
+
+alias br3a='curl -L http://127.0.0.1:2379/v2/keys/mykey3 -XPUT -d value="hb the scientist"'
+alias br3b='curl -L http://127.0.0.1:2379/v2/keys/mykey3'
+alias br3c='curl -L http://127.0.0.1:2379/v2/keys/mykey3 -XDELETE -d value="hb the scientist"'
+
+alias ectl='ETCDCTL_API=3 etcdctl'
+
+alias br4a='ectl put k1 "red"'
+alias br4b='ectl get k1'
+alias br4c='ectl put k2 "green"'
+alias br4d='ectl get k2'
+alias br4e='ectl put k3 "blue"'
+alias br4f='ectl get k3'
