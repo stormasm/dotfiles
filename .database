@@ -5,13 +5,13 @@
 
 alias mysqlstart='cd /mia/mysql; ./bin/mysqld_safe'
 alias mysqlstop='cd /mia/mysql; ./bin/mysqladmin -u root shutdown'
-alias mysqld1='mysqladmin -u root drop spinnakr_development'
-alias mysqlc1='mysqladmin -u root create spinnakr_development'
-alias mysqlc2='mysql -u root spinnakr_development < spinnakr_development.sql'
-alias mysqldump='mysqldump -u root spinnakr_development > spinnakr_development.sql'
+alias mysqld1='mysqladmin -u root drop eaton_development'
+alias mysqlc1='mysqladmin -u root create eaton_development'
+alias mysqlc2='mysql -u root eaton_development < eaton_development.sql'
+alias mysqldump='mysqldump -u root eaton_development > eaton_development.sql'
 
 #
-# BuzzSumo Find commands
+# Find commands
 #
 
 alias find1='find . -name "*regression*" -print'
@@ -30,8 +30,8 @@ alias bst700='cd db; psql -U postgres < create_from_scratch.sql; cd ..'
 alias bst701='bundle exec rake db:schema:load --trace'
 alias bst702='bundle exec rake db:schema:load --trace RAILS_ENV=test'
 alias bst703='bundle exec rake db:test:prepare --trace'
-alias bst710='cd doc/db; psql -U postgres buzzsumo < vbulletin_drop.sql; cd ../..'
-alias bst710t='cd doc/db; psql -U postgres buzzsumo_test < vbulletin_drop.sql; cd ../..'
+alias bst710='cd doc/db; psql -U postgres eaton < vbulletin_drop.sql; cd ../..'
+alias bst710t='cd doc/db; psql -U postgres eaton_test < vbulletin_drop.sql; cd ../..'
 
 alias bstdb='bundle exec rake db:migrate RAILS_ENV=test'
 alias bstdb1='bundle exec rake db:migrate --trace'
@@ -39,22 +39,22 @@ alias bstdb1='bundle exec rake db:migrate --trace'
 alias bstdbgo='bs; bst700; bst701; bst702; bstdb; bstdb1'
 
 alias dback='rails runner "JobManager.new.runJob(\"DatabaseBackupManagerTest.new.backup()\")"'
-alias dbackgo='cd data; psql -U postgres buzzsumo < dback.sql; cd ..'
+alias dbackgo='cd data; psql -U postgres eaton < dback.sql; cd ..'
 
 #
-# BuzzSumo PostgreSQL installed in /Library/PostgreSQL
+# eaton PostgreSQL installed in /Library/PostgreSQL
 #
 
-alias pgt='psql -U postgres buzzsumo_test'
-alias pg='psql -U postgres buzzsumo'
+alias pgt='psql -U postgres eaton_test'
+alias pg='psql -U postgres eaton'
 
 alias pgstart='/Library/PostgreSQL/9.2/bin/postgres -D /pgdata/data -p 5433 >logfile 2>&1 &'
 alias pgstop='/Library/PostgreSQL/9.2/bin/pg_ctl -p 5433 -D /pgdata/data stop'
 
 alias pgo='cd /Library/PostgreSQL/9.2'
 
-alias pgc='/mia/postgresql/bin/createdb spinnakr_development'
-alias pgd='/mia/postgresql/bin/dropdb spinnakr_development'
+alias pgc='/mia/postgresql/bin/createdb eaton_development'
+alias pgd='/mia/postgresql/bin/dropdb eaton_development'
 
 alias pgoldstart='/mia/postgresql/bin/postgres -D /mia/postgresql/data >logfile 2>&1 &'
 alias pgoldstop='/mia/postgresql/bin/pg_ctl -D /mia/postgresql/data stop'
@@ -64,16 +64,16 @@ alias pg2='/Library/PostgreSQL/9.2/bin/postgres -D /pgdata/data -p 5433 >logfile
 alias pgt3='/mia/postgresql/bin/createdb test'
 alias pgt4='/mia/postgresql/bin/psql test'
 
-alias pg3='/mia/postgresql/bin/createdb spinnakr_development'
-alias pg4='/mia/postgresql/bin/dropdb spinnakr_development'
-alias pg5='/mia/postgresql/bin/psql spinnakr_development'
+alias pg3='/mia/postgresql/bin/createdb eaton_development'
+alias pg4='/mia/postgresql/bin/dropdb eaton_development'
+alias pg5='/mia/postgresql/bin/psql eaton_development'
 
 #
-# PostgreSQL Spinnakr built from src specific commands
+# PostgreSQL eaton built from src specific commands
 #
 
-alias pgoldc='/mia/postgresql/bin/createdb spinnakr_development'
-alias pgoldd='/mia/postgresql/bin/dropdb spinnakr_development'
+alias pgoldc='/mia/postgresql/bin/createdb eaton_development'
+alias pgoldd='/mia/postgresql/bin/dropdb eaton_development'
 
 alias pgoldstart='/mia/postgresql/bin/postgres -D /mia/postgresql/data >logfile 2>&1 &'
 alias pgoldstop='/mia/postgresql/bin/pg_ctl -D /mia/postgresql/data stop'
@@ -83,9 +83,9 @@ alias pgold2='/mia/postgresql/bin/postgres -D /mia/postgresql/data >logfile 2>&1
 alias pgoldt3='/mia/postgresql/bin/createdb test'
 alias pgoldt4='/mia/postgresql/bin/psql test'
 
-alias pgold3='/mia/postgresql/bin/createdb spinnakr_development'
-alias pgold4='/mia/postgresql/bin/dropdb spinnakr_development'
-alias pgold5='/mia/postgresql/bin/psql spinnakr_development'
+alias pgold3='/mia/postgresql/bin/createdb eaton_development'
+alias pgold4='/mia/postgresql/bin/dropdb eaton_development'
+alias pgold5='/mia/postgresql/bin/psql eaton_development'
 
 #
 # Postgresql Site Migration Project
@@ -96,20 +96,19 @@ alias pgd100='/mia/postgresql/bin/dropdb recommendations'
 alias pgc101='/mia/postgresql/bin/createdb novarsv'
 alias pgd101='/mia/postgresql/bin/dropdb novarsv'
 
-alias pgdumpmaster='/mia/postgresql/bin/pg_dump -O -Fc spinnakr_development > spinnakr_development.dump'
+alias pgdumpmaster='/mia/postgresql/bin/pg_dump -O -Fc eaton_development > eaton_development.dump'
 
-alias pgrestoremaster='cd /miadb; /mia/postgresql/bin/pg_restore -O -d spinnakr_development spinnakr_development.dump'
+alias pgrestoremaster='cd /miadb; /mia/postgresql/bin/pg_restore -O -d eaton_development eaton_development.dump'
 
-alias pgdump100='/mia/postgresql/bin/pg_dump -O -T actions -T recommendations -T searches -T visits -T visitors -Fc spinnakr_production > novarsv.dump '
+alias pgdump100='/mia/postgresql/bin/pg_dump -O -T actions -T recommendations -T searches -T visits -T visitors -Fc eaton_production > novarsv.dump '
 
-alias pgdump100ns='/mia/postgresql/bin/pg_dump -s -O -t actions -t recommendations -t searches -t visits -t visitors -Fc spinnakr_development > schemaonly.dump'
+alias pgdump100ns='/mia/postgresql/bin/pg_dump -s -O -t actions -t recommendations -t searches -t visits -t visitors -Fc eaton_development > schemaonly.dump'
 
-alias pgdump101='/mia/postgresql/bin/pg_dump -O -T actions -T searches -T visits -T visitors -Fc spinnakr_development > novarsv-rec.dump'
+alias pgdump101='/mia/postgresql/bin/pg_dump -O -T actions -T searches -T visits -T visitors -Fc eaton_development > novarsv-rec.dump'
 
-alias pgdumprec='/mia/postgresql/bin/pg_dump -O -t recommendations -Fc spinnakr_production > rec.dump'
+alias pgdumprec='/mia/postgresql/bin/pg_dump -O -t recommendations -Fc eaton_production > rec.dump'
 
 alias pgrestorenovarsv='/mia/postgresql/bin/pg_restore -O -d novarsv novarsv.dump'
 alias pgrestorerec='/mia/postgresql/bin/pg_restore -O -d recommendations rec.dump'
-alias pgrestoresd='/mia/postgresql/bin/pg_restore -O -d spinnakr_development novarsv.dump'
-alias pgrestoreschema='/mia/postgresql/bin/pg_restore -O -d spinnakr_development schemaonly.dump'
-
+alias pgrestoresd='/mia/postgresql/bin/pg_restore -O -d eaton_development novarsv.dump'
+alias pgrestoreschema='/mia/postgresql/bin/pg_restore -O -d eaton_development schemaonly.dump'
