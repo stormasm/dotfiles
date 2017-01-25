@@ -39,6 +39,7 @@ alias lslt='ls -l *_test.go'
 alias rmtest='rm *_test.go'
 
 alias mkasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
+alias mkgh='mkdir src; cd src; mkdir github.com; cd github.com'
 alias gh='cd $GOPATH/src/github.com'
 alias asm='cd $GOPATH/src/github.com/stormasm'
 
@@ -151,3 +152,10 @@ alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
 ### Start tendermint
 alias ten='cd $GOPATH/src/github.com/tendermint/tendermint'
 alias tent='cd $GOPATH/src/github.com/tendermint'
+
+### Start nats
+alias nats='cd $GOPATH/src/github.com/nats-io/gnatsd/server'
+alias natsd='gnatsd -V -D -m 3000'
+
+### Start go-datastructures
+alias gdata='cd $GOPATH/src/github.com/stormasm/go-datastructures'
