@@ -80,3 +80,22 @@ alias swarmrun='swarm --bzzaccount $BZZKEY --datadir $SWARMDATA'
 ### For console and solidity
 
 alias sgeth='geth --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0.0.1" --rpccorsdomain "localhost" --solc solcjs console'
+
+################################## My P2p Functionality
+
+######### package = protocols
+
+alias p10='gtvr MultiplePeersDropSelf'
+alias p11='gtvr MultiplePeersDropOther'
+
+alias p12='gtvr ModuleHandshakeError'
+alias p13='gtvr ModuleHandshakeSuccess'
+
+alias p14='gtvr ProtoHandshakeVersionMismatch'
+alias p15='gtvr ProtoHandshakeNetworkIdMismatch'
+alias p16='gtvr ProtoHandshakeSuccess'
+
+######### package = simulations
+
+alias p1='gtvr Replay'
+alias p2='gtvr TimedRead'
