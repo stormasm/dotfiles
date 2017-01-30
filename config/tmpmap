@@ -1,9 +1,6 @@
 
-19 etcd
-79 ethereum stormasm fork
-80 ethereum
-82 ethereum block explorer
-84 tendermint
+70 ethersphere
+71 p2p-1128
 
 Current running repos
 
@@ -31,13 +28,6 @@ Current running repos
 56 meteor / mist
 
 60 Golang binaries {goreman, panicparse}
-
-70 Channel Study
-70 Kubernetes
-
-84 tendermint
-
-90 stormasm geth1
 
 99 bs
 
@@ -129,18 +119,15 @@ All of these numbers are /tmpXX where XX is the number below...
 69 Noms Databases (only)
 
 ---------------------------------------------
-        70 - 79 = Golang Channel Study
+        70 - 79 = Ethereum
 ---------------------------------------------
-
 
 ---------------------------------------------
         80 - 89 = Ethereum
 ---------------------------------------------
 
-84 Tendermint
-
 ---------------------------------------------
-        90 - 99 = archives
+        95 - 99 = archives
 ---------------------------------------------
 90
 91
