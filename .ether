@@ -4,6 +4,11 @@
 #
 #
 alias rgethnd='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0'
+#
+# Turn on shh too
+#
+alias rgethndshh='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 -shh'
+alias gethshh='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 -shh'
 
 ## Turn on the console
 alias rgethndc='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 console'
@@ -26,10 +31,14 @@ alias mktrie='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm
 
 ### Paths to ethereum dir structure
 alias eth='cd $GOPATH/src/github.com/ethereum/go-ethereum'
+alias ethcmd='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd'
 alias ethp2p='cd $GOPATH/src/github.com/ethereum/go-ethereum/p2p'
+alias ethpro='cd $GOPATH/src/github.com/ethereum/go-ethereum/p2p/protocols'
 alias ethsw='cd $GOPATH/src/github.com/ethereum/go-ethereum/swarm'
 alias ethswarm='cd $GOPATH/src/github.com/ethereum/go-ethereum/swarm'
 alias ethtrie='cd $GOPATH/src/github.com/ethereum/go-ethereum/trie'
+alias ethw='cd $GOPATH/src/github.com/ethereum/go-ethereum/whisper/whisperv5'
+alias ethwh='cd $GOPATH/src/github.com/ethereum/go-ethereum/whisper/whisperv5'
 
 ### trie
 
@@ -61,6 +70,14 @@ alias block159395="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":
 
 alias block159400="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockTransactionCountByNumber\",\"params\":[\"0x26ea8\"],\"id\":1}'"
 
+### Start Whisper
+##
+
+alias wnodes1='wnode -boot=enode://d25474361659861e9e651bc728a17e807a3359ca0d344afd544ed0f11a31faecaf4d74b55db53c6670fd624f08d5c79adfc8da5dd4a11b9213db49a3b750845e@52.178.209.125:30379'
+
+### End Whisper
+##
+
 ### Start Swarm
 ##
 
@@ -70,7 +87,7 @@ export SWARMDATA=/tmp67/swarm/bzz
 alias swarmaccnew='geth --maxpeers 0 --datadir $SWARMDATA account new'
 
 ### Swarm set address that comes back from account new
-export BZZKEY=432361df3760147a0f14e16734ef6b553fbd0b01
+export BZZKEY=96fd16590706b258ffdda746ad45c5674b61d6fa
 
 alias swarmrun='swarm --bzzaccount $BZZKEY --datadir $SWARMDATA'
 
