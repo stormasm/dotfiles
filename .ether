@@ -1,17 +1,20 @@
 
+alias ethdb='cd /Users/ma/Library/Ethereum'
+
 ###
 # To run ethereum without getting new blocks
 #
 #
-alias rgethnd='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0'
+alias gethnd='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0'
+alias gethnd6='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 --verbosity 5'
+
 #
 # Turn on shh too
 #
-alias rgethndshh='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 -shh'
 alias gethshh='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 -shh'
 
 ## Turn on the console
-alias rgethndc='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 console'
+alias gethndc='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 console'
 ###
 
 ### Run normally downloading all of the data
@@ -29,9 +32,15 @@ alias mketh1='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum
 
 alias mktrie='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 
+### Paths to ethereum cmd structure
+alias cmd='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd'
+alias cmdg='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/geth'
+alias cmdgeth='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/geth'
+alias cmds='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/swarm'
+alias cmdw='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/wnode'
+
 ### Paths to ethereum dir structure
 alias eth='cd $GOPATH/src/github.com/ethereum/go-ethereum'
-alias ethcmd='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd'
 alias ethp2p='cd $GOPATH/src/github.com/ethereum/go-ethereum/p2p'
 alias ethpro='cd $GOPATH/src/github.com/ethereum/go-ethereum/p2p/protocols'
 alias ethsw='cd $GOPATH/src/github.com/ethereum/go-ethereum/swarm'
@@ -45,19 +54,19 @@ alias ethwh='cd $GOPATH/src/github.com/ethereum/go-ethereum/whisper/whisperv5'
 alias trie1='cd $GOPATH/src/github.com/stormasm/trie1'
 alias trieget='go get github.com/davecgh/go-spew/spew; go get gopkg.in/check.v1'
 
-alias rgeth0='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 0'
-alias rgeth1='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 1'
-alias rgeth2='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 2'
-alias rgeth3='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 3'
-alias rgeth4='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 4'
-alias rgeth5='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 5'
-alias rgeth6='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 6'
+alias geth0='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 0'
+alias geth1='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 1'
+alias geth2='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 2'
+alias geth3='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 3'
+alias geth4='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 4'
+alias geth5='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 5'
+alias geth6='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 6'
 
 ### Just show all of the current data, don't get new blocks
-alias rgethnnd='geth --rpc --rpccorsdomain "http://localhost:8000" --nodiscover'
+alias gethnnd='geth --rpc --rpccorsdomain "http://localhost:8000" --nodiscover'
 
 ### Test network with just one block in it
-alias rgetht='geth --olympic --datadir "/tmp77" --rpc --rpccorsdomain "http://localhost:8000"'
+alias getht='geth --olympic --datadir "/tmp77" --rpc --rpccorsdomain "http://localhost:8000"'
 
 ### Grep commands
 alias grhp2p='grep -RH "p2p." *'
@@ -69,6 +78,17 @@ alias grhp2p='grep -RH "p2p." *'
 alias block159395="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockTransactionCountByNumber\",\"params\":[\"0x26ea3\"],\"id\":1}'"
 
 alias block159400="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockTransactionCountByNumber\",\"params\":[\"0x26ea8\"],\"id\":1}'"
+
+### Start Bootnode
+##
+## You need 64 hex digits to represent the information that can be stored in 256 bits
+##
+
+alias bn1='bootnode --nodekeyhex 289c2857d4598e37fb9647507e47a309d6133539bf21a8b9cb6df88fd5232032'
+alias bn2='bootnode --nodekeyhex 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef'
+
+### End Bootnode
+##
 
 ### Start Whisper
 ##
