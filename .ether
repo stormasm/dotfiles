@@ -27,6 +27,28 @@ alias rgeth='geth --rpc --rpccorsdomain "http://localhost:8000"'
 alias rgethx='cd /tmp82/explorer; npm start'
 ###
 
+### Start Bootnode
+##
+## You need 64 hex digits to represent the information that can be stored in 256 bits
+##
+
+alias bn1='bootnode --nodekeyhex 289c2857d4598e37fb9647507e47a309d6133539bf21a8b9cb6df88fd5232032'
+alias bn2='bootnode --nodekeyhex 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef'
+alias bn3='bootnode -genkey hi -verbosity 9'
+
+### End Bootnode
+##
+
+###
+# To Create the genesis state of the network see top level Readme
+alias gethinit1='geth init /tmp67/ethgenesis/genesis1.json'
+###
+# Then run bootnode
+# Then use the enode from the bootnode command to fire up your geth
+alias gethboot='geth --datadir /tmp67/why --bootnodes enode://e158f84d2a8fb5141bd58161ec00175349b7f6d0c2e9571e0540c324d2652a1bdf1ff2c6a4ae0203d98721f0520b757cc2ff70a6c4d9506982494ac74c3efb08@[127.0.0.1]:30301'
+
+alias gethboot1='gethboot --dev --verbosity 9 --datadir /tmp67/why1 --bootnodes enode://e158f84d2a8fb5141bd58161ec00175349b7f6d0c2e9571e0540c324d2652a1bdf1ff2c6a4ae0203d98721f0520b757cc2ff70a6c4d9506982494ac74c3efb08@[127.0.0.1]:30301'
+
 alias mketh='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum'
 alias mketh1='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum; mkdir go-ethereum; cd go-ethereum'
 
@@ -79,17 +101,6 @@ alias block159395="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":
 
 alias block159400="curl -L "http://localhost:8545" -X POST --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockTransactionCountByNumber\",\"params\":[\"0x26ea8\"],\"id\":1}'"
 
-### Start Bootnode
-##
-## You need 64 hex digits to represent the information that can be stored in 256 bits
-##
-
-alias bn1='bootnode --nodekeyhex 289c2857d4598e37fb9647507e47a309d6133539bf21a8b9cb6df88fd5232032'
-alias bn2='bootnode --nodekeyhex 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef'
-
-### End Bootnode
-##
-
 ### Start Whisper
 ##
 
@@ -100,6 +111,12 @@ alias wnodes1='wnode -boot=enode://d25474361659861e9e651bc728a17e807a3359ca0d344
 
 ### Start Swarm
 ##
+#
+# To bring up swarm run these 3 commands in order
+#
+# bn3
+# gethboot1
+# swarmrun
 
 export SWARMDATA=/tmp67/swarm/bzz
 
@@ -109,7 +126,7 @@ alias swarmaccnew='geth --maxpeers 0 --datadir $SWARMDATA account new'
 ### Swarm set address that comes back from account new
 export BZZKEY=96fd16590706b258ffdda746ad45c5674b61d6fa
 
-alias swarmrun='swarm --bzzaccount $BZZKEY --datadir $SWARMDATA'
+alias swarmrun='swarm --bzzaccount $BZZKEY --datadir $SWARMDATA --ethapi /tmp67/why1/geth.ipc'
 
 ### End Swarm
 ##
