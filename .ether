@@ -47,7 +47,20 @@ alias gethinit1='geth init /tmp67/ethgenesis/genesis1.json'
 # Then use the enode from the bootnode command to fire up your geth
 alias gethboot='geth --datadir /tmp67/why --bootnodes enode://e158f84d2a8fb5141bd58161ec00175349b7f6d0c2e9571e0540c324d2652a1bdf1ff2c6a4ae0203d98721f0520b757cc2ff70a6c4d9506982494ac74c3efb08@[127.0.0.1]:30301'
 
+### Run the individual geth nodes {1,2,3}
+
 alias gethboot1='gethboot --dev --verbosity 9 --datadir /tmp67/why1 --bootnodes enode://e158f84d2a8fb5141bd58161ec00175349b7f6d0c2e9571e0540c324d2652a1bdf1ff2c6a4ae0203d98721f0520b757cc2ff70a6c4d9506982494ac74c3efb08@[127.0.0.1]:30301'
+
+alias gethboot2='gethboot --dev --verbosity 9 --datadir /tmp67/why2 --bootnodes enode://e158f84d2a8fb5141bd58161ec00175349b7f6d0c2e9571e0540c324d2652a1bdf1ff2c6a4ae0203d98721f0520b757cc2ff70a6c4d9506982494ac74c3efb08@[127.0.0.1]:30301'
+
+alias gethboot3='gethboot --dev --verbosity 9 --datadir /tmp67/why3 --bootnodes enode://e158f84d2a8fb5141bd58161ec00175349b7f6d0c2e9571e0540c324d2652a1bdf1ff2c6a4ae0203d98721f0520b757cc2ff70a6c4d9506982494ac74c3efb08@[127.0.0.1]:30301'
+
+### Attach to the individual geth nodes {1,2,3}
+
+alias at1='geth attach ipc://tmp67/why1/geth.ipc'
+alias at2='geth attach ipc://tmp67/why2/geth.ipc'
+alias at3='geth attach ipc://tmp67/why3/geth.ipc'
+
 
 alias mketh='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum'
 alias mketh1='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum; mkdir go-ethereum; cd go-ethereum'
@@ -56,10 +69,17 @@ alias mktrie='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm
 
 ### Paths to ethereum cmd structure
 alias cmd='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd'
+
+alias cmde='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/geth'
 alias cmdg='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/geth'
+alias cmdeth='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/geth'
 alias cmdgeth='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/geth'
+
 alias cmds='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/swarm'
+alias cmdswarm='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/swarm'
+
 alias cmdw='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/wnode'
+alias cmdwnode='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/wnode'
 
 ### Paths to ethereum dir structure
 alias eth='cd $GOPATH/src/github.com/ethereum/go-ethereum'
