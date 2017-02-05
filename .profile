@@ -300,7 +300,8 @@ alias 99='cd /tmp99'
 # netstat commands
 #
 
-alias ns1='lsof -i -n -P | grep bitcoind'
+alias ns1='lsof -i -n -P'
+alias ns2='lsof -i -n -P | grep geth'
 
 # Setting PATH for Python 2.7
 # The orginal version is saved in .profile.pysave
