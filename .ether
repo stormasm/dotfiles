@@ -5,21 +5,25 @@ alias ethdb='cd /Users/ma/Library/Ethereum'
 # To run ethereum without getting new blocks
 #
 #
-alias gethnd='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0'
-alias gethnd6='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 --verbosity 5'
+alias gethnd='geth --rpc --rpccorsdomain "http://localhost:3000" --maxpeers 0'
+alias gethnd6='geth --rpc --rpccorsdomain "http://localhost:3000" --maxpeers 0 --verbosity 5'
 
 #
 # Turn on shh too
 #
-alias gethshh='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 -shh'
+alias gethshh='geth --rpc --rpccorsdomain "http://localhost:3000" --maxpeers 0 -shh'
 
 ## Turn on the console
-alias gethndc='geth --rpc --rpccorsdomain "http://localhost:8000" --maxpeers 0 console'
+alias gethndc='geth --rpc --rpccorsdomain "http://localhost:3000" --maxpeers 0 console'
 ###
 
 ### Run normally downloading all of the data
 ##  This allows P2P to run without turning it off
-alias rgeth='geth --rpc --rpccorsdomain "http://localhost:8000"'
+alias rgeth='geth --rpc --rpccorsdomain "http://localhost:3000"'
+
+### Run normally downloading all of the data and starting up a console
+##  This allows P2P to run without turning it off
+alias rgethc='geth --rpc --rpccorsdomain "http://localhost:3000" console'
 
 ###
 # To run the block explorer
@@ -44,16 +48,17 @@ alias bn3='bootnode -genkey hi -verbosity 9'
 alias gethinit1='geth init /tmp67/ethgenesis/genesis1.json'
 ###
 # Then run bootnode
+
+export ENODE=enode://3273e7c8a4bdf50cca1918bc6d19ebbb221c68a55b0f715b000a0e5613dbf74da09d879605e978f16cbfae94e2922596a6e0d4998d8556f1b9cf282707f0c881@[127.0.0.1]:30301
+
 # Then use the enode from the bootnode command to fire up your geth
-alias gethboot='geth --datadir /tmp67/why --bootnodes enode://e158f84d2a8fb5141bd58161ec00175349b7f6d0c2e9571e0540c324d2652a1bdf1ff2c6a4ae0203d98721f0520b757cc2ff70a6c4d9506982494ac74c3efb08@[127.0.0.1]:30301'
+alias gethboot='geth --datadir /tmp67/why --bootnodes ENODE'
 
 ### Run the individual geth nodes {1,2,3}
 
-alias gethboot1='gethboot --dev --verbosity 9 --datadir /tmp67/why1 --bootnodes enode://e158f84d2a8fb5141bd58161ec00175349b7f6d0c2e9571e0540c324d2652a1bdf1ff2c6a4ae0203d98721f0520b757cc2ff70a6c4d9506982494ac74c3efb08@[127.0.0.1]:30301'
-
-alias gethboot2='gethboot --dev --verbosity 9 --datadir /tmp67/why2 --bootnodes enode://e158f84d2a8fb5141bd58161ec00175349b7f6d0c2e9571e0540c324d2652a1bdf1ff2c6a4ae0203d98721f0520b757cc2ff70a6c4d9506982494ac74c3efb08@[127.0.0.1]:30301'
-
-alias gethboot3='gethboot --dev --verbosity 9 --datadir /tmp67/why3 --bootnodes enode://e158f84d2a8fb5141bd58161ec00175349b7f6d0c2e9571e0540c324d2652a1bdf1ff2c6a4ae0203d98721f0520b757cc2ff70a6c4d9506982494ac74c3efb08@[127.0.0.1]:30301'
+alias gethboot1='geth --dev --verbosity 9 --datadir /tmp67/why1 --bootnodes ENODE'
+alias gethboot2='geth --dev --verbosity 9 --datadir /tmp67/why2 --bootnodes ENODE'
+alias gethboot3='geth --dev --verbosity 9 --datadir /tmp67/why3 --bootnodes ENODE'
 
 ### Attach to the individual geth nodes {1,2,3}
 
@@ -85,8 +90,10 @@ alias cmdwnode='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/wnode'
 alias eth='cd $GOPATH/src/github.com/ethereum/go-ethereum'
 alias ethp2p='cd $GOPATH/src/github.com/ethereum/go-ethereum/p2p'
 alias ethpro='cd $GOPATH/src/github.com/ethereum/go-ethereum/p2p/protocols'
+alias ethrpc='cd $GOPATH/src/github.com/ethereum/go-ethereum/rpc'
 alias ethsw='cd $GOPATH/src/github.com/ethereum/go-ethereum/swarm'
 alias ethswarm='cd $GOPATH/src/github.com/ethereum/go-ethereum/swarm'
+alias ethtest='cd $GOPATH/src/github.com/ethereum/go-ethereum/tests'
 alias ethtrie='cd $GOPATH/src/github.com/ethereum/go-ethereum/trie'
 alias ethw='cd $GOPATH/src/github.com/ethereum/go-ethereum/whisper/whisperv5'
 alias ethwh='cd $GOPATH/src/github.com/ethereum/go-ethereum/whisper/whisperv5'
@@ -96,19 +103,19 @@ alias ethwh='cd $GOPATH/src/github.com/ethereum/go-ethereum/whisper/whisperv5'
 alias trie1='cd $GOPATH/src/github.com/stormasm/trie1'
 alias trieget='go get github.com/davecgh/go-spew/spew; go get gopkg.in/check.v1'
 
-alias geth0='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 0'
-alias geth1='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 1'
-alias geth2='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 2'
-alias geth3='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 3'
-alias geth4='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 4'
-alias geth5='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 5'
-alias geth6='geth --rpc --rpccorsdomain "http://localhost:8000" --verbosity 6'
+alias geth0='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 0'
+alias geth1='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 1'
+alias geth2='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 2'
+alias geth3='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 3'
+alias geth4='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 4'
+alias geth5='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 5'
+alias geth6='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 6'
 
 ### Just show all of the current data, don't get new blocks
-alias gethnnd='geth --rpc --rpccorsdomain "http://localhost:8000" --nodiscover'
+alias gethnnd='geth --rpc --rpccorsdomain "http://localhost:3000" --nodiscover'
 
 ### Test network with just one block in it
-alias getht='geth --olympic --datadir "/tmp77" --rpc --rpccorsdomain "http://localhost:8000"'
+alias getht='geth --olympic --datadir "/tmp77" --rpc --rpccorsdomain "http://localhost:3000"'
 
 ### Grep commands
 alias grhp2p='grep -RH "p2p." *'
@@ -173,3 +180,8 @@ alias p16='gtvr ProtoHandshakeSuccess'
 
 alias p1='gtvr Replay'
 alias p2='gtvr TimedRead'
+
+#### ethereum examples
+
+alias ethex='cd $GOPATH/src/github.com/stormasm/ethereum-examples/rpc'
+alias ethx='cd $GOPATH/src/github.com/stormasm/ethereum-examples/rpc'
