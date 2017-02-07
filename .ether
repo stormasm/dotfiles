@@ -66,6 +66,13 @@ alias at1='geth attach ipc://tmp67/why1/geth.ipc'
 alias at2='geth attach ipc://tmp67/why2/geth.ipc'
 alias at3='geth attach ipc://tmp67/why3/geth.ipc'
 
+### Testing how to fire up private networks
+#   This works and the key parameter is --nodiscover
+#   And now admin.addPeer works
+##
+
+alias gethp1='geth --nodiscover --datadir /tmp67/p1'
+alias gethp2='geth --nodiscover --datadir /tmp67/p2 --port 30313 --rpcaddr 8555'
 
 alias mketh='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum'
 alias mketh1='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum; mkdir go-ethereum; cd go-ethereum'
