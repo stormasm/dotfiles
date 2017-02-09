@@ -71,7 +71,7 @@ alias at3='geth attach ipc://tmp67/why3/geth.ipc'
 #   And now admin.addPeer works
 ##
 
-alias gethp1='geth --nodiscover --datadir /tmp67/p1'
+alias gethp1='geth --nodiscover --datadir /tmp67/p1 --rpc --rpccorsdomain "http://localhost:3000"'
 alias gethp2='geth --nodiscover --datadir /tmp67/p2 --port 30313 --rpcaddr 8555'
 
 alias mketh='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum'

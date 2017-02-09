@@ -79,6 +79,7 @@ alias mia='cd /mia'
 alias mm='cd /miamedia'
 alias mml='cd /miamedia/ml'
 alias mn='cd /mianode'
+alias s3='cd /mias3'
 alias n='node'
 alias op='cd /miajek/octopress'
 alias p='python'
@@ -133,21 +134,18 @@ alias rediscsent='cd /mia/redis/src; ./redis-cli -p 26379'
 alias redislog='cd /mia/redislog'
 
 #
-# Jekyll is in 2 places 1) /miajek and 2) /miastormnode
+# Jekyll is in /miajek
 #
 
-alias jek='cd /miajek'
+alias jek='cd /miajek/link16'
 alias jekt='cd /miajek'
 alias pdf='cd /miajek/pdf'
 alias eb='cd /miajek/etcd.info/_posts'
 alias resumeold='cd /miajek/resume; rvm gemset use ghpages'
-alias resume='cd /miajek/link15; rvm gemset use ghpages'
-alias link15='cd /miajek/link15; rvm gemset use ghpages'
+alias resume='cd /miajek/link16; rvm gemset use jekyll'
+alias link15='cd /miajek/link15; rvm gemset use jekyll'
 alias jekrun='bundle exec jekyll serve -P 3000'
-alias vitae='cd /miajek/vitae'
-
-alias sn='cd /miastormnode/stormnode.github.io; rvm gemset use stormnode'
-alias snrun='bundle exec jekyll serve'
+alias jekrun1='bundle exec jekyll serve'
 
 #
 # Elastic Search
