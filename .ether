@@ -1,4 +1,18 @@
 
+
+alias solc='/tmp70/solidity/build/solc/solc'
+
+### Setting for
+# https://github.com/cubedro/eth-netstats
+# Livenet
+export WS_SECRET=a38e1e50b1b82fa
+# Testnet
+# export WS_SECRET=so8ku5jeza8du5tu
+#
+
+## Live Network is: a38e1e50b1b82fa
+## Morden test network: so8ku5jeza8du5tu
+
 alias ethdb='cd /Users/ma/Library/Ethereum'
 
 ###
