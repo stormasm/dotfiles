@@ -91,6 +91,7 @@ alias rpretty='ruby-beautify --overwrite'
 
 alias sp='source /Users/ma/.profile'
 alias t=date
+alias tt='cd /miamedia/paxat'
 alias tmp='cd /tmp'
 
 ### git commands

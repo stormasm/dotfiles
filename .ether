@@ -206,3 +206,7 @@ alias p2='gtvr TimedRead'
 
 alias ethex='cd $GOPATH/src/github.com/stormasm/ethereum-examples/rpc'
 alias ethx='cd $GOPATH/src/github.com/stormasm/ethereum-examples/rpc'
+
+#### Solc
+
+alias sol1='solc --bin --output-dir ./out/ helloworld.sol'
