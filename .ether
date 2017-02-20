@@ -170,6 +170,11 @@ alias wnodes1='wnode -boot=enode://d25474361659861e9e651bc728a17e807a3359ca0d344
 ### End Whisper
 ##
 
+### To set up a new account on Ethereum
+
+alias accnew1='geth --datadir /tmp67/why1 account new'
+alias accnew2='geth --datadir /tmp67/why2 account new'
+
 ### Start Swarm
 ##
 #
