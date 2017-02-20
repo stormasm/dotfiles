@@ -1,43 +1,92 @@
 
-
-alias solc='/tmp70/solidity/build/solc/solc'
-
-### Setting for
-# https://github.com/cubedro/eth-netstats
-# Livenet
-export WS_SECRET=a38e1e50b1b82fa
-# Testnet
-# export WS_SECRET=so8ku5jeza8du5tu
 #
-
-## Live Network is: a38e1e50b1b82fa
-## Morden test network: so8ku5jeza8du5tu
-
-alias ethdb='cd /Users/ma/Library/Ethereum'
-
-###
+# Running Ethereum
+#
+#
 # To run ethereum without getting new blocks
 #
 #
 alias gethnd='geth --rpc --rpccorsdomain "http://localhost:3000" --maxpeers 0'
 alias gethnd6='geth --rpc --rpccorsdomain "http://localhost:3000" --maxpeers 0 --verbosity 5'
-
 #
 # Turn on shh too
 #
 alias gethshh='geth --rpc --rpccorsdomain "http://localhost:3000" --maxpeers 0 -shh'
-
-## Turn on the console
+#
+# Turn on the console
+#
 alias gethndc='geth --rpc --rpccorsdomain "http://localhost:3000" --maxpeers 0 console'
-###
-
-### Run normally downloading all of the data
-##  This allows P2P to run without turning it off
+#
+#
+# Run normally downloading all of the data
+# This allows P2P to run without turning it off
+#
 alias rgeth='geth --rpc --rpccorsdomain "http://localhost:3000"'
-
-### Run normally downloading all of the data and starting up a console
-##  This allows P2P to run without turning it off
+#
+#
+# Run normally downloading all of the data and starting up a console
+#  This allows P2P to run without turning it off
+#
 alias rgethc='geth --rpc --rpccorsdomain "http://localhost:3000" console'
+#
+#
+#   Testing how to fire up private networks
+#   This works and the key parameter is --nodiscover
+#   And now admin.addPeer works
+#
+alias gethp1='geth --nodiscover --datadir /tmp67/p1 --rpc --rpccorsdomain "http://localhost:3000"'
+alias gethp2='geth --nodiscover --datadir /tmp67/p2 --port 30313 --rpcaddr 8555'
+
+###
+# To Create the genesis state of the network see top level Readme
+alias gethinit1='geth init /tmp67/ethgenesis/genesis1.json'
+###
+# Then run bootnode
+
+export ENODE=enode://3273e7c8a4bdf50cca1918bc6d19ebbb221c68a55b0f715b000a0e5613dbf74da09d879605e978f16cbfae94e2922596a6e0d4998d8556f1b9cf282707f0c881@[127.0.0.1]:30301
+
+# Then use the enode from the bootnode command to fire up your geth
+alias gethboot='geth --datadir /tmp67/why --bootnodes ENODE'
+
+### Run the individual geth nodes {1,2,3}
+
+alias gethboot1='geth --dev --verbosity 9 --datadir /tmp67/why1 --bootnodes ENODE'
+alias gethboot2='geth --dev --verbosity 9 --datadir /tmp67/why2 --bootnodes ENODE'
+alias gethboot3='geth --dev --verbosity 9 --datadir /tmp67/why3 --bootnodes ENODE'
+
+alias geth0='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 0'
+alias geth1='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 1'
+alias geth2='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 2'
+alias geth3='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 3'
+alias geth4='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 4'
+alias geth5='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 5'
+alias geth6='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 6'
+
+### Just show all of the current data, don't get new blocks
+alias gethnnd='geth --rpc --rpccorsdomain "http://localhost:3000" --nodiscover'
+
+### Test network with just one block in it
+alias getht='geth --olympic --datadir "/tmp77" --rpc --rpccorsdomain "http://localhost:3000"'
+
+### Attach to the individual geth nodes {1,2,3}
+
+alias at1='geth attach ipc://tmp67/why1/geth.ipc'
+alias at2='geth attach ipc://tmp67/why2/geth.ipc'
+alias at3='geth attach ipc://tmp67/why3/geth.ipc'
+
+#
+# For running with the console and solidity
+#
+
+alias sgethjs='geth --maxpeers 0 --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0.0.1" --rpccorsdomain "localhost" --solc solcjs console'
+
+alias sgeth='geth --maxpeers 0 --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0.0.1" --rpccorsdomain "localhost" --solc /tmp70/solidity/build/solc/solc console'
+
+
+#
+# End Running Ethereum
+#
+#------------------------------------------------------------------------------------
 
 ###
 # To run the block explorer
@@ -57,43 +106,16 @@ alias bn3='bootnode -genkey hi -verbosity 9'
 ### End Bootnode
 ##
 
-###
-# To Create the genesis state of the network see top level Readme
-alias gethinit1='geth init /tmp67/ethgenesis/genesis1.json'
-###
-# Then run bootnode
-
-export ENODE=enode://3273e7c8a4bdf50cca1918bc6d19ebbb221c68a55b0f715b000a0e5613dbf74da09d879605e978f16cbfae94e2922596a6e0d4998d8556f1b9cf282707f0c881@[127.0.0.1]:30301
-
-# Then use the enode from the bootnode command to fire up your geth
-alias gethboot='geth --datadir /tmp67/why --bootnodes ENODE'
-
-### Run the individual geth nodes {1,2,3}
-
-alias gethboot1='geth --dev --verbosity 9 --datadir /tmp67/why1 --bootnodes ENODE'
-alias gethboot2='geth --dev --verbosity 9 --datadir /tmp67/why2 --bootnodes ENODE'
-alias gethboot3='geth --dev --verbosity 9 --datadir /tmp67/why3 --bootnodes ENODE'
-
-### Attach to the individual geth nodes {1,2,3}
-
-alias at1='geth attach ipc://tmp67/why1/geth.ipc'
-alias at2='geth attach ipc://tmp67/why2/geth.ipc'
-alias at3='geth attach ipc://tmp67/why3/geth.ipc'
-
-### Testing how to fire up private networks
-#   This works and the key parameter is --nodiscover
-#   And now admin.addPeer works
-##
-
-alias gethp1='geth --nodiscover --datadir /tmp67/p1 --rpc --rpccorsdomain "http://localhost:3000"'
-alias gethp2='geth --nodiscover --datadir /tmp67/p2 --port 30313 --rpcaddr 8555'
-
 alias mketh='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum'
 alias mketh1='mkdir src; cd src; mkdir github.com; cd github.com; mkdir ethereum; cd ethereum; mkdir go-ethereum; cd go-ethereum'
 
 alias mktrie='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 
 ### Paths to ethereum cmd structure
+#
+#
+#
+
 alias cmd='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd'
 
 alias cmde='cd $GOPATH/src/github.com/ethereum/go-ethereum/cmd/geth'
@@ -124,24 +146,19 @@ alias ethwh='cd $GOPATH/src/github.com/ethereum/go-ethereum/whisper/whisperv5'
 alias trie1='cd $GOPATH/src/github.com/stormasm/trie1'
 alias trieget='go get github.com/davecgh/go-spew/spew; go get gopkg.in/check.v1'
 
-alias geth0='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 0'
-alias geth1='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 1'
-alias geth2='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 2'
-alias geth3='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 3'
-alias geth4='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 4'
-alias geth5='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 5'
-alias geth6='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 6'
-
-### Just show all of the current data, don't get new blocks
-alias gethnnd='geth --rpc --rpccorsdomain "http://localhost:3000" --nodiscover'
-
-### Test network with just one block in it
-alias getht='geth --olympic --datadir "/tmp77" --rpc --rpccorsdomain "http://localhost:3000"'
+#
+#
+### End Paths to ethereum cmd structure
+#
+#
 
 ### Grep commands
 alias grhp2p='grep -RH "p2p." *'
 
+#
 ### Curl commands as aliases
+#
+#
 ##  Note that you have to escape all of the quotes
 #   See https://github.com/stormasm/ethereum-notes/blob/master/curl.md
 
@@ -179,9 +196,6 @@ alias swarmrun='swarm --bzzaccount $BZZKEY --datadir $SWARMDATA --ethapi /tmp67/
 ### End Swarm
 ##
 
-### For console and solidity
-
-alias sgeth='geth --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0.0.1" --rpccorsdomain "localhost" --solc solcjs console'
 
 ################################## My P2p Functionality
 
@@ -210,3 +224,20 @@ alias ethx='cd $GOPATH/src/github.com/stormasm/ethereum-examples/rpc'
 #### Solc
 
 alias sol1='solc --bin --output-dir ./out/ helloworld.sol'
+
+
+alias solc='/tmp70/solidity/build/solc/solc'
+
+### Setting for
+# https://github.com/cubedro/eth-netstats
+# Livenet
+export WS_SECRET=a38e1e50b1b82fa
+# Testnet
+# export WS_SECRET=so8ku5jeza8du5tu
+#
+
+## Live Network is: a38e1e50b1b82fa
+## Morden test network: so8ku5jeza8du5tu
+
+alias ethdb='cd /Users/ma/Library/Ethereum'
+
