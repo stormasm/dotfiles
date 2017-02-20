@@ -47,8 +47,8 @@ alias gethinit1='geth init /tmp67/ethgenesis/genesis1.json'
 
 ### Run the individual geth nodes {1,2}
 
-alias gethboot1='geth --dev --verbosity 9 --datadir /tmp67/why1 --bootnodes enode://7db227d7094ce215c3a0f57e1bcc732551fe351f94249471934567e0f5dc1bf795962b8cccb87a2eb56b29fbe37d614e2f4c3c45b789ae4f1f51f4cb21972ffd@[127.0.0.1]:30301'
-alias gethboot2='geth --dev --verbosity 9 --datadir /tmp67/why2 --bootnodes enode://4646ae5047316b4230d0086c8acec687f00b1cd9d1dc634f6cb358ac0a9a8ffffe77b4dd0a4bfb95851f3b7355c781dd60f8418fc8a65d14907aff47c903a559@[127.0.0.1]:30301'
+alias gethboot1='geth --maxpeers 0 --rpc --rpccorsdomain "http://localhost:3000"  --datadir /tmp67/why1 --bootnodes enode://7db227d7094ce215c3a0f57e1bcc732551fe351f94249471934567e0f5dc1bf795962b8cccb87a2eb56b29fbe37d614e2f4c3c45b789ae4f1f51f4cb21972ffd@[127.0.0.1]:30301'
+alias gethboot2='geth --maxpeers 0 --rpc --rpccorsdomain "htt://localhost:3000" --datadir /tmp67/why2 --bootnodes enode://4646ae5047316b4230d0086c8acec687f00b1cd9d1dc634f6cb358ac0a9a8ffffe77b4dd0a4bfb95851f3b7355c781dd60f8418fc8a65d14907aff47c903a559@[127.0.0.1]:30301'
 
 alias geth0='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 0'
 alias geth1='geth --rpc --rpccorsdomain "http://localhost:3000" --verbosity 1'
