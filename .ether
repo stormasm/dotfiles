@@ -24,10 +24,9 @@ alias gethndc='geth --rpc --rpccorsdomain "http://localhost:3000" --maxpeers 0 c
 alias rgeth='geth --rpc --rpccorsdomain "http://localhost:3000"'
 #
 #
-# Run normally downloading all of the data and starting up a console
-#  This allows P2P to run without turning it off
+# Bring up a console on your private network
 #
-alias rgethc='geth --rpc --rpccorsdomain "http://localhost:3000" console'
+alias gethc='geth --datadir /tmp67/why1 --nodiscover --maxpeers 0 --rpc --rpccorsdomain "http://localhost:3000" console'
 #
 #
 #   Testing how to fire up private networks
@@ -39,7 +38,9 @@ alias gethp2='geth --nodiscover --datadir /tmp67/p2 --port 30313 --rpcaddr 8555'
 
 ###
 # To Create the genesis state of the network see top level Readme
-alias gethinit1='geth init /tmp67/ethgenesis/genesis1.json'
+alias gethinit1='geth --datadir /tmp67/why1 init /tmp67/ethgenesis/genesis1.json'
+# Now add in the account number and re-run the command
+alias gethinit2='geth --datadir /tmp67/why1 init /tmp67/ethgenesis/genesis2.json'
 ###
 # Then run bootnode
 
