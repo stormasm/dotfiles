@@ -23,10 +23,18 @@ alias gethndc='geth --rpc --rpccorsdomain "http://localhost:3000" --maxpeers 0 c
 #
 alias rgeth='geth --rpc --rpccorsdomain "http://localhost:3000"'
 #
+
 #
 # Bring up a console on your private network
 #
-alias gethc='geth --datadir /tmp67/why1 --nodiscover --maxpeers 0 --rpc --rpccorsdomain "http://localhost:3000" console'
+
+alias gethc='geth --datadir /tmp67/why1 --unlock 0 --nodiscover --maxpeers 0 --rpc --rpccorsdomain "http://localhost:3000" console'
+
+# Bring up a console on your private network and unlock 0,1
+
+alias gethc2='geth --datadir /tmp67/why1 --unlock 0,1 --nodiscover --maxpeers 0 --rpc --rpccorsdomain "http://localhost:3000" console'
+
+
 #
 #
 #   Testing how to fire up private networks
