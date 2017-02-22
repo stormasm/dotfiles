@@ -34,6 +34,10 @@ alias gethc='geth --datadir /tmp67/why1 --unlock 0 --nodiscover --maxpeers 0 --r
 
 alias gethc2='geth --datadir /tmp67/why1 --unlock 0,1 --nodiscover --maxpeers 0 --rpc --rpccorsdomain "http://localhost:3000" console'
 
+# Bring up a console on your private network and unlock 0,1 and start mining
+
+alias gethc2m='geth --mine --datadir /tmp67/why1 --unlock 0,1 --nodiscover --maxpeers 0 --rpc --rpccorsdomain "http://localhost:3000" console'
+
 
 #
 #
@@ -250,4 +254,4 @@ export WS_SECRET=a38e1e50b1b82fa
 ## Morden test network: so8ku5jeza8du5tu
 
 alias ethdb='cd /Users/ma/Library/Ethereum'
-
+alias truf='truffle'
