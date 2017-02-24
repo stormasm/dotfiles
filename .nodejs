@@ -1,1 +1,13 @@
+
 #alias solc='/tmp81/node_modules/solc/solcjs'
+alias trpc='cd /tmp86/testrpc'
+
+### npm commands
+
+alias npms='npm start'
+alias npmt='npm test'
+
+### testrpc single test mocha commands
+
+alias macc='mocha --grep Accounts'
+

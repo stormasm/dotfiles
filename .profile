@@ -62,9 +62,6 @@ alias grhchan='grep -RH "chan " *'
 alias gu='unicorn -p 4567'
 alias h='history'
 alias hc='history -c'
-alias jjj='git push origin master'
-alias jtx='git push origin mbxtx'
-alias kkk='git push origin gh-pages'
 alias l='ls -l'
 alias lm='ls -l | more'
 alias lr='ls -lR | more'
@@ -96,8 +93,12 @@ alias tmp='cd /tmp'
 
 ### git commands
 
+alias jjj='git push origin master'
+alias kkk='git push origin gh-pages'
+
 alias ga='git add'
 alias gb='git branch'
+alias gc='git clone'
 alias gco='git checkout'
 alias gcom='git commit -m'
 alias gcomm='git commit -m'
