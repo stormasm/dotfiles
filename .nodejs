@@ -11,3 +11,6 @@ alias npmt='npm test'
 
 alias macc='mocha --grep Accounts'
 
+alias ts='cd /tmp20/trufflesuite'
+
+alias jsb='js-beautify $1 -o $1'
