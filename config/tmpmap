@@ -1,24 +1,26 @@
 
-70 ethersphere
+10 Start here with Dapps / Contracts
+15 Truffle out of the box to be able to run the tests.
+20 TruffleSuite
+
+55 web3.js, ethstats
+
+70 go-ethererum latest, solc latest
+
 71 p2p-1128
+72 go-ethereum
+73 whisper-0201
+74 stormasm go-ethereum for whisper-v5-switch work
+78 github.com/etherparty/explorer
+79 grep only for ethersphere, ethereum
 
-Current running repos
+80 frontier guide
+81 solc example files
+82 truffle, testrpc
+83 truffle tutorial, where truffle gets executed
+84 truffle tutorial, and reference versions of src code for truffle and testrpc.
 
-00 nomscs1
-01 nomscs2
-19 hackerelastic, olivere/elastic
-
-20 Noms new, Bleve new
-21 Noms new
-22 Noms Grep ONLY
-23 Hacker Noms
-24 Hacker Noms
-
-27 location of noms databases
-29 archive of noms databases
-
-30 bleve
-31 golucene, lucene, elasticsearch
+86 testrpc standalone
 
 50 gostar, jsontools
 51 gostar, jsontools
@@ -37,28 +39,13 @@ All of these numbers are /tmpXX where XX is the number below...
         00 - 10 = misc
 ---------------------------------------------
 
-08 Mastering Concurrency in Go Book
-09 kubernetes virgin only
-10 data, opendatacache
-
 ---------------------------------------------
-        10 - 20 = Go Elasticsearch, legacy bleve
+        10 - 20 = Truffle
 ---------------------------------------------
 
-11 bleve beer search
 
 ---------------------------------------------
-        20 - 29 = golang
----------------------------------------------
-
-20 Noms new 
-21 Noms new
-22 Noms grep ONLY
-23 Hackernoms
-24 Hackernoms
-
----------------------------------------------
-        25 - 29 = noms databases
+        20 - 29 = Truffle
 ---------------------------------------------
 
 ---------------------------------------------
@@ -114,10 +101,6 @@ All of these numbers are /tmpXX where XX is the number below...
 65
 66
 
-67 Noms Databases (only)
-68 Noms Databases (only)
-69 Noms Databases (only)
-
 ---------------------------------------------
         70 - 79 = Ethereum
 ---------------------------------------------
@@ -135,7 +118,8 @@ All of these numbers are /tmpXX where XX is the number below...
 93
 94
 95 archive
-96 hackernews-who-is-hiring, top-repos
+96 noms
 97 abackup
 98 github jekyll websites see also /miajek
+98 s3 see also /mias3
 99 bs, dumping ground
