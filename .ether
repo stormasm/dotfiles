@@ -255,3 +255,12 @@ export WS_SECRET=a38e1e50b1b82fa
 
 alias ethdb='cd /Users/ma/Library/Ethereum'
 alias truf='truffle'
+
+alias truf1='truf compile'
+alias truf2='truf migrate'
+alias truf3='truf test'
+
+alias trufc='truf compile'
+alias trufm='truf migrate'
+alias truft='truf test'
+alias trt='truf test'

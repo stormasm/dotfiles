@@ -1,6 +1,7 @@
 
+### All Truffle related commands are in .ether
+
 #alias solc='/tmp81/node_modules/solc/solcjs'
-alias trpc='cd /tmp86/testrpc'
 
 ### npm commands
 
@@ -10,7 +11,5 @@ alias npmt='npm test'
 ### testrpc single test mocha commands
 
 alias macc='mocha --grep Accounts'
-
-alias ts='cd /tmp20/trufflesuite'
 
 alias jsb='js-beautify $1 -o $1'
