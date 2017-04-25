@@ -1,3 +1,4 @@
+export NOMS_VERSION_NEXT=1
 
 alias nt='cd $GOPATH/src/github.com/attic-labs/noms'
 alias nomst='cd $GOPATH/src/github.com/attic-labs/noms'
@@ -18,6 +19,7 @@ alias nc='cd $GOPATH/src/github.com/attic-labs/noms/go/chunks'
 alias nspec='cd $GOPATH/src/github.com/attic-labs/noms/go/spec'
 alias ncmd='cd $GOPATH/src/github.com/attic-labs/noms/cmd/noms'
 alias ns='cd $GOPATH/src/github.com/attic-labs/noms/go'
+alias nbs='cd $GOPATH/src/github.com/attic-labs/noms/go/nbs'
 alias nsam='cd $GOPATH/src/github.com/attic-labs/noms/samples/go'
 alias nty='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
 alias ntype='cd $GOPATH/src/github.com/attic-labs/noms/go/types'

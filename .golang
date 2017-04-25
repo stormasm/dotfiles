@@ -74,15 +74,12 @@ alias re='cd $GOPATH/src/github.com/stormasm/redigo-examples'
 
 ### end redigo
 
-### start hacker elastic
-
-alias hef='cd $GOPATH/src/github.com/stormasm/hackerelastic1/fetch'
-alias hee='cd $GOPATH/src/github.com/stormasm/hackerelastic1/elastic'
-alias her='cd $GOPATH/src/github.com/stormasm/hackerelastic1/redis'
-
-### end hacker elastic
-
 ### start elastic
+
+alias mkes='mkdir src; cd src; mkdir github.com; cd github.com; mkdir olivere; cd olivere'
+alias el='cd $GOPATH/src/github.com/olivere/elastic'
+
+alias delindex='curl -XDELETE 'http://localhost:9200/warehouse''
 
 alias es1='cd $GOPATH/src/github.com/stormasm/elastic'
 
@@ -150,13 +147,15 @@ alias natsd='gnatsd -V -D -m 3000'
 ### Start go-datastructures
 alias gdata='cd $GOPATH/src/github.com/stormasm/go-datastructures'
 
+### Redis Hacker
+alias rh='cd $GOPATH/src/github.com/stormasm/redishacker'
+
 ###
 ### Start etcd
 ###
 ### Note Leave etcd at the bottom of this file because
 ### I am thinking of breaking this stuff out to its own file called raft or etcd
 
-alias rh='cd $GOPATH/src/github.com/hashicorp/raft'
 alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
 
 alias etcd='cd $GOPATH/src/github.com/coreos/etcd'
