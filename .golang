@@ -21,6 +21,7 @@ alias gex='cd $GOPATH/src/github.com/stormasm/go-examples'
 
 alias gf='go fmt'
 alias gg='go get'
+alias gi='go install'
 alias gr='go run'
 alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
 alias gop='export GOPATH=${PWD}; export GOBIN=${PWD}/bin; PATH=$PATH:$GOPATH/bin'
@@ -77,20 +78,28 @@ alias re='cd $GOPATH/src/github.com/stormasm/redigo-examples'
 ### start elastic
 
 alias mkes='mkdir src; cd src; mkdir github.com; cd github.com; mkdir olivere; cd olivere'
+alias oli='cd $GOPATH/src/github.com/olivere'
+alias oliv='cd $GOPATH/src/github.com/olivere'
+alias olive='cd $GOPATH/src/github.com/olivere'
 alias el='cd $GOPATH/src/github.com/olivere/elastic'
 
 alias delindex='curl -XDELETE 'http://localhost:9200/warehouse''
 
 alias es1='cd $GOPATH/src/github.com/stormasm/elastic'
 
-alias ee='cd $GOPATH/src/github.com/stormasm/elastic-examples'
+alias ee='cd $GOPATH/src/github.com/olivere/elastic-examples'
 alias eh='cd $GOPATH/src/github.com/stormasm/elastichacker'
 
 alias eebi='cd $GOPATH/src/github.com/stormasm/elastic-examples/bulk'
 
+alias bi1='gr bulkinsert.go -index peach -type orange -n 100 -bulk-size 10'
+
 alias bi='bulk -index nm -type santafe -n 10 -bulk-size 5'
 alias bid='bulkdata2 -index movie -type omdb -n 10 -bulk-size 5'
-alias bis='bulkstring -index nm -type santafe -n 10 -bulk-size 5'
+
+alias bulks1='bulkstring -index=warehouse -type=product -n=100 -bulk-size=10'
+alias bulks2='bulkstring -index nm -type santafe -n 10 -bulk-size 5'
+
 alias essbi='cd $GOPATH/src/github.com/olivere/elastic/recipes/bulk_insert'
 alias ess='cd $GOPATH/src/github.com/olivere/elastic'
 
