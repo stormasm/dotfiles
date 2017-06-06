@@ -1,4 +1,24 @@
 
+alias bn='./node_modules/.bin/babel-node'
+
+### alias bnm='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/starWarsQuery-test.js'
+
+alias bnm1='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/starWarsQuery-test.js'
+
+alias bnm2='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/starWarsIntrospection-test.js'
+
+alias bnm3='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/starWarsValidation-test.js'
+
+alias bnmall='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*-test.js'
+
+##src/**/__tests__/**/*-test.js",
+##src/**/__tests__/**/starWarsQuery-test.js",
+##src/**/__tests__/**/starWarsIntrospection-test.js",
+##src/**/__tests__/**/starWarsValidation-test.js"
+
+
+
+
 ### All Truffle related commands are in .ether
 
 #alias solc='/tmp81/node_modules/solc/solcjs'
@@ -13,3 +33,5 @@ alias npmt='npm test'
 alias macc='mocha --grep Accounts'
 
 alias jsb='js-beautify $1 -o $1'
+
+alias gjs='cd /tmp44/graphql-js'

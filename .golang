@@ -16,6 +16,9 @@ alias gtjson='go tool dist test -run go_test:encoding/json'
 ### Start global commands
 
 alias b='./build'
+
+alias findchan='grh "make(chan" *'
+
 alias gcme='rm -fr bin pkg src'
 alias gex='cd $GOPATH/src/github.com/stormasm/go-examples'
 
@@ -41,6 +44,7 @@ alias rmtest='rm *_test.go'
 
 alias mkasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 alias mkgh='mkdir src; cd src; mkdir github.com; cd github.com'
+alias mkdg='mkdir src; cd src; mkdir github.com; cd github.com; mkdir dgraph-io; cd dgraph-io'
 alias gh='cd $GOPATH/src/github.com'
 alias src='cd $GOPATH/src'
 alias bin='cd $GOPATH/bin'
@@ -126,7 +130,8 @@ alias ch8='cd $GOPATH/src/gopl.io/ch8'
 
 ### start hugo
 
-#alias hugo='/tmp65/bin/hugo'
+alias hugor='hugo server'
+alias hugorun='hugo server'
 
 ### end hugo
 
@@ -160,12 +165,17 @@ alias gdata='cd $GOPATH/src/github.com/stormasm/go-datastructures'
 alias rh='cd $GOPATH/src/github.com/stormasm/redishacker'
 
 ###
+### Start Hashicorp
+###
+
+alias hc='cd $GOPATH/src/github.com/hashicorp'
+alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
+
+###
 ### Start etcd
 ###
 ### Note Leave etcd at the bottom of this file because
 ### I am thinking of breaking this stuff out to its own file called raft or etcd
-
-alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
 
 alias etcd='cd $GOPATH/src/github.com/coreos/etcd'
 alias et='cd $GOPATH/src/github.com/coreos/etcd'
@@ -198,3 +208,31 @@ alias br4c='ectl put k2 "green"'
 alias br4d='ectl get k2'
 alias br4e='ectl put k3 "blue"'
 alias br4f='ectl get k3'
+
+### Cayley
+
+alias ca='cd $GOPATH/src/github.com/cayleygraph/cayley'
+
+### Dgraph
+
+alias dash='cd $GOPATH/src/github.com/dgraph-io/dgraph/dashboard'
+alias dg='cd $GOPATH/src/github.com/dgraph-io/dgraph'
+alias dgcmd='cd $GOPATH/src/github.com/dgraph-io/dgraph/cmd/dgraph'
+alias dglcmd='cd $GOPATH/src/github.com/dgraph-io/dgraph/cmd/dgraphloader'
+alias dgw='cd $GOPATH/src/github.com/dgraph-io/dgraph/wiki'
+alias dgbm='cd $GOPATH/src/github.com/dgraph-io/dgraph-benchmarks'
+alias dgclean='rm -fr p; rm -fr w'
+alias dgcc='rm -fr p; rm -fr w; rm dgraph'
+
+alias dgr='dgraph --port 3000'
+alias dgraphrun='dgraph --port 3000'
+
+### Dgraph stormasm
+
+alias dgl='cd $GOPATH/src/github.com/stormasm/dgraph-loader/cmd/dgraphloader'
+
+alias dglr='gr main.go -r /tmp58/21million.rdf.gz -s /tmp58/21million.schema'
+alias dglr1='dgraphloader -r /tmp58/21million.rdf.gz -s /tmp58/21million.schema'
+alias dglr2='dgraphloader -r /tmp58/sf.tourism.gz'
+
+alias dgc='cd $GOPATH/src/github.com/stormasm/dgc'

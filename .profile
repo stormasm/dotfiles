@@ -6,7 +6,7 @@ export PYENV_VERSION=system
 
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.10.0rc0-py3-none-any.whl
 
-export PATH=/Users/ma/.pyenv/shims:/Users/ma/.rvm/bin:/miahugo:/mia/redis/src:/mianode/node/bin:/mia/golang/go/bin:/mia/golang/bin:/tmp56/meteor:/tmp60/bin:$PATH
+export PATH=/Users/ma/.pyenv/shims:/Users/ma/.rvm/bin:/mia/protoc/bin:/miahugo:/mia/redis/src:/mianode/node/bin:/mia/golang/go/bin:/mia/golang/bin:/tmp56/meteor:/tmp60/bin:$PATH
 
 # Up the ulimit to eliminate problems in node's browserify
 ulimit -n 2000
@@ -56,9 +56,10 @@ alias files='ulimit -n 2000'
 alias g='go run'
 alias grh='grep -RH'
 alias grhchan='grep -RH "chan " *'
+alias gonly='cd greponly'
 alias gu='unicorn -p 4567'
 alias h='history'
-alias hc='history -c'
+alias hclear='history -c'
 alias l='ls -l'
 alias lm='ls -l | more'
 alias lr='ls -lR'
@@ -79,9 +80,10 @@ alias n='node'
 alias op='cd /miajek/octopress'
 alias p='python'
 alias r='ruby'
+alias rmat='xattr -d com.apple.quarantine'
+alias rmat1='xattr -c'
 alias rmhtml='rm *.html'
 alias rmjson='rm *.json'
-alias rmat='xattr -c'
 alias rpretty='ruby-beautify --overwrite'
 
 alias sp='source /Users/ma/.profile'
@@ -249,6 +251,7 @@ alias 56='cd /tmp56'
 alias 57='cd /tmp57'
 alias 58='cd /tmp58'
 alias 59='cd /tmp59'
+alias 59d='cd /tmp59/benchmarks/data'
 
 alias 60='cd /tmp60'
 alias 61='cd /tmp61'

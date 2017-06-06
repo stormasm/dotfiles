@@ -17,7 +17,7 @@ alias 81to='cd /tmp81/typesonly'
 
 alias nc='cd $GOPATH/src/github.com/attic-labs/noms/go/chunks'
 alias nspec='cd $GOPATH/src/github.com/attic-labs/noms/go/spec'
-alias ncmd='cd $GOPATH/src/github.com/attic-labs/noms/cmd/noms'
+alias nscmd='cd $GOPATH/src/github.com/attic-labs/noms/cmd/noms'
 alias ns='cd $GOPATH/src/github.com/attic-labs/noms/go'
 alias nbs='cd $GOPATH/src/github.com/attic-labs/noms/go/nbs'
 alias nsam='cd $GOPATH/src/github.com/attic-labs/noms/samples/go'
@@ -31,7 +31,7 @@ alias nst='cd $GOPATH/src/github.com/stormasm/noms'
 alias nss='cd $GOPATH/src/github.com/stormasm/noms/go'
 alias nsc='cd $GOPATH/src/github.com/stormasm/noms/go/chunks'
 alias nsspec='cd $GOPATH/src/github.com/stormasm/noms/go/spec'
-alias nscmd='cd $GOPATH/src/github.com/stormasm/noms/cmd/noms'
+alias ncmd='cd $GOPATH/src/github.com/stormasm/noms/cmd/noms'
 alias nssam='cd $GOPATH/src/github.com/stormasm/noms/samples/go'
 alias nshr='cd $GOPATH/src/github.com/stormasm/noms/samples/go/hr'
 
@@ -48,13 +48,13 @@ alias nd1='noms sync http://demo.noms.io/cli-tour::sf-film-locations /tmp67/d1::
 
 ### noms commands hr ldb
 
-alias hr1='hr --ds ldb:/tmp67/hr/ldb::hr add-person 42 Abigail Architect'
-alias hr2='hr --ds ldb:/tmp67/hr/ldb::hr add-person 43 Samuel "Chief Laser Operator"'
-alias hr3='hr --ds ldb:/tmp67/hr/ldb::hr list-persons'
+alias hr1='hr --ds my-noms::hr add-person 56 Michael CEO'
+alias hr2='hr --ds my-noms::hr add-person 67 Honey Bun'
+alias hr3='hr --ds my-noms::hr list-persons'
 
-alias hr4='hr --ds ldb:/tmp67/hr/ldb::hr1 add-person 52 Iris A'
-alias hr5='hr --ds ldb:/tmp67/hr/ldb::hr1 add-person 53 Michael B'
-alias hr6='hr --ds ldb:/tmp67/hr/ldb::hr1 list-persons'
+alias hr4='hr --ds my-noms::hr add-person 23 Sarah Blake'
+alias hr5='hr --ds my-noms::hr add-person 18 Sam Bascom'
+alias hr6='hr --ds my-noms::hr list-persons'
 
 ### noms commands hr bolt
 
