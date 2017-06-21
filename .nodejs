@@ -1,4 +1,6 @@
 
+alias gts='cd /tmp31/graphql-test-schema'
+
 alias gex1='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*.js'
 
 alias sw1='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace ./test/starWarsQuery-test.js'
@@ -21,13 +23,13 @@ alias bnm3='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require 
 
 alias bnmall='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*-test.js'
 
+alias mg='cd /tmp30/mocha-graphql'
+alias gts='cd /tmp30/graphql-test-schema'
+
 ##src/**/__tests__/**/*-test.js",
 ##src/**/__tests__/**/starWarsQuery-test.js",
 ##src/**/__tests__/**/starWarsIntrospection-test.js",
 ##src/**/__tests__/**/starWarsValidation-test.js"
-
-
-
 
 ### All Truffle related commands are in .ether
 
@@ -45,3 +47,6 @@ alias macc='mocha --grep Accounts'
 alias jsb='js-beautify $1 -o $1'
 
 alias gjs='cd /tmp44/graphql-js'
+
+alias jp='prettier --write'
+alias pj='prettier --write'
