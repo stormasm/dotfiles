@@ -1,5 +1,6 @@
 
 alias gts='cd /tmp31/graphql-test-schema'
+alias sba='source build_alias.sh'
 
 alias gex1='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*.js'
 

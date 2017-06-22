@@ -3,7 +3,7 @@ export PYTHONPATH=/tmp49/raton/gensim
 
 ### pyvenv
 
-alias sba='source ./bin/activate'
+##alias sba='source ./bin/activate'
 alias sbb='deactivate'
 
 ### Gensim
