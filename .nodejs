@@ -1,6 +1,35 @@
 
-alias gts='cd /tmp31/graphql-test-schema'
+### global javascript / node commands
+
 alias sba='source build_alias.sh'
+
+### npm commands
+
+alias ns='npm start'
+alias npms='npm start'
+alias npmt='npm test'
+
+### mocha commands
+
+alias macc='mocha --grep Accounts'
+
+### Javascript Pretty commands
+
+alias jsb='js-beautify $1 -o $1'
+alias jp='prettier --write'
+alias pj='prettier --write'
+
+### Go directly to /tmp directories
+
+alias mg='cd /tmp30/mocha-graphql'
+alias gts='cd /tmp30/graphql-test-schema'
+alias gjs='cd /tmp30/graphql-js'
+
+###----------------------------------------
+###   Keep the babel commands at the end
+###----------------------------------------
+
+alias bn='./node_modules/.bin/babel-node'
 
 alias gex1='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*.js'
 
@@ -12,10 +41,6 @@ alias sw3='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require .
 
 alias swall='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace ./test/*-test.js'
 
-alias bn='./node_modules/.bin/babel-node'
-
-### alias bnm='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/starWarsQuery-test.js'
-
 alias bnm1='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/starWarsQuery-test.js'
 
 alias bnm2='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/starWarsIntrospection-test.js'
@@ -24,30 +49,4 @@ alias bnm3='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require 
 
 alias bnmall='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*-test.js'
 
-alias mg='cd /tmp30/mocha-graphql'
-alias gts='cd /tmp30/graphql-test-schema'
-
-##src/**/__tests__/**/*-test.js",
-##src/**/__tests__/**/starWarsQuery-test.js",
-##src/**/__tests__/**/starWarsIntrospection-test.js",
-##src/**/__tests__/**/starWarsValidation-test.js"
-
 ### All Truffle related commands are in .ether
-
-#alias solc='/tmp81/node_modules/solc/solcjs'
-
-### npm commands
-
-alias npms='npm start'
-alias npmt='npm test'
-
-### testrpc single test mocha commands
-
-alias macc='mocha --grep Accounts'
-
-alias jsb='js-beautify $1 -o $1'
-
-alias gjs='cd /tmp44/graphql-js'
-
-alias jp='prettier --write'
-alias pj='prettier --write'
