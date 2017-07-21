@@ -50,3 +50,8 @@ alias bnm3='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require 
 alias bnmall='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*-test.js'
 
 ### All Truffle related commands are in .ether
+
+### local aliases
+
+alias br='cd /tmp27/bluerock1'
+alias hn='cd /tmp27/react-hn1'
