@@ -8,8 +8,15 @@
   "autocomplete-plus":
     enableAutoActivation: false
   core:
+    automaticallyUpdate: false
+    closeDeletedFileTabs: true
+    customFileTypes:
+      "source.js": [
+        "jsx"
+      ]
     disabledPackages: [
       "linter-rubocop"
+      "react"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -22,6 +29,8 @@
     tabLength: 4
   "exception-reporting":
     userId: "37f7da2f-a997-64e8-fa58-bd92a59bbec1"
+  "linter-ui-default":
+    panelHeight: 81
   "ruby-block":
     highlightLineNumber: true
   welcome:
