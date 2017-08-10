@@ -16,6 +16,13 @@ alias macc='mocha --grep Accounts'
 ### Javascript Pretty commands
 
 alias jsb='js-beautify $1 -o $1'
+
+#
+# To use prettier you must be in the same
+# directory as the file you are pretty printing
+#
+# pj filename
+#
 alias jp='prettier --write'
 alias pj='prettier --write'
 
