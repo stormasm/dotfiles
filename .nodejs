@@ -55,3 +55,6 @@ alias bnmall='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --requir
 
 alias br='cd /tmp27/bluerock1'
 alias hn='cd /tmp27/react-hn1'
+
+### dependency-check ./package.json --entry config/webpack.config.dev.js
+
