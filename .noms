@@ -1,6 +1,5 @@
 export NOMS_VERSION_NEXT=1
 
-alias nt='cd $GOPATH/src/github.com/attic-labs/noms'
 alias nomst='cd $GOPATH/src/github.com/attic-labs/noms'
 
 alias att='cd $GOPATH/src/github.com/attic-labs'

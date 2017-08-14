@@ -6,8 +6,7 @@ alias sba='source build_alias.sh'
 ### npm commands
 
 alias ns='npm start'
-alias npms='npm start'
-alias npmt='npm test'
+alias nt='npm test'
 
 ### mocha commands
 
