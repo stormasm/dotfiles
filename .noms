@@ -25,7 +25,7 @@ alias ntypes='cd $GOPATH/src/github.com/attic-labs/noms/go/types'
 alias nhr='cd $GOPATH/src/github.com/attic-labs/noms/samples/go/hr'
 
 ### stormasm
-alias nst='cd $GOPATH/src/github.com/stormasm/noms'
+alias nstn='cd $GOPATH/src/github.com/stormasm/noms'
 alias nss='cd $GOPATH/src/github.com/stormasm/noms/go'
 alias nsc='cd $GOPATH/src/github.com/stormasm/noms/go/chunks'
 alias nsspec='cd $GOPATH/src/github.com/stormasm/noms/go/spec'
