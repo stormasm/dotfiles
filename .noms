@@ -106,7 +106,7 @@ alias ninit='go get github.com/attic-labs/noms/cmd/noms'
 
 ### nomsbolt
 
-alias nb='cd $GOPATH/src/github.com/stormasm/nomsbolt'
+##alias nb='cd $GOPATH/src/github.com/stormasm/nomsbolt'
 alias nbc='cd $GOPATH/src/github.com/stormasm/nomsbolt/go/chunks'
 alias nbh='cd $GOPATH/src/github.com/stormasm/nomsbolt/samples/go/hr'
 

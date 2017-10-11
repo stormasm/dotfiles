@@ -5,6 +5,8 @@ alias sba='source build_alias.sh'
 
 ### npm commands
 
+alias nb='npm run build'
+alias ni='npm install'
 alias ns='npm start'
 alias nt='npm test'
 
@@ -60,7 +62,12 @@ alias bnmall='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --requir
 ### local aliases
 
 alias br='cd /tmp27/bluerock1'
+alias rsc='cd /tmp16/reactabular-shopping-cart'
 alias hn='cd /tmp27/react-hn1'
+alias sc='cd /tmp17/redux/examples/shopping-cart/src'
+alias tsc='cd /tmp16/tabular-shopping-cart'
 
 ### dependency-check ./package.json --entry config/webpack.config.dev.js
+
+alias ffj='node index.js bigbird88 60b725f10c9c85c70d97880dfe8191b3'
 
