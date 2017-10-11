@@ -1,77 +1,12 @@
 
+20 react d3 2017 october
+
 03 spec-md and a new blog frontend-notes
 04 jekyll github-pages spec-md
 04 github jekyll websites see also /miajek
 04 s3 see also /mias3
 
-** 29 express, async, lodash  ecosystem
-** 31 graphql-js-test
-** 44 fb ecosystem early june
-** 45 fb ecosystem may 30
-** 46 redux, dashboard, dgv, all work is being done here now...
-
-47 dgraph v0.7.7 05/23
-49 dgraph 05/19
-54 michael compton's code and work moving forward
-
-----------------------------------------------------------------
-
-                         DGRAPH
-
-50 redishacker, hackernoms, elastichacker, and everything else.
-51 cayley
-** 52 dgraph grep only archive, Rocksdb, working version of dgraph for testing
-53 dgraph by itself, Most up to date version May 10.
-
-----------------------------------------------------------------
-
-                         DGRAPH DATA
-
-54 michael compton's 1million data set and binary to process
-55 dgraph select data
-56
-57
-58 21 million
-59 dgraph-io/benchmarks --- this is a large repo, only git pull
-
-----------------------------------------------------------------
-
-64 hashicorp
-
-89 Ethereum Foundation Website
-63 Kubernetes
-65 Docker
-
-40 graphiql, Relay
-
-29 express, async, lodash
-
-82 cd testrpc and then run npms --- this is the production testrpc for truffle
-
-80 See the Readme in here for more details on whats going on with 80-89
-80 Put everything in 80 for now so I can test and see what is going on...
-88 Is where the new testrpc code is located...
-
-89 ethereum.org website along with the token, crowdsale and dao tutorials
-
-70 go-ethererum latest, solc latest
-
-71 p2p-1128
-72 go-ethereum
-73 whisper-0201
-74 stormasm go-ethereum for whisper-v5-switch work
-78 github.com/etherparty/explorer
-79 grep only for ethersphere, ethereum
-
-80 frontier guide
-81 solc example files
-82 truffle, testrpc
-83 truffle tutorial, where truffle gets executed
-84 truffle tutorial, and reference versions of src code for truffle and testrpc.
-
-86 testrpc standalone
-
-60 Golang binaries {goreman, panicparse}
+05 current resume / link16 / spec-md / frontend-notes
 
 99 bs
 
@@ -82,48 +17,39 @@ All of these numbers are /tmpXX where XX is the number below...
 ---------------------------------------------
 
 ---------------------------------------------
-        10 - 20 = 
+        10 - 20 = React
 ---------------------------------------------
 
 ---------------------------------------------
-        20 - 29 = graphql
+        20 - 29 = 
 ---------------------------------------------
 
 ---------------------------------------------
-        30 - 39 = graphql
+        30 - 39 = 
 ---------------------------------------------
 
 ---------------------------------------------
-        40 - 44 = graphql
+        40 - 44 = 
 ---------------------------------------------
 
 ---------------------------------------------
-        45 - 49 = dgraph
+        45 - 49 = 
 ---------------------------------------------
 
 ---------------------------------------------
-        50 - 59 = golang
+        50 - 59 = 
 ---------------------------------------------
 
 ---------------------------------------------
-        60 - 69 = golang
----------------------------------------------
-
-60 Golang Binaries {panicparse}
-61 The Go Language (only)
-62 The Go Language Encoders and other language packages
-
-63 Kubernetes
-64
-65
-66
-
----------------------------------------------
-        70 - 79 = Ethereum
+        60 - 69 = 
 ---------------------------------------------
 
 ---------------------------------------------
-        80 - 89 = Ethereum
+        70 - 79 = 
+---------------------------------------------
+
+---------------------------------------------
+        80 - 89 = 
 ---------------------------------------------
 
 ---------------------------------------------
@@ -133,7 +59,7 @@ All of these numbers are /tmpXX where XX is the number below...
 91
 92
 93
-94
+94 hackernews , hn who is hiring
 95 archive
 96 noms
 97 abackup
