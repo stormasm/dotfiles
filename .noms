@@ -41,7 +41,7 @@ alias nsn='cd $GOPATH/src/github.com/attic-labs/noms/js/noms/src'
 
 ### noms commands
 
-alias nd='noms ds http://demo.noms.io/cli-tour'
+### alias nd='noms ds http://demo.noms.io/cli-tour'
 alias nd1='noms sync http://demo.noms.io/cli-tour::sf-film-locations /tmp67/d1::sf-film-locations'
 
 ### noms commands hr ldb

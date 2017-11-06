@@ -6,9 +6,17 @@ alias sba='source build_alias.sh'
 ### npm commands
 
 alias nb='npm run build'
+alias nd='npm run dev'
 alias ni='npm install'
 alias ns='npm start'
 alias nt='npm test'
+
+### material ui alias
+alias mui='npm run docs:dev'
+
+### next alias for material-ui docs
+
+alias next='./node_modules/.bin/next'
 
 ### mocha commands
 

@@ -147,8 +147,10 @@ alias eb='cd /miajek/etcd.info/_posts'
 alias resumeold='cd /miajek/resume; rvm gemset use ghpages'
 alias resume='cd /miajek/link16; rvm gemset use jekyll'
 alias link15='cd /miajek/link15; rvm gemset use jekyll'
-alias jekrun='bundle exec jekyll serve -P 3000'
-alias jekrun1='bundle exec jekyll serve'
+alias jekrun='jekyll serve -P 3000'
+
+### legacy remove later on
+### alias jekrun='bundle exec jekyll serve -P 3000'
 
 #
 # Elastic Search
