@@ -8,6 +8,8 @@ alias sba='source build_alias.sh'
 alias nb='npm run build'
 alias nd='npm run dev'
 alias ni='npm install'
+alias npr='npm run'
+alias nr='npm run'
 alias ns='npm start'
 alias nt='npm test'
 
