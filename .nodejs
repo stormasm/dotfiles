@@ -5,13 +5,13 @@ alias sba='source build_alias.sh'
 
 ### npm commands
 
-alias nb='npm run build'
-alias nd='npm run dev'
-alias ni='npm install'
+alias nprb='npm run build'
+alias nprd='npm run dev'
+alias npi='npm install'
+alias npiy='npm init -y'
 alias npr='npm run'
-alias nr='npm run'
-alias ns='npm start'
-alias nt='npm test'
+alias nps='npm start'
+alias npt='npm test'
 
 ### material ui alias
 alias mui='npm run docs:dev'
