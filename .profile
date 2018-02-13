@@ -140,6 +140,12 @@ alias rediscsent='cd /mia/redis/src; ./redis-cli -p 26379'
 alias redislog='cd /mia/redislog'
 
 #
+# Mongo
+#
+
+alias mongostart='mongod --fork --logpath /data/log/mongodb.log'
+
+#
 # Jekyll is in /miajek
 #
 

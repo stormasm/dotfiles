@@ -9,12 +9,14 @@ alias nprb='npm run build'
 alias nprd='npm run dev'
 alias npi='npm install'
 alias npiy='npm init -y'
+alias npibb='npm install --save babel-core babel-preset-env'
 alias npr='npm run'
 alias nps='npm start'
 alias npt='npm test'
 
 ### material ui alias
 alias mui='npm run docs:dev'
+alias muidoc='cd material-ui/docs/src/modules'
 
 ### next alias for material-ui docs
 
