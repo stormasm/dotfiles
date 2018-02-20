@@ -145,6 +145,11 @@ alias redislog='cd /mia/redislog'
 
 alias mongostart='mongod --fork --logpath /data/log/mongodb.log'
 
+# To shutdown the mongodb server inside the client type
+#      use admin
+#      db.shutdownServer()
+#
+
 #
 # Jekyll is in /miajek
 #
