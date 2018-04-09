@@ -84,6 +84,7 @@ alias r='ruby'
 alias rmat='xattr -d com.apple.quarantine'
 alias rmat1='xattr -c'
 alias rmhtml='rm *.html'
+alias rmjs='rm *.js'
 alias rmjson='rm *.json'
 alias rpretty='ruby-beautify --overwrite'
 
