@@ -1,6 +1,8 @@
 
 ### global javascript / node commands
 
+export NODE_PATH='/tmp12/node_modules'
+
 alias sba='source build_alias.sh'
 
 ### npm commands
