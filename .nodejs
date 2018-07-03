@@ -1,7 +1,9 @@
 
 ### global javascript / node commands
 
-export NODE_PATH='/tmp12/node_modules'
+export NODE_PATH='/tmp13/node_modules'
+
+alias cnp='env | grep NODE_PATH'
 
 alias sba='source build_alias.sh'
 
