@@ -17,6 +17,7 @@ alias npibb='npm install --save babel-core babel-preset-env'
 alias npr='npm run'
 alias nps='npm start'
 alias npt='npm test'
+alias npw='npm run watch'
 
 ### material ui alias
 alias mui='npm run docs:dev'
