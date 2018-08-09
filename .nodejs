@@ -82,6 +82,7 @@ alias br='cd /tmp27/bluerock1'
 alias rsc='cd /tmp16/reactabular-shopping-cart'
 alias hn='cd /tmp27/react-hn1'
 alias sc='cd /tmp17/redux/examples/shopping-cart/src'
+alias mtd='cd /tmp14/mui-tutorial-demo'
 
 ### dependency-check ./package.json --entry config/webpack.config.dev.js
 
