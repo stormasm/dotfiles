@@ -10,7 +10,7 @@ alias sba='source build_alias.sh'
 ### npm commands
 
 alias nprb='npm run build'
-alias nprd='npm run dev'
+alias nprd='npm run deploy'
 alias npi='npm install'
 alias npiy='npm init -y'
 alias npibb='npm install --save babel-core babel-preset-env'
