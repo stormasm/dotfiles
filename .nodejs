@@ -19,6 +19,10 @@ alias nps='npm start'
 alias npt='npm test'
 alias npw='npm run watch'
 
+### gatsby
+alias gat='gatsby'
+alias gatd='gat develop -p 3000 -H localhost'
+
 ### material ui alias
 alias mui='npm run docs:dev'
 alias muidoc='cd material-ui/docs/src/modules'
