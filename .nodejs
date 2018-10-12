@@ -1,7 +1,9 @@
 
 ### global javascript / node commands
 
-export NODE_PATH='/tmp13/node_modules'
+### export NODE_PATH='/tmp13/node_modules'
+
+alias vs='vue serve'
 
 alias cnp='env | grep NODE_PATH'
 
