@@ -344,3 +344,4 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.secret" ]] && source "$HOME/.secret"
 [[ -s "$HOME/.ether" ]] && source "$HOME/.ether"
 [[ -s "$HOME/.k8s" ]] && source "$HOME/.k8s"
+[[ -s "$HOME/.cloud" ]] && source "$HOME/.cloud"
