@@ -40,6 +40,8 @@ export MANPATH=/opt/local/share/man:$MANPATH
 #
 
 alias atom='atom .'
+alias matom='matom .'
+
 alias c='clear'
 alias co='coffee'
 alias cp='cp -p'
