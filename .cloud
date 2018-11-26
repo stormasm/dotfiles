@@ -1,0 +1,8 @@
+alias doa='ssh -l michael 159.65.102.249'
+alias doar='ssh -l root 159.65.102.249'
+
+alias doa1='ssh -l michael 142.93.85.132'
+alias doar1='ssh -l root 142.93.85.132'
+
+#alias doa2='ssh -l michael 159.65.102.249'
+#alias doar2='ssh -l root 159.65.102.249'
