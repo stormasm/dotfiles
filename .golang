@@ -22,13 +22,16 @@ alias findchan='grh "make(chan" *'
 alias gcme='rm -fr bin pkg src'
 alias gex='cd $GOPATH/src/github.com/stormasm/go-examples'
 
+alias gb='go build'
 alias gf='go fmt'
 alias gg='go get'
 alias gi='go install'
 alias gr='go run'
+alias g3000='godoc -http=:3000'
 alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
 alias gop='export GOPATH=${PWD}; export GOBIN=${PWD}/bin; PATH=$PATH:$GOPATH/bin'
 alias gopc='env | grep GOPATH'
+
 alias gms='goreman start'
 
 alias gt='go test ./...'
