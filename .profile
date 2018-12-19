@@ -76,6 +76,7 @@ alias lo='exit'
 alias m='make'
 alias mia='cd /mia'
 alias mm='cd /miamedia'
+alias mf='cd /miamedia/flickr/content'
 alias mml='cd /miamedia/ml'
 alias mn='cd /mianode'
 alias s3='cd /mias3'
@@ -94,6 +95,7 @@ alias sp='source /Users/ma/.profile'
 alias t=date
 alias tt='cd /miamedia/paxat'
 alias tmp='cd /tmp'
+alias ub='cd /tmp36/ubuntu'
 alias y='yarn'
 
 ### git commands
