@@ -131,9 +131,9 @@ alias dot='cd /miadotfiles'
 alias dotc='cd /miadotfiles/current'
 alias dotcc='cd /miadotfiles/current; ls -al'
 
-alias dotcp='cd ~; cp .gitconfig /miadotfiles/current; cp .bash_login /miadotfiles/current; cp .profile /miadotfiles/current; cp .python /miadotfiles/current; cp .golang /miadotfiles/current; cp .noms /miadotfiles/current; cp .gostar /miadotfiles/current; cp .secret /miadotfiles/current; cp .nodejs /miadotfiles/current; cp .ether /miadotfiles/current'
+alias dotcp='cd ~; cp .gitconfig /miadotfiles/current; cp .bash_login /miadotfiles/current; cp .profile /miadotfiles/current; cp .python /miadotfiles/current; cp .golang /miadotfiles/current; cp .secret /miadotfiles/current; cp .nodejs /miadotfiles/current'
 
-alias dotdiff='cd ~; diff .profile /miadotfiles/current/.profile; diff .python /miadotfiles/current/.python; diff .golang /miadotfiles/current/.golang; diff .noms /miadotfiles/current/.noms; diff .gostar /miadotfiles/current/.gostar; diff .secret /miadotfiles/current/.secret; diff .nodejs /miadotfiles/current/.nodejs; diff .ether /miadotfiles/current/.ether'
+alias dotdiff='cd ~; diff .profile /miadotfiles/current/.profile; diff .python /miadotfiles/current/.python; diff .golang /miadotfiles/current/.golang; diff .secret /miadotfiles/current/.secret; diff .nodejs /miadotfiles/current/.nodejs'
 
 #
 # Redis
