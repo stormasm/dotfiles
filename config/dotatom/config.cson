@@ -1,37 +1,23 @@
 "*":
-  "atom-beautify":
-    _analyticsUserId: "f4162625-63da-4a7d-8d4f-444e066ca75b"
-    general:
-      _analyticsUserId: "bf273892-c526-4c85-acf3-fe9341a0ac5d"
-  "atom-ethereum-interface":
-    useTestRpc: true
-  "autocomplete-plus":
-    enableAutoActivation: false
   core:
     automaticallyUpdate: false
     closeDeletedFileTabs: true
-    customFileTypes:
-      "source.js": [
-        "jsx"
-      ]
     disabledPackages: [
-      "linter-rubocop"
-      "react"
+      "autocomplete-plus"
     ]
-    telemetryConsent: "limited"
+    telemetryConsent: "no"
     themes: [
-      "atom-dark-ui"
+      "one-dark-ui"
       "atom-dark-syntax"
     ]
   editor:
-    fontSize: 17
-    invisibles: {}
-    tabLength: 4
+    fontSize: 18
   "exception-reporting":
-    userId: "37f7da2f-a997-64e8-fa58-bd92a59bbec1"
+    userId: "8f0b37d2-b068-4938-ac8c-c1e98f3b6a62"
+  "ftp-remote-edit":
+    config: "e8dce48eb3296eb09a62088c21863dd71d8b2ea7e6818cd8df3c8098fa5db48b2c1aa86d5c40f8a9537daa57ecba632587c35f669d5c4a6820b701edc0eb749e947ed43ab5001fb787eac3fb1498bad30e22ea6c2e04723c9619b541184c767f70068e89804ddcec7984abbacecaeafc54c240a293685a36bbdcd2270e802a40c21ecd8c2ae1119a3f4d2cddf3441a23bfb7ecf2334eb64a25620aec670dcba4654395d9ff6ffad42621a5"
+    password: "c3cba783bb306ae1"
   "linter-ui-default":
-    panelHeight: 81
-  "ruby-block":
-    highlightLineNumber: true
+    panelHeight: 69
   welcome:
     showOnStartup: false
