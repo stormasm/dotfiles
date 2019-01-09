@@ -9,7 +9,8 @@ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflo
 export PATH=/usr/local/bin:/Users/ma/.pyenv/shims:/Users/ma/.rvm/bin:/mia/protoc/bin:/miahugo:/mia/redis/src:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:/tmp56/meteor:/tmp60/bin:/mia/mongodb/bin:$PATH
 
 # Up the ulimit to eliminate problems in node's browserify
-ulimit -n 100000
+# need to sync this with my new machine
+# ulimit -n 100000
 
 #
 # JAVA
