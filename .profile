@@ -6,7 +6,7 @@ export PYENV_VERSION=system
 
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.10.0rc0-py3-none-any.whl
 
-export PATH=/usr/local/bin:/Users/ma/.pyenv/shims:/Users/ma/.rvm/bin:/mia/protoc/bin:/miahugo:/mia/redis/src:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:/tmp56/meteor:/tmp60/bin:/mia/mongodb/bin:$PATH
+export PATH=/usr/local/bin:/Users/ma/.pyenv/shims:/Users/ma/.rvm/bin:/mia/protoc/bin:/miahugo:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:/tmp56/meteor:/tmp60/bin:/mia/mongodb/bin:$PATH
 
 # Up the ulimit to eliminate problems in node's browserify
 # need to sync this with my new machine
@@ -139,10 +139,10 @@ alias dotdiff='cd ~; diff .profile /miadotfiles/current/.profile; diff .python /
 # Redis
 #
 
-alias redis='cd /mia/redis; ./src/redis-server ./myredis.conf'
-alias redisc='cd /mia/redis; ./src/redis-cli'
-alias redisent='cd /mia/redis; ./src/redis-sentinel ./sentinel.conf'  
-alias rediscsent='cd /mia/redis/src; ./redis-cli -p 26379'
+alias redis='cd /mia/redisio/redis; ./src/redis-server ./myredis.conf'
+alias redisc='cd /mia/redisio/redis; ./src/redis-cli'
+alias redisent='cd /mia/redisio/redis; ./src/redis-sentinel ./sentinel.conf'
+alias rediscsent='cd /mia/redisio/redis/src; ./redis-cli -p 26379'
 alias redislog='cd /mia/redislog'
 
 #
