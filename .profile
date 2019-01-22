@@ -350,3 +350,6 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.ether" ]] && source "$HOME/.ether"
 [[ -s "$HOME/.k8s" ]] && source "$HOME/.k8s"
 [[ -s "$HOME/.cloud" ]] && source "$HOME/.cloud"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
