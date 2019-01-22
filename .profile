@@ -176,10 +176,12 @@ alias jekrun='jekyll serve -P 3000'
 # Elastic Search
 #
 
-alias es='cd /miaes/elasticsearch'
-alias esdata='cd /miaes/elasticsearch/data/nodes/0'
-alias esrun='/miaes/elasticsearch/bin/elasticsearch'
-alias est='cd /miaes'
+alias esrun='cd /tmp19/kibana; cd ./.es/7.0.0; ./bin/elasticsearch'
+
+# alias es='cd /miaes/elasticsearch'
+# alias esdata='cd /miaes/elasticsearch/data/nodes/0'
+# alias esrun='/miaes/elasticsearch/bin/elasticsearch'
+# alias est='cd /miaes'
 
 # Elastic Search Set Environment Variable
 
