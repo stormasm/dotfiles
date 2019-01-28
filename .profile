@@ -144,6 +144,7 @@ alias redisc='cd /mia/redisio/redis; ./src/redis-cli'
 alias redisent='cd /mia/redisio/redis; ./src/redis-sentinel ./sentinel.conf'
 alias rediscsent='cd /mia/redisio/redis/src; ./redis-cli -p 26379'
 alias redislog='cd /mia/redislog'
+alias delkeys='go test -run TestDelKeys'
 
 #
 # Mongo
@@ -167,16 +168,26 @@ alias eb='cd /miajek/etcd.info/_posts'
 alias resumeold='cd /miajek/resume; rvm gemset use ghpages'
 alias resume='cd /miajek/link16; rvm gemset use jekyll'
 alias link15='cd /miajek/link15; rvm gemset use jekyll'
-alias jekrun='jekyll serve -P 3000'
+alias jekgo='jekyll serve -P 3000'
 
 ### legacy remove later on
-### alias jekrun='bundle exec jekyll serve -P 3000'
+### alias jekgo='bundle exec jekyll serve -P 3000'
+
+
+export KIBANA_DIR=/tmp19/kibana
+
+#
+# Kibana
+#
+
+alias krun='cd $KIBANA_DIR; yarn start'
 
 #
 # Elastic Search
 #
 
 alias esrun='cd /tmp19/kibana; cd ./.es/7.0.0; ./bin/elasticsearch'
+alias esdl='cd /tmp19/kibana; yarn es snapshot'
 
 # alias es='cd /miaes/elasticsearch'
 # alias esdata='cd /miaes/elasticsearch/data/nodes/0'
@@ -198,7 +209,7 @@ alias lsrun='/miaes/logstash/bin/logstash agent'
 
 # Kibana
 
-alias krun='/miaes/kibana/bin/kibana'
+# alias krun='/miaes/kibana/bin/kibana'
 
 alias esntop='cd /miaesn'
 alias esp='cd /miaes; rvm gemset use espersistence'
@@ -206,6 +217,12 @@ alias esplugin='/mia/elasticsearch/es/bin/plugin'
 
 alias esruninfo='/mia/elasticsearch/es/bin/elasticsearch -Des.logger.level=INFO'
 alias esrundebug='/mia/elasticsearch/es/bin/elasticsearch -Des.logger.level=DEBUG'
+
+#
+# Pretty Print Json
+#
+
+alias ppj='python -m json.tool'
 
 #
 #
