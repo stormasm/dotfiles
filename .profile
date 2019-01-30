@@ -173,7 +173,6 @@ alias jekgo='jekyll serve -P 3000'
 ### legacy remove later on
 ### alias jekgo='bundle exec jekyll serve -P 3000'
 
-
 export KIBANA_DIR=/tmp19/kibana
 
 #
@@ -357,9 +356,6 @@ export PATH
 # CFAADFA9FAFE779F
 #
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.golang" ]] && source "$HOME/.golang"
 [[ -s "$HOME/.nodejs" ]] && source "$HOME/.nodejs"
 [[ -s "$HOME/.python" ]] && source "$HOME/.python"
@@ -372,3 +368,8 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
