@@ -239,7 +239,3 @@ alias dglr1='dgraphloader -r /tmp58/21million.rdf.gz -s /tmp58/21million.schema'
 alias dglr2='dgraphloader -r /tmp58/sf.tourism.gz'
 
 alias dgc='cd $GOPATH/src/github.com/stormasm/dgc'
-
-### Istio
-
-alias mkistio='mkdir src; cd src; mkdir istio.io; cd istio.io; git clone git@github.com:istio/istio.git'

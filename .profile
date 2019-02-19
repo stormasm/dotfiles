@@ -6,7 +6,7 @@ export PYENV_VERSION=system
 
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.10.0rc0-py3-none-any.whl
 
-export PATH=/usr/local/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/mongodb/bin:~/go/bin:/mia/helm/bin:$PATH
+export PATH=/usr/local/bin:/Users/ma/.pyenv/shims:/Users/ma/.rvm/bin:/mia/protoc/bin:/miahugo:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:/tmp56/meteor:/tmp60/bin:/mia/mongodb/bin:$PATH
 
 # Up the ulimit to eliminate problems in node's browserify
 # need to sync this with my new machine
@@ -142,7 +142,6 @@ alias redisc='cd /mia/redisio/redis; ./src/redis-cli'
 alias redisent='cd /mia/redisio/redis; ./src/redis-sentinel ./sentinel.conf'
 alias rediscsent='cd /mia/redisio/redis/src; ./redis-cli -p 26379'
 alias redislog='cd /mia/redislog'
-alias delkeys='go test -run TestDelKeys'
 
 #
 # Mongo
@@ -166,30 +165,19 @@ alias eb='cd /miajek/etcd.info/_posts'
 alias resumeold='cd /miajek/resume; rvm gemset use ghpages'
 alias resume='cd /miajek/link16; rvm gemset use jekyll'
 alias link15='cd /miajek/link15; rvm gemset use jekyll'
-alias jekgo='jekyll serve -P 3000'
+alias jekrun='jekyll serve -P 3000'
 
 ### legacy remove later on
-### alias jekgo='bundle exec jekyll serve -P 3000'
-
-export KIBANA_DIR=/tmp19/kibana
-
-#
-# Kibana
-#
-
-alias krun='cd $KIBANA_DIR; yarn start'
+### alias jekrun='bundle exec jekyll serve -P 3000'
 
 #
 # Elastic Search
 #
 
-alias esrun='cd /tmp19/kibana; cd ./.es/7.0.0; ./bin/elasticsearch'
-alias esdl='cd /tmp19/kibana; yarn es snapshot'
-
-# alias es='cd /miaes/elasticsearch'
-# alias esdata='cd /miaes/elasticsearch/data/nodes/0'
-# alias esrun='/miaes/elasticsearch/bin/elasticsearch'
-# alias est='cd /miaes'
+alias es='cd /miaes/elasticsearch'
+alias esdata='cd /miaes/elasticsearch/data/nodes/0'
+alias esrun='/miaes/elasticsearch/bin/elasticsearch'
+alias est='cd /miaes'
 
 # Elastic Search Set Environment Variable
 
@@ -206,7 +194,7 @@ alias lsrun='/miaes/logstash/bin/logstash agent'
 
 # Kibana
 
-# alias krun='/miaes/kibana/bin/kibana'
+alias krun='/miaes/kibana/bin/kibana'
 
 alias esntop='cd /miaesn'
 alias esp='cd /miaes; rvm gemset use espersistence'
@@ -214,12 +202,6 @@ alias esplugin='/mia/elasticsearch/es/bin/plugin'
 
 alias esruninfo='/mia/elasticsearch/es/bin/elasticsearch -Des.logger.level=INFO'
 alias esrundebug='/mia/elasticsearch/es/bin/elasticsearch -Des.logger.level=DEBUG'
-
-#
-# Pretty Print Json
-#
-
-alias ppj='python -m json.tool'
 
 #
 #
@@ -354,6 +336,9 @@ export PATH
 # CFAADFA9FAFE779F
 #
 
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.golang" ]] && source "$HOME/.golang"
 [[ -s "$HOME/.nodejs" ]] && source "$HOME/.nodejs"
 [[ -s "$HOME/.python" ]] && source "$HOME/.python"
@@ -363,11 +348,3 @@ export PATH
 [[ -s "$HOME/.ether" ]] && source "$HOME/.ether"
 [[ -s "$HOME/.k8s" ]] && source "$HOME/.k8s"
 [[ -s "$HOME/.cloud" ]] && source "$HOME/.cloud"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
