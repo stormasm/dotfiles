@@ -4,13 +4,35 @@
 export GOROOT=/mia/golang/go
 export GOROOT_BOOTSTRAP=/mia/golang/go
 
+alias gob='export GOBIN=${PWD}/bin; PATH=$PATH:${PWD}/bin'
+alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
+alias goenv='env | grep GO'
+alias gop='export GOPATH=${PWD}; export GOBIN=${PWD}/bin; PATH=$PATH:$GOPATH/bin'
+alias gopc='env | grep GOPATH'
+alias gopclean='unset GOPATH && unset GOBIN'
+
+
+
 ### Go Source Code
+
+alias sgh='cd src/github.com'
+
+alias sghse='cd src/github.com/stormasm/go-examples'
+
+alias sgh1='cd src/github.com/stormasm/go-examples/templates'
+
+alias ghey='cd src/github.com/rakyll/hey'
+alias ghey1='bin/hey -n=1 -c=1 http://github.com'
+alias ghey5='bin/hey -n=5 -c=5 http://github.com'
+alias ghey10='bin/hey -n=10 -c=10 http://github.com'
 
 alias gosrc='cd /tmp69/go/src'
 alias gosrcjson='cd /tmp69/go/src/encoding/json'
 
 ### Go Source Code Tests
 
+alias gtdt='go tool dist test'
+alias gthttp='go tool dist test -run go_test:net/http'
 alias gtjson='go tool dist test -run go_test:encoding/json'
 
 ### Start global commands
@@ -28,9 +50,6 @@ alias gg='go get'
 alias gi='go install'
 alias gr='go run'
 alias g3000='godoc -http=:3000'
-alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
-alias gop='export GOPATH=${PWD}; export GOBIN=${PWD}/bin; PATH=$PATH:$GOPATH/bin'
-alias gopc='env | grep GOPATH'
 
 alias gms='goreman start'
 
