@@ -259,3 +259,12 @@ alias dglr1='dgraphloader -r /tmp58/21million.rdf.gz -s /tmp58/21million.schema'
 alias dglr2='dgraphloader -r /tmp58/sf.tourism.gz'
 
 alias dgc='cd $GOPATH/src/github.com/stormasm/dgc'
+
+### grpc init scripts
+###
+### any time you are in a new directory for the first time
+### you must run these two commands to kick things off.
+### 
+
+alias grpc1='go get -u google.golang.org/grpc'
+alias grpc2='go get -u github.com/golang/protobuf/protoc-gen-go'
