@@ -11,8 +11,6 @@ alias gop='export GOPATH=${PWD}; export GOBIN=${PWD}/bin; PATH=$PATH:$GOPATH/bin
 alias gopc='env | grep GOPATH'
 alias gopclean='unset GOPATH && unset GOBIN'
 
-
-
 ### Go Source Code
 
 alias sgh='cd src/github.com'
@@ -236,6 +234,9 @@ alias br4f='ectl get k3'
 alias ca='cd $GOPATH/src/github.com/cayleygraph/cayley'
 
 ### Dgraph
+
+alias dg0='./dgraph zero'
+alias dg1='./dgraph alpha --lru_mb 1024'
 
 alias dash='cd $GOPATH/src/github.com/dgraph-io/dgraph/dashboard'
 alias dg='cd $GOPATH/src/github.com/dgraph-io/dgraph'
