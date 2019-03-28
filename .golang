@@ -190,9 +190,11 @@ alias rh='cd $GOPATH/src/github.com/stormasm/redishacker'
 
 export VAULT_ADDR='http://127.0.0.1:8200'
 
-alias vaultrun='vault server --dev'
+alias vaultclean='cd /Users/ma; rm .vault-token'
 alias vaultinit='vault auth enable userpass'
 alias vaultlogin='vault write auth/userpass/users/foo password=bar policies=admins'
+alias vaultrun='vault server --dev'
+
 
 alias gov='cd $GOPATH/src/github.com/hashicorp/vault'
 alias hc='cd $GOPATH/src/github.com/hashicorp'
