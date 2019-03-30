@@ -209,7 +209,12 @@ alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
 export ETCDCTL_API=3
 
 alias goetcd='cd $GOPATH/src/github.com/coreos/etcd'
-alias et='cd $GOPATH/src/github.com/coreos/etcd'
+alias ec='etcdctl'
+alias et='etcd'
+alias et1='cd $GOPATH/src/github.com/coreos/etcd'
+
+alias etall='ETCDCTL_API=3 etcdctl get "" --prefix=true'
+alias etall1='ETCDCTL_API=3 etcdctl get "" --from-key'
 
 ### Start raft
 alias ra='cd $GOPATH/src/github.com/coreos/etcd/raft'
