@@ -206,7 +206,9 @@ alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
 ### Note Leave etcd at the bottom of this file because
 ### I am thinking of breaking this stuff out to its own file called raft or etcd
 
-alias etcd='cd $GOPATH/src/github.com/coreos/etcd'
+export ETCDCTL_API=3
+
+alias goetcd='cd $GOPATH/src/github.com/coreos/etcd'
 alias et='cd $GOPATH/src/github.com/coreos/etcd'
 
 ### Start raft
