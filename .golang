@@ -188,13 +188,17 @@ alias rh='cd $GOPATH/src/github.com/stormasm/redishacker'
 ### Start Hashicorp
 ###
 
+alias vc="cd /tmp14/hashicorp/vault/config"
+
 export VAULT_ADDR='http://127.0.0.1:8200'
 
-alias vaultclean='cd /Users/ma; rm .vault-token'
-alias vaultinit='vault auth enable userpass'
-alias vaultlogin='vault write auth/userpass/users/foo password=bar policies=admins'
-alias vaultrun='vault server --dev'
+alias vltclean='cd /Users/ma; rm .vault-token'
+alias vltinit='vault auth enable userpass'
+alias vltlogin='vault write auth/userpass/users/foo password=bar policies=admins'
 
+alias vltdev='vault server --dev'
+alias vltsrv='vault server --config'
+alias vltdevsrv='vault server --dev --config'
 
 alias gov='cd $GOPATH/src/github.com/hashicorp/vault'
 alias hc='cd $GOPATH/src/github.com/hashicorp'
