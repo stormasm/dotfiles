@@ -196,7 +196,7 @@ alias vltclean='cd /Users/ma; rm .vault-token'
 alias vltinit='vault auth enable userpass'
 alias vltlogin='vault write auth/userpass/users/foo password=bar policies=admins'
 
-alias vltdev='vault server --dev'
+alias vltdev='VAULT_API_ADDR=http://localhost:8200 vault server --dev'
 alias vltsrv='vault server --config'
 alias vltdevsrv='vault server --dev --config'
 
