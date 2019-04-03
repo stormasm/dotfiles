@@ -191,6 +191,7 @@ alias rh='cd $GOPATH/src/github.com/stormasm/redishacker'
 alias vc="cd /tmp14/hashicorp/vault/config"
 
 export VAULT_ADDR='http://127.0.0.1:8200'
+export CONSUL_HTTP_ADDR='http://127.0.0.1:8500'
 
 alias vltclean='cd /Users/ma; rm .vault-token'
 alias vltinit='vault auth enable userpass'
