@@ -65,6 +65,8 @@ alias rmtest='rm *_test.go'
 alias mkasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
 alias mkgh='mkdir src; cd src; mkdir github.com; cd github.com'
 alias mkdg='mkdir src; cd src; mkdir github.com; cd github.com; mkdir dgraph-io; cd dgraph-io'
+
+alias mkhc='mkdir src; cd src; mkdir github.com; cd github.com; mkdir hashicorp; cd hashicorp'
 alias mkvlt='mkdir src; cd src; mkdir github.com; cd github.com; mkdir hashicorp; cd hashicorp'
 alias gh='cd $GOPATH/src/github.com'
 alias src='cd $GOPATH/src'
@@ -202,8 +204,13 @@ alias vltdev='VAULT_API_ADDR=http://localhost:8200 vault server --dev'
 alias vltsrv='vault server --config'
 alias vltdevsrv='vault server --dev --config'
 
-alias gov='cd $GOPATH/src/github.com/hashicorp/vault'
 alias hc='cd $GOPATH/src/github.com/hashicorp'
+
+alias goc='cd $GOPATH/src/github.com/hashicorp/consul'
+alias gon='cd $GOPATH/src/github.com/hashicorp/nomad'
+alias got='cd $GOPATH/src/github.com/hashicorp/terraform'
+alias gov='cd $GOPATH/src/github.com/hashicorp/vault'
+
 alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
 
 ###
