@@ -213,6 +213,13 @@ alias gov='cd $GOPATH/src/github.com/hashicorp/vault'
 
 alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
 
+#
+#  Start Hashicorp Terraform
+#
+
+alias gotp='cd $GOPATH/src/github.com/terraform-providers'
+alias gotpdo='cd $GOPATH/src/github.com/terraform-providers/terraform-provider-digitalocean'
+
 ###
 ### Start etcd
 ###
