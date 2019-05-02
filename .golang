@@ -190,6 +190,12 @@ alias rh='cd $GOPATH/src/github.com/stormasm/redishacker'
 ### Start Hashicorp
 ###
 
+### Terraform
+
+alias tti='terraform init'
+alias ttp='terraform plan'
+alias tta='terraform apply -auto-approve'
+
 alias crun='consul agent -dev'
 
 alias mkhc='mkdir src; cd src; mkdir github.com; cd github.com; mkdir hashicorp; cd hashicorp'
