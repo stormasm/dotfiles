@@ -67,8 +67,6 @@ alias mkasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm;
 alias mkgh='mkdir src; cd src; mkdir github.com; cd github.com'
 alias mkdg='mkdir src; cd src; mkdir github.com; cd github.com; mkdir dgraph-io; cd dgraph-io'
 
-alias mkhc='mkdir src; cd src; mkdir github.com; cd github.com; mkdir hashicorp; cd hashicorp'
-alias mkvlt='mkdir src; cd src; mkdir github.com; cd github.com; mkdir hashicorp; cd hashicorp'
 alias gh='cd $GOPATH/src/github.com'
 alias src='cd $GOPATH/src'
 alias bin='cd $GOPATH/bin'
@@ -191,6 +189,11 @@ alias rh='cd $GOPATH/src/github.com/stormasm/redishacker'
 ###
 ### Start Hashicorp
 ###
+
+alias crun='consul agent -dev'
+
+alias mkhc='mkdir src; cd src; mkdir github.com; cd github.com; mkdir hashicorp; cd hashicorp'
+alias mkvlt='mkdir src; cd src; mkdir github.com; cd github.com; mkdir hashicorp; cd hashicorp'
 
 alias vc="cd /tmp14/hashicorp/vault/config"
 
