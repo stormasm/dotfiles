@@ -193,6 +193,7 @@ alias rh='cd $GOPATH/src/github.com/stormasm/redishacker'
 alias crun='consul agent -dev'
 alias nrun='nomad  agent -dev'
 alias vrun='vault server -dev'
+alias hrun='http-echo -text yoh-storm-socorro -listen :3000'
 
 ### Terraform
 
