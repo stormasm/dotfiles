@@ -197,8 +197,9 @@ alias hrun='http-echo -text yoh-storm-socorro -listen :3000'
 
 ### Nomad
 
-alias npurge='curl -X PUT http://localhost:4646/v1/system/gc'
 alias ngc='curl -X PUT http://localhost:4646/v1/system/gc'
+alias npurge='curl -X PUT http://localhost:4646/v1/system/gc'
+alias nstop='nomad stop -purge'
 
 ### Terraform
 
