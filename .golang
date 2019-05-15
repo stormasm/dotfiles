@@ -157,11 +157,15 @@ alias hugorun='hugo server'
 
 ### end hugo
 
+### influx
+alias idb='cd $GOPATH/src/github.com/influxdata/influxdb'
+alias sb='./sandbox'
+alias rin='influx -o yoh repl'
+
 ### start leveldb
 
 alias cdb='cd $GOPATH/src/github.com/cockroachdb/cockroach'
 
-alias idb='cd $GOPATH/src/github.com/influxdata/influxdb'
 alias ldb='cd $GOPATH/src/github.com/syndtr/goleveldb/leveldb'
 alias ndb='cd $GOPATH/src/github.com/attic-labs/noms'
 alias pdb='cd $GOPATH/src/github.com/prometheus/prometheus'
@@ -242,6 +246,12 @@ alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
 
 alias gotp='cd $GOPATH/src/github.com/terraform-providers'
 alias gotpdo='cd $GOPATH/src/github.com/terraform-providers/terraform-provider-digitalocean'
+
+###
+### nats
+###
+
+alias natstart='nats-server -m 8222'
 
 ###
 ### Start etcd

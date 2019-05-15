@@ -15,7 +15,7 @@ export PATH=/mia/protoc/bin:/usr/local/bin:/Users/ma/.pyenv/shims:/Users/ma/.rvm
 #
 # JAVA
 #
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
 
 #
 # Rails
@@ -175,9 +175,9 @@ alias jekrun='jekyll serve -P 3000'
 # Elastic Search
 #
 
-alias es='cd /miaes/elasticsearch'
-alias esdata='cd /miaes/elasticsearch/data/nodes/0'
-alias esrun='/miaes/elasticsearch/bin/elasticsearch'
+alias es='cd /miaes/elastic'
+alias esdata='cd /miaes/elastic/data/nodes/0'
+alias esrun='/miaes/elastic/bin/elasticsearch'
 alias est='cd /miaes'
 
 # Elastic Search Set Environment Variable
@@ -199,10 +199,10 @@ alias krun='/miaes/kibana/bin/kibana'
 
 alias esntop='cd /miaesn'
 alias esp='cd /miaes; rvm gemset use espersistence'
-alias esplugin='/mia/elasticsearch/es/bin/plugin'
+alias esplugin='/mia/elastic/es/bin/plugin'
 
-alias esruninfo='/mia/elasticsearch/es/bin/elasticsearch -Des.logger.level=INFO'
-alias esrundebug='/mia/elasticsearch/es/bin/elasticsearch -Des.logger.level=DEBUG'
+alias esruninfo='/mia/elastic/es/bin/elasticsearch -Des.logger.level=INFO'
+alias esrundebug='/mia/elastic/es/bin/elasticsearch -Des.logger.level=DEBUG'
 
 #
 #
