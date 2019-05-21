@@ -160,6 +160,7 @@ alias hugorun='hugo server'
 ### influx
 alias idb='cd $GOPATH/src/github.com/influxdata/influxdb'
 alias inf='cd $GOPATH/src/github.com/influxdata'
+alias infclean='cd ~/.influxdbv2; rm -fr *'
 alias sb='./sandbox'
 alias rin='influx -o yoh repl'
 
