@@ -162,7 +162,9 @@ alias idb='cd $GOPATH/src/github.com/influxdata/influxdb'
 alias inf='cd $GOPATH/src/github.com/influxdata'
 alias infclean='cd ~/.influxdbv2; rm -fr *'
 alias sb='./sandbox'
-alias rin='influx -o yoh repl'
+alias rinf='influx -o ag repl'
+
+alias inf100='influx write -b rick -o ag -p s @./temp1.txt'
 
 ### start leveldb
 
