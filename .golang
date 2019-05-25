@@ -160,12 +160,15 @@ alias hugorun='hugo server'
 ### influx
 alias idb='cd $GOPATH/src/github.com/influxdata/influxdb'
 alias inf='cd $GOPATH/src/github.com/influxdata'
+alias infchk='env | grep INFLUX_TOKEN'
 alias infclean='cd ~/.influxdbv2; rm -fr *'
+alias infd='influxd'
 alias infsetup1='influx setup --username storm --password 12341234 --org ag --bucket rick'
 alias sb='./sandbox'
 alias rinf='influx -o ag repl'
 
 alias inf100='influx write -b rick -o ag -p s @./temp1.txt'
+alias tconfig='telegraf --config'
 
 ### start leveldb
 
