@@ -161,7 +161,10 @@ alias hugorun='hugo server'
 alias idb='cd $GOPATH/src/github.com/influxdata/influxdb'
 alias inf='cd $GOPATH/src/github.com/influxdata'
 alias infchk='env | grep INFLUX_TOKEN'
+
+alias infv2='cd ~/.influxdbv2'
 alias infclean='cd ~/.influxdbv2; rm -fr *'
+
 alias infd='influxd'
 alias infsetup1='influx setup --username storm --password 12341234 --org ag --bucket rick'
 alias sb='./sandbox'
