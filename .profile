@@ -1,3 +1,8 @@
+
+#
+# Setting up the PATH always is the first line in the file
+#
+
 export PATH=/usr/local/bin:/Users/ma/.rvm/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:~/go/bin:$PATH
 
 # Up the ulimit to eliminate problems in node's browserify
@@ -124,50 +129,7 @@ alias mongostart='mongod --fork --logpath /data/log/mongodb.log'
 # Jekyll is in /miajek
 #
 
-alias jek='cd /miajek/link16'
-alias jekt='cd /miajek'
-alias pdf='cd /miajek/pdf'
-alias eb='cd /miajek/etcd.info/_posts'
-alias resumeold='cd /miajek/resume; rvm gemset use ghpages'
-alias resume='cd /miajek/link16; rvm gemset use jekyll'
-alias link15='cd /miajek/link15; rvm gemset use jekyll'
 alias jekrun='jekyll serve -P 3000'
-
-### legacy remove later on
-### alias jekrun='bundle exec jekyll serve -P 3000'
-
-#
-# Elastic Search
-#
-
-alias es='cd /miaes/elastic'
-alias esdata='cd /miaes/elastic/data/nodes/0'
-alias esrun='/miaes/elastic/bin/elasticsearch'
-alias est='cd /miaes'
-
-# Elastic Search Set Environment Variable
-
-alias esenv1='export ELASTIC_SEARCH_IP=localhost'
-
-# Elastic Search Cache Clear
-
-alias escc="curl -XPOST 'http://localhost:9200/_cache/clear'"
-alias esflush="curl -XDELETE 'http://localhost:9200/_all/?pretty=true'"
-
-# Logstash
-
-alias lsrun='/miaes/logstash/bin/logstash agent'
-
-# Kibana
-
-alias krun='/miaes/kibana/bin/kibana'
-
-alias esntop='cd /miaesn'
-alias esp='cd /miaes; rvm gemset use espersistence'
-alias esplugin='/mia/elastic/es/bin/plugin'
-
-alias esruninfo='/mia/elastic/es/bin/elasticsearch -Des.logger.level=INFO'
-alias esrundebug='/mia/elastic/es/bin/elasticsearch -Des.logger.level=DEBUG'
 
 #
 #
@@ -238,7 +200,6 @@ alias 56='cd /tmp56'
 alias 57='cd /tmp57'
 alias 58='cd /tmp58'
 alias 59='cd /tmp59'
-alias 59d='cd /tmp59/benchmarks/data'
 
 alias 60='cd /tmp60'
 alias 61='cd /tmp61'
@@ -290,17 +251,6 @@ alias 99='cd /tmp99'
 
 alias ns1='lsof -i -n -P'
 alias ns2='lsof -i -n -P | grep geth'
-
-# Setting PATH for Python 2.7
-# The orginal version is saved in .profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-
-#
-# Comcast
-# HOME-A2F2
-# CFAADFA9FAFE779F
-#
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
