@@ -5,6 +5,10 @@
 
 export PATH=/usr/local/bin:/Users/ma/.rvm/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:~/go/bin:$PATH
 
+# Always add the current directory to your PATH so it finds local binaries
+
+export PATH=$PATH:$(pwd)
+
 # Up the ulimit to eliminate problems in node's browserify
 # need to sync this with my new machine
 # ulimit -n 100000
