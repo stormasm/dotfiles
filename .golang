@@ -158,7 +158,7 @@ alias hugorun='hugo server'
 ### end hugo
 
 ### influx
-alias idb='cd $GOPATH/src/github.com/influxdata/influxdb'
+alias infdb='cd $GOPATH/src/github.com/influxdata/influxdb'
 alias inf='cd $GOPATH/src/github.com/influxdata'
 alias infchk='env | grep INFLUX_TOKEN'
 
