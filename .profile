@@ -1,11 +1,3 @@
-
-export RACK_ENV=development
-
-#export PYENV_VERSION=3.5.2
-export PYENV_VERSION=system
-
-export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.10.0rc0-py3-none-any.whl
-
 export PATH=/usr/local/bin:/Users/ma/.rvm/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:~/go/bin:$PATH
 
 # Up the ulimit to eliminate problems in node's browserify
@@ -17,19 +9,6 @@ export PATH=/usr/local/bin:/Users/ma/.rvm/bin:/mia/nodejs/node/bin:/mia/golang/g
 #
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
 
-#
-# Rails
-#
-
-export RAILS_ENV=development
-
-#
-# Me
-#
-
-export ERL_EPMD_ADDRESS=127.0.0.1
-
-export CLASSPATH=/miajava:/miajava/batik:.
 export PS1="\w$ "
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH
@@ -42,24 +21,17 @@ alias atom='atom .'
 alias matom='matom .'
 
 alias c='clear'
-alias co='coffee'
 alias cp='cp -p'
 alias ddddd='rm README.md~'
 
 alias dj='rm *.json'
 alias dp='rm *.pyc'
 alias dl='cd /mia/downloads'
-alias dlm='cd /miadownloads'
 alias drme='rm Readme.txt~'
 alias e='emacs'
-alias electron='/Applications/Electron.app/Contents/MacOS/Electron'
 alias files='ulimit -n 2000'
 alias g='go run'
 alias grh='grep -RH'
-alias grhchan='grep -RH "chan " *'
-alias grhed='grep -RH "export default" *'
-alias gonly='cd greponly'
-alias gu='unicorn -p 4567'
 alias h='history'
 alias hclear='history -c'
 alias l='ls -l'
@@ -77,11 +49,7 @@ alias m='make'
 alias mia='cd /mia'
 alias mm='cd /miamedia'
 alias mf='cd /miamedia/flickr/content'
-alias mml='cd /miamedia/ml'
-alias mn='cd /mianode'
-alias s3='cd /mias3'
 alias n='node'
-alias op='cd /miajek/octopress'
 alias p='python'
 alias r='ruby'
 alias rmat='xattr -d com.apple.quarantine'
@@ -89,13 +57,10 @@ alias rmat1='xattr -c'
 alias rmhtml='rm *.html'
 alias rmjs='rm *.js'
 alias rmjson='rm *.json'
-alias rpretty='ruby-beautify --overwrite'
 
 alias sp='source /Users/ma/.profile'
 alias t=date
-alias tt='cd /miamedia/paxat'
 alias tmp='cd /tmp'
-alias ub='cd /tmp36/ubuntu'
 alias y='yarn'
 
 ### git commands
