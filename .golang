@@ -166,6 +166,8 @@ alias infv2='cd ~/.influxdbv2'
 alias infclean='cd ~/.influxdbv2; rm -fr *'
 
 alias infd='influxd'
+alias infdgen='influxd generate --org ag --bucket rick'
+
 alias infsetup1='influx setup --username storm --password 12341234 --org ag --bucket rick'
 alias sb='./sandbox'
 alias rinf='influx -o ag repl'
@@ -345,7 +347,7 @@ alias dgc='cd $GOPATH/src/github.com/stormasm/dgc'
 ###
 ### any time you are in a new directory for the first time
 ### you must run these two commands to kick things off.
-### 
+###
 
 alias grpc1='go get -u google.golang.org/grpc'
 alias grpc2='go get -u github.com/golang/protobuf/protoc-gen-go'
