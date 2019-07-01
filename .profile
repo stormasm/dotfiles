@@ -60,6 +60,10 @@ alias mm='cd /miamedia'
 alias mf='cd /miamedia/flickr/content'
 alias n='node'
 alias p='python'
+
+alias pic='mv *.JPG /miamedia/pics/canada19'
+alias pic1='mv *.JPEG /miamedia/pics/canada19'
+
 alias r='ruby'
 alias rmat='xattr -d com.apple.quarantine'
 alias rmat1='xattr -c'
