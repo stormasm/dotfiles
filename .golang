@@ -176,6 +176,8 @@ alias rinf='influx -o ag repl'
 
 alias inf100='influx write -b rick -o ag -p s @./temp1.txt'
 alias inf101='influx write -b rick -o ag -p s @./temp2.txt'
+
+alias infw='influx write -b rick -o ag -p s'
 alias tconfig='telegraf --config'
 
 ### start leveldb
