@@ -71,7 +71,7 @@ alias gh='cd $GOPATH/src/github.com'
 alias src='cd $GOPATH/src'
 alias bin='cd $GOPATH/bin'
 
-alias asm='cd $GOPATH/src/github.com/stormasm'
+alias asm='cd src/github.com/stormasm'
 
 ### End global commands
 
@@ -165,7 +165,7 @@ alias inff='cd src/github.com/influxdata/flux'
 alias infchk='env | grep INFLUX_TOKEN'
 
 alias infv2='cd ~/.influxdbv2'
-alias infclean='cd ~/.influxdbv2; rm -fr *'
+alias infclean='unset INFLUX_TOKEN; cd ~/.influxdbv2; rm -fr *'
 
 alias infd='influxd'
 alias infdgen='influxd generate --org ag --bucket rick'
