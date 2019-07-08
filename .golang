@@ -157,6 +157,9 @@ alias hugorun='hugo server'
 
 ### end hugo
 
+### flux
+alias fe='flux execute'
+
 ### influx
 alias inf='cd src/github.com/influxdata'
 alias infdb='cd src/github.com/influxdata/influxdb'
