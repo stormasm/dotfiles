@@ -273,3 +273,5 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.k8s" ]] && source "$HOME/.k8s"
 [[ -s "$HOME/.cloud" ]] && source "$HOME/.cloud"
 [[ -s "$HOME/.influxenv" ]] && source "$HOME/.influxenv"
+
+export PATH="$HOME/.cargo/bin:$PATH"
