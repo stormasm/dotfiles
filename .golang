@@ -159,6 +159,8 @@ alias hugorun='hugo server'
 
 ### flux
 alias fe='flux execute'
+alias infgen='go run github.com/influxdata/flux/internal/cmd/builtin generate --go-pkg github.com/influxdata/flux/stdlib --import-file packages.go'
+
 
 ### influx
 alias inf='cd src/github.com/influxdata'
