@@ -108,9 +108,9 @@ alias dot='cd /miadotfiles'
 alias dotc='cd /miadotfiles/current'
 alias dotcc='cd /miadotfiles/current; ls -al'
 
-alias dotcp='cd ~; cp .gitconfig /miadotfiles/current; cp .bash_login /miadotfiles/current; cp .profile /miadotfiles/current; cp .python /miadotfiles/current; cp .golang /miadotfiles/current; cp .secret /miadotfiles/current; cp .nodejs /miadotfiles/current'
+alias dotcp='cd ~; cp .gitconfig /miadotfiles/current; cp .bash_login /miadotfiles/current; cp .profile /miadotfiles/current; cp .python /miadotfiles/current; cp .golang /miadotfiles/current; cp .secret /miadotfiles/current; cp .nodejs /miadotfiles/current; cp .rust /miadotfiles/current'
 
-alias dotdiff='cd ~; diff .profile /miadotfiles/current/.profile; diff .python /miadotfiles/current/.python; diff .golang /miadotfiles/current/.golang; diff .secret /miadotfiles/current/.secret; diff .nodejs /miadotfiles/current/.nodejs'
+alias dotdiff='cd ~; diff .profile /miadotfiles/current/.profile; diff .python /miadotfiles/current/.python; diff .golang /miadotfiles/current/.golang; diff .secret /miadotfiles/current/.secret; diff .nodejs /miadotfiles/current/.nodejs; diff .rust /miadotfiles/current/.rust'
 
 #
 # Redis
@@ -266,6 +266,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.golang" ]] && source "$HOME/.golang"
 [[ -s "$HOME/.nodejs" ]] && source "$HOME/.nodejs"
 [[ -s "$HOME/.python" ]] && source "$HOME/.python"
+[[ -s "$HOME/.rust" ]] && source "$HOME/.rust"
 [[ -s "$HOME/.gostar" ]] && source "$HOME/.gostar"
 [[ -s "$HOME/.noms" ]] && source "$HOME/.noms"
 [[ -s "$HOME/.secret" ]] && source "$HOME/.secret"
