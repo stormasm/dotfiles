@@ -3,7 +3,7 @@
 # Setting up the PATH always is the first line in the file
 #
 
-export PATH=/usr/local/bin:/Users/ma/.rvm/bin:/mia/protoc/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:~/go/bin:$PATH
+export PATH=/miapg/postgresql/11/bin:/usr/local/bin:/Users/ma/.rvm/bin:/mia/protoc/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:~/go/bin:$PATH
 
 # Always add the current directory to your PATH so it finds local binaries
 
@@ -252,6 +252,12 @@ alias 96='cd /tmp96'
 alias 97='cd /tmp97'
 alias 98='cd /tmp98'
 alias 99='cd /tmp99'
+
+#
+# postgresql commands
+#
+
+alias psqlc='psql -U postgres'
 
 #
 # netstat commands
