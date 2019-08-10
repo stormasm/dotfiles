@@ -5,3 +5,10 @@ alias crb='cargo run --bin'
 alias cre='cargo run --example'
 alias crec='cargo run --example connect 127.0.0.1:8080'
 alias ct='cargo test'
+
+### https://github.com/meilisearch/MeiliES
+
+alias mes='meilies-server --db-path mes.edb'
+alias mec='meiles-cli subscribe rick'
+alias mep='meilies-cli publish rick blue'
+alias mer='redisc -p 6480 publish rick blue'
