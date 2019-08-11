@@ -1,4 +1,5 @@
 alias ca='cargo'
+alias cb='cargo build'
 alias cf='cargo fmt'
 alias cr='cargo run'
 alias crb='cargo run --bin'
@@ -12,3 +13,7 @@ alias mes='meilies-server --db-path mes.edb'
 alias mec='meiles-cli subscribe rick'
 alias mep='meilies-cli publish rick blue'
 alias mer='redisc -p 6480 publish rick blue'
+
+### https://github.com/sile/ekvsb
+
+alias ekrun='ekvsb workload put --count 10 --value-size 10 | ekvsb run sled --dir /tmp05 | ekvsb summary'
