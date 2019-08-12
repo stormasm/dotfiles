@@ -1,6 +1,12 @@
+alias rf='rustfmt'
+
+### cargo commands
+
 alias ca='cargo'
 alias cb='cargo build'
+alias cdoc='cargo doc --no-deps --open'
 alias cf='cargo fmt'
+alias cn='cargo new'
 alias cr='cargo run'
 alias crb='cargo run --bin'
 alias cre='cargo run --example'
