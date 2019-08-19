@@ -3,6 +3,8 @@ alias rf='rustfmt'
 ### cargo commands
 
 alias ca='cargo'
+alias cben='cargo bench'
+alias cbench='cargo bench'
 alias cb='cargo build'
 alias cdoc='cargo doc --no-deps --open'
 alias cf='cargo fmt'
