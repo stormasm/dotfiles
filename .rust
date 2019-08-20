@@ -17,16 +17,16 @@ alias ct='cargo test'
 
 ### https://github.com/meilisearch/MeiliES
 
-alias mes='meilies-server --db-path mes.edb'
+alias mes='meilies-server --db-path /miarust/data/mes.edb'
 alias mec='meiles-cli subscribe rick'
 alias mep='meilies-cli publish rick blue'
 alias mer='redisc -p 6480 publish rick blue'
 
-alias ess='ess --db-path mes.edb'
+alias ess='ess --db-path /miarust/data/mes.edb'
 alias esc='esc subscribe rick'
 alias esp='esc publish rick blue'
 
-alias cess='cargo run -- --db-path mes.edb'
+alias cess='cargo run -- --db-path /miarust/data/mes.edb'
 alias cesc='cargo run subscribe rick'
 alias cesp='cargo run publish rick blue'
 
