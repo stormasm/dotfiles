@@ -15,6 +15,11 @@ alias cre='cargo run --example'
 alias crec='cargo run --example connect 127.0.0.1:8080'
 alias ct='cargo test'
 
+### https://github.com/timberio/vector
+
+alias crv='cargo run -- --config ~/vector.toml'
+alias vrun='vector --config ~/vector.toml'
+
 ### https://github.com/meilisearch/MeiliES
 
 alias mes='meilies-server --db-path /miarust/data/mes.edb'
