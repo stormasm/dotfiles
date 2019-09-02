@@ -17,8 +17,9 @@ alias ct='cargo test'
 
 ### https://github.com/timberio/vector
 
-alias crv='cargo run -- --config ~/vector.toml'
-alias vrun='vector -vv --config ~/vector.toml'
+alias crv='cargo run -- -vv --config /mia/vector/vector.toml'
+alias vrun='vector -vv --config /mia/vector/vector.toml'
+alias vrunchk='vector -d -vv --config /mia/vector/vector.toml'
 
 ### https://github.com/meilisearch/MeiliES
 
