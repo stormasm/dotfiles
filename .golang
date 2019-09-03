@@ -360,3 +360,7 @@ alias dgc='cd $GOPATH/src/github.com/stormasm/dgc'
 
 alias grpc1='go get -u google.golang.org/grpc'
 alias grpc2='go get -u github.com/golang/protobuf/protoc-gen-go'
+
+### prometheus
+
+alias prun='./bin/prometheus --config.file=prome.yml'
