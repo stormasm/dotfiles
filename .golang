@@ -363,4 +363,4 @@ alias grpc2='go get -u github.com/golang/protobuf/protoc-gen-go'
 
 ### prometheus
 
-alias prun='./bin/prometheus --config.file=prome.yml'
+alias prun='prometheus --config.file=/mia/golang/config/prome.yml'

@@ -264,6 +264,7 @@ alias psqlc='psql -U postgres'
 #
 
 alias esrun='/miaes/elastic/bin/elasticsearch'
+alias esheadrun='cd /miaes/elasticsearch-head; npm run start'
 
 #
 # netstat commands
