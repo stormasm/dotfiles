@@ -260,6 +260,12 @@ alias 99='cd /tmp99'
 alias psqlc='psql -U postgres'
 
 #
+# Elastic Search Commands
+#
+
+alias esrun='/miaes/elastic/bin/elasticsearch'
+
+#
 # netstat commands
 #
 
