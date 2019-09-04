@@ -267,6 +267,13 @@ alias esrun='/miaes/elastic/bin/elasticsearch'
 alias esheadrun='cd /miaes/elasticsearch-head; npm run start'
 
 #
+# kafka commands
+#
+
+alias zoorun='/miakafka/kafka/bin/zookeeper-server-start.sh /miakafka/kafka/config/zookeeper.properties'
+alias kafkarun='/miakafka/kafka/bin/kafka-server-start.sh /miakafka/kafka/config/server.properties'
+
+#
 # netstat commands
 #
 
