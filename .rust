@@ -1,3 +1,8 @@
+
+### Find target directories
+
+alias rft='find . -name target'
+
 alias rf='rustfmt'
 
 ### cargo commands
