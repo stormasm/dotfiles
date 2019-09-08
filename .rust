@@ -1,8 +1,9 @@
 
 ### Find target directories
 
+alias rfme='fd -I -t=d'
 alias rftt='find . -name target'
-alias rft='fd -I target'
+alias rft='fd -I -t=d target$'
 
 alias rf='rustfmt'
 
