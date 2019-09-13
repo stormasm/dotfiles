@@ -276,6 +276,9 @@ alias kafkarun='/miakafka/kafka/bin/kafka-server-start.sh /miakafka/kafka/config
 #
 # netstat commands
 #
+# on a macbook to fire up a netstat process listening on port 1235
+# nc -l 1235
+#
 
 alias ns1='lsof -i -n -P'
 alias ns2='lsof -i -n -P | grep geth'
