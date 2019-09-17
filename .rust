@@ -50,3 +50,7 @@ alias cesp='cargo run publish rick blue'
 ### https://github.com/sile/ekvsb
 
 alias ekrun='ekvsb workload put --count 10 --value-size 10 | ekvsb run sled --dir /tmp05 | ekvsb summary'
+
+### hyper example echo server testing
+
+alias ech='curl localhost:3000/echo -XPOST -d'
