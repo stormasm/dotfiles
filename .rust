@@ -18,7 +18,10 @@ alias cf='cargo fmt'
 alias cn='cargo new'
 alias cr='cargo run'
 alias crb='cargo run --bin'
-alias cre='cargo run --example'
+
+### alias cre='cargo run --example'
+alias cre='cargo run --features="runtime unstable-stream" --example'
+
 alias crec='cargo run --example connect 127.0.0.1:8080'
 alias ct='cargo test'
 
