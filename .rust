@@ -1,4 +1,9 @@
 
+alias stable='rustup default stable'
+alias stableinstall='rustup toolchain install stable'
+alias nightly='rustup default nightly'
+alias nightlyinstall='rustup toolchain install nightly'
+
 ### Find target directories
 
 alias rfme='fd -I -t=d'
@@ -19,8 +24,8 @@ alias cn='cargo new'
 alias cr='cargo run'
 alias crb='cargo run --bin'
 
-### alias cre='cargo run --example'
-alias cre='cargo run --features="runtime unstable-stream" --example'
+alias cre='cargo run --example'
+alias cref='cargo run --features="runtime unstable-stream" --example'
 
 alias crec='cargo run --example connect 127.0.0.1:8080'
 alias ct='cargo test'
