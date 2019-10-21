@@ -29,12 +29,15 @@ alias cref='cargo run --features="runtime unstable-stream" --example'
 
 alias crec='cargo run --example connect 127.0.0.1:8080'
 alias ct='cargo test'
+alias ctno='cargo test -- --nocapture'
 
 ### https://github.com/timberio/vector
 
 alias vc='cd /mia/vector-config'
-alias crv='cargo run -- -vv --config /mia/vector-config/vector.toml'
-alias vrun='vector -vv --config /mia/vector-config/vector.toml'
+alias crv='cargo run -- --config /mia/vector-config/vector.toml'
+alias crvv='cargo run -- -vv --config /mia/vector-config/vector.toml'
+alias vrun='vector --config /mia/vector-config/vector.toml'
+alias vvrun='vector -vv --config /mia/vector-config/vector.toml'
 alias vrunchk='vector -d -vv --config /mia/vector-config/vector.toml'
 
 ### https://github.com/meilisearch/MeiliES
@@ -59,3 +62,5 @@ alias ekrun='ekvsb workload put --count 10 --value-size 10 | ekvsb run sled --di
 ### hyper example echo server testing
 
 alias ech='curl localhost:3000/echo -XPOST -d'
+alias echm='curl localhost:3000/mia -XPOST -d'
+alias echr='curl localhost:3000/echo/reversed -XPOST -d'
