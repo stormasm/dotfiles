@@ -23,7 +23,16 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH
 
 #
+# For openssl and pkgconfig
 #
+
+export LDFLAGS="-L/usr/local/opt/openssl/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl/include"
+
+export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
+
+#
+#  Begin alias definitions
 #
 
 alias atom='atom .'
