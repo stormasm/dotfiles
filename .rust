@@ -64,3 +64,9 @@ alias ekrun='ekvsb workload put --count 10 --value-size 10 | ekvsb run sled --di
 alias ech='curl localhost:3000/echo -XPOST -d'
 alias echm='curl localhost:3000/mia -XPOST -d'
 alias echr='curl localhost:3000/echo/reversed -XPOST -d'
+
+### rust search and tantivy
+
+alias tt='cd /tmp/tantivy'
+alias ttc='cd tantivycli0redis'
+alias ttr='cargo run index --file ./data/j10.json --index /tmp/tantivy/wiki/'
