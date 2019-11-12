@@ -24,12 +24,13 @@ export MANPATH=/opt/local/share/man:$MANPATH
 
 #
 # For openssl and pkgconfig
+# This was in there for timberio/vector
+# But is no longer needed...
 #
 
-export LDFLAGS="-L/usr/local/opt/openssl/lib"
-export CPPFLAGS="-I/usr/local/opt/openssl/include"
-
-export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
+# export LDFLAGS="-L/usr/local/opt/openssl/lib"
+# export CPPFLAGS="-I/usr/local/opt/openssl/include"
+# export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
 
 #
 #  Begin alias definitions
