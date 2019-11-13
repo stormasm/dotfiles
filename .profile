@@ -286,8 +286,9 @@ alias kafkarun='/miakafka/kafka/bin/kafka-server-start.sh /miakafka/kafka/config
 #
 # netstat commands
 #
+# https://unix.stackexchange.com/questions/423407/how-can-i-keep-netcat-connection-open
 # on a macbook to fire up a netstat process listening on port 1235
-# nc -l 1235
+# nc -kl 1235
 #
 
 alias ns1='lsof -i -n -P'
