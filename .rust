@@ -1,8 +1,8 @@
 
 alias stable='rustup default stable'
-alias stableinstall='rustup toolchain install stable'
+alias stableinstall='rustup install stable'
 alias nightly='rustup default nightly'
-alias nightlyinstall='rustup toolchain install nightly'
+alias nightlyinstall='rustup install nightly'
 
 ### Find target directories
 
@@ -44,7 +44,7 @@ alias vrunchk='vector -d -vv --config /mia/vector-config/vector.toml'
 ### https://github.com/meilisearch/MeiliES
 
 alias mes='meilies-server --db-path /miarust/data/mes.edb'
-alias mec='meiles-cli subscribe rick'
+alias mec='meilies-cli subscribe rick'
 alias mep='meilies-cli publish rick blue'
 alias mer='redisc -p 6480 publish rick blue'
 
