@@ -68,6 +68,8 @@ alias echr='curl localhost:3000/echo/reversed -XPOST -d'
 
 ### rust search and tantivy
 
+alias ttclean='cd /tmp; rm -fr tantivy; mkdir tantivy'
+
 alias tt='cd /tmp/tantivy'
 alias ttc='cd /tmp00/tantivycli0redis'
 alias tti='cargo run index --file ./data/j10.json --index /tmp/tantivy/wiki/'
