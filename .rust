@@ -30,6 +30,7 @@ alias cref='cargo run --features="runtime unstable-stream" --example'
 alias crec='cargo run --example connect 127.0.0.1:8080'
 alias ct='cargo test'
 alias ctno='cargo test -- --nocapture'
+alias cup='cargo update'
 
 ### https://github.com/timberio/vector
 
