@@ -74,3 +74,5 @@ alias tt='cd /tmp/tantivy'
 alias ttc='cd /tmp00/tantivycli0redis'
 alias tti='cargo run index --file ./data/j10.json --index /tmp/tantivy/wiki/'
 alias ttr='cargo run redis --file ./data/j10.json --index /tmp/tantivy/wiki/'
+
+alias tan='cd /tmp13/rust-search/tantivy/tan00'
