@@ -163,16 +163,15 @@ alias infgen='go run github.com/influxdata/flux/internal/cmd/builtin generate --
 
 
 ### influx
-alias inf='cd src/github.com/influxdata'
-alias infdb='cd src/github.com/influxdata/influxdb'
-alias inff='cd src/github.com/influxdata/flux'
+alias infgo='cd /tmp30/influxdb'
+alias infd='infgo; ./bin/darwin/influxd'
+alias inf='infgo; ./bin/darwin/influx'
 
 alias infchk='env | grep INFLUX_TOKEN'
 
 alias infv2='cd ~/.influxdbv2'
 alias infclean='unset INFLUX_TOKEN; cd ~/.influxdbv2; rm -fr *'
 
-alias infd='influxd'
 alias infdgen='influxd generate --org ag --bucket rick'
 
 alias infsetup='influx setup --username storm --password jjjjjjjj --org ag --bucket rick'
