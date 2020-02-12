@@ -52,10 +52,14 @@ alias g3000='godoc -http=:3000'
 
 alias gms='goreman start'
 
-### Aliases for Testing
+### Aliases for Testing across all filenames in a directory
 
 alias gt='go test'
 alias gtv='gt -v'
+
+### Aliases for Testing names of tests inside files
+
+alias gtr='go test -run'
 alias gtvr='gtv -run'
 
 ### This will run all of the tests in a particular directory
