@@ -52,12 +52,21 @@ alias g3000='godoc -http=:3000'
 
 alias gms='goreman start'
 
-alias gt='go test ./...'
+### Aliases for Testing
+
+alias gt='go test'
+alias gtv='gt -v'
+alias gtvr='gtv -run'
+
+### This will run all of the tests in a particular directory
+
+alias gtd='go test ./...'
+alias gtdv='go test -v ./...'
+
 alias gtb='go test -v -bench .'
 alias gtb1='go test -v -bench=SlowIcingManyIcers'
-alias gtv='go test -v'
 
-alias gtvr='gtv -run'
+######
 
 alias ltest='ls -l *_test.go'
 alias lslt='ls -l *_test.go'
