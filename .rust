@@ -79,3 +79,12 @@ alias ttr='cargo run redis --file ./data/j10.json --index /tmp/tantivy/wiki/'
 alias tan='cd /tmp13/rust-search/tantivy/tan00'
 
 alias cws='cargo-web start --port 3000'
+
+### ripgrep
+#
+### https://github.com/BurntSushi/ripgrep/issues/193
+#
+### rgf pb   // search for all files with the pattern pb in lets say influxdb or bayard
+#            // which both use protocol buffers
+#
+alias rgf='rg --files | rg'
