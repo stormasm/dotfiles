@@ -80,10 +80,6 @@ alias ltest='ls -l *_test.go'
 alias lslt='ls -l *_test.go'
 alias rmtest='rm *_test.go'
 
-alias mkasm='mkdir src; cd src; mkdir github.com; cd github.com; mkdir stormasm; cd stormasm'
-alias mkgh='mkdir src; cd src; mkdir github.com; cd github.com'
-alias mkinf='mkdir src; cd src; mkdir github.com; cd github.com; mkdir influxdata; cd influxdata'
-
 alias gh='cd $GOPATH/src/github.com'
 alias src='cd $GOPATH/src'
 alias bin='cd $GOPATH/bin'
@@ -183,6 +179,8 @@ alias infgen='go run github.com/influxdata/flux/internal/cmd/builtin generate --
 alias infgo='cd /tmp30/influxdb'
 alias infd='infgo; ./bin/darwin/influxd'
 alias inf='infgo; ./bin/darwin/influx'
+
+alias ie2e='influxd --e2e-testing --store=memory'
 
 alias infchk='env | grep INFLUX_TOKEN'
 
