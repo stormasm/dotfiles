@@ -146,8 +146,8 @@ alias els='cd $GOPATH/src/gopkg.in/olivere/elastic.v3'
 
 ### elastic testing
 
-alias estb='gtv -run BulkStringRequest'
-alias estba='gtv -run BulkStringRequestSetString'
+alias estb='go test -v -run BulkStringRequest'
+alias estba='go test -v -run BulkStringRequestSetString'
 
 ### go elastic
 
