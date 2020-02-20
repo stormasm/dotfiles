@@ -4,6 +4,8 @@
 export GOROOT=/mia/golang/go
 export GOROOT_BOOTSTRAP=/mia/golang/go
 
+alias glma='go list -m all'
+
 alias gob='export GOBIN=${PWD}/bin; PATH=$PATH:${PWD}/bin'
 alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
 alias goenv='env | grep GO'
@@ -48,6 +50,8 @@ alias gg='go get -t'
 alias ggnot='go get'
 alias gi='go install'
 alias gr='go run'
+
+alias gda='go doc -all'
 alias g3000='godoc -http=:3000'
 
 alias gms='goreman start'
