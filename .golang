@@ -180,6 +180,13 @@ alias infgo='cd /tmp30/influxdb'
 alias infd='infgo; ./bin/darwin/influxd'
 alias inf='infgo; ./bin/darwin/influx'
 
+### influx packages
+
+alias infpkg='rg \/influxdata'
+alias infmodels='rg \/influxdb\/models'
+alias inftsdb='rg \/influxdb\/tsdb'
+
+
 alias ie2e='influxd --e2e-testing --store=memory'
 
 alias infchk='env | grep INFLUX_TOKEN'
