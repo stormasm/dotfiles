@@ -294,6 +294,13 @@ alias kafkarun='/miakafka/kafka/bin/kafka-server-start.sh /miakafka/kafka/config
 alias ns1='lsof -i -n -P'
 alias ns2='lsof -i -n -P | grep geth'
 
+#
+# comcast
+#
+alias pcom='ping 69.252.80.75'
+alias pcom1='ping 75.75.75.75'
+alias pcom2='ping 75.75.76.76'
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

@@ -178,6 +178,8 @@ alias infgen='go run github.com/influxdata/flux/internal/cmd/builtin generate --
 ### influx
 alias infgo='cd /tmp30/influxdb'
 alias infgot='cd /tmp30/tmp/influxdb'
+alias noui='cd /tmp30/tmp/noui/influxdb'
+
 alias infd='infgo; ./bin/darwin/influxd'
 alias inf='infgo; ./bin/darwin/influx'
 
@@ -193,7 +195,7 @@ alias ie2e='influxd --e2e-testing --store=memory'
 alias infchk='env | grep INFLUX_TOKEN'
 
 alias infv2='cd ~/.influxdbv2'
-alias infclean='unset INFLUX_TOKEN; cd ~/.influxdbv2; rm -fr *'
+alias infclean='cd ~/.influxdbv2; rm -fr engine'
 
 alias infdgen='influxd generate --org ag --bucket rick'
 
