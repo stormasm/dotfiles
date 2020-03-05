@@ -13,6 +13,8 @@ alias gop='export GOPATH=${PWD}; export GOBIN=${PWD}/bin; PATH=$PATH:$GOPATH/bin
 alias gopc='env | grep GOPATH'
 alias gopclean='unset GOPATH && unset GOBIN'
 
+alias gotclean='rm -fr *_test.go'
+
 ### Go Source Code
 
 alias sgh='cd src/github.com'
@@ -179,6 +181,7 @@ alias infgen='go run github.com/influxdata/flux/internal/cmd/builtin generate --
 alias infgo='cd /tmp30/influxdb'
 alias infgot='cd /tmp30/tmp/influxdb'
 alias noui='cd /tmp30/tmp/noui/influxdb'
+alias ie='cd /tmp30/influx-examples'
 
 alias infd='infgo; ./bin/darwin/influxd'
 alias inf='infgo; ./bin/darwin/influx'
