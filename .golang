@@ -6,6 +6,7 @@
 ### export GOBIN=/Users/ma/go/bin
 
 alias glma='go list -m all'
+alias gobin='cd $HOME/go/bin'
 
 alias gob='export GOBIN=${PWD}/bin; PATH=$PATH:${PWD}/bin'
 alias goclean='rm -fr src; rm -fr pkg; rm -fr bin'
@@ -186,6 +187,7 @@ alias ie='cd /tmp30/influx-examples'
 
 alias infd='infgo; ./bin/darwin/influxd'
 alias inf='infgo; ./bin/darwin/influx'
+alias infrepl='influx repl -o ag'
 
 ### influx packages
 
