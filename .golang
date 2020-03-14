@@ -1,8 +1,9 @@
-
-# Go lang environment variables
-
-export GOROOT=/mia/golang/go
-export GOROOT_BOOTSTRAP=/mia/golang/go
+#
+# These Go environment variables are no longer needed
+#
+### export GOROOT=/mia/golang/go
+### export GOROOT_BOOTSTRAP=/mia/golang/go
+### export GOBIN=/Users/ma/go/bin
 
 alias glma='go list -m all'
 
