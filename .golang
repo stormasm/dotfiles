@@ -193,7 +193,9 @@ alias infmodels='rg \/influxdb\/models'
 alias infstorage='rg \/influxdb\/storage'
 alias inftsdb='rg \/influxdb\/tsdb'
 
-alias ie2e='influxd --e2e-testing --store=memory'
+alias igr='gr cmd/influxd/main.go'
+alias ie2e='gr cmd/influxd/main.go --e2e-testing --store=memory'
+alias ie2ec='influxd --e2e-testing --store=memory'
 
 alias infchk='env | grep INFLUX_TOKEN'
 
