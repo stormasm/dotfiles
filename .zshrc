@@ -1,5 +1,6 @@
 
 
+# ok 1
 
 #
 # Setting up the PATH always is the first line in the file
