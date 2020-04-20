@@ -1,4 +1,6 @@
 
+alias py='python3'
+
 export PYTHONPATH=/tmp49/raton/gensim
 
 ### pyvenv

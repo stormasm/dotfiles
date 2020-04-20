@@ -1,6 +1,5 @@
 
 
-# ok 1
 
 #
 # Setting up the PATH always is the first line in the file
@@ -229,8 +228,11 @@ alias 97='cd /tmp97'
 alias 98='cd /tmp98'
 alias 99='cd /j/tmp99'
 
-[[ -s "$HOME/.rust" ]] && source "$HOME/.rust"
+
 [[ -s "$HOME/.golang" ]] && source "$HOME/.golang"
+[[ -s "$HOME/.python" ]] && source "$HOME/.python"
+[[ -s "$HOME/.rust" ]] && source "$HOME/.rust"
+
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
