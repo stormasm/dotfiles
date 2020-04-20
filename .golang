@@ -187,6 +187,7 @@ alias ie='cd /tmp30/influx-examples'
 alias infgo='cd /tmp30/influxdb'
 alias infgot='cd /tmp30/tmp/influxdb'
 alias noui='cd /tmp30/tmp/noui/influxdb'
+alias nouif='cd /tmp30/tmp/noui/flux'
 
 alias infd='infgo; ./bin/darwin/influxd'
 alias inf='infgo; ./bin/darwin/influx'
