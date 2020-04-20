@@ -90,6 +90,7 @@ alias gitsubmodule='git submodule update --init --recursive'
 
 ### dot commands
 
+alias dot='cd /mia/current'
 alias dotc='cd /mia/current'
 
 alias dotcp='cd ~; cp .gitconfig /mia/current; cp .zshrc /mia/current; cp .python /mia/current; cp .golang /mia/current; cp .secret /mia/current; cp .nodejs /mia/current; cp .rust /mia/current'
