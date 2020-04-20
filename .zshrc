@@ -99,6 +99,19 @@ alias dotcp='cd ~; cp .gitconfig /mia/current; cp .zshrc /mia/current; cp .pytho
 alias dotdiff='cd ~; diff .zshrc /mia/current/.zshrc; diff .python /mia/current/.python; diff .golang /mia/current/.golang; diff .secret /mia/current/.secret; diff .nodejs /mia/current/.nodejs; diff .rust /mia/current/.rust'
 
 
+
+#
+# Redis
+#
+
+alias redis='cd /mia/redisio/redis; ./src/redis-server ./myredis.conf'
+alias redisc='cd /mia/redisio/redis; ./src/redis-cli'
+alias redisent='cd /mia/redisio/redis; ./src/redis-sentinel ./sentinel.conf'
+alias rediscsent='cd /mia/redisio/redis/src; ./redis-cli -p 26379'
+alias redislog='cd /mia/redislog'
+
+
+
 alias 00='cd /tmp00'
 alias 01='cd /tmp01'
 alias 02='cd /tmp02'
