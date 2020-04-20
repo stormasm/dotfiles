@@ -95,6 +95,9 @@ alias dotc='cd /mia/current'
 alias dotcp='cd ~; cp .gitconfig /mia/current; cp .zshrc /mia/current; cp .python /mia/current; cp .golang /mia/current; cp .secret /mia/current; cp .nodejs /mia/current; cp .rust /mia/current'
 
 
+alias dotdiff='cd ~; diff .zshrc /mia/current/.zshrc; diff .python /mia/current/.python; diff .golang /mia/current/.golang; diff .secret /mia/current/.secret; diff .nodejs /mia/current/.nodejs; diff .rust /mia/current/.rust'
+
+
 alias 00='cd /tmp00'
 alias 01='cd /tmp01'
 alias 02='cd /tmp02'
