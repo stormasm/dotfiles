@@ -171,7 +171,7 @@ alias 45='cd /tmp45'
 alias 46='cd /tmp46'
 alias 47='cd /tmp47'
 alias 48='cd /tmp48'
-alias 49='cd /tmp49'
+alias 49='cd /j/tmp49'
 
 alias 50='cd /tmp50'
 alias 51='cd /tmp51'

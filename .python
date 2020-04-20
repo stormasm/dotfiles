@@ -1,7 +1,12 @@
 
 alias py='python3'
+alias pip='pip3'
 
-export PYTHONPATH=/tmp49/raton/gensim
+export PYTHONPATH=/j/tmp49
+export PYTHONUSERBASE=/j/tmp49
+export PIP_USER=yes
+
+alias pii='pip install .'
 
 ### pyvenv
 
