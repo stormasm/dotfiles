@@ -30,12 +30,18 @@ export MANPATH=/opt/local/share/man:$MANPATH
 #  Begin alias definitions
 #
 
+#
+# Run this command everytime you reboot
+#
+
+alias fu='sudo mount -uw /'
+
 alias atom='atom .'
 alias matom='matom .'
 
 alias c='clear'
 alias cp='cp -p'
-
+alias dl='cd /mia/downloads'
 alias e='emacs -nw'
 
 alias h='history'
@@ -60,7 +66,7 @@ alias mm='cd /miamedia'
 
 
 
-alias sp='source /Users/ma/.profile'
+alias sp='source /Users/ma/.zshrc'
 
 
 
@@ -223,6 +229,7 @@ alias 98='cd /tmp98'
 alias 99='cd /j/tmp99'
 
 [[ -s "$HOME/.rust" ]] && source "$HOME/.rust"
+[[ -s "$HOME/.golang" ]] && source "$HOME/.golang"
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
