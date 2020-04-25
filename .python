@@ -2,14 +2,11 @@
 alias python='python3'
 alias py='python3'
 alias p='python3'
-alias pip='pipx'
-alias pip3='pipx'
+alias pip='pip3'
 
-# These are no longer needed now that I am using pipx
-#
-# export PYTHONPATH=/j/tmp49
-# export PYTHONUSERBASE=/j/tmp49
-# export PIP_USER=yes
+export PYTHONPATH=/j/tmp49
+export PYTHONUSERBASE=/j/tmp49
+export PIP_USER=yes
 
 # Web Server for Python 2.7
 alias shs='/usr/bin/python -m SimpleHTTPServer 3000'

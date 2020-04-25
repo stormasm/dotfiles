@@ -8,6 +8,7 @@ export PATH=/mia/rust/bin:/miapg/postgresql/11/bin:/usr/local/bin:/Users/ma/.rvm
 
 export PATH=$PATH:$(pwd)
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/j/tmp49/bin:$PATH
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/opt/python@3.8/bin:$PATH"
