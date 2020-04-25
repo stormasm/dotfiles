@@ -7,6 +7,7 @@ alias jn='jupyter notebook'
 
 # To install a local github repo simply go to that repo and type this command
 alias pidot='pip3 install .'
+alias 49p='cd /j/tmp49/lib/python/site-packages'
 
 export PYTHONPATH=/j/tmp49
 export PYTHONUSERBASE=/j/tmp49
