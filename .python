@@ -2,30 +2,11 @@
 alias py='python3'
 alias pip='pip3'
 
-export PYTHONPATH=/j/tmp49
-export PYTHONUSERBASE=/j/tmp49
-export PIP_USER=yes
+# These are no longer needed now that I am using pipx
+#
+# export PYTHONPATH=/j/tmp50
+# export PYTHONUSERBASE=/j/tmp50
+# export PIP_USER=yes
 
-alias pii='pip install .'
-
-### pyvenv
-
-##alias sba='source ./bin/activate'
-alias sbb='deactivate'
-
-### Gensim
-
-alias gent='cd /tmp45/gensim; sba'
-alias gsim='cd /tmp45/gensim; sba'
-alias gens='cd /tmp45/gensim; sba'
-alias gensim='cd /tmp45/gensim; sba'
-alias gst45='cd /tmp45/gensim; sba'
-
-alias gstest='cd ./lib/python3.5/site-packages/gensim/test'
-
-### Jupyter
-alias jn='cd /tmp44/jupyter; sba; jupyter notebook'
-
-
-### Web Server for Python 2.7
+# Web Server for Python 2.7
 alias shs='/usr/bin/python -m SimpleHTTPServer 3000'

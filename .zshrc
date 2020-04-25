@@ -1,11 +1,8 @@
-
-
-
 #
 # Setting up the PATH always is the first line in the file
 #
 
-export PATH=/mia/rust/bin:/miapg/postgresql/11/bin:/usr/local/bin:/Users/ma/.rvm/bin:/mia/protoc/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:~/go/bin:$PATH
+export PATH=/mia/rust/bin:/miapg/postgresql/11/bin:/usr/local/bin:/Users/ma/.rvm/bin:/mia/protoc/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:/mia/golang/bin:~/go/bin:~/.local/bin:$PATH
 
 # Always add the current directory to your PATH so it finds local binaries
 
@@ -20,11 +17,8 @@ export PATH=$PATH:$(pwd)
 #
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
 
-export PS1="\w$ "
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH
-
-
 
 #
 #  Begin alias definitions
@@ -64,11 +58,7 @@ alias m='make'
 alias mia='cd /mia'
 alias mm='cd /miamedia'
 
-
-
 alias sp='source /Users/ma/.zshrc'
-
-
 
 ### git commands
 
@@ -104,8 +94,6 @@ alias dotcp='cd ~; cp .gitconfig /mia/current; cp .zshrc /mia/current; cp .pytho
 
 alias dotdiff='cd ~; diff .zshrc /mia/current/.zshrc; diff .python /mia/current/.python; diff .golang /mia/current/.golang; diff .secret /mia/current/.secret; diff .nodejs /mia/current/.nodejs; diff .rust /mia/current/.rust'
 
-
-
 #
 # Redis
 #
@@ -115,8 +103,6 @@ alias redisc='cd /mia/redisio/redis; ./src/redis-cli'
 alias redisent='cd /mia/redisio/redis; ./src/redis-sentinel ./sentinel.conf'
 alias rediscsent='cd /mia/redisio/redis/src; ./redis-cli -p 26379'
 alias redislog='cd /mia/redislog'
-
-
 
 alias 00='cd /j/tmp00'
 alias 01='cd /j/tmp01'
@@ -173,16 +159,16 @@ alias 47='cd /tmp47'
 alias 48='cd /tmp48'
 alias 49='cd /j/tmp49'
 
-alias 50='cd /tmp50'
-alias 51='cd /tmp51'
-alias 52='cd /tmp52'
-alias 53='cd /tmp53'
-alias 54='cd /tmp54'
-alias 55='cd /tmp55'
-alias 56='cd /tmp56'
-alias 57='cd /tmp57'
-alias 58='cd /tmp58'
-alias 59='cd /tmp59'
+alias 50='cd /j/tmp50'
+alias 51='cd /j/tmp51'
+alias 52='cd /j/tmp52'
+alias 53='cd /j/tmp53'
+alias 54='cd /j/tmp54'
+alias 55='cd /j/tmp55'
+alias 56='cd /j/tmp56'
+alias 57='cd /j/tmp57'
+alias 58='cd /j/tmp58'
+alias 59='cd /j/tmp59'
 
 alias 60='cd /tmp60'
 alias 61='cd /tmp61'
@@ -228,20 +214,18 @@ alias 97='cd /tmp97'
 alias 98='cd /tmp98'
 alias 99='cd /j/tmp99'
 
+PS1='%1d$ '
+
+export LDFLAGS="-L/usr/local/opt/python@3.8/lib"
+export PKG_CONFIG_PATH="/usr/local/opt/python@3.8/lib/pkgconfig"
+
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
 
 [[ -s "$HOME/.golang" ]] && source "$HOME/.golang"
 [[ -s "$HOME/.python" ]] && source "$HOME/.python"
 [[ -s "$HOME/.rust" ]] && source "$HOME/.rust"
 [[ -s "$HOME/.influxenv" ]] && source "$HOME/.influxenv"
-
-
-export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$HOME/.yarn/bin:$PATH"
-
-
-#alias 30='cd /j/tmp30'
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
-PS1='%1d$ '
