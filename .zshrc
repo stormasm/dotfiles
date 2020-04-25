@@ -7,6 +7,10 @@ export PATH=/mia/rust/bin:/miapg/postgresql/11/bin:/usr/local/bin:/Users/ma/.rvm
 # Always add the current directory to your PATH so it finds local binaries
 
 export PATH=$PATH:$(pwd)
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 
 # Up the ulimit to eliminate problems in node's browserify
 # need to sync this with my new machine
@@ -17,7 +21,7 @@ export PATH=$PATH:$(pwd)
 #
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
 
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
 export MANPATH=/opt/local/share/man:$MANPATH
 
 #
@@ -214,14 +218,12 @@ alias 97='cd /tmp97'
 alias 98='cd /tmp98'
 alias 99='cd /j/tmp99'
 
+# This is the command prompt setting for zsh
 PS1='%1d$ '
 
 export LDFLAGS="-L/usr/local/opt/python@3.8/lib"
 export PKG_CONFIG_PATH="/usr/local/opt/python@3.8/lib/pkgconfig"
 
-export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$HOME/.yarn/bin:$PATH"
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
