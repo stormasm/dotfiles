@@ -9,7 +9,7 @@ alias jn='jupyter notebook'
 alias pidot='pip3 install .'
 alias 49p='cd /j/tmp49/lib/python/site-packages'
 
-export PYTHONPATH=/j/tmp49
+export PYTHONPATH=/j/tmp49/lib/python/site-packages
 export PYTHONUSERBASE=/j/tmp49
 export PIP_USER=yes
 
