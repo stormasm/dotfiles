@@ -40,7 +40,7 @@ alias matom='matom .'
 
 alias c='clear'
 alias cp='cp -p'
-alias dl='cd /mia/downloads'
+alias dl='cd /miamedia/downloads'
 alias e='emacs -nw'
 
 alias h='history'
