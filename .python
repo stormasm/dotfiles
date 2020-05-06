@@ -1,4 +1,5 @@
 
+alias ip='ipython'
 alias python='python3'
 alias py='python3'
 alias p='python3'
