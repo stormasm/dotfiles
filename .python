@@ -4,6 +4,7 @@ alias python='python3'
 alias py='python3'
 alias p='python3'
 alias pip='pip3'
+alias pj='py -m json.tool'
 alias jn='jupyter notebook'
 
 # To install a local github repo simply go to that repo and type this command
