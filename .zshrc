@@ -225,6 +225,10 @@ PS1='%1d$ '
 export LDFLAGS="-L/usr/local/opt/python@3.8/lib"
 export PKG_CONFIG_PATH="/usr/local/opt/python@3.8/lib/pkgconfig"
 
+# For protoc
+export PROTOC="/mia/protoc/bin/protoc"
+export PROTOC_INCLUDE="/mia/protoc/include"
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
