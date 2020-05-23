@@ -89,5 +89,8 @@ alias cws='cargo-web start --port 3000'
 #
 alias rgf='rg --files | rg'
 
+### arrow
+
 export PARQUET_TEST_DATA=/j/tmp15/arrow/cpp/submodules/parquet-testing/data
 export ARROW_TEST_DATA=/j/tmp15/arrow/testing/data
+alias arr='cd /j/tmp15/arrow/rust'
