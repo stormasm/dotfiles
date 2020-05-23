@@ -88,3 +88,6 @@ alias cws='cargo-web start --port 3000'
 #            // which both use protocol buffers
 #
 alias rgf='rg --files | rg'
+
+export PARQUET_TEST_DATA=/j/tmp15/arrow/cpp/submodules/parquet-testing/data
+export ARROW_TEST_DATA=/j/tmp15/arrow/testing/data

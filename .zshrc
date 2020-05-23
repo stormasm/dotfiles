@@ -88,6 +88,7 @@ alias gpo='git push origin'
 alias grso='git remote show origin'
 alias gs='git status'
 alias gitsubmodule='git submodule update --init --recursive'
+alias gsup='git submodule update --init'
 
 ### dot commands
 
