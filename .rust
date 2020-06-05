@@ -31,6 +31,7 @@ alias crec='cargo run --example connect 127.0.0.1:8080'
 alias ct='cargo test'
 alias ctno='cargo test -- --nocapture'
 alias cup='cargo update'
+alias cv='cargo -V'
 
 ### https://github.com/timberio/vector
 
@@ -89,8 +90,20 @@ alias cws='cargo-web start --port 3000'
 #
 alias rgf='rg --files | rg'
 
-### arrow
+### arrow and parquet
 
 export PARQUET_TEST_DATA=/j/tmp15/arrow/cpp/submodules/parquet-testing/data
 export ARROW_TEST_DATA=/j/tmp15/arrow/testing/data
-alias arr='cd /j/tmp15/arrow/rust'
+
+alias arc='cd /j/tmp14/arrow/cpp'
+alias arp='cd /j/tmp14/arrow/python'
+alias arr='cd /j/tmp14/arrow/rust'
+alias art='cd /j/tmp14/arrow'
+
+alias cmakear1='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON ..'
+alias cmakear2='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON -DARROW_PARQUET=ON ..'
+
+alias rgp='rgf "\.parquet"'
+
+### serde
+alias rgs='rg Serialize'
