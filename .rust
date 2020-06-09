@@ -107,3 +107,6 @@ alias rgp='rgf "\.parquet"'
 
 ### serde
 alias rgs='rg Serialize'
+
+### canop/whalespotter.git
+alias ws='whalespotter'
