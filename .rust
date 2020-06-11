@@ -18,6 +18,7 @@ alias ca='cargo'
 alias cben='cargo bench'
 alias cbench='cargo bench'
 alias cb='cargo build'
+alias cbr='cargo build --release'
 alias cdoc='cargo doc --no-deps --open'
 alias cf='cargo fmt'
 alias cn='cargo new'
@@ -110,3 +111,7 @@ alias rgs='rg Serialize'
 
 ### canop/whalespotter.git
 alias ws='whalespotter'
+
+### gyscos/cursive
+### go to the examples directory and add the example name
+alias cce='cr --features cursive/crossterm-backend --bin'
