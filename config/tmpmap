@@ -1,30 +1,43 @@
 
 
-09 legacy, leave here through august 1, 2018
-10 archive
-11 checkbox
+00 - 19 is allocated for future rust code
 
-20 vue
-20 frontend code ends at 20
+00 - 04 is rust code
 
-21 - 30 is empty
+05 - 11 is empty
 
-30 golang code starts at 30
-31 etcd
-34 kubernetes
-35 runc, containerd
-36 dockerlibrary, docker-examples
+12 - firecracker, ta-rs, linear algebra
+13 - rust thru feb 13, 2020
+14 - rust all  spring 2020
+15 - rust grpc summer 2020, arrow, ballista, tonic
+16 - rust terminal, tui-rs
+17 - redis-clients, tile38
 
----------------------------------------------------------------------------------------
+20 rust source code
 
-checked on nov 21, 2018
+21 rust wasm and wasmtime
+22 react and rust combined
+23 rustpython, weld
 
-40 - 95 is empty
+30 influxdb takes up 1.1G of space
+   Current Go code directory
 
----------------------------------------------------------------------------------------
+31 influxdb python client
+32 python quant libraries and packages
 
-95 = archive
-96 = archive
-97 = archive
-98 = archive
-99 = dumping ground
+36 python, golang and rust grpc
+
+39 diary
+
+14 - 40 is currently empty, except {20,21,22,30,31,32,39}
+
+pipx stuff is in ~/.local
+and python library stuff is in /j/tmp49
+
+49 python pip3 libraries
+
+99 music, spanish
+
+-------------------------------------------------------------
+
+/mia/vector-config    rust vector config
