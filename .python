@@ -5,13 +5,14 @@ alias py='python3'
 alias p='python3'
 alias pip='pip3'
 alias pj='py -m json.tool'
+alias ppath='env | grep PYTHONPATH'
 alias jn='jupyter notebook'
 
 # To install a local github repo simply go to that repo and type this command
 alias pidot='pip3 install .'
 alias 49p='cd /j/tmp49/lib/python/site-packages'
 
-export PYTHONPATH=/j/tmp49/lib/python/site-packages
+export PYTHONPATH=/j/tmp49/lib/python/site-packages:/j/tmp32/bluemesa/py
 export PYTHONUSERBASE=/j/tmp49
 export PIP_USER=yes
 
@@ -19,4 +20,8 @@ export PIP_USER=yes
 alias shs='/usr/bin/python -m SimpleHTTPServer 3000'
 
 # Random aliases associated with python projects
-alias bm='cd /j/tmp32/bluemesa'
+alias bm='cd /j/tmp32/bluemesa/py'
+alias pe='cd /j/tmp32/python-examples'
+
+# Random environment variables associated with python projects
+export BMTOP=/j/tmp32
