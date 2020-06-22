@@ -20,7 +20,7 @@ export PIP_USER=yes
 alias shs='/usr/bin/python -m SimpleHTTPServer 3000'
 
 # Random aliases associated with python projects
-alias bm='cd /j/tmp32/bluemesa/py'
+alias bm='cd /j/tmp32/bluemesa/py/bluemesa'
 alias pe='cd /j/tmp32/python-examples'
 
 # Random environment variables associated with python projects
