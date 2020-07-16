@@ -111,6 +111,12 @@ alias redisent='cd /mia/redisio/redis; ./src/redis-sentinel ./sentinel.conf'
 alias rediscsent='cd /mia/redisio/redis/src; ./redis-cli -p 26379'
 alias redislog='cd /mia/redislog'
 
+#
+# Misc
+#
+
+alias bl='cd /j/tmp99/spanish/books/blair'
+
 alias 00='cd /j/tmp00'
 alias 01='cd /j/tmp01'
 alias 02='cd /j/tmp02'
@@ -218,7 +224,7 @@ alias 94='cd /tmp94'
 alias 95='cd /tmp95'
 alias 96='cd /tmp96'
 alias 97='cd /tmp97'
-alias 98='cd /tmp98'
+alias 98='cd /j/tmp98'
 alias 99='cd /j/tmp99'
 
 # This is the command prompt setting for zsh
