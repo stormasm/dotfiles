@@ -115,7 +115,12 @@ alias redislog='cd /mia/redislog'
 # Misc
 #
 
+alias span='cd /j/tmp99/spanish'
 alias bl='cd /j/tmp99/spanish/books/blair'
+
+#
+# /tmp
+#
 
 alias 00='cd /j/tmp00'
 alias 01='cd /j/tmp01'
