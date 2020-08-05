@@ -29,6 +29,7 @@ alias eqd='cd /j/tmp32/equity-data'
 alias eqe='cd /j/tmp32/equity-etf'
 alias eqf='cd /j/tmp32/equity-fun'
 alias eqs='cd /j/tmp32/equity-symbols'
+alias sx='cd /j/tmp32/soup-xbrl'
 
 # Random environment variables associated with python projects
 export BMTOP=/j/tmp32

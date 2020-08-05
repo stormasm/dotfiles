@@ -115,3 +115,8 @@ alias ws='whalespotter'
 ### gyscos/cursive
 ### go to the examples directory and add the example name
 alias cce='cr --features cursive/crossterm-backend --bin'
+
+### nushell
+alias nutop='cd /j/tmp25/nushell17.0'
+alias nusrc='cd /j/tmp25/nushell17.0/src'
+alias nucli='cd /j/tmp25/nushell17.0/crates/nu-cli/src'
