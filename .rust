@@ -117,6 +117,7 @@ alias ws='whalespotter'
 alias cce='cr --features cursive/crossterm-backend --bin'
 
 ### nushell
-alias nutop='cd /j/tmp25/nushell17.0'
-alias nusrc='cd /j/tmp25/nushell17.0/src'
-alias nucli='cd /j/tmp25/nushell17.0/crates/nu-cli/src'
+alias nutop='cd /j/tmp24/nushell'
+alias nusrc='cd /j/tmp24/nushell/src'
+alias nuc='cd /j/tmp24/nushell/crates'
+alias nucli='cd /j/tmp24/nushell/crates/nu-cli/src'
