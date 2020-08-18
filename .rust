@@ -90,6 +90,7 @@ alias cws='cargo-web start --port 3000'
 #            // which both use protocol buffers
 #
 alias rgf='rg --files | rg'
+alias rgtest="rg 'cfg\(test\)'"
 
 ### arrow and parquet
 
