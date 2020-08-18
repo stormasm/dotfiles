@@ -1,0 +1,3 @@
+edit_mode = "emacs"
+startup = ["alias nutop  [] {cd /j/tmp24/nushell}", "alias nusrc  [] {cd /j/tmp24/nushell/src}"]
+skip_welcome_message = true
