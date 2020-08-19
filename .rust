@@ -119,11 +119,16 @@ alias cce='cr --features cursive/crossterm-backend --bin'
 
 ### nushell
 alias nuo='cd /j/tmp24/nushell-orig'
-alias nuc='cd /j/tmp24/nushell-orig/crates'
-alias nucli='cd /j/tmp24/nushell-orig/crates/nu-cli/src'
+alias nuoc='cd /j/tmp24/nushell-orig/crates'
+alias nuocli='cd /j/tmp24/nushell-orig/crates/nu-cli/src'
 
 alias nutop='cd /j/tmp24/nushell'
-alias nusrc='cd /j/tmp24/nushell/src'
+alias nuc='cd /j/tmp24/nushell/crates'
+alias nucli='cd /j/tmp24/nushell/crates/nu-cli/src'
 
 alias nuconfig='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
+
+alias nurun='./target/debug/nu'
+alias nurund='./target/debug/nu --loglevel=trace -c date'
+alias nurunt='./target/debug/nu --loglevel=trace -c date'
