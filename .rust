@@ -122,9 +122,9 @@ alias nuo='cd /j/tmp24/nushell-orig'
 alias nuoc='cd /j/tmp24/nushell-orig/crates'
 alias nuocli='cd /j/tmp24/nushell-orig/crates/nu-cli/src'
 
-alias nutop='cd /j/tmp24/nushell'
-alias nuc='cd /j/tmp24/nushell/crates'
-alias nucli='cd /j/tmp24/nushell/crates/nu-cli/src'
+alias nutop='cd /j/tmp24/nushell18.1'
+alias nuc='cd /j/tmp24/nushell18.1/crates'
+alias nucli='cd /j/tmp24/nushell18.1/crates/nu-cli/src'
 
 alias nuconfig='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
