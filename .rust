@@ -126,6 +126,8 @@ alias nutop='cd /j/tmp24/nushell18.1'
 alias nuc='cd /j/tmp24/nushell18.1/crates'
 alias nucli='cd /j/tmp24/nushell18.1/crates/nu-cli/src'
 
+alias nutmp='cd /j/tmp24/nushelltmp/v18.1/tmp00'
+
 alias nuconfig='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
