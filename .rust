@@ -132,7 +132,10 @@ alias nuconfig='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
 alias nurun='nutop; ./target/debug/nu'
-alias nuruni='nutop; ./target/debug/nu --loglevel=info'
-alias nurund='nutop; ./target/debug/nu --loglevel=debug'
-alias nurundate='nutop; ./target/debug/nu --loglevel=trace -c date'
-alias nurunls='nutop; ./target/debug/nu --loglevel=trace -c ls'
+
+alias nuruni='nurun --loglevel=info'
+alias nurund='nurun --loglevel=debug'
+alias nurunt='nurun --loglevel=trace'
+
+alias nurundate='nurunt -c date'
+alias nurunls='nurunt -c ls'
