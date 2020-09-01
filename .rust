@@ -118,19 +118,13 @@ alias ws='whalespotter'
 alias cce='cr --features cursive/crossterm-backend --bin'
 
 ### nushell
-alias nuo='cd /j/tmp24/nushell-orig'
-alias nuoc='cd /j/tmp24/nushell-orig/crates'
-alias nuocli='cd /j/tmp24/nushell-orig/crates/nu-cli/src'
 
-alias nutop='cd /j/tmp24/nushell18.1'
-alias nuc='cd /j/tmp24/nushell18.1/crates'
-alias nucli='cd /j/tmp24/nushell18.1/crates/nu-cli/src'
-
-alias nutmp='cd /j/tmp24/nushelltmp/v18.1/tmp00'
-
+alias nutmp='cd /j/tmp24/nushelltmp/v18.2/tmp01'
 alias nuconfig='cd /Users/ma/Library/Preferences/org.nushell.nu'
+alias nuhist='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
+alias nutop='cd /j/tmp25/nushell'
 alias nurun='nutop; ./target/debug/nu'
 
 alias nuruni='nurun --loglevel=info'
@@ -139,3 +133,9 @@ alias nurunt='nurun --loglevel=trace'
 
 alias nurundate='nurunt -c date'
 alias nurunls='nurunt -c ls'
+
+alias nuc='nutop; cd crates'
+alias nucli='nutop; cd crates/nu-cli/src'
+alias nupro='nutop; cd crates/nu-protocol/src'
+
+alias cpcli='cp cli.rs /j/tmp24/nushelltmp/v18.2/tmp01; cd /j/tmp24/nushelltmp/v18.2/tmp01'
