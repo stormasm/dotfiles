@@ -4,6 +4,8 @@ alias stableinstall='rustup install stable'
 alias nightly='rustup default nightly'
 alias nightlyinstall='rustup install nightly'
 
+alias rbin='cd /mia/rust/bin'
+
 ### Find target directories
 
 alias rfme='fd -I -t=d'
@@ -97,6 +99,9 @@ alias rgtest="rg 'cfg\(test\)'"
 export PARQUET_TEST_DATA=/j/tmp15/arrow/cpp/submodules/parquet-testing/data
 export ARROW_TEST_DATA=/j/tmp15/arrow/testing/data
 
+alias arex1='cre read_csv --features "prettyprint"'
+alias arex2='cre read_csv_infer_schema --features "prettyprint"'
+
 alias arc='cd /j/tmp14/arrow/cpp'
 alias arp='cd /j/tmp14/arrow/python'
 alias arr='cd /j/tmp14/arrow/rust'
@@ -125,11 +130,18 @@ alias nuhist='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
 alias nutop='cd /j/tmp25/nushell'
+
 alias nurun='nutop; ./target/debug/nu'
+alias nut='nutop; ./target/debug/nu'
 
 alias nuruni='nurun --loglevel=info'
+alias nuti='nurun --loglevel=info'
+
 alias nurund='nurun --loglevel=debug'
+alias nutd='nurun --loglevel=debug'
+
 alias nurunt='nurun --loglevel=trace'
+alias nutt='nurun --loglevel=trace'
 
 alias nurundate='nurunt -c date'
 alias nurunls='nurunt -c ls'
