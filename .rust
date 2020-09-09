@@ -101,11 +101,14 @@ export ARROW_TEST_DATA=/j/tmp15/arrow/testing/data
 
 alias arex1='cre read_csv --features "prettyprint"'
 alias arex2='cre read_csv_infer_schema --features "prettyprint"'
+alias arex3='cre read_csv_ui --features "prettyprint"'
 
-alias arc='cd /j/tmp14/arrow/cpp'
-alias arp='cd /j/tmp14/arrow/python'
-alias arr='cd /j/tmp14/arrow/rust'
-alias art='cd /j/tmp14/arrow'
+alias artop='cd /j/tmp25'
+
+alias arc='artop; cd arrow/cpp'
+alias arp='artop; cd arrow/python'
+alias arr='artop; cd arrow/rust/arrow'
+alias art='artop; cd arrow'
 
 alias cmakear1='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON ..'
 alias cmakear2='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON -DARROW_PARQUET=ON ..'
