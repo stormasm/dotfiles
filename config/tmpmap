@@ -10,8 +10,11 @@
 13 - rust thru feb 13, 2020
 14 - rust all  spring 2020
 15 - rust grpc summer 2020, arrow, ballista, tonic
-16 - rust terminal, tui-rs
-17 - redis-clients, tile38
+
+16 - ** rust summer 2020 ** alacritty, rust terminal, tui-rs, rust-notes
+
+17 - redis-clients in rust, python, go, and javascript
+18 - redcon, tile-38 redis-server
 
 20 rust source code
 
@@ -19,23 +22,42 @@
 22 react and rust combined
 23 rustpython, weld
 
+-------------------------------------------------------
+         Nushell only and associated repos
+-------------------------------------------------------
+
+24 nushell latest release
+25 nushell main, apache arrow, dataframes
+26
+27
+28
+29 nushell wasm
+
+-------------------------------------------------------
+
 30 influxdb takes up 1.1G of space
    Current Go code directory
 
 31 influxdb python client
-32 python quant libraries and packages
+32 python quant libraries and packages, yahoo_fin
+33 python example model repos including
+34 influx stuff
 
 36 python, golang and rust grpc
+37 python example model repos including pandas, zipline
+39 python archive, and or code that can be deleted soon
 
-39 diary
 
 14 - 40 is currently empty, except {20,21,22,30,31,32,39}
 
 pipx stuff is in ~/.local
 and python library stuff is in /j/tmp49
 
+42 python old backup github repos, periodically purge
+
 49 python pip3 libraries
 
+98 diary
 99 music, spanish
 
 -------------------------------------------------------------
