@@ -127,7 +127,7 @@ alias cce='cr --features cursive/crossterm-backend --bin'
 
 ### nushell
 
-alias nutmp='cd /j/tmp24/nushelltmp/v18.2/tmp01'
+alias nutmp='cd /j/tmp25/nushelltmp/v19.0/tmp00'
 alias nuconfig='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nuhist='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
@@ -142,6 +142,7 @@ alias nuti='nurun --loglevel=info'
 
 alias nurund='nurun --loglevel=debug'
 alias nutd='nurun --loglevel=debug'
+alias nude='nutop; ./target/debug/nude --loglevel=debug'
 
 alias nurunt='nurun --loglevel=trace'
 alias nutt='nurun --loglevel=trace'
@@ -151,6 +152,8 @@ alias nurunls='nurunt -c ls'
 
 alias nuc='nutop; cd crates'
 alias nucli='nutop; cd crates/nu-cli/src'
+alias nup='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
 
 alias cpcli='cp cli.rs /j/tmp24/nushelltmp/v18.2/tmp01; cd /j/tmp24/nushelltmp/v18.2/tmp01'
+alias cpar='cp parse.rs /j/tmp25/nushelltmp/v19.0/tmp00; cd /j/tmp25/nushelltmp/v19.0/tmp00'
