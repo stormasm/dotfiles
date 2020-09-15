@@ -154,6 +154,7 @@ alias nuc='nutop; cd crates'
 alias nucli='nutop; cd crates/nu-cli/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
+alias nus='nutop; cd crates/nu-source/src'
 
 alias cpcli='cp cli.rs /j/tmp24/nushelltmp/v18.2/tmp01; cd /j/tmp24/nushelltmp/v18.2/tmp01'
 alias cpar='cp parse.rs /j/tmp25/nushelltmp/v19.0/tmp00; cd /j/tmp25/nushelltmp/v19.0/tmp00'
