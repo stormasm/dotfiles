@@ -125,27 +125,28 @@ alias ws='whalespotter'
 ### go to the examples directory and add the example name
 alias cce='cr --features cursive/crossterm-backend --bin'
 
-### nushell
+#
+### rust logging
+#
 
-alias nutmp='cd /j/tmp25/nushelltmp/v19.0/tmp00'
-alias nuconfig='cd /Users/ma/Library/Preferences/org.nushell.nu'
-alias nuhist='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
+alias logi='export RUST_LOG=info'
+alias logd='export RUST_LOG=debug'
+alias logt='export RUST_LOG=trace'
+
+#
+### nushell
+#
+
+alias nuconfig='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
+alias nuconfigold='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
 alias nutop='cd /j/tmp25/nushell'
 
 alias nurun='nutop; ./target/debug/nu'
-alias nut='nutop; ./target/debug/nu'
-
-alias nuruni='nurun --loglevel=info'
-alias nuti='nurun --loglevel=info'
-
-alias nurund='nurun --loglevel=debug'
-alias nutd='nurun --loglevel=debug'
+alias nurund='nurun -l debug'
+alias nurunt='nurun -l trace'
 alias nude='nutop; ./target/debug/nude --loglevel=debug'
-
-alias nurunt='nurun --loglevel=trace'
-alias nutt='nurun --loglevel=trace'
 
 alias nurundate='nurunt -c date'
 alias nurunls='nurunt -c ls'
@@ -159,5 +160,8 @@ alias nus='nutop; cd crates/nu-source/src'
 alias cpcli='cp cli.rs /j/tmp24/nushelltmp/v18.2/tmp01; cd /j/tmp24/nushelltmp/v18.2/tmp01'
 alias cpar='cp parse.rs /j/tmp25/nushelltmp/v19.0/tmp00; cd /j/tmp25/nushelltmp/v19.0/tmp00'
 
+alias mdb='mdbook build'
+alias mdc='mdbook clean'
 alias mds='mdbook serve'
 alias nn='cd /j/tmp19/nushell-notes'
+alias nub='cd /j/tmp19/nushell-notes'
