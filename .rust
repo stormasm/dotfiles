@@ -93,6 +93,7 @@ alias cws='cargo-web start --port 3000'
 #
 alias rgf='rg --files | rg'
 alias rgtest="rg 'cfg\(test\)'"
+alias mr="rg 'macro_rules! '"
 
 ### arrow and parquet
 
