@@ -22,6 +22,7 @@ alias cbench='cargo bench'
 alias cb='cargo build'
 alias cbr='cargo build --release'
 alias cdoc='cargo doc --no-deps --open'
+alias localdoc='rustup doc'
 alias cf='cargo fmt'
 alias cn='cargo new'
 alias cr='cargo run'
@@ -146,8 +147,10 @@ alias nuconfigold='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
 alias nutop='cd /j/tmp25/nushell'
+alias nutmp='cd /j/tmp25/nushelltmp/v20.0/tmp00'
 
 alias nurun='nutop; ./target/debug/nu'
+alias nuruni='nurun -l info'
 alias nurund='nurun -l debug'
 alias nurunt='nurun -l trace'
 alias nude='nutop; ./target/debug/nude --loglevel=debug'
@@ -169,3 +172,8 @@ alias mdc='mdbook clean'
 alias mds='mdbook serve'
 alias nn='cd /j/tmp19/nushell-notes'
 alias nub='cd /j/tmp19/nushell-notes'
+
+#
+# Rust Examples
+#
+alias rustex='cd /j/tmp25/rust-examples/logging/flexi'
