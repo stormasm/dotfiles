@@ -171,6 +171,7 @@ alias cpar='cp parse.rs /j/tmp25/nushelltmp/v19.0/tmp00; cd /j/tmp25/nushelltmp/
 alias mdb='mdbook build'
 alias mdc='mdbook clean'
 alias mds='mdbook serve'
+alias mdserve='mdbook serve'
 alias nn='cd /j/tmp19/nushell-notes'
 alias nub='cd /j/tmp19/nushell-notes'
 
