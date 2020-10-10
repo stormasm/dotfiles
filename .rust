@@ -159,14 +159,21 @@ alias nude='nutop; ./target/debug/nude --loglevel=debug'
 alias nurundate='nurunt -c date'
 alias nurunls='nurunt -c ls'
 
+### Changing to various nushell crates
+
 alias nuc='nutop; cd crates'
 alias nucli='nutop; cd crates/nu-cli/src'
+alias nudata='nutop; cd crates/nu-data/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nus='nutop; cd crates/nu-source/src'
 
+### Utils for working with nushell
+
 alias cpcli='cp cli.rs /j/tmp24/nushelltmp/v18.2/tmp01; cd /j/tmp24/nushelltmp/v18.2/tmp01'
 alias cpar='cp parse.rs /j/tmp25/nushelltmp/v19.0/tmp00; cd /j/tmp25/nushelltmp/v19.0/tmp00'
+
+### mdbook
 
 alias mdb='mdbook build'
 alias mdc='mdbook clean'

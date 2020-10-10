@@ -80,16 +80,21 @@ alias gcom='git commit -m'
 alias gcmw='git commit -m mw'
 alias gcomm='git commit -m'
 alias gd='git diff'
-alias gll='gem list --local'
+
+alias gitsubmodule='git submodule update --init --recursive'
+
 alias gl='git log'
-alias gp='git pull'
-alias gsl='git log --stat'
+alias gll='gem list --local'
 alias gls='git log --stat'
+
+alias gp='git pull'
 alias gpo='git push origin'
 alias grso='git remote show origin'
+
 alias gs='git status'
-alias gitsubmodule='git submodule update --init --recursive'
+alias gsl='git log --stat'
 alias gsup='git submodule update --init'
+alias gsw='git switch -'
 
 ### dot commands
 
