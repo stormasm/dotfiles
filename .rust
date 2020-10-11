@@ -148,7 +148,7 @@ alias nuconfigold='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
 alias nutop='cd /j/tmp25/nushell'
-alias nutmp='cd /j/tmp25/nushelltmp/v20.0/tmp00'
+alias nutmp='cd /j/tmp25/nushelltmp'
 
 alias nurun='nutop; ./target/debug/nu'
 alias nuruni='nurun -l info'
