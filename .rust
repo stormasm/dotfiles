@@ -173,6 +173,16 @@ alias nus='nutop; cd crates/nu-source/src'
 alias cpcli='cp cli.rs /j/tmp24/nushelltmp/v18.2/tmp01; cd /j/tmp24/nushelltmp/v18.2/tmp01'
 alias cpar='cp parse.rs /j/tmp25/nushelltmp/v19.0/tmp00; cd /j/tmp25/nushelltmp/v19.0/tmp00'
 
+# Nushell Testing
+#
+alias ntall='cargo test --all --features=stable'
+#
+#  Testing an individual nushell command
+#   Type the command name after typing the alias
+#   cargo test --package nu-cli --test main -- commands::<command_name_here>
+alias ntcomall='cargo test --package nu-cli --test main -- commands::'
+alias ntcom='cargo test --package nu-cli --test main -- '
+
 ### mdbook
 
 alias mdb='mdbook build'
