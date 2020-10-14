@@ -6,6 +6,9 @@ alias nightlyinstall='rustup install nightly'
 
 alias rbin='cd /mia/rust/bin'
 
+alias rback='RUST_BACKTRACE=1'
+alias rbackfull='RUST_BACKTRACE=full'
+
 ### Find target directories
 
 alias rfme='fd -I -t=d'
@@ -143,6 +146,8 @@ alias loglevel='env | grep RUST_LOG'
 ### nushell
 #
 
+alias getnu='gc git@github.com:nushell/nushell.git'
+
 alias nuconfig='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigold='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
@@ -196,3 +201,10 @@ alias nub='cd /j/tmp19/nushell-notes'
 # Rust Examples
 #
 alias rustex='cd /j/tmp25/rust-examples/logging/flexi'
+
+#
+# Special Case Nushell Testing
+# You have to run the cta command first prior to running the tests
+#
+alias cta='cargo test --all --features=stable'
+alias ct100='cargo test --package nu-cli --test main -- commands::each'
