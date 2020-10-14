@@ -84,7 +84,8 @@ alias ltest='ls -l *_test.go'
 alias lslt='ls -l *_test.go'
 alias rmtest='rm *_test.go'
 
-alias gh='cd $GOPATH/src/github.com'
+### Next line was removed because of the new github-cli
+### alias gh='cd $GOPATH/src/github.com'
 alias src='cd $GOPATH/src'
 alias bin='cd $GOPATH/bin'
 
