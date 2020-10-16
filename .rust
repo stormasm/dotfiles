@@ -172,6 +172,7 @@ alias nudata='nutop; cd crates/nu-data/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nus='nutop; cd crates/nu-source/src'
+alias nutest='nutop; cd crates/nu-test-support/src'
 
 ### Utils for working with nushell
 
