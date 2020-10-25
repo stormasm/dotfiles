@@ -67,7 +67,8 @@ alias sp='source /Users/ma/.zshrc'
 
 ### git commands
 
-alias jjj='git push origin master'
+alias jjj='git push origin main'
+alias jjjm='git push origin master'
 alias kkk='git push origin gh-pages'
 
 alias ga='git add'
