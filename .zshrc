@@ -129,6 +129,7 @@ alias pcom2='ping 75.75.76.76'
 # Misc
 #
 
+alias ubnt='cd /miamedia/ubnt'
 alias span='cd /j/tmp99/spanish'
 alias bl='cd /j/tmp99/spanish/books/blair'
 
