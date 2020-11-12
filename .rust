@@ -65,9 +65,15 @@ alias cess='cargo run -- --db-path /miarust/data/mes.edb'
 alias cesc='cargo run subscribe rick'
 alias cesp='cargo run publish rick blue'
 
+#
+# sled
+#
+
+alias sled='cd /j/tmp25/sled'
+
 ### https://github.com/sile/ekvsb
 
-alias ekrun='ekvsb workload put --count 10 --value-size 10 | ekvsb run sled --dir /tmp05 | ekvsb summary'
+alias ekrun='ekvsb workload put --count 10 --value-size 10 | ekvsb run sled --dir /tmp41 | ekvsb summary'
 
 ### hyper example echo server testing
 
@@ -155,6 +161,7 @@ alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/conf
 alias nutop='cd /j/tmp25/nushell'
 alias nutmp='cd /j/tmp25/nushelltmp'
 
+alias nurunn='./target/debug/nu'
 alias nurun='nutop; ./target/debug/nu'
 alias nuruni='nurun -l info'
 alias nurund='nurun -l debug'
@@ -198,6 +205,13 @@ alias mdserve='mdbook serve'
 alias nn='cd /j/tmp19/nushell-notes'
 alias nub='cd /j/tmp19/nushell-notes'
 alias bar='cd /j/tmp19/barnum'
+
+#
+# zola
+#
+
+alias zs='zola serve'
+alias zb='zola build'
 
 #
 # Rust Examples

@@ -20,9 +20,19 @@ export PIP_USER=yes
 # Web Server for Python 2.7
 alias shs='/usr/bin/python -m SimpleHTTPServer 3000'
 
-# Random aliases associated with python projects
-alias bmt='cd /j/tmp32/bluemesa'
+
+###
+#     bluemesa
+###
+
 alias bm='cd /j/tmp32/bluemesa/py/bluemesa'
+alias bme='cd /j/tmp32/bluemesa/py/bluemesa/edgar'
+alias bmt='cd /j/tmp32/bluemesa'
+
+alias edu='cd /j/tmp32/edgar-data/ubnt'
+alias edgar='cd /j/tmp32/edgar-data'
+
+# Random aliases associated with python projects
 alias pe='cd /j/tmp32/python-examples'
 alias pyex='cd /j/tmp32/python-examples'
 alias eqd='cd /j/tmp32/equity-data'
