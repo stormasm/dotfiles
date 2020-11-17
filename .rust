@@ -152,6 +152,8 @@ alias loglevel='env | grep RUST_LOG'
 ### nushell
 #
 
+alias nunu='cd /j/tmp27/nunu-vc/v1'
+
 alias getnu='gc git@github.com:nushell/nushell.git'
 
 alias nuconfig='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
@@ -205,6 +207,11 @@ alias mdserve='mdbook serve'
 alias nn='cd /j/tmp19/nushell-notes'
 alias nub='cd /j/tmp19/nushell-notes'
 alias bar='cd /j/tmp19/barnum'
+
+#
+# gluon
+#
+alias gli='gluon -i'
 
 #
 # zola

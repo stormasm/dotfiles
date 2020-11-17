@@ -118,7 +118,7 @@ alias rediscsent='cd /mia/redisio/redis/src; ./redis-cli -p 26379'
 alias redislog='cd /mia/redislog'
 
 #
-# Comcast Trouble Shooting
+# Comcast Trouble Shooting and onend
 #
 
 alias pcom='ping 69.252.80.75'
