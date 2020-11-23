@@ -202,6 +202,7 @@ alias ntcom='cargo test --package nu-cli --test main -- '
 
 alias mdb='mdbook build'
 alias mdc='mdbook clean'
+alias mdd='mdbook build -d ./docs'
 alias mds='mdbook serve'
 alias mdserve='mdbook serve'
 alias nn='cd /j/tmp19/nushell-notes'
