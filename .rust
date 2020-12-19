@@ -152,7 +152,7 @@ alias loglevel='env | grep RUST_LOG'
 ### nushell
 #
 
-alias nunu='cd /j/tmp27/nunu-vc/v1'
+alias nunuv1='cd /j/tmp27/nunu-vc/v1'
 
 alias getnu='gc git@github.com:nushell/nushell.git'
 
@@ -160,8 +160,9 @@ alias nuconfig='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigold='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
-alias nutop='cd /j/tmp25/nushell'
+alias nutop='cd /j/tmp28/nushell'
 alias nutmp='cd /j/tmp25/nushelltmp'
+alias nujon='cd /j/tmp28/nujon/nushell; ./target/debug/nu'
 
 alias nurunn='./target/debug/nu'
 alias nurun='nutop; ./target/debug/nu'
