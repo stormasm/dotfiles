@@ -160,9 +160,15 @@ alias nuconfig='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigold='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
-alias nutop='cd /j/tmp28/nushell'
-alias nutmp='cd /j/tmp25/nushelltmp'
-alias nujon='cd /j/tmp28/nujon/nushell; ./target/debug/nu'
+# This is not the latest code snapshot
+alias nutop28='cd /j/tmp28/nushell'
+alias nu28='nutop28; ./target/debug/nu'
+
+#
+# nutop is the latest code snapshot
+#
+
+alias nutop='cd /j/tmp26/nushell'
 
 alias nurunn='./target/debug/nu'
 alias nurun='nutop; ./target/debug/nu'
@@ -181,7 +187,8 @@ alias nucli='nutop; cd crates/nu-cli/src'
 alias nudata='nutop; cd crates/nu-data/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
-alias nus='nutop; cd crates/nu-source/src'
+alias nusource='nutop; cd crates/nu-source/src'
+alias nus='nutop; cd crates/nu-stream/src'
 alias nutest='nutop; cd crates/nu-test-support/src'
 
 ### Utils for working with nushell
