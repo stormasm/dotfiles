@@ -137,7 +137,7 @@ alias pcom2='ping 75.75.76.76'
 alias rtve='cd /miamedia/rtve'
 alias ubnt='cd /miamedia/ubnt'
 alias span='cd /j/tmp99/spanish'
-
+alias sentd='cd /j/tmp99/spanish/sentences'
 
 #
 # /tmp
