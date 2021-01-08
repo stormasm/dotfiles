@@ -153,6 +153,7 @@ alias loglevel='env | grep RUST_LOG'
 #
 
 alias getnu='gc git@github.com:nushell/nushell.git'
+alias getnustorm='gc git@github.com:stormasm/nushell.git'
 alias gpnu='git pull https://github.com/nushell/nushell main'
 
 alias cbr='cargo build --features=rustyline-support'
