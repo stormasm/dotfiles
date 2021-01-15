@@ -25,7 +25,7 @@ alias shs='/usr/bin/python -m SimpleHTTPServer 3000'
 #     bluemesa
 ###
 
-alias bm='cd /j/tmp32/bluemesa/py/bluemesa'
+alias blue='cd /j/tmp32/bluemesa/py/bluemesa'
 alias bme='cd /j/tmp32/bluemesa/py/bluemesa/edgar'
 alias bmt='cd /j/tmp32/bluemesa'
 

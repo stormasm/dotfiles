@@ -38,6 +38,8 @@ alias fu='sudo mount -uw /'
 alias atom='atom .'
 alias matom='matom .'
 
+alias bm='cd /miamedia/bookmarks'
+
 alias c='clear'
 alias cp='cp -p'
 alias dl='cd /miamedia/downloads'
@@ -135,6 +137,7 @@ alias pcom2='ping 75.75.76.76'
 #
 
 alias rtve='cd /miamedia/rtve'
+alias tur='cd /miamedia/rtve/turismo'
 alias ubnt='cd /miamedia/ubnt'
 alias span='cd /j/tmp99/spanish'
 alias sentd='cd /j/tmp99/spanish/sentences'
