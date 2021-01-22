@@ -173,7 +173,10 @@ alias nu28='nutop28; ./target/debug/nu'
 alias nutop='cd /j/tmp26/nushell'
 
 alias nurunn='./target/debug/nu'
-alias nurun='nutop; ./target/debug/nu --skip-plugins'
+
+#alias nurun='nutop; ./target/debug/nu --skip-plugins'
+alias nurun='cd /j/tmp26/nutmp/scripts; /j/tmp26/nushell/target/debug/nu --skip-plugins'
+
 alias nurunp='nutop; ./target/debug/nu'
 alias nuruni='nurun -l info'
 alias nurund='nurun -l debug'
@@ -194,7 +197,7 @@ alias nuen='nutop; cd crates/nu-engine/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nusource='nutop; cd crates/nu-source/src'
-alias nus='nutop; cd crates/nu-stream/src'
+alias nust='nutop; cd crates/nu-stream/src'
 alias nutest='nutop; cd crates/nu-test-support/src'
 
 ### Utils for working with nushell
@@ -211,6 +214,10 @@ alias ntall='cargo test --all --features=stable'
 #   cargo test --package nu-cli --test main -- commands::<command_name_here>
 alias ntcomall='cargo test --package nu-cli --test main -- commands::'
 alias ntcom='cargo test --package nu-cli --test main -- '
+
+# Nushell Scripts
+alias nusd='nutop; cd ..; cd nushell_scripts'
+alias nus='nutop; cd ..; cd nutmp/scripts'
 
 ### mdbook
 
