@@ -37,6 +37,7 @@ alias cref='cargo run --features="runtime unstable-stream" --example'
 alias crec='cargo run --example connect 127.0.0.1:8080'
 alias ct='cargo test'
 alias ctno='cargo test -- --nocapture'
+alias ctnoex='ctno commands::tests::examples_work_as_expected'
 alias cup='cargo update'
 alias cv='cargo -V'
 
@@ -162,15 +163,12 @@ alias nuconfig='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigold='cd /Users/ma/Library/Preferences/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
-# This is not the latest code snapshot
-alias nutop28='cd /j/tmp28/nushell'
-alias nu28='nutop28; ./target/debug/nu'
-
 #
 # nutop is the latest code snapshot
 #
 
-alias nutop='cd /j/tmp25/nushell'
+alias nutop='cd /j/tmp26/nushell'
+alias nusc='cd /j/tmp26/nuscratch'
 alias nutmp='cd /j/tmp26/nutmp'
 
 alias nurunn='./target/debug/nu'
@@ -195,6 +193,7 @@ alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
 alias nudata='nutop; cd crates/nu-data/src'
 alias nuen='nutop; cd crates/nu-engine/src'
+alias nueng='nutop; cd crates/nu-engine/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nusource='nutop; cd crates/nu-source/src'
@@ -217,8 +216,9 @@ alias ntcomall='cargo test --package nu-cli --test main -- commands::'
 alias ntcom='cargo test --package nu-cli --test main -- '
 
 # Nushell Scripts
-alias nusd='nutop; cd ..; cd nushell_scripts'
 alias nus='nutop; cd ..; cd nutmp/scripts'
+alias nusc='nutop; cd ..; cd nuscratch'
+alias nusd='nutop; cd ..; cd nushell_scripts'
 alias nust='nutop; cd ..; cd nutmp/scripts/test'
 alias nusn='nutop; cd ..; cd nu_scripts'
 
