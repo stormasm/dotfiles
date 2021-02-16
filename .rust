@@ -256,3 +256,14 @@ alias rustex='cd /j/tmp25/rust-examples/logging/flexi'
 #
 alias cta='cargo test --all --features=stable'
 alias ct100='cargo test --package nu-cli --test main -- commands::each'
+
+#
+# delta
+#
+alias dtop='cd /j/tmp29/delta'
+alias drun='dtop; ./target/debug/delta'
+
+#
+# tickrs
+#
+alias tickui='tickrs -s ui,ibm,nly'
