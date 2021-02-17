@@ -222,6 +222,10 @@ alias nusd='nutop; cd ..; cd nushell_scripts'
 alias nust='nutop; cd ..; cd nutmp/scripts/test'
 alias nusn='nutop; cd ..; cd nu_scripts'
 
+# Nushell Projects
+alias nuproj='nutop; cd ..; cd nuproj'
+alias peval='nuproj; cd parseval'
+
 ### mdbook
 
 alias mdb='mdbook build'
