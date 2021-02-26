@@ -164,6 +164,8 @@ alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/conf
 # nutop is the latest code snapshot
 #
 
+alias nub='cd /j/tmp26/nubranch'
+alias nubr='cd /j/tmp26/nubranch'
 alias nutop='cd /j/tmp26/nushell'
 alias nusc='cd /j/tmp26/nuscratch'
 alias nutmp='cd /j/tmp26/nutmp'
@@ -188,6 +190,7 @@ alias nurunls='nurunt -c ls'
 alias nuc='nutop; cd crates'
 alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
+alias nucomt='nutop; cd crates/nu-command/tests'
 alias nudata='nutop; cd crates/nu-data/src'
 alias nuen='nutop; cd crates/nu-engine/src'
 alias nueng='nutop; cd crates/nu-engine/src'
@@ -233,7 +236,6 @@ alias mdd='mdbook build -d ./docs'
 alias mds='mdbook serve'
 alias mdserve='mdbook serve'
 alias nn='cd /j/tmp19/nushell-notes'
-alias nub='cd /j/tmp19/nushell-notes'
 alias bar='cd /j/tmp19/barnum'
 
 #
@@ -261,8 +263,8 @@ alias rustex='cd /j/tmp25/rust-examples/logging/flexi'
 alias ct='cargo test'
 alias ctno='cargo test -- --nocapture'
 
-alias ctg='ct generate_docs'
-alias ctgno='ctno generate_docs'
+alias cth='ct commands::help'
+alias cthno='ctno commands::help'
 
 alias ctnoex='ctno commands::tests::examples_work_as_expected'
 
