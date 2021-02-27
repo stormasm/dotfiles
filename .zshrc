@@ -97,6 +97,7 @@ alias gls='git log --stat'
 
 alias gp='git pull'
 alias gpo='git push origin'
+alias grpo='git remote prune origin'
 alias grso='git remote show origin'
 
 alias gs='git status'
