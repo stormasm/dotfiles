@@ -156,8 +156,9 @@ alias gpnu='git pull https://github.com/nushell/nushell main'
 
 alias cbr='cargo build --features=rustyline-support'
 
-alias nuconfig='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
-alias nuconfigold='cd /Users/ma/Library/Preferences/org.nushell.nu'
+alias nuconfig='nutop; cd ..; cd nuconfig'
+alias nuconfigp='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
+alias nuconfigpath='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nusave='nuconfig; cp config.toml /mia/current/config; cd /mia/current/config'
 
 #
