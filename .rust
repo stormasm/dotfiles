@@ -225,6 +225,7 @@ alias nusn='nutop; cd ..; cd nu_scripts'
 
 # Nushell Projects
 alias nume='nutop; cd ..; cd nume'
+alias nunotes='nutop; cd ..; cd nunotes'
 alias nuproj='nutop; cd ..; cd nuproj'
 alias peval='nuproj; cd parseval'
 
