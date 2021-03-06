@@ -160,6 +160,8 @@ alias nuconfig='nutop; cd ..; cd nuconfig'
 alias nuconfigp='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigpath='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigsave='nuconfigp; cp config.toml /j/tmp26/nuconfig; nuconfig'
+alias nuconfigr='nuconfigp; cp /j/tmp26/nuconfig/config.toml .'
+alias nuconfigrefresh='nuconfigp; cp /j/tmp26/nuconfig/config.toml .'
 
 #
 # nutop is the latest code snapshot
