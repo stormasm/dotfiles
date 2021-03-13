@@ -1,1 +1,3 @@
 # dotfiles
+
+ok 100
