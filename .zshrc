@@ -49,6 +49,7 @@ alias h='history'
 alias hclear='history -c'
 
 alias j='cd /j'
+alias k='cd /k'
 
 alias l='ls -l'
 alias lm='ls -l | more'
