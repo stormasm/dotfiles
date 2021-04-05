@@ -219,7 +219,7 @@ alias ntcomall='cargo test --package nu-cli --test main -- commands::'
 alias ntcom='cargo test --package nu-cli --test main -- '
 
 # Nushell Scripts
-alias nubug='nutop; cd ..; cd nubug'
+alias nubug='nutop; cd ..; cd nubug/issue-3248'
 alias nus='nutop; cd ..; cd nutmp/scripts'
 alias nusc='nutop; cd ..; cd nuscratch'
 alias nusd='nutop; cd ..; cd nushell_scripts'
