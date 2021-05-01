@@ -34,12 +34,15 @@ alias edgar='cd /j/tmp32/edgar-data'
 
 # Random aliases associated with python projects
 alias pe='cd /j/tmp32/python-examples'
+alias pep='cd /j/tmp32/python-examples/pandas'
 alias pyex='cd /j/tmp32/python-examples'
+alias pyep='cd /j/tmp32/python-examples/pandas'
 alias eqd='cd /j/tmp32/equity-data'
 alias eqe='cd /j/tmp32/equity-etf'
 alias eqf='cd /j/tmp32/equity-fun'
 alias eqs='cd /j/tmp32/equity-symbols'
 alias sx='cd /j/tmp32/soup-xbrl'
+alias yf='cd /j/tmp32/yahoo_fin_examples/v00'
 
 # Random environment variables associated with python projects
 export BMTOP=/j/tmp32

@@ -226,6 +226,9 @@ alias nusd='nutop; cd ..; cd nushell_scripts'
 alias nust='nutop; cd ..; cd nutmp/scripts/test'
 alias nusn='nutop; cd ..; cd nu_scripts'
 
+# Nushell Copy Cargolite.toml over to nutop
+alias carcp='cp /j/tmp26/Cargo.toml /j/tmp26/nushell'
+
 # Nushell Projects
 alias nume='nutop; cd ..; cd nume'
 alias nunotes='nutop; cd ..; cd nunotes'
