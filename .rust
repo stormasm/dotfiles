@@ -22,8 +22,13 @@ alias rf='rustfmt'
 alias ca='cargo'
 alias cben='cargo bench'
 alias cbench='cargo bench'
+
 alias cb='cargo build'
 alias cbrel='cargo build --release'
+
+alias cbdf='cargo build --features=dataframe'
+alias cbrl='cargo build --features=rustyline-support'
+
 alias cdoc='cargo doc --no-deps --open'
 alias localdoc='rustup doc'
 alias cf='cargo fmt'
@@ -154,7 +159,6 @@ alias getnu='gc git@github.com:nushell/nushell.git'
 alias getnustorm='gc git@github.com:stormasm/nushell.git'
 alias gpnu='git pull https://github.com/nushell/nushell main'
 
-alias cbr='cargo build --features=rustyline-support'
 
 alias nuconfig='nutop; cd ..; cd nuconfig'
 alias nuconfigp='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
