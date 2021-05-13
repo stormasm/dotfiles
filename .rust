@@ -25,8 +25,12 @@ alias cbench='cargo bench'
 
 alias cb='cargo build'
 alias cbrel='cargo build --release'
+alias cbndf='cargo build --no-default-features'
 
-alias cbdf='cargo build --features=dataframe'
+alias cbnu='cargo build --no-default-features --features=rustyline-support'
+alias cbdf='cargo build --no-default-features --features=rustyline-support --features=dataframe'
+alias cbdf2='cargo build --features=dataframe'
+
 alias cbrl='cargo build --features=rustyline-support'
 
 alias cdoc='cargo doc --no-deps --open'
