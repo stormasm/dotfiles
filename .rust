@@ -219,7 +219,8 @@ alias cpar='cp parse.rs /j/tmp25/nushelltmp/v19.0/tmp00; cd /j/tmp25/nushelltmp/
 
 # Nushell Testing
 #
-alias ntall='cargo test --all --features=stable'
+alias ntalls='cargo test --all --features=stable'
+alias ntallx='cargo test --all --features=extra'
 #
 #  Testing an individual nushell command
 #   Type the command name after typing the alias
