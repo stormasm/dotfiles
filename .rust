@@ -16,6 +16,8 @@ alias rftt='find . -name target'
 alias rft='fd -I -t=d target$'
 
 alias rf='rustfmt'
+alias rp='rustpython'
+alias rpg='cd /j/tmp28/RustPython'
 
 ### cargo commands
 
