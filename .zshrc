@@ -2,7 +2,7 @@
 # Setting up the PATH always is the first line in the file
 #
 
-export PATH=/mia/rust/bin:/miapg/postgresql/11/bin:/usr/local/bin:/Users/ma/.rvm/bin:/mia/protoc/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:~/go/bin:~/.local/bin:$PATH
+export PATH=/mia/rust/bin:/mia/rust/nushell/nuver/bin:/miapg/postgresql/11/bin:/usr/local/bin:/Users/ma/.rvm/bin:/mia/protoc/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:~/go/bin:~/.local/bin:$PATH
 
 # Always add the current directory to your PATH so it finds local binaries
 
