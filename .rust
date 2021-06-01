@@ -16,8 +16,6 @@ alias rftt='find . -name target'
 alias rft='fd -I -t=d target$'
 
 alias rf='rustfmt'
-alias rp='rustpython'
-alias rpg='cd /j/tmp28/RustPython'
 
 ### cargo commands
 
@@ -246,6 +244,9 @@ alias nume='nutop; cd ..; cd nume'
 alias nunotes='nutop; cd ..; cd nunotes'
 alias nuproj='nutop; cd ..; cd nuproj'
 alias peval='nuproj; cd parseval'
+
+# Nushell Binaries
+alias nuver='cd /mia/rust/nushell/nuver'
 
 ### mdbook
 

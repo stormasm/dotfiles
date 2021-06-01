@@ -33,6 +33,13 @@ alias bmt='cd /j/tmp32/bluemesa'
 alias edu='cd /j/tmp32/edgar-data/ubnt'
 alias edgar='cd /j/tmp32/edgar-data'
 
+# RustPython
+alias cpg='cd /j/tmp28/cpython'
+alias rpg='cd /j/tmp28/RustPython'
+alias rpgg='cd /j/tmp28/rp'
+alias rp='rustpython'
+alias rptd='/j/tmp28/RustPython/target/debug/rustpython'
+
 # Random aliases associated with python projects
 alias pe='cd /j/tmp32/python-examples'
 alias pep='cd /j/tmp32/python-examples/pandas'
