@@ -273,7 +273,7 @@ alias zb='zola build'
 #
 # Rust Examples
 #
-alias rustex='cd /j/tmp25/rust-examples/logging/flexi'
+alias rustex='cd /j/tmp26/rust-examples'
 
 #
 # Special Case Nushell Testing
@@ -301,3 +301,9 @@ alias drun='dtop; ./target/debug/delta'
 # tickrs
 #
 alias tickui='tickrs -s ui,ibm,nly'
+
+#
+# rustpython
+#
+
+alias rprun='/j/tmp28/RustPython/target/debug/rustpython'
