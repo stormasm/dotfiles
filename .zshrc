@@ -13,6 +13,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/bin:$PATH"
 
+export WASMTIME_HOME="$HOME/.wasmtime"
+export PATH="$WASMTIME_HOME/bin:$PATH"
+
 # Up the ulimit to eliminate problems in node's browserify
 # need to sync this with my new machine
 # ulimit -n 100000
