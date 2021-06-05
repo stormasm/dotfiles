@@ -307,3 +307,10 @@ alias tickui='tickrs -s ui,ibm,nly'
 #
 
 alias rprun='/j/tmp28/RustPython/target/debug/rustpython'
+
+#
+# cranelift
+#
+
+alias cl='cd /j/tmp20/cranelift'
+alias clme='cd /j/tmp20/craneliftme'
