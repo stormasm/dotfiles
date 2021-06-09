@@ -165,6 +165,7 @@ alias gpnu='git pull https://github.com/nushell/nushell main'
 
 
 alias nuconfig='nutop; cd ..; cd nuconfig'
+alias configpath='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigp='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigpath='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigsave='nuconfigp; cp config.toml /j/tmp26/nuconfig; nuconfig'
@@ -313,5 +314,5 @@ alias rprun='/j/tmp28/RustPython/target/debug/rustpython'
 # cranelift
 #
 
-alias cl='cd /j/tmp20/cranelift'
-alias clme='cd /j/tmp20/craneliftme'
+alias cl='cd /j/tmp19/cranelift'
+alias clg='cd /j/tmp19/cl'
