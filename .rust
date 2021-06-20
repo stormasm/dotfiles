@@ -47,6 +47,9 @@ alias crec='cargo run --example connect 127.0.0.1:8080'
 alias cup='cargo update'
 alias cv='cargo -V'
 
+### nucli-reed
+alias nr='cd /j/tmp17/nucli-reed'
+
 ### https://github.com/timberio/vector
 
 alias vc='cd /mia/vector-config'
