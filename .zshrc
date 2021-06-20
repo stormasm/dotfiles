@@ -77,6 +77,7 @@ alias yr='yarn run'
 
 alias jjj='git push origin main'
 alias jjjm='git push origin master'
+alias jjj0='git push origin bp0'
 alias jjj1='git push origin bp1'
 alias jjj2='git push origin bp2'
 alias jjj3='git push origin bp3'
