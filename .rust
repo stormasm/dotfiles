@@ -168,6 +168,7 @@ alias gpnu='git pull https://github.com/nushell/nushell main'
 
 
 alias nuconfig='nutop; cd ..; cd nuconfig'
+alias appsup='cd /Users/ma/Library/Application\ Support'
 alias configpath='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigp='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 alias nuconfigpath='cd /Users/ma/Library/Application\ Support/org.nushell.nu'

@@ -282,3 +282,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.python" ]] && source "$HOME/.python"
 [[ -s "$HOME/.rust" ]] && source "$HOME/.rust"
 [[ -s "$HOME/.influxenv" ]] && source "$HOME/.influxenv"
+
+source '/Users/ma/Library/Application Support/org.dystroy.broot/launcher/bash/br'
