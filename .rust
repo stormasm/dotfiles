@@ -50,7 +50,7 @@ alias cv='cargo -V'
 ### nucli-reed
 alias nr='cd /j/tmp17/nucli-reed'
 alias nrl='cd /j/tmp17/nucli-reed/crates/reedline'
-export REEDLINE_HISTFILE="$HOME/.reedline"
+export REEDLINE_HISTFILE="$HOME/.reedline/history.txt"
 
 ### https://github.com/timberio/vector
 
