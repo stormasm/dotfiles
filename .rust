@@ -319,8 +319,16 @@ alias tickui='tickrs -s ui,ibm,nly'
 alias rprun='/j/tmp28/RustPython/target/debug/rustpython'
 
 #
-# cranelift
+# cranelift wasmtime
 #
+
+export TARGET=x86_64-apple-darwin
 
 alias cl='cd /j/tmp19/cranelift'
 alias clg='cd /j/tmp19/cl'
+alias clu='clif-util'
+alias clur='/j/tmp19/wasmtime/target/debug/clif-util'
+alias clurt='clur test'
+alias wt=wasmtime
+alias wtg='cd /j/tmp19/wasmtime'
+alias wtc='cd /j/tmp19/wasmtime/cranelift'

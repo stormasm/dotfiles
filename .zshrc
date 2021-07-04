@@ -2,7 +2,7 @@
 # Setting up the PATH always is the first line in the file
 #
 
-export PATH=/mia/rust/bin:/mia/rust/nushell/nuver-lfs/bin:/mia/rust/nushell/nuver/bin:/miapg/postgresql/11/bin:/usr/local/bin:/Users/ma/.rvm/bin:/mia/protoc/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:~/go/bin:~/.local/bin:$PATH
+export PATH=/mia/rust/bin:/mia/wabt/build:/mia/rust/nushell/nuver-lfs/bin:/mia/rust/nushell/nuver/bin:/miapg/postgresql/11/bin:/usr/local/bin:/Users/ma/.rvm/bin:/mia/protoc/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:~/go/bin:~/.local/bin:$PATH
 
 # Always add the current directory to your PATH so it finds local binaries
 
@@ -94,7 +94,7 @@ alias gcmw='git commit -m mw'
 alias gcomm='git commit -m'
 alias gd='git diff'
 
-alias gitsubmodule='git submodule update --init --recursive'
+
 
 alias gl='git log'
 alias gll='gem list --local'
@@ -107,7 +107,11 @@ alias grso='git remote show origin'
 
 alias gs='git status'
 alias gsl='git log --stat'
+
+alias gsu='git submodule update --init'
 alias gsup='git submodule update --init'
+alias gsur='git submodule update --init --recursive'
+
 alias gsw='git switch -'
 
 ### dot commands
@@ -147,6 +151,7 @@ alias tur='cd /miamedia/rtve/turismo'
 alias ubnt='cd /miamedia/ubnt'
 alias span='cd /j/tmp99/spanish'
 alias sentd='cd /j/tmp99/spanish/sentences'
+alias yt='cd /j/tmp99/spanish/youtube'
 
 #
 # /tmp
