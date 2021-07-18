@@ -47,6 +47,9 @@ alias crec='cargo run --example connect 127.0.0.1:8080'
 alias cup='cargo update'
 alias cv='cargo -V'
 
+### reedline
+alias rlg='cd /j/tmp17/reedline/src'
+
 ### nucli-reed
 alias nr='cd /j/tmp17/nucli-reed'
 alias nrl='cd /j/tmp17/nucli-reed/crates/reedline'
@@ -212,6 +215,7 @@ alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
 alias nucomc='nutop; cd crates/nu-command/src/commands'
 alias nucomt='nutop; cd crates/nu-command/tests'
+alias nucomp='nutop; cd crates/nu-completion/src'
 alias nudata='nutop; cd crates/nu-data/src'
 alias nud='cd /j/tmp26/nudata/csv'
 alias nuen='nutop; cd crates/nu-engine/src'
@@ -329,6 +333,10 @@ alias clg='cd /j/tmp19/cl'
 alias clu='clif-util'
 alias clur='/j/tmp19/wasmtime/target/debug/clif-util'
 alias clurt='clur test'
+alias wabt='cd /j/tmp19/wabt'
+alias wabtt='cd /j/tmp19/wabtest'
+alias wabtest='cd /j/tmp19/wabtest'
+alias rr='./test/run-tests.py -p --no-roundtrip'
 alias wt=wasmtime
 alias wtg='cd /j/tmp19/wasmtime'
 alias wtc='cd /j/tmp19/wasmtime/cranelift'
