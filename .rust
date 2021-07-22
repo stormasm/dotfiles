@@ -55,6 +55,9 @@ alias nr='cd /j/tmp17/nucli-reed'
 alias nrl='cd /j/tmp17/nucli-reed/crates/reedline'
 export REEDLINE_HISTFILE="$HOME/.reedline/history.txt"
 
+### nucli-rusty
+alias jr='cd /j/tmp17/nucli-rusty'
+
 ### https://github.com/timberio/vector
 
 alias vc='cd /mia/vector-config'
@@ -296,6 +299,8 @@ alias rustex='cd /j/tmp26/rust-examples'
 
 alias ct='cargo test'
 alias ctno='cargo test -- --nocapture'
+
+alias ctrl='cargo test --features rustyline-support'
 
 alias cth='ct commands::help'
 alias cthno='ctno commands::help'
