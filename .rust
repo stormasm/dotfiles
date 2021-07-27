@@ -57,6 +57,7 @@ export REEDLINE_HISTFILE="$HOME/.reedline/history.txt"
 
 ### nucli-rusty
 alias jr='cd /j/tmp17/nucli-rusty'
+alias jrg='cd /j/tmp17/rustyline81'
 
 ### https://github.com/timberio/vector
 

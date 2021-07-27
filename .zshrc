@@ -268,6 +268,10 @@ alias 97='cd /tmp97'
 alias 98='cd /j/tmp98'
 alias 99='cd /j/tmp99'
 
+alias xtmp='cd xtmp'
+alias ytmp='cd ytmp'
+alias ztmp='cd ztmp'
+
 # This is the command prompt setting for zsh
 PS1='%1d$ '
 
