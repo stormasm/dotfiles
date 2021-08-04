@@ -47,17 +47,30 @@ alias crec='cargo run --example connect 127.0.0.1:8080'
 alias cup='cargo update'
 alias cv='cargo -V'
 
+### engine-q
+alias eq='cd /j/tmp17/engine-q'
+alias eq1='cd /j/tmp17/engine-q1'
+alias eqsrc='cd /j/tmp17/engine-q/src'
+alias eq1src='cd /j/tmp17/engine-q1/src'
+alias req='./target/debug/engine-q'
+alias reqs='./../target/debug/engine-q'
+alias reqsrc='./../target/debug/engine-q'
+
+### rust-notes
+alias rn='cd /j/tmp17/rust-notes'
+
 ### reedline
 alias rlg='cd /j/tmp17/reedline/src'
 
 ### nucli-reed
 alias nr='cd /j/tmp17/nucli-reed'
+alias ncr='cd /j/tmp17/nucli-reed/crates/nu-cli-reed/src'
 alias nrl='cd /j/tmp17/nucli-reed/crates/reedline'
 export REEDLINE_HISTFILE="$HOME/.reedline/history.txt"
 
 ### nucli-rusty
 alias jr='cd /j/tmp17/nucli-rusty'
-alias jrg='cd /j/tmp17/rustyline81'
+alias jrg='cd /j/tmp17/rustyline81/src'
 
 ### https://github.com/timberio/vector
 
@@ -215,6 +228,7 @@ alias nurunls='nurunt -c ls'
 ### Changing to various nushell crates
 
 alias nuc='nutop; cd crates'
+alias nuansi='nutop; cd crates/nu-ansi-term/src'
 alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
 alias nucomc='nutop; cd crates/nu-command/src/commands'
