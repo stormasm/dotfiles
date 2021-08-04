@@ -153,6 +153,7 @@ alias music='cd /j/tmp99/music'
 alias span='cd /j/tmp99/spanish'
 alias sentd='cd /j/tmp99/spanish/sentences'
 alias yt='cd /j/tmp99/spanish/youtube'
+alias ytme='cd /j/tmp99/youtube'
 
 #
 # /tmp
