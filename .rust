@@ -50,6 +50,7 @@ alias cv='cargo -V'
 ### engine-q
 alias eq='cd /j/tmp17/engine-q'
 alias eq1='cd /j/tmp17/engine-q1'
+alias eq1a='cd /j/tmp17/engine-q1a'
 alias eqsrc='cd /j/tmp17/engine-q/src'
 alias eq1src='cd /j/tmp17/engine-q1/src'
 alias req='./target/debug/engine-q'
@@ -239,6 +240,7 @@ alias nud='cd /j/tmp26/nudata/csv'
 alias nuen='nutop; cd crates/nu-engine/src'
 alias nueng='nutop; cd crates/nu-engine/src'
 alias nup='nutop; cd crates/nu-parser/src'
+alias nupar='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nusource='nutop; cd crates/nu-source/src'
 alias nustr='nutop; cd crates/nu-stream/src'
@@ -262,9 +264,9 @@ alias ntcom='cargo test --package nu-cli --test main -- '
 
 # Nushell Scripts
 alias nubug='nutop; cd ..; cd nubug'
-alias nus='nutop; cd ..; cd nutmp/scripts'
+alias nutmps='nutop; cd ..; cd nutmp/scripts'
 alias nusc='nutop; cd ..; cd nuscratch'
-alias nusd='nutop; cd ..; cd nushell_scripts'
+alias nus='nutop; cd ..; cd nuscripts'
 alias nust='nutop; cd ..; cd nutmp/scripts/test'
 alias nusn='nutop; cd ..; cd nu_scripts'
 
@@ -305,7 +307,7 @@ alias zb='zola build'
 #
 # Rust Examples
 #
-alias rustex='cd /j/tmp26/rust-examples'
+alias rustex='cd /j/tmp17/rust-examples'
 
 #
 # Special Case Nushell Testing
