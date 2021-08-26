@@ -58,6 +58,7 @@ alias reqs='./../target/debug/engine-q'
 alias reqsrc='./../target/debug/engine-q'
 
 ### rust-notes
+alias nun='cd /j/tmp17/nunotes'
 alias rn='cd /j/tmp17/rust-notes'
 
 ### reedline
