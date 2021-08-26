@@ -17,7 +17,7 @@ alias rft='fd -I -t=d target$'
 
 alias rf='rustfmt'
 
-### cargo commands
+### cargo commands ok
 
 alias ca='cargo'
 alias cben='cargo bench'
