@@ -146,14 +146,17 @@ alias pcom2='ping 75.75.76.76'
 # Misc
 #
 
-alias rtve='cd /miamedia/rtve'
-alias tur='cd /miamedia/rtve/turismo'
-alias ubnt='cd /miamedia/ubnt'
+alias bio='cd /j/tmp99/bio'
 alias music='cd /j/tmp99/music'
+alias res='cd /j/tmp99/research'
+alias rtve='cd /miamedia/rtve'
 alias span='cd /j/tmp99/spanish'
 alias sentd='cd /j/tmp99/spanish/sentences'
-alias yt='cd /j/tmp99/spanish/youtube'
-alias ytme='cd /j/tmp99/youtube'
+alias tur='cd /miamedia/rtve/turismo'
+alias ubnt='cd /miamedia/ubnt'
+alias yt='cd /j/tmp99/youtube'
+alias yts='cd /j/tmp99/spanish/youtube'
+alias ytspan='cd /j/tmp99/spanish/youtube'
 
 #
 # /tmp

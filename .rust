@@ -51,11 +51,7 @@ alias cv='cargo -V'
 alias eq='cd /j/tmp17/engine-q'
 alias eq1='cd /j/tmp17/engine-q1'
 alias eq1a='cd /j/tmp17/engine-q1a'
-alias eqsrc='cd /j/tmp17/engine-q/src'
-alias eq1src='cd /j/tmp17/engine-q1/src'
 alias req='./target/debug/engine-q'
-alias reqs='./../target/debug/engine-q'
-alias reqsrc='./../target/debug/engine-q'
 
 ### rust-notes
 alias nun='cd /j/tmp17/nunotes'
@@ -190,6 +186,7 @@ alias loglevel='env | grep RUST_LOG'
 
 alias getnu='gc git@github.com:nushell/nushell.git'
 alias getnustorm='gc git@github.com:stormasm/nushell.git'
+alias gpeq='git pull https://github.com/jntrnr/engine-q main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
 alias gpnucli-reed='git pull https://github.com/stormasm/nucli-reed main'
 
