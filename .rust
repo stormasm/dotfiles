@@ -47,10 +47,12 @@ alias crec='cargo run --example connect 127.0.0.1:8080'
 alias cup='cargo update'
 alias cv='cargo -V'
 
+### rust-bio
+alias rb='cd /j/tmp18/rust-bio'
+
 ### engine-q
 alias eq='cd /j/tmp17/engine-q'
-alias eq1='cd /j/tmp17/engine-q1'
-alias eq1a='cd /j/tmp17/engine-q1a'
+alias mi='cd /j/tmp17/miette'
 alias req='./target/debug/engine-q'
 
 ### rust-notes
@@ -184,11 +186,14 @@ alias loglevel='env | grep RUST_LOG'
 ### nushell
 #
 
+### miette
+alias miup='cargo update --workspace -p miette'
+
 alias getnu='gc git@github.com:nushell/nushell.git'
 alias getnustorm='gc git@github.com:stormasm/nushell.git'
 alias gpeq='git pull https://github.com/jntrnr/engine-q main'
+alias gpmi='git pull https://github.com/zkat/miette main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
-alias gpnucli-reed='git pull https://github.com/stormasm/nucli-reed main'
 
 alias nuconfig='nutop; cd ..; cd nuconfig'
 alias appsup='cd /Users/ma/Library/Application\ Support'
