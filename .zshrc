@@ -42,6 +42,8 @@ alias atom='atom .'
 alias matom='matom .'
 
 alias bm='cd /miamedia/bookmarks'
+
+alias bedtools='/j/tmp18/bedtools2/bin/bedtools'
 alias bt='/j/tmp18/bedtools2/bin/bedtools'
 
 alias c='clear'
