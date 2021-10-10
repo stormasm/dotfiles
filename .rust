@@ -191,7 +191,7 @@ alias miup='cargo update --workspace -p miette'
 
 alias getnu='gc git@github.com:nushell/nushell.git'
 alias getnustorm='gc git@github.com:stormasm/nushell.git'
-alias gpeq='git pull https://github.com/jntrnr/engine-q main'
+alias gpeq='git pull https://github.com/nushell/engine-q main'
 alias gpmi='git pull https://github.com/zkat/miette main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
 
@@ -212,7 +212,8 @@ alias nub='cd /j/tmp26/nubranch'
 alias nubr='cd /j/tmp26/nubranch'
 alias nutop='cd /j/tmp26/nushell'
 alias nusc='cd /j/tmp26/nuscratch'
-alias nutmp='cd /j/tmp26/nutmp'
+alias nut='cd /j/tmp17/nutmp'
+alias nutmp='cd /j/tmp17/nutmp'
 
 alias nurunn='./target/debug/nu'
 
