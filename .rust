@@ -54,6 +54,7 @@ alias rb='cd /j/tmp18/rust-bio'
 alias eq='cd /j/tmp17/engine-q'
 alias mi='cd /j/tmp17/miette'
 alias req='./target/debug/engine-q'
+alias eqcfg='cd /Users/ma/Library/Application\ Support/nushell'
 
 ### rust-notes
 alias nun='cd /j/tmp17/nunotes'
