@@ -52,6 +52,7 @@ alias rb='cd /j/tmp18/rust-bio'
 
 ### engine-q
 alias eq='cd /j/tmp17/engine-q'
+alias eq26='cd /j/tmp26/engine-q'
 alias mi='cd /j/tmp17/miette'
 alias req='./target/debug/engine-q'
 alias eqcfg='cd /Users/ma/Library/Application\ Support/nushell'
@@ -191,7 +192,9 @@ alias loglevel='env | grep RUST_LOG'
 alias miup='cargo update --workspace -p miette'
 
 alias getnu='gc git@github.com:nushell/nushell.git'
+alias geteq='gc git@github.com:nushell/engine-q.git'
 alias getnustorm='gc git@github.com:stormasm/nushell.git'
+alias geteqstorm='gc git@github.com:stormasm/engine-q.git
 alias gpeq='git pull https://github.com/nushell/engine-q main'
 alias gpmi='git pull https://github.com/zkat/miette main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
