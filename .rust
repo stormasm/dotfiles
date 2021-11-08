@@ -57,6 +57,7 @@ alias mi='cd /j/tmp17/miette'
 alias req='./target/debug/engine-q'
 alias eqcfg='cd /Users/ma/Library/Application\ Support/nushell'
 alias nudoc='cd /j/tmp17/nudoc'
+alias com='cd /j/tmp17/engine-q/crates/nu-command'
 alias fil='cd /j/tmp17/engine-q/crates/nu-command/src/filters'
 
 
