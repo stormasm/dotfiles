@@ -340,7 +340,8 @@ alias cthno='ctno commands::help'
 
 alias ctnoex='ctno commands::tests::examples_work_as_expected'
 
-alias cta='cargo test --all --features=stable'
+alias cta='cargo test --all'
+alias ctas='cargo test --all --features=stable'
 alias ct100='cargo test --package nu-cli --test main -- commands::each'
 
 #
