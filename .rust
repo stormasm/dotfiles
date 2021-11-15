@@ -35,6 +35,7 @@ alias cbrl='cargo build --features=rustyline-support'
 
 alias cdoc='cargo doc --no-deps --open'
 alias localdoc='rustup doc'
+alias ciman='cargo fmt; cargo check; cargo clippy; cargo test --all'
 alias ccl='cargo clippy'
 alias clip='cargo clippy'
 alias cch='cargo check'
