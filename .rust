@@ -220,10 +220,7 @@ alias nuconfigrefresh='nuconfigp; cp /j/tmp26/nuconfig/config.toml .'
 # nutop is the latest code snapshot
 #
 
-alias nub='cd /j/tmp26/nubranch'
-alias nubr='cd /j/tmp26/nubranch'
-alias nutop='cd /j/tmp26/nushell'
-alias nusc='cd /j/tmp26/nuscratch'
+alias nutop='cd /j/tmp17/engine-q'
 alias nut='cd /j/tmp17/nutmp'
 alias nutmp='cd /j/tmp17/nutmp'
 
@@ -245,6 +242,8 @@ alias nurunls='nurunt -c ls'
 ### Changing to various nushell crates
 
 alias nuc='nutop; cd crates'
+alias nuco='cd /j/tmp17/nucode'
+alias nucode='cd /j/tmp17/nucode'
 alias nuansi='nutop; cd crates/nu-ansi-term/src'
 alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
