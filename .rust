@@ -222,13 +222,12 @@ alias nuconfigrefresh='nuconfigp; cp /j/tmp26/nuconfig/config.toml .'
 # nutop is the latest code snapshot
 #
 
+alias nutopp='cd /j/tmp26/nushell'
 alias nutop='cd /j/tmp17/engine-q'
 alias nut='cd /j/tmp17/nutmp'
 alias nutmp='cd /j/tmp17/nutmp'
 
-alias nurunn='./target/debug/nu'
-
-alias nurun='nutop; ./target/debug/nu --skip-plugins'
+alias nurun='nutopp; ./target/debug/nu --skip-plugins'
 alias nuruns='cd /j/tmp26/nutmp/scripts; /j/tmp26/nushell/target/debug/nu --skip-plugins'
 
 alias nurunp='nutop; ./target/debug/nu'
