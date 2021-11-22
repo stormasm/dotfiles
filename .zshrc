@@ -152,6 +152,7 @@ alias pcom2='ping 75.75.76.76'
 # Misc miamedia tmp99
 #
 
+alias ark='cd /miamedia/equity/ark'
 alias rtve='cd /miamedia/rtve'
 alias tur='cd /miamedia/rtve/turismo'
 alias ubnt='cd /miamedia/ubnt'
