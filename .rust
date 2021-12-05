@@ -28,8 +28,9 @@ alias cbrel='cargo build --release'
 alias cbndf='cargo build --no-default-features'
 
 alias cbnu='cargo build --no-default-features --features=rustyline-support'
-alias cbdf='cargo build --no-default-features --features=rustyline-support --features=dataframe'
-alias cbdf2='cargo build --features=dataframe'
+
+alias cbdf='cargo build --features=dataframe'
+alias cbdf2='cargo build --no-default-features --features=rustyline-support --features=dataframe'
 
 alias cbrl='cargo build --features=rustyline-support'
 
@@ -60,6 +61,7 @@ alias eq='cd /j/tmp17/engine-q'
 alias eq26='cd /j/tmp26/engine-q'
 alias mi='cd /j/tmp17/miette'
 alias req='./target/debug/engine-q'
+alias runeq='./target/debug/engine-q'
 alias eqcfg='cd /Users/ma/Library/Application\ Support/nushell'
 alias nudoc='cd /j/tmp17/nudoc'
 alias nub='cd /j/tmp17/nubranch'
