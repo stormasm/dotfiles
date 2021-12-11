@@ -23,6 +23,11 @@ alias shs='/usr/bin/python -m SimpleHTTPServer 3000'
 
 
 ###
+#     blueark
+###
+alias ba='cd /j/tmp32/blueark'
+
+###
 #     bluemesa
 ###
 
