@@ -24,6 +24,7 @@ alias cben='cargo bench'
 alias cbench='cargo bench'
 
 alias cb='cargo build'
+alias cbaf='cargo build --all-features'
 alias cbrel='cargo build --release'
 alias cbndf='cargo build --no-default-features'
 
