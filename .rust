@@ -265,9 +265,9 @@ alias nueng='nutop; cd crates/nu-engine/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupar='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
-alias nusource='nutop; cd crates/nu-source/src'
-alias nustr='nutop; cd crates/nu-stream/src'
-alias nutest='nutop; cd crates/nu-test-support/src'
+alias nusource='nutopp; cd crates/nu-source/src'
+alias nustr='nutopp; cd crates/nu-stream/src'
+alias nutest='nutopp; cd crates/nu-test-support/src'
 
 ### Utils for working with nushell
 
