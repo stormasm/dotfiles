@@ -311,6 +311,9 @@ alias nunotes='nutop; cd ..; cd nunotes'
 alias nuproj='nutop; cd ..; cd nuproj'
 alias peval='nuproj; cd parseval'
 
+# Nushell directory locations
+alias tojson='nutop; cd crates/nu-command/src/formats/to'
+
 # Nushell Binaries
 alias nuver='cd /mia/rust/nushell/nuver'
 
