@@ -212,12 +212,18 @@ alias gpeq='git pull https://github.com/nushell/engine-q main'
 alias gpmi='git pull https://github.com/zkat/miette main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
 
-alias nuconfig='nutop; cd ..; cd nuconfig'
+### nushell config location and manipulation
+
 alias appsup='cd /Users/ma/Library/Application\ Support'
-alias configpath='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
-alias nuconfigp='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
-alias nuconfigpathold='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
-alias nuconfigpath='cd /Users/ma/Library/Application\ Support/nushell'
+
+alias configpath='cd /Users/ma/Library/Application\ Support/nushell'
+alias confignu='cd /Users/ma/Library/Application\ Support/nushell'
+alias nuconfig='cd /Users/ma/Library/Application\ Support/nushell'
+
+alias nuconfigme='nutop; cd ..; cd nuconfig'
+
+alias configpathold='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
+
 alias nuconfigsave='nuconfigp; cp config.toml /j/tmp26/nuconfig; nuconfig'
 alias nuconfigr='nuconfigp; cp /j/tmp26/nuconfig/config.toml .'
 alias nuconfigrefresh='nuconfigp; cp /j/tmp26/nuconfig/config.toml .'
@@ -265,7 +271,8 @@ alias nueng='nutop; cd crates/nu-engine/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupar='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
-alias nuj='cd /j/tmp17/nujson'
+alias nts='nutop; cd crates/nu-test-support/src'
+alias nuj='cd /j/tmp17/nujson/crates/nu-json'
 alias nujson='cd /j/tmp17/nujson'
 alias nusource='nutopp; cd crates/nu-source/src'
 alias nustr='nutopp; cd crates/nu-stream/src'
