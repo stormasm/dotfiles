@@ -272,8 +272,10 @@ alias nup='nutop; cd crates/nu-parser/src'
 alias nupar='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nts='nutop; cd crates/nu-test-support/src'
-alias nuj='cd /j/tmp17/nujson/crates/nu-json'
-alias nujson='cd /j/tmp17/nujson'
+
+alias nuj='cd /j/tmp17/engine-q/crates/nu-json/src'
+alias nujson='cd /j/tmp17/engine-q/crates/nu-json/src'
+
 alias nusource='nutopp; cd crates/nu-source/src'
 alias nustr='nutopp; cd crates/nu-stream/src'
 alias nutest='nutopp; cd crates/nu-test-support/src'
@@ -398,3 +400,9 @@ alias rr='./test/run-tests.py -p --no-roundtrip'
 alias wt=wasmtime
 alias wtg='cd /j/tmp19/wasmtime'
 alias wtc='cd /j/tmp19/wasmtime/cranelift'
+
+#
+# parse-camino
+#
+alias pc='cd /j/tmp17/parse-camino/regex'
+alias pcd='cd /j/tmp99/parse-camino-data'
