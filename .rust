@@ -344,6 +344,7 @@ alias zb='zola build'
 #
 # Rust Examples
 #
+alias rex='cd /j/tmp17/rust-examples'
 alias rustex='cd /j/tmp17/rust-examples'
 
 #
