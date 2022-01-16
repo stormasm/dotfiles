@@ -68,7 +68,7 @@ alias nudoc='cd /j/tmp17/nudoc'
 alias nub='cd /j/tmp17/nubranch'
 alias com='cd /j/tmp17/engine-q/crates/nu-command'
 alias fil='cd /j/tmp17/engine-q/crates/nu-command/src/filters'
-
+alias filnu='cd /j/tmp26/nushell/crates/nu-command/src/commands/filters'
 
 ### rust-notes
 alias nun='cd /j/tmp17/nunotes'
