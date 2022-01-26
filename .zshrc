@@ -71,6 +71,7 @@ alias ltm='ls -lt | more'
 alias m='make'
 alias mia='cd /mia'
 alias mm='cd /miamedia'
+alias mmta='cd /miamedia/ta'
 
 alias sp='source /Users/ma/.zshrc'
 alias y='yarn'
