@@ -109,6 +109,7 @@ alias gmm='git merge main'
 
 alias gp='git pull'
 alias gpo='git push origin'
+alias gpro='git remote prune origin'
 alias grpo='git remote prune origin'
 alias grso='git remote show origin'
 

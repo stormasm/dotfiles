@@ -212,21 +212,18 @@ alias gpeq='git pull https://github.com/nushell/engine-q main'
 alias gpmi='git pull https://github.com/zkat/miette main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
 
-### nushell config location and manipulation
+###                                           ###
+#    nushell config location and manipulation   #
+###                                           ###
 
 alias appsup='cd /Users/ma/Library/Application\ Support'
 
 alias configpath='cd /Users/ma/Library/Application\ Support/nushell'
-alias confignu='cd /Users/ma/Library/Application\ Support/nushell'
-alias nuconfig='cd /Users/ma/Library/Application\ Support/nushell'
-
-alias nuconfigme='nutop; cd ..; cd nuconfig'
-
 alias configpathold='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 
-alias nuconfigsave='nuconfigp; cp config.toml /j/tmp26/nuconfig; nuconfig'
-alias nuconfigr='nuconfigp; cp /j/tmp26/nuconfig/config.toml .'
-alias nuconfigrefresh='nuconfigp; cp /j/tmp26/nuconfig/config.toml .'
+alias confignu='cd /Users/ma/Library/Application\ Support/nushell'
+alias nuconfig='cd /Users/ma/Library/Application\ Support/nushell'
+alias nuconfigme='nutop; cd ..; cd nuconfig'
 
 #
 # nutop is the latest nushell and engine-q code snapshot
@@ -301,6 +298,8 @@ alias nubug='nutop; cd ..; cd nubug'
 alias nutmps='nutop; cd ..; cd nutmp/scripts'
 alias nusc='nutop; cd ..; cd nuscratch'
 alias nus='nutop; cd ..; cd nuscripts'
+alias nuscript='nutop; cd ..; cd nuscripts'
+alias nuscripts='nutop; cd ..; cd nuscripts'
 alias nust='nutop; cd ..; cd nutmp/scripts/test'
 alias nusn='nutop; cd ..; cd nu_scripts'
 
