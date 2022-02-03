@@ -306,6 +306,7 @@ export OUT_DIR="/j/tmp14/out"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+[[ -s "$HOME/.nodejs" ]] && source "$HOME/.nodejs"
 [[ -s "$HOME/.golang" ]] && source "$HOME/.golang"
 [[ -s "$HOME/.python" ]] && source "$HOME/.python"
 [[ -s "$HOME/.rust" ]] && source "$HOME/.rust"

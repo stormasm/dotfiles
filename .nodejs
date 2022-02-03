@@ -3,6 +3,7 @@
 
 ### export NODE_PATH='/tmp13/node_modules'
 
+alias n='node'
 alias vs='vue serve'
 
 alias cnp='env | grep NODE_PATH'
