@@ -234,6 +234,9 @@ alias nudir='cd /j/tmp17'
 alias nutop='cd /j/tmp17/engine-q'
 alias nutopp='cd /j/tmp26/nushell'
 
+alias nubo='cd /j/tmp17/nushell.github.io'
+alias nubook='cd /j/tmp17/nushell.github.io'
+
 alias nut='cd /j/tmp17/nutmp'
 alias nutmp='cd /j/tmp17/nutmp'
 
