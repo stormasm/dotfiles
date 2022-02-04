@@ -60,6 +60,10 @@ alias rb='cd /j/tmp18/rust-bio'
 ### engine-q
 alias eq='cd /j/tmp17/engine-q'
 alias eq26='cd /j/tmp26/engine-q'
+
+alias fix='rg "FIXME: jt"'
+alias fixme='rg "FIXME: jt"'
+
 alias mi='cd /j/tmp17/miette'
 alias req='./target/debug/engine-q'
 alias runeq='./target/debug/engine-q'
@@ -364,7 +368,8 @@ alias cthno='ctno commands::help'
 
 alias ctnoex='ctno commands::tests::examples_work_as_expected'
 
-alias cta='cargo test --all'
+alias cta='cargo test --all --all-features'
+alias ctan='cargo test --all'
 alias ctas='cargo test --all --features=stable'
 alias ct100='cargo test --package nu-cli --test main -- commands::each'
 
