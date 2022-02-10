@@ -57,9 +57,9 @@ alias cv='cargo -V'
 ### rust-bio
 alias rb='cd /j/tmp18/rust-bio'
 
-### engine-q
-alias eq='cd /j/tmp17/engine-q'
-alias eq26='cd /j/tmp26/engine-q'
+### nushell
+alias eq='cd /j/tmp17/nushell'
+alias nu='cd /j/tmp17/nushell'
 
 alias fix='rg "FIXME: jt"'
 alias fixme='rg "FIXME: jt"'
@@ -70,9 +70,8 @@ alias runeq='./target/debug/engine-q'
 alias eqcfg='cd /Users/ma/Library/Application\ Support/nushell'
 alias nudoc='cd /j/tmp17/nudoc'
 alias nub='cd /j/tmp17/nubranch'
-alias com='cd /j/tmp17/engine-q/crates/nu-command'
-alias fil='cd /j/tmp17/engine-q/crates/nu-command/src/filters'
-alias filnu='cd /j/tmp26/nushell/crates/nu-command/src/commands/filters'
+alias com='cd /j/tmp17/nushell/crates/nu-command'
+alias fil='cd /j/tmp17/nushell/crates/nu-command/src/filters'
 
 ### rust-notes
 alias nun='cd /j/tmp17/nunotes'
@@ -209,12 +208,14 @@ alias loglevel='env | grep RUST_LOG'
 alias miup='cargo update --workspace -p miette'
 
 alias getnu='gc git@github.com:nushell/nushell.git'
-alias geteq='gc git@github.com:nushell/engine-q.git'
 alias getnustorm='gc git@github.com:stormasm/nushell.git'
-alias geteqstorm='gc git@github.com:stormasm/engine-q.git'
-alias gpeq='git pull https://github.com/nushell/engine-q main'
-alias gpmi='git pull https://github.com/zkat/miette main'
+
+alias getnusn='gc git@github.com:stormasm/nu_scripts.git'
+alias getnusnstorm='gc git@github.com:stormasm/nu_scripts.git'
+
+alias gpeq='git pull https://github.com/nushell/nushell main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
+alias gpnusn='git pull https://github.com/nushell/nu_scripts main'
 
 ###                                           ###
 #    nushell config location and manipulation   #
@@ -224,6 +225,7 @@ alias appsup='cd /Users/ma/Library/Application\ Support'
 
 alias configpath='cd /Users/ma/Library/Application\ Support/nushell'
 alias configpathold='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
+alias nuconfigold='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
 
 alias confignu='cd /Users/ma/Library/Application\ Support/nushell'
 alias nuconfig='cd /Users/ma/Library/Application\ Support/nushell'
@@ -235,7 +237,7 @@ alias nuconfigme='nutop; cd ..; cd nuconfig'
 
 alias nudir='cd /j/tmp17'
 
-alias nutop='cd /j/tmp17/engine-q'
+alias nutop='cd /j/tmp17/nushell'
 alias nutopp='cd /j/tmp26/nushell'
 
 alias nubo='cd /j/tmp17/nushell.github.io'
@@ -244,8 +246,12 @@ alias nubook='cd /j/tmp17/nushell.github.io'
 alias nut='cd /j/tmp17/nutmp'
 alias nutmp='cd /j/tmp17/nutmp'
 
-alias nurun='nutopp; ./target/debug/nu --skip-plugins'
-alias nuruns='cd /j/tmp26/nutmp/scripts; /j/tmp26/nushell/target/debug/nu --skip-plugins'
+alias nurun='/j/tmp17/nushell/target/debug/nu'
+alias nurunn='/j/tmp26/nushell/target/debug/nu'
+
+
+alias nulegrun='nutopp; ./target/debug/nu --skip-plugins'
+alias nulegruns='cd /j/tmp26/nutmp/scripts; /j/tmp26/nushell/target/debug/nu --skip-plugins'
 
 alias nurunp='nutop; ./target/debug/nu'
 alias nuruni='nurun -l info'
@@ -354,6 +360,8 @@ alias zb='zola build'
 # Rust Examples
 #
 alias rex='cd /j/tmp17/rust-examples'
+alias rexe='cd /j/tmp17/rust-examples/error'
+alias rexv='cd /j/tmp17/rust-examples/vec'
 alias rustex='cd /j/tmp17/rust-examples'
 
 #
