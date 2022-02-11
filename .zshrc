@@ -2,7 +2,7 @@
 # Setting up the PATH always is the first line in the file
 #
 
-export PATH=/mia/rust/bin:/mia/wabt/build:/mia/rust/nushell/nuver-lfs/bin:/mia/rust/nushell/nuver/bin:/miapg/postgresql/11/bin:/usr/local/bin:~/.rvm/bin:/mia/protoc/bin:/mia/nodejs/node/bin:/mia/golang/go/bin:~/go/bin:~/.local/bin:$PATH
+export PATH=~/mia/rust/bin:/usr/local/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/nodejs/node/bin:~/mia/golang/go/bin:~/go/bin:~/.local/bin:$PATH
 
 # Always add the current directory to your PATH so it finds local binaries
 
@@ -66,9 +66,9 @@ alias lt='ls -lt'
 alias ltm='ls -lt | more'
 
 alias m='make'
-alias mia='cd /mia'
+alias mia='cd ~/mia'
 alias mm='cd ~/mm'
-alias mmta='cd ~/miamedia/ta'
+alias mmta='cd ~/mm/ta'
 
 alias sp='source ~/.zshrc'
 alias y='yarn'

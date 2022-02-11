@@ -55,7 +55,7 @@ alias cup='cargo update'
 alias cv='cargo -V'
 
 ### rust-bio
-alias rb='cd /j/tmp18/rust-bio'
+alias rb='cd ~/j/tmp18/rust-bio'
 
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
@@ -115,14 +115,6 @@ alias cess='cargo run -- --db-path /miarust/data/mes.edb'
 alias cesc='cargo run subscribe rick'
 alias cesp='cargo run publish rick blue'
 
-#
-# sled
-#
-
-alias sled='cd /j/tmp25/sled'
-
-### https://github.com/sile/ekvsb
-
 alias ekrun='ekvsb workload put --count 10 --value-size 10 | ekvsb run sled --dir /tmp41 | ekvsb summary'
 
 ### hyper example echo server testing
@@ -160,8 +152,8 @@ alias rgc="rg polars -g Cargo.toml"
 
 ### arrow and parquet
 
-export PARQUET_TEST_DATA=/j/tmp15/arrow/cpp/submodules/parquet-testing/data
-export ARROW_TEST_DATA=/j/tmp15/arrow/testing/data
+export PARQUET_TEST_DATA=~/j/tmp15/arrow/cpp/submodules/parquet-testing/data
+export ARROW_TEST_DATA=~/j/tmp15/arrow/testing/data
 
 alias arex1='cre read_csv --features "prettyprint"'
 alias arex2='cre read_csv_infer_schema --features "prettyprint"'
@@ -238,7 +230,7 @@ alias nuconfigme='nutop; cd ..; cd nuconfig'
 alias nudir='cd ~/j/tmp17'
 
 alias nutop='cd ~/j/tmp17/nushell'
-alias nutopp='cd /j/tmp26/nushell'
+alias nutopp='cd ~/j/tmp26/nushell'
 
 alias nubo='cd ~/j/tmp17/nushell.github.io'
 alias nubook='cd ~/j/tmp17/nushell.github.io'
@@ -247,11 +239,10 @@ alias nut='cd ~/j/tmp17/nutmp'
 alias nutmp='cd ~/j/tmp17/nutmp'
 
 alias nurun='~/j/tmp17/nushell/target/debug/nu'
-alias nurunn='/j/tmp26/nushell/target/debug/nu'
-
+alias nurunn='~/j/tmp26/nushell/target/debug/nu'
 
 alias nulegrun='nutopp; ./target/debug/nu --skip-plugins'
-alias nulegruns='cd /j/tmp26/nutmp/scripts; /j/tmp26/nushell/target/debug/nu --skip-plugins'
+alias nulegruns='cd ~/j/tmp26/nutmp/scripts; ~/j/tmp26/nushell/target/debug/nu --skip-plugins'
 
 alias nurunp='nutop; ./target/debug/nu'
 alias nuruni='nurun -l info'
@@ -278,7 +269,7 @@ alias tff='nutop; cd tests/fixtures/formats'
 
 alias nucomp='nutop; cd crates/nu-completion/src'
 alias nudata='nudir; cd nudata'
-alias nud='cd /j/tmp26/nudata/csv'
+alias nud='cd ~/j/tmp26/nudata/csv'
 alias nuen='nutop; cd crates/nu-engine/src'
 alias nueng='nutop; cd crates/nu-engine/src'
 alias nup='nutop; cd crates/nu-parser/src'
@@ -292,11 +283,6 @@ alias nujson='cd ~/j/tmp17/engine-q/crates/nu-json/src'
 alias nusource='nutopp; cd crates/nu-source/src'
 alias nustr='nutopp; cd crates/nu-stream/src'
 alias nutest='nutopp; cd crates/nu-test-support/src'
-
-### Utils for working with nushell
-
-alias cpcli='cp cli.rs /j/tmp24/nushelltmp/v18.2/tmp01; cd /j/tmp24/nushelltmp/v18.2/tmp01'
-alias cpar='cp parse.rs /j/tmp25/nushelltmp/v19.0/tmp00; cd /j/tmp25/nushelltmp/v19.0/tmp00'
 
 # Nushell Testing
 #
@@ -319,9 +305,6 @@ alias nuscripts='nutop; cd ..; cd nuscripts'
 alias nust='nutop; cd ..; cd nutmp/scripts/test'
 alias nusn='nutop; cd ..; cd nu_scripts'
 
-# Nushell Copy Cargolite.toml over to nutop
-alias carcp='cp /j/tmp26/Cargo.toml /j/tmp26/nushell'
-
 # Nushell Projects
 alias nume='nutop; cd ..; cd nume'
 alias nunotes='nutop; cd ..; cd nunotes'
@@ -341,8 +324,6 @@ alias mdc='mdbook clean'
 alias mdd='mdbook build -d ./docs'
 alias mds='mdbook serve'
 alias mdserve='mdbook serve'
-alias nn='cd /j/tmp19/nushell-notes'
-alias bar='cd /j/tmp19/barnum'
 
 #
 # gluon
@@ -385,21 +366,9 @@ alias ctas='cargo test --all --features=stable'
 alias ct100='cargo test --package nu-cli --test main -- commands::each'
 
 #
-# delta
-#
-alias dtop='cd /j/tmp29/delta'
-alias drun='dtop; ./target/debug/delta'
-
-#
 # tickrs
 #
 alias tickui='tickrs -s ui,ibm,nly'
-
-#
-# rustpython
-#
-
-alias rprun='/j/tmp28/RustPython/target/debug/rustpython'
 
 #
 # cranelift wasmtime
@@ -407,21 +376,15 @@ alias rprun='/j/tmp28/RustPython/target/debug/rustpython'
 
 export TARGET=x86_64-apple-darwin
 
-alias cl='cd /j/tmp19/cranelift'
-alias clg='cd /j/tmp19/cl'
+alias cl='cd ~/j/tmp19/cranelift'
+alias clg='cd ~/j/tmp19/cl'
 alias clu='clif-util'
-alias clur='/j/tmp19/wasmtime/target/debug/clif-util'
+alias clur='~/j/tmp19/wasmtime/target/debug/clif-util'
 alias clurt='clur test'
-alias wabt='cd /j/tmp19/wabt'
-alias wabtt='cd /j/tmp19/wabtest'
-alias wabtest='cd /j/tmp19/wabtest'
+alias wabt='cd ~/j/tmp19/wabt'
+alias wabtt='cd ~/j/tmp19/wabtest'
+alias wabtest='cd ~/j/tmp19/wabtest'
 alias rr='./test/run-tests.py -p --no-roundtrip'
 alias wt=wasmtime
-alias wtg='cd /j/tmp19/wasmtime'
-alias wtc='cd /j/tmp19/wasmtime/cranelift'
-
-#
-# parse-camino
-#
-alias pc='cd /j/tmp17/parse-camino/regex'
-alias pcd='cd /j/tmp99/parse-camino-data'
+alias wtg='cd ~/j/tmp19/wasmtime'
+alias wtc='cd ~/j/tmp19/wasmtime/cranelift'
