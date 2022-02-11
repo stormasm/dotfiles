@@ -58,37 +58,37 @@ alias cv='cargo -V'
 alias rb='cd /j/tmp18/rust-bio'
 
 ### nushell
-alias eq='cd /j/tmp17/nushell'
-alias nu='cd /j/tmp17/nushell'
+alias eq='cd ~/j/tmp17/nushell'
+alias nu='cd ~/j/tmp17/nushell'
 
 alias fix='rg "FIXME: jt"'
 alias fixme='rg "FIXME: jt"'
 
-alias mi='cd /j/tmp17/miette'
+alias mi='cd ~/j/tmp17/miette'
 alias req='./target/debug/engine-q'
 alias runeq='./target/debug/engine-q'
 alias eqcfg='cd /Users/ma/Library/Application\ Support/nushell'
-alias nudoc='cd /j/tmp17/nudoc'
-alias nub='cd /j/tmp17/nubranch'
-alias com='cd /j/tmp17/nushell/crates/nu-command'
-alias fil='cd /j/tmp17/nushell/crates/nu-command/src/filters'
+alias nudoc='cd ~/j/tmp17/nudoc'
+alias nub='cd ~/j/tmp17/nubranch'
+alias com='cd ~/j/tmp17/nushell/crates/nu-command'
+alias fil='cd ~/j/tmp17/nushell/crates/nu-command/src/filters'
 
 ### rust-notes
-alias nun='cd /j/tmp17/nunotes'
-alias rn='cd /j/tmp17/rust-notes'
+alias nun='cd ~/j/tmp17/nunotes'
+alias rn='cd ~/j/tmp17/rust-notes'
 
 ### reedline
-alias rlg='cd /j/tmp17/reedline/src'
+alias rlg='cd ~/j/tmp17/reedline/src'
 
 ### nucli-reed
-alias nr='cd /j/tmp17/nucli-reed'
-alias ncr='cd /j/tmp17/nucli-reed/crates/nu-cli-reed/src'
-alias nrl='cd /j/tmp17/nucli-reed/crates/reedline'
+alias nr='cd ~/j/tmp17/nucli-reed'
+alias ncr='cd ~/j/tmp17/nucli-reed/crates/nu-cli-reed/src'
+alias nrl='cd ~/j/tmp17/nucli-reed/crates/reedline'
 export REEDLINE_HISTFILE="$HOME/.reedline/history.txt"
 
 ### nucli-rusty
-alias jr='cd /j/tmp17/nucli-rusty'
-alias jrg='cd /j/tmp17/rustyline81/src'
+alias jr='cd ~/j/tmp17/nucli-rusty'
+alias jrg='cd ~/j/tmp17/rustyline81/src'
 
 ### https://github.com/timberio/vector
 
@@ -235,18 +235,18 @@ alias nuconfigme='nutop; cd ..; cd nuconfig'
 # nutop is the latest nushell and engine-q code snapshot
 #
 
-alias nudir='cd /j/tmp17'
+alias nudir='cd ~/j/tmp17'
 
-alias nutop='cd /j/tmp17/nushell'
+alias nutop='cd ~/j/tmp17/nushell'
 alias nutopp='cd /j/tmp26/nushell'
 
-alias nubo='cd /j/tmp17/nushell.github.io'
-alias nubook='cd /j/tmp17/nushell.github.io'
+alias nubo='cd ~/j/tmp17/nushell.github.io'
+alias nubook='cd ~/j/tmp17/nushell.github.io'
 
-alias nut='cd /j/tmp17/nutmp'
-alias nutmp='cd /j/tmp17/nutmp'
+alias nut='cd ~/j/tmp17/nutmp'
+alias nutmp='cd ~/j/tmp17/nutmp'
 
-alias nurun='/j/tmp17/nushell/target/debug/nu'
+alias nurun='~/j/tmp17/nushell/target/debug/nu'
 alias nurunn='/j/tmp26/nushell/target/debug/nu'
 
 
@@ -266,8 +266,8 @@ alias nurunls='nurunt -c ls'
 ### Changing to various nushell crates
 
 alias nuc='nutop; cd crates'
-alias nuco='cd /j/tmp17/nucode'
-alias nucode='cd /j/tmp17/nucode'
+alias nuco='cd ~/j/tmp17/nucode'
+alias nucode='cd ~/j/tmp17/nucode'
 alias nuansi='nutop; cd crates/nu-ansi-term/src'
 alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
@@ -286,8 +286,8 @@ alias nupar='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nts='nutop; cd crates/nu-test-support/src'
 
-alias nuj='cd /j/tmp17/engine-q/crates/nu-json/src'
-alias nujson='cd /j/tmp17/engine-q/crates/nu-json/src'
+alias nuj='cd ~/j/tmp17/engine-q/crates/nu-json/src'
+alias nujson='cd ~/j/tmp17/engine-q/crates/nu-json/src'
 
 alias nusource='nutopp; cd crates/nu-source/src'
 alias nustr='nutopp; cd crates/nu-stream/src'
@@ -359,10 +359,10 @@ alias zb='zola build'
 #
 # Rust Examples
 #
-alias rex='cd /j/tmp17/rust-examples'
-alias rexe='cd /j/tmp17/rust-examples/error'
-alias rexv='cd /j/tmp17/rust-examples/vec'
-alias rustex='cd /j/tmp17/rust-examples'
+alias rex='cd ~/j/tmp17/rust-examples'
+alias rexe='cd ~/j/tmp17/rust-examples/error'
+alias rexv='cd ~/j/tmp17/rust-examples/vec'
+alias rustex='cd ~/j/tmp17/rust-examples'
 
 #
 # Special Case Nushell Testing
