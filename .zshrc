@@ -70,8 +70,8 @@ alias ltm='ls -lt | more'
 
 alias m='make'
 alias mia='cd /mia'
-alias mm='cd /miamedia'
-alias mmta='cd /miamedia/ta'
+alias mm='cd ~/mm'
+alias mmta='cd ~/miamedia/ta'
 
 alias sp='source ~/.zshrc'
 alias y='yarn'
@@ -153,10 +153,10 @@ alias pcom2='ping 75.75.76.76'
 # Misc miamedia tmp99
 #
 
-alias ark='cd /miamedia/equity/ark'
-alias rtve='cd /miamedia/rtve'
-alias tur='cd /miamedia/rtve/turismo'
-alias ubnt='cd /miamedia/ubnt'
+alias ark='cd ~/mm/equity/ark'
+alias rtve='cd ~/mm/rtve'
+alias tur='cd ~/mm/rtve/turismo'
+alias ubnt='cd ~/mm/ubnt'
 
 alias bio='cd /j/tmp99/bio'
 alias music='cd /j/tmp99/music'
@@ -309,6 +309,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.golang" ]] && source "$HOME/.golang"
 [[ -s "$HOME/.python" ]] && source "$HOME/.python"
 [[ -s "$HOME/.rust" ]] && source "$HOME/.rust"
-[[ -s "$HOME/.influxenv" ]] && source "$HOME/.influxenv"
 
 source '/Users/ma/Library/Application Support/org.dystroy.broot/launcher/bash/br'
