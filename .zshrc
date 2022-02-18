@@ -86,7 +86,8 @@ alias jjj3='git push origin bp3'
 alias kkk='git push origin gh-pages'
 
 alias ga='git add'
-alias gb='git branch -a'
+alias gb='git branch'
+alias gba='git branch -a'
 alias gc='git clone'
 alias gco='git checkout'
 alias gcobp1='git checkout -b bp1 master'
@@ -125,7 +126,7 @@ alias gsw='git switch -'
 alias dot='cd ~/mia/dotfiles'
 alias dotc='cd ~/mia/dotfiles'
 
-alias dotcp='cd ~; cp .gitconfig ~/mia/dotfiles; cp .zshrc ~/mia/dotfiles; cp .python ~/mia/dotfiles; cp .golang ~/mia/dotfiles; cp .secret ~/mia/dotfiles; cp .nodejs ~/mia/dotfiles; cp .rust ~/mia/dotfiles; cp ~/.config/alacritty/alacritty.yml ~/mia/dotfiles/config/terminal'
+alias dotcp='cd ~; cp .gitconfig ~/mia/dotfiles; cp .zshrc ~/mia/dotfiles; cp .python ~/mia/dotfiles; cp .golang ~/mia/dotfiles; cp .vimrc ~/mia/dotfiles; cp .secret ~/mia/dotfiles; cp .nodejs ~/mia/dotfiles; cp .rust ~/mia/dotfiles; cp ~/.config/alacritty/alacritty.yml ~/mia/dotfiles/config/terminal'
 
 alias dotdiff='cd ~; diff .zshrc ~/mia/dotfiles/.zshrc; diff .python ~/mia/dotfiles/.python; diff .golang ~/mia/dotfiles/.golang; diff .secret ~/mia/dotfiles/.secret; diff .nodejs ~/mia/dotfiles/.nodejs; diff .rust ~/mia/dotfiles/.rust'
 
@@ -162,6 +163,7 @@ alias res='cd ~/j/tmp99/research'
 alias resbio='cd ~/j/tmp99/research/bio'
 
 alias span='cd ~/j/tmp99/spanish'
+alias pray='cd ~/j/tmp99/spanish/prayers'
 alias sentd='cd ~/j/tmp99/spanish/sentences'
 
 alias yt='cd ~/j/tmp99/youtube'
