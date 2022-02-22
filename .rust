@@ -353,6 +353,10 @@ alias rustex='cd ~/j/tmp17/rust-examples'
 # You have to run the cta command first prior to running the tests
 #
 
+alias cnr='cargo nextest run'
+alias cnrn='cargo nextest run --no-capture'
+alias cnrno='cargo nextest run --no-capture'
+
 alias ct='cargo test'
 alias ctno='cargo test -- --nocapture'
 

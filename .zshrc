@@ -41,7 +41,7 @@ alias fu='sudo mount -uw /'
 alias atom='atom .'
 alias matom='matom .'
 
-alias bm='cd ~/mm/bookmarks'
+alias bm='cd ~/j/tmp99/bookmarks'
 
 alias c='clear'
 alias cp='cp -p'
