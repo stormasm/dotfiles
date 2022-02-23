@@ -56,6 +56,7 @@ alias cv='cargo -V'
 
 ### rust-bio
 alias rb='cd ~/j/tmp18/rust-bio'
+alias scr='cd ~/j/tmp17/scraper'
 
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
@@ -286,6 +287,9 @@ alias nujson='cd ~/j/tmp17/engine-q/crates/nu-json/src'
 alias nusource='nutopp; cd crates/nu-source/src'
 alias nustr='nutopp; cd crates/nu-stream/src'
 alias nutest='nutopp; cd crates/nu-test-support/src'
+
+# Plugins
+alias npq='nutop; cd crates/nu_plugin_query'
 
 # Nushell Testing
 #
