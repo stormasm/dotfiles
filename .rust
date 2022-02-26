@@ -36,7 +36,10 @@ alias cbdf2='cargo build --no-default-features --features=rustyline-support --fe
 alias cbrl='cargo build --features=rustyline-support'
 
 alias cdoc='cargo doc --no-deps --open'
-alias localdoc='rustup doc'
+alias rustdoc='rustup doc'
+alias rustdoch='rustup doc -h'
+alias docrust='rustup doc'
+
 alias ciman='cargo fmt; cargo check; cargo clippy; cargo test --all'
 alias ccl='cargo clippy'
 alias clip='cargo clippy'
@@ -201,6 +204,8 @@ alias miup='cargo update --workspace -p miette'
 
 alias getnu='gc git@github.com:nushell/nushell.git'
 alias getnustorm='gc git@github.com:stormasm/nushell.git'
+
+alias getnustormbook='gc git@github.com:stormasm/nushell.github.io.git'
 
 alias getnusn='gc git@github.com:stormasm/nu_scripts.git'
 alias getnusnstorm='gc git@github.com:stormasm/nu_scripts.git'
