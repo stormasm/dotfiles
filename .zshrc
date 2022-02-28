@@ -134,11 +134,11 @@ alias dotdiff='cd ~; diff .zshrc ~/mia/dotfiles/.zshrc; diff .python ~/mia/dotfi
 # Redis
 #
 
-alias redis='cd /mia/redisio/redis; ./src/redis-server ./myredis.conf'
-alias redisc='cd /mia/redisio/redis; ./src/redis-cli'
-alias redisent='cd /mia/redisio/redis; ./src/redis-sentinel ./sentinel.conf'
-alias rediscsent='cd /mia/redisio/redis/src; ./redis-cli -p 26379'
-alias redislog='cd /mia/redislog'
+alias redis='cd ~/mia/redisio/redis; ./src/redis-server ./myredis.conf'
+alias redisc='cd ~/mia/redisio/redis; ./src/redis-cli'
+alias redisent='cd ~/mia/redisio/redis; ./src/redis-sentinel ./sentinel.conf'
+alias rediscsent='cd ~/mia/redisio/redis/src; ./redis-cli -p 26379'
+alias redislog='cd ~/mia/redislog'
 
 #
 # Comcast Trouble Shooting and onend
