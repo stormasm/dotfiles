@@ -61,6 +61,11 @@ alias cv='cargo -V'
 alias rb='cd ~/j/tmp18/rust-bio'
 alias scr='cd ~/j/tmp17/scraper'
 
+### parse-camino
+
+alias pc='cd ~/j/tmp17/parse-camino'
+alias pcd='cd ~/j/tmp17/parse-camino-data'
+
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
 alias nu='cd ~/j/tmp17/nushell'
