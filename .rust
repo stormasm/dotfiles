@@ -216,6 +216,7 @@ alias getnusn='gc git@github.com:stormasm/nu_scripts.git'
 alias getnusnstorm='gc git@github.com:stormasm/nu_scripts.git'
 alias getrlstorm='gc git@github.com:stormasm/reedline.git'
 
+alias gpbook='git pull https://github.com/nushell/nushell.github.io master'
 alias gpeq='git pull https://github.com/nushell/nushell main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
 alias gpnus='git pull https://github.com/nushell/nu_scripts main'
