@@ -1,5 +1,6 @@
 
 alias bf='black .'
+alias ctos='csvs-to-sqlite'
 alias ip='ipython'
 alias python='python3'
 alias py='python3'
@@ -12,10 +13,10 @@ alias jn='jupyter notebook'
 
 # To install a local github repo simply go to that repo and type this command
 alias pidot='pip3 install .'
-alias 49p='cd /j/tmp49/lib/python/site-packages'
+alias 49p='cd ~/j/tmp49/lib/python/site-packages'
 
-export PYTHONPATH=/j/tmp49/lib/python/site-packages:/j/tmp32/blueark/py:/j/tmp32/local
-export PYTHONUSERBASE=/j/tmp49
+export PYTHONPATH=~/j/tmp49/lib/python/site-packages:~/j/tmp10/blueark/py:~/j/tmp10/local
+export PYTHONUSERBASE=~/j/tmp49
 export PIP_USER=yes
 
 # Web Server for Python 2.7
@@ -25,39 +26,39 @@ alias shs='/usr/bin/python -m SimpleHTTPServer 3000'
 ###
 #     blueark
 ###
-alias ba='cd /j/tmp32/blueark'
-alias bap='cd /j/tmp32/blueark/py/blueark'
+alias ba='cd ~/j/tmp10/blueark'
+alias bap='cd ~/j/tmp10/blueark/py/blueark'
 
 ###
 #     bluemesa
 ###
 
-alias blue='cd /j/tmp32/bluemesa/py/bluemesa'
-alias bme='cd /j/tmp32/bluemesa/py/bluemesa/edgar'
-alias bmt='cd /j/tmp32/bluemesa'
+alias blue='cd ~/j/tmp10/bluemesa/py/bluemesa'
+alias bme='cd ~/j/tmp10/bluemesa/py/bluemesa/edgar'
+alias bmt='cd ~/j/tmp10/bluemesa'
 
-alias edu='cd /j/tmp32/edgar-data/ubnt'
-alias edgar='cd /j/tmp32/edgar-data'
+alias edu='cd ~/j/tmp10/edgar-data/ubnt'
+alias edgar='cd ~/j/tmp10/edgar-data'
 
 # RustPython
-alias cpg='cd /j/tmp28/cpython'
-alias rpg='cd /j/tmp28/RustPython'
-alias rpgg='cd /j/tmp28/rp'
+alias cpg='cd ~/j/tmp10/cpython'
+alias rpg='cd ~/j/tmp10/RustPython'
+alias rpgg='cd ~/j/tmp10/rp'
 alias rp='rustpython'
-alias rptd='/j/tmp28/RustPython/target/debug/rustpython'
+alias rptd='~/j/tmp10/RustPython/target/debug/rustpython'
 
 # Random aliases associated with python projects
-alias pe='cd /j/tmp32/python-examples'
-alias pep='cd /j/tmp32/python-examples/pandas'
-alias pyex='cd /j/tmp32/python-examples'
-alias pyep='cd /j/tmp32/python-examples/pandas'
-alias eqd='cd /j/tmp32/equity-data'
-alias eqe='cd /j/tmp32/equity-etf'
-alias eqf='cd /j/tmp32/equity-fun'
-alias eqs='cd /j/tmp32/equity-symbols'
-alias sx='cd /j/tmp32/soup-xbrl'
-alias yf='cd /j/tmp32/yahoo_fin_examples/v00'
-alias yfe='cd /j/tmp32/yahoo_fin_examples/v00'
+alias pe='cd ~/j/tmp10/python-examples'
+alias pep='cd ~/j/tmp10/python-examples/pandas'
+alias pyex='cd ~/j/tmp10/python-examples'
+alias pyep='cd ~/j/tmp10/python-examples/pandas'
+alias eqd='cd ~/j/tmp10/equity-data'
+alias eqe='cd ~/j/tmp10/equity-etf'
+alias eqf='cd ~/j/tmp10/equity-fun'
+alias eqs='cd ~/j/tmp10/equity-symbols'
+alias sx='cd ~/j/tmp10/soup-xbrl'
+alias yf='cd ~/j/tmp10/yahoo_fin_examples/v00'
+alias yfe='cd ~/j/tmp10/yahoo_fin_examples/v00'
 
 # Random environment variables associated with python projects
-export BMTOP=/j/tmp32
+export BMTOP=~/j/tmp10
