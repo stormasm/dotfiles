@@ -25,15 +25,12 @@ alias cbench='cargo bench'
 
 alias cb='cargo build'
 alias cbaf='cargo build --all-features'
+
 alias cbrel='cargo build --release'
+
 alias cbndf='cargo build --no-default-features'
-
-alias cbnu='cargo build --no-default-features --features=rustyline-support'
-
-alias cbdf='cargo build --features=dataframe'
-alias cbdf2='cargo build --no-default-features --features=rustyline-support --features=dataframe'
-
-alias cbrl='cargo build --features=rustyline-support'
+alias cbd='cargo build --features=extra'
+alias cbf='cargo build --features=extra'
 
 alias cdoc='cargo doc --no-deps --open'
 alias rustdoc='rustup doc'
@@ -60,6 +57,10 @@ alias cv='cargo -V'
 ### rust-bio
 alias rb='cd ~/j/tmp18/rust-bio'
 alias scr='cd ~/j/tmp17/scraper'
+
+### rsq
+alias rsq='cd ~/j/tmp17/rsq'
+alias sql='sqlite3'
 
 ### parse-camino
 
@@ -158,7 +159,9 @@ alias mr="rg 'macro_rules! '"
 ### Find all references to polars in all Cargo.toml files
 alias rgc="rg polars -g Cargo.toml"
 
-### arrow and parquet
+### arrow and parquet and polars
+
+alias pol="cd ~/j/tmp06/polars"
 
 export PARQUET_TEST_DATA=~/j/tmp15/arrow/cpp/submodules/parquet-testing/data
 export ARROW_TEST_DATA=~/j/tmp15/arrow/testing/data
@@ -290,6 +293,8 @@ alias nueng='nutop; cd crates/nu-engine/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupar='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
+alias nudfr='nutop; cd crates/nu-command/src/dataframe'
+alias dfr='nutop; cd crates/nu-command/src/dataframe'
 alias nts='nutop; cd crates/nu-test-support/src'
 
 alias nuj='cd ~/j/tmp17/engine-q/crates/nu-json/src'
