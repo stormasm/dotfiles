@@ -258,6 +258,8 @@ alias nutmp='cd ~/j/tmp17/nutmp'
 
 alias nurun='~/j/tmp17/nushell/target/debug/nu'
 alias nurunn='~/j/tmp26/nushell/target/debug/nu'
+alias nu44='~/mia/nu44/nu'
+alias nu59='~/mia/nu59/nu'
 
 alias nulegrun='nutopp; ./target/debug/nu --skip-plugins'
 alias nulegruns='cd ~/j/tmp26/nutmp/scripts; ~/j/tmp26/nushell/target/debug/nu --skip-plugins'
@@ -286,8 +288,9 @@ alias nucomt='nutop; cd crates/nu-command/tests/commands'
 alias tff='nutop; cd tests/fixtures/formats'
 
 alias nucomp='nutop; cd crates/nu-completion/src'
+
 alias nudata='nudir; cd nudata'
-alias nud='cd ~/j/tmp26/nudata/csv'
+
 alias nuen='nutop; cd crates/nu-engine/src'
 alias nueng='nutop; cd crates/nu-engine/src'
 alias nup='nutop; cd crates/nu-parser/src'
