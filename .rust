@@ -290,6 +290,7 @@ alias tff='nutop; cd tests/fixtures/formats'
 alias nucomp='nutop; cd crates/nu-completion/src'
 
 alias nudata='nudir; cd nudata'
+alias nud='nudir; cd nudata'
 
 alias nuen='nutop; cd crates/nu-engine/src'
 alias nueng='nutop; cd crates/nu-engine/src'
