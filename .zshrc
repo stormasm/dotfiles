@@ -152,9 +152,11 @@ alias pcom2='ping 75.75.76.76'
 # Misc miamedia tmp99
 #
 
-alias ark='cd ~/mm/equity/ark'
 alias rtve='cd ~/mm/rtve'
 alias tur='cd ~/mm/rtve/turismo'
+
+alias ark='cd ~/mm/equity/ark'
+alias baba='cd ~/mm/equity/baba'
 alias ubnt='cd ~/mm/ubnt'
 
 alias music='cd ~/j/tmp99/music'
