@@ -37,7 +37,7 @@ alias rustdoc='rustup doc'
 alias rustdoch='rustup doc -h'
 alias docrust='rustup doc'
 
-alias ciman='cargo fmt; cargo check; cargo clippy; cargo test --all'
+alias ciman='cargo fmt; cargo check; cargo clippy; cargo test --all --all-features'
 alias ccl='cargo clippy'
 alias clip='cargo clippy'
 alias cch='cargo check'
