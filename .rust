@@ -26,7 +26,7 @@ alias cbench='cargo bench'
 alias cb='cargo build'
 alias cbaf='cargo build --all-features'
 
-alias cbrel='cargo build --release'
+alias cbr='cargo build --release'
 
 alias cbndf='cargo build --no-default-features'
 alias cbd='cargo build --features=extra'
@@ -59,13 +59,17 @@ alias rb='cd ~/j/tmp18/rust-bio'
 alias scr='cd ~/j/tmp17/scraper'
 
 ### rsq
-alias rsq='cd ~/j/tmp17/rsq'
+alias rsq='cd ~/j/tmp18/rsq'
 alias sql='sqlite3'
 
-### parse-camino
+### parse-camino + dataset
 
+alias ds='cd ~/j/tmp17/dataset/csv'
 alias pc='cd ~/j/tmp17/parse-camino'
 alias pcd='cd ~/j/tmp17/parse-camino-data'
+
+### shakespeare
+alias shake='cd ~/j/tmp17/nuproj/shakespeare'
 
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
