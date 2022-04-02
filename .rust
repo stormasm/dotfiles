@@ -442,3 +442,5 @@ alias wtc='cd ~/j/tmp19/wasmtime/cranelift'
 alias cbsql='cargo build --features=sqlite'
 alias crsql='cargo run --features=sqlite'
 alias ctsql='cargo nextest run --features=sqlite history::'
+
+alias ctsqlcsv='cargo test --lib --features "backup blob chrono csvtab functions hooks limits load_extension serde_json trace vtab bundled"'
