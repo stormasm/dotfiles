@@ -448,4 +448,4 @@ alias ctsql='cargo nextest run --features=sqlite history::'
 #alias ctsqlcsv='cargo nextest run --lib --features "backup blob chrono csvtab functions hooks limits load_extension serde_json trace vtab bundled"'
 #alias ctvtab='cargo nextest run --lib --features "backup blob chrono csvtab serde_json trace vtab bundled" vtab::'
 
-alias ctvtab='cargo nextest run --lib --features "csvtab vtab bundled" vtab::'
+alias ctvtab='cargo nextest run --lib --features "csvtab bundled" vtab::'
