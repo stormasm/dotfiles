@@ -2,7 +2,7 @@
 # Setting up the PATH always is the first line in the file
 #
 
-export PATH=~/mia/rust/bin:/usr/local/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/nodejs/node/bin:~/mia/golang/go/bin:~/go/bin:~/.local/bin:$PATH
+export PATH=~/mia/sqlitetools:~/mia/rust/bin:/usr/local/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/nodejs/node/bin:~/mia/golang/go/bin:~/go/bin:~/.local/bin:$PATH
 
 # Always add the current directory to your PATH so it finds local binaries
 
@@ -24,7 +24,7 @@ export PATH="$WASMTIME_HOME/bin:$PATH"
 # JAVA
 #
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
-
+export HELIX_RUNTIME=/Users/ma/j/tmp19/helix/runtime
 
 export MANPATH=/opt/local/share/man:$MANPATH
 

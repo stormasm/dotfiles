@@ -33,6 +33,10 @@ alias cbd='cargo build --features=extra'
 alias cbf='cargo build --features=extra'
 
 alias cdoc='cargo doc --no-deps --open'
+alias cor='cargo outdated -R'
+
+### rustup
+
 alias rustdoc='rustup doc'
 alias rustdoch='rustup doc -h'
 alias docrust='rustup doc'
@@ -76,7 +80,7 @@ alias eq='cd ~/j/tmp17/nushell'
 alias nu='cd ~/j/tmp17/nushell'
 
 ### reedline
-alias rl='cd ~/j/tmp17/reedline'
+alias rl='cd ~/j/tmp16/reedline'
 alias rlg='~/j/tmp17/reedline/target/debug/reedline'
 alias rlrun='~/j/tmp17/reedline/target/debug/reedline'
 alias rls='cd ~/j/tmp17/reedline/src'
@@ -97,6 +101,9 @@ alias fil='cd ~/j/tmp17/nushell/crates/nu-command/src/filters'
 ### rust-notes
 alias nun='cd ~/j/tmp17/nunotes'
 alias rn='cd ~/j/tmp17/rust-notes'
+
+### nudev
+alias nudev='cd ~/j/tmp17/nudev'
 
 ### reedline
 
@@ -269,11 +276,10 @@ alias nulegrun='nutopp; ./target/debug/nu --skip-plugins'
 alias nulegruns='cd ~/j/tmp26/nutmp/scripts; ~/j/tmp26/nushell/target/debug/nu --skip-plugins'
 
 alias nurunp='nutop; ./target/debug/nu'
-alias nuruni='nurun -l info'
-alias nurund='nurun -l debug'
-alias nurunt='nurun -l trace'
+alias nuruni='nurun --log-level info'
+alias nurund='nurun --log-level debug'
+alias nurunt='nurun --log-level trace'
 alias nuruntlog='nurun -l trace 2> log.txt'
-alias nude='nutop; ./target/debug/nude --loglevel=debug'
 
 alias nurundate='nurunt -c date'
 alias nurunls='nurunt -c ls'
@@ -402,6 +408,11 @@ alias ctas='cargo test --all --features=stable'
 alias ct100='cargo test --package nu-cli --test main -- commands::each'
 
 #
+# Helix
+#
+alias he='cd ~/j/tmp19/helix'
+
+#
 # tickrs
 #
 alias tickui='tickrs -s ui,ibm,nly'
@@ -424,3 +435,10 @@ alias rr='./test/run-tests.py -p --no-roundtrip'
 alias wt=wasmtime
 alias wtg='cd ~/j/tmp19/wasmtime'
 alias wtc='cd ~/j/tmp19/wasmtime/cranelift'
+
+##
+#  @phiresky sqlite code
+##
+alias cbsql='cargo build --features=sqlite'
+alias crsql='cargo run --features=sqlite'
+alias ctsql='cargo nextest run --features=sqlite history::'
