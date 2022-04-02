@@ -64,6 +64,7 @@ alias scr='cd ~/j/tmp17/scraper'
 
 ### rsq
 alias rsq='cd ~/j/tmp18/rsq'
+alias rsql='cd ~/j/tmp18/rusqlite'
 alias sql='sqlite3'
 
 ### parse-camino + dataset
@@ -443,4 +444,8 @@ alias cbsql='cargo build --features=sqlite'
 alias crsql='cargo run --features=sqlite'
 alias ctsql='cargo nextest run --features=sqlite history::'
 
-alias ctsqlcsv='cargo test --lib --features "backup blob chrono csvtab functions hooks limits load_extension serde_json trace vtab bundled"'
+#alias ctsqlcsv='cargo test --lib --features "backup blob chrono csvtab functions hooks limits load_extension serde_json trace vtab bundled"'
+#alias ctsqlcsv='cargo nextest run --lib --features "backup blob chrono csvtab functions hooks limits load_extension serde_json trace vtab bundled"'
+#alias ctvtab='cargo nextest run --lib --features "backup blob chrono csvtab serde_json trace vtab bundled" vtab::'
+
+alias ctvtab='cargo nextest run --lib --features "csvtab vtab bundled" vtab::'
