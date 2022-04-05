@@ -63,7 +63,7 @@ alias rb='cd ~/j/tmp18/rust-bio'
 alias scr='cd ~/j/tmp17/scraper'
 
 ### rsq
-alias rsq='cd ~/j/tmp18/rsq'
+alias rsq='cd ~/j/tmp17/rsq'
 alias rsql='cd ~/j/tmp17/rusqlite'
 alias sql='sqlite3'
 
