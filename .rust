@@ -64,7 +64,7 @@ alias scr='cd ~/j/tmp17/scraper'
 
 ### rsq
 alias rsq='cd ~/j/tmp18/rsq'
-alias rsql='cd ~/j/tmp18/rusqlite'
+alias rsql='cd ~/j/tmp17/rusqlite'
 alias sql='sqlite3'
 
 ### parse-camino + dataset
@@ -381,6 +381,7 @@ alias zb='zola build'
 alias rex='cd ~/j/tmp17/rust-examples'
 alias rexe='cd ~/j/tmp17/rust-examples/error'
 alias rexr='cd ~/j/tmp17/rust-examples/redis'
+alias rexs='cd ~/j/tmp17/rust-examples/sqlite'
 alias rexv='cd ~/j/tmp17/rust-examples/vec'
 alias rustex='cd ~/j/tmp17/rust-examples'
 
