@@ -262,8 +262,8 @@ alias nudir='cd ~/j/tmp17'
 alias nutop='cd ~/j/tmp17/nushell'
 alias nutopp='cd ~/j/tmp26/nushell'
 
-alias nubo='cd ~/j/tmp17/nushell.github.io'
-alias nubook='cd ~/j/tmp17/nushell.github.io'
+alias nubo='cd ~/j/tmp11/nushell.github.io'
+alias nubook='cd ~/j/tmp11/nushell.github.io'
 
 alias nut='cd ~/j/tmp17/nutmp'
 alias nutmp='cd ~/j/tmp17/nutmp'
@@ -308,6 +308,8 @@ alias nueng='nutop; cd crates/nu-engine/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupar='nutop; cd crates/nu-parser/src'
 alias nupro='nutop; cd crates/nu-protocol/src'
+alias nuprom='cd ~/j/tmp17/nupro'
+alias nuprome='cd ~/j/tmp17/nupro'
 alias nudfr='nutop; cd crates/nu-command/src/dataframe'
 alias dfr='nutop; cd crates/nu-command/src/dataframe'
 alias nts='nutop; cd crates/nu-test-support/src'
@@ -450,3 +452,8 @@ alias ctsql='cargo nextest run --features=sqlite history::'
 #alias ctvtab='cargo nextest run --lib --features "backup blob chrono csvtab serde_json trace vtab bundled" vtab::'
 
 alias ctvtab='cargo nextest run --lib --features "csvtab bundled" vtab::'
+
+##
+#  Nana
+##
+alias nana='cd ~/j/tmp15/nana'
