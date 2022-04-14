@@ -1,14 +1,8 @@
 
-### global javascript / node commands
-
-### export NODE_PATH='/tmp13/node_modules'
-
 alias n='node'
 alias vs='vue serve'
 
 alias cnp='env | grep NODE_PATH'
-
-alias sba='source build_alias.sh'
 
 ### npm commands
 
@@ -17,27 +11,10 @@ alias nprd='npm run dev'
 alias nprdeploy='npm run deploy'
 alias npi='npm install'
 alias npiy='npm init -y'
-alias npibb='npm install --save babel-core babel-preset-env'
 alias npr='npm run'
 alias nps='npm start'
 alias npt='npm test'
 alias npw='npm run watch'
-
-### gatsby
-alias gat='gatsby'
-alias gatd='gat develop -p 3000 -H localhost'
-
-### material ui alias
-alias mui='npm run docs:dev'
-alias muidoc='cd material-ui/docs/src/modules'
-
-### next alias for material-ui docs
-
-alias next='./node_modules/.bin/next'
-
-### mocha commands
-
-alias macc='mocha --grep Accounts'
 
 ### Javascript Pretty commands
 
@@ -51,48 +28,4 @@ alias jsb='js-beautify $1 -o $1'
 #
 alias jp='prettier --write'
 alias pj='prettier --write'
-
-### Go directly to /tmp directories
-
-alias mg='cd /tmp30/mocha-graphql'
-alias gts='cd /tmp30/graphql-test-schema'
-alias gjs='cd /tmp30/graphql-js'
-
-###----------------------------------------
-###   Keep the babel commands at the end
-###----------------------------------------
-
-alias bn='./node_modules/.bin/babel-node'
-
-alias gex1='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*.js'
-
-alias sw1='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace ./test/starWarsQuery-test.js'
-
-alias sw2='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace ./test/starWarsIntrospection-test.js'
-
-alias sw3='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace ./test/starWarsValidation-test.js'
-
-alias swall='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace ./test/*-test.js'
-
-alias bnm1='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/starWarsQuery-test.js'
-
-alias bnm2='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/starWarsIntrospection-test.js'
-
-alias bnm3='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/starWarsValidation-test.js'
-
-alias bnmall='./node_modules/.bin/babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*-test.js'
-
-### All Truffle related commands are in .ether
-
-### local aliases
-
-alias br='cd /tmp27/bluerock1'
-alias rsc='cd /tmp16/reactabular-shopping-cart'
-alias hn='cd /tmp27/react-hn1'
-alias sc='cd /tmp17/redux/examples/shopping-cart/src'
-alias mtd='cd /tmp14/mui-tutorial-demo'
-
-### dependency-check ./package.json --entry config/webpack.config.dev.js
-
-alias ffj='node index.js bigbird88 60b725f10c9c85c70d97880dfe8191b3'
 
