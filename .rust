@@ -268,10 +268,12 @@ alias nubook='cd ~/j/tmp11/nushell.github.io'
 alias nut='cd ~/j/tmp17/nutmp'
 alias nutmp='cd ~/j/tmp17/nutmp'
 
+alias nur='./target/debug/nu'
 alias nurun='~/j/tmp17/nushell/target/debug/nu'
 alias nurunn='~/j/tmp26/nushell/target/debug/nu'
 alias nu44='~/mia/nu44/nu'
 alias nu59='~/mia/nu59/nu'
+alias nu61='~/mia/nu61/nu'
 
 alias nulegrun='nutopp; ./target/debug/nu --skip-plugins'
 alias nulegruns='cd ~/j/tmp26/nutmp/scripts; ~/j/tmp26/nushell/target/debug/nu --skip-plugins'
@@ -457,3 +459,4 @@ alias ctvtab='cargo nextest run --lib --features "csvtab bundled" vtab::'
 #  Nana
 ##
 alias nana='cd ~/j/tmp15/nana'
+alias psn='ps | rg nana'

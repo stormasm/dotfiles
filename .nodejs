@@ -4,6 +4,15 @@ alias vs='vue serve'
 
 alias cnp='env | grep NODE_PATH'
 
+### nana / tauri
+alias nprd='npm run tauri dev'
+alias nr='npm run tauri dev'
+
+### run rollup locally, must have a rollup.config.js
+alias nrc='npx rollup --config'
+### install rollup locally
+alias nroll='npm install rollup --save-dev'
+
 ### npm commands
 
 alias nprb='npm run build'
