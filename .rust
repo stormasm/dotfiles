@@ -456,7 +456,16 @@ alias ctsql='cargo nextest run --features=sqlite history::'
 alias ctvtab='cargo nextest run --lib --features "csvtab bundled" vtab::'
 
 ##
+#  Tauri
+##
+alias tgo='cd ~/j/tmp15/tauri/core'
+alias got='cd ~/j/tmp15/tauri/core/tauri/src'
+alias gott='cd ~/j/tmp15/tauri'
+
+##
 #  Nana
 ##
+alias getnana='gc git@github.com:nushell/nana.git'
+alias getnanastorm='gc git@github.com:stormasm/nana.git'
 alias nana='cd ~/j/tmp15/nana'
 alias psn='ps | rg nana'

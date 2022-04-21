@@ -72,8 +72,6 @@ alias mmta='cd ~/mm/ta'
 alias ta='cd ~/mm/ta'
 
 alias sp='source ~/.zshrc'
-alias y='yarn'
-alias yr='yarn run'
 
 ### git commands
 

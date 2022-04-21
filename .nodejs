@@ -1,12 +1,19 @@
 
 alias n='node'
+
+# yarn
+alias y='yarn'
+alias yi='yarn install'
+alias yb='yarn build'
+
 alias vs='vue serve'
 
 alias cnp='env | grep NODE_PATH'
 
 ### nana / tauri
-alias nprd='npm run tauri dev'
-alias nr='npm run tauri dev'
+alias nprt='npm run tauri'
+alias nprtd='npm run tauri dev'
+alias nrtd='npm run tauri dev'
 
 ### run rollup locally, must have a rollup.config.js
 alias nrc='npx rollup --config'
@@ -21,6 +28,7 @@ alias nprdeploy='npm run deploy'
 alias npi='npm install'
 alias npiy='npm init -y'
 alias npr='npm run'
+alias nr='npm run'
 alias nps='npm start'
 alias npt='npm test'
 alias npw='npm run watch'

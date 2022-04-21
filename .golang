@@ -298,10 +298,10 @@ alias vltdevsrv='vault server --dev --config'
 
 alias hc='cd $GOPATH/src/github.com/hashicorp'
 
-alias goc='cd $GOPATH/src/github.com/hashicorp/consul'
-alias gon='cd $GOPATH/src/github.com/hashicorp/nomad'
-alias got='cd $GOPATH/src/github.com/hashicorp/terraform'
-alias gov='cd $GOPATH/src/github.com/hashicorp/vault'
+#alias goc='cd $GOPATH/src/github.com/hashicorp/consul'
+#alias gon='cd $GOPATH/src/github.com/hashicorp/nomad'
+#alias got='cd $GOPATH/src/github.com/hashicorp/terraform'
+#alias gov='cd $GOPATH/src/github.com/hashicorp/vault'
 
 alias rafth='cd $GOPATH/src/github.com/hashicorp/raft'
 
