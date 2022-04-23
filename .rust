@@ -462,6 +462,9 @@ alias tgo='cd ~/j/tmp15/tauri/core'
 alias got='cd ~/j/tmp15/tauri/core/tauri/src'
 alias gott='cd ~/j/tmp15/tauri'
 
+alias bill='cd ~/j/tmp01/tauri-helloworld/bill'
+alias billg='cd ~/j/tmp01/tauri-helloworld/bill/src-tauri/crates/tauri/src'
+
 ##
 #  Nana
 ##
