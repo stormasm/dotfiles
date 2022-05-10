@@ -42,6 +42,7 @@ alias rustdoch='rustup doc -h'
 alias docrust='rustup doc'
 
 alias ciman='cargo fmt; cargo check; cargo clippy; cargo test --all --all-features'
+alias ccfcc='cargo fmt; cargo check; cargo clippy'
 alias ccl='cargo clippy'
 alias clip='cargo clippy'
 alias cch='cargo check'
@@ -81,7 +82,7 @@ alias eq='cd ~/j/tmp17/nushell'
 alias nu='cd ~/j/tmp17/nushell'
 
 ### reedline
-alias rl='cd ~/j/tmp16/reedline'
+alias rl='cd ~/j/tmp17/reedline'
 alias rlg='~/j/tmp17/reedline/target/debug/reedline'
 alias rlrun='~/j/tmp17/reedline/target/debug/reedline'
 alias rls='cd ~/j/tmp17/reedline/src'
@@ -173,7 +174,15 @@ alias rgc="rg polars -g Cargo.toml"
 
 ### arrow and parquet and polars
 
-alias pol="cd ~/j/tmp06/polars"
+alias pol="cd ~/j/tmp06/polars/polars"
+alias arr="cd ~/j/tmp06/arrow2/src"
+
+alias pola="cd ~/j/tmp06/polars01a"
+alias polb="cd ~/j/tmp06/polars01b"
+alias polc="cd ~/j/tmp06/polars01c"
+
+alias polm="cd ~/j/tmp06/polars01/polars-core"
+alias polme="cd ~/j/tmp06/polars01/polars-core"
 
 export PARQUET_TEST_DATA=~/j/tmp15/arrow/cpp/submodules/parquet-testing/data
 export ARROW_TEST_DATA=~/j/tmp15/arrow/testing/data
@@ -181,13 +190,6 @@ export ARROW_TEST_DATA=~/j/tmp15/arrow/testing/data
 alias arex1='cre read_csv --features "prettyprint"'
 alias arex2='cre read_csv_infer_schema --features "prettyprint"'
 alias arex3='cre read_csv_ui --features "prettyprint"'
-
-alias artop='cd /j/tmp25'
-
-alias arc='artop; cd arrow/cpp'
-alias arp='artop; cd arrow/python'
-alias arr='artop; cd arrow/rust/arrow'
-alias art='artop; cd arrow'
 
 alias cmakear1='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON ..'
 alias cmakear2='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON -DARROW_PARQUET=ON ..'
@@ -313,7 +315,7 @@ alias nupro='nutop; cd crates/nu-protocol/src'
 alias nuprom='cd ~/j/tmp17/nupro'
 alias nuprome='cd ~/j/tmp17/nupro'
 alias nudfr='nutop; cd crates/nu-command/src/dataframe'
-alias dfr='nutop; cd crates/nu-command/src/dataframe'
+alias dfg='nutop; cd crates/nu-command/src/dataframe'
 alias nts='nutop; cd crates/nu-test-support/src'
 
 alias nuj='cd ~/j/tmp17/engine-q/crates/nu-json/src'
