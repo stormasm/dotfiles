@@ -175,6 +175,7 @@ alias rgc="rg polars -g Cargo.toml"
 ### arrow and parquet and polars
 
 alias pol="cd ~/j/tmp06/polars/polars"
+alias polt="cd ~/j/tmp06/polars"
 alias arr="cd ~/j/tmp06/arrow2/src"
 
 alias pola="cd ~/j/tmp06/polars01a"
