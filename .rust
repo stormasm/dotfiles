@@ -387,6 +387,7 @@ alias zb='zola build'
 #
 alias rex='cd ~/j/tmp17/rust-examples'
 alias rexe='cd ~/j/tmp17/rust-examples/error'
+alias rexp='cd ~/j/tmp17/rust-examples/polars'
 alias rexr='cd ~/j/tmp17/rust-examples/redis'
 alias rexs='cd ~/j/tmp17/rust-examples/sqlite'
 alias rexv='cd ~/j/tmp17/rust-examples/vec'
