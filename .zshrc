@@ -295,8 +295,8 @@ export LDFLAGS="-L/usr/local/opt/python@3.9/lib"
 export PKG_CONFIG_PATH="/usr/local/opt/python@3.9/lib/pkgconfig"
 
 # For protoc
-export PROTOC="/mia/protoc/bin/protoc"
-export PROTOC_INCLUDE="/mia/protoc/include"
+# export PROTOC="/mia/protoc/bin/protoc"
+# export PROTOC_INCLUDE="/mia/protoc/include"
 
 # For prost and others
 export OUT_DIR="/j/tmp14/out"
