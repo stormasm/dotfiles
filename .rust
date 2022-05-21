@@ -496,6 +496,12 @@ alias ioxmem='ioxg; ./target/debug/influxdb_iox run all-in-one'
 alias ioxdb='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
 alias ioxrun='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
 
+### bring up iox "a"
+alias ioxa='iox --catalog-dsn postgres:///iox_shared --data-dir=/Users/ma/j/tmp06/iox_data'
+
+### write data out to iox "a"
+alias ioxwa='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+
 ### health check to make sure its up and running
 alias ioxchk='curl localhost:8080/health'
 alias ioxt='curl localhost:8080/health'
@@ -508,6 +514,7 @@ alias ioxh='ioxg; ./target/debug/influxdb_iox --help'
 alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 
 ### iox crates
+alias ioxn='cd ~/j/tmp06/ioxnotes'
 alias ioxqt='ioxg; cd query_tests'
 
 ##
