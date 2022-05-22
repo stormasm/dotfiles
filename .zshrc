@@ -155,6 +155,8 @@ alias tur='cd ~/mm/rtve/turismo'
 
 alias ark='cd ~/mm/equity/ark'
 alias baba='cd ~/mm/equity/baba'
+alias snapshot='cd ~/mm/equity-data/snapshot'
+alias ss='cd ~/mm/equity-data/snapshot'
 alias ubnt='cd ~/mm/ubnt'
 
 alias music='cd ~/j/tmp99/music'
