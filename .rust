@@ -489,6 +489,7 @@ export INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
 alias psqliox='psql postgres:///iox_shared'
 
 alias ioxg='cd ~/j/tmp06/influxdb_iox'
+alias ioxd='cd ~/j/tmp06/iox_data'
 
 ### start and store data in memory
 alias iox='influxdb_iox'
@@ -496,11 +497,12 @@ alias ioxmem='ioxg; ./target/debug/influxdb_iox run all-in-one'
 alias ioxdb='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
 alias ioxrun='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
 
-### bring up iox "a"
+### bring up iox "a" uses HARDCODED binary
 alias ioxa='iox --catalog-dsn postgres:///iox_shared --data-dir=/Users/ma/j/tmp06/iox_data'
 
-### write data out to iox "a"
+### write data out to iox "a" uses HARDCODED binary
 alias ioxwa='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+
 alias ioxwab='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
 
 ### health check to make sure its up and running
@@ -516,6 +518,7 @@ alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 
 ### iox crates
 alias ioxn='cd ~/j/tmp06/ioxnotes'
+alias ioxdg='ioxg; cd iox_data_generator'
 alias ioxqt='ioxg; cd query_tests'
 
 ##
@@ -523,3 +526,8 @@ alias ioxqt='ioxg; cd query_tests'
 ##
 alias sqlxtodo='DATABASE_URL=postgres:///todos sqlx database create'
 alias psqltodo='psql postgres:///todos'
+
+##
+#  Rust Truisms
+##
+alias rgpaf='rg "pub async fn"'
