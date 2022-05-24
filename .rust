@@ -483,6 +483,14 @@ alias nana='cd ~/j/tmp15/nana'
 alias psn='ps | rg nana'
 
 ##
+#  Jakt
+##
+alias jg='cd ~/j/tmp17/jakt'
+alias ja='~/j/tmp17/jakt//target/debug/jakt'
+alias jak='jg; ./target/debug/jakt'
+alias jakt='jg; ./target/debug/jakt'
+
+##
 #  Iox
 ##
 export INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
@@ -520,6 +528,7 @@ alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 alias ioxn='cd ~/j/tmp06/ioxnotes'
 alias ioxdg='ioxg; cd iox_data_generator'
 alias ioxqt='ioxg; cd query_tests'
+alias ioxpar='ioxg; cd parquet_file'
 
 ##
 # Sqlx
