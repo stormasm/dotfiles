@@ -499,7 +499,8 @@ export INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
 export TEST_INTEGRATION=1
 export TEST_INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
 export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/tmp07/iox_data'
-alias tdir='export TMPDIR="/Users/ma/j/tmp33"'
+alias ckdir='env | grep TMPDIR'
+alias tdir='export TMPDIR="/Users/ma/j/tmp33/iox01"'
 
 alias gpiox='git pull https://github.com/influxdata/influxdb_iox main'
 
