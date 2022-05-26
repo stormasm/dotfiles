@@ -395,6 +395,7 @@ alias rexe='cd ~/j/tmp17/rust-examples/error'
 alias rexp='cd ~/j/tmp17/rust-examples/polars'
 alias rexr='cd ~/j/tmp17/rust-examples/redis'
 alias rexs='cd ~/j/tmp17/rust-examples/sqlite'
+alias rext='cd ~/j/tmp17/rust-examples/tempfile'
 alias rexv='cd ~/j/tmp17/rust-examples/vec'
 alias rustex='cd ~/j/tmp17/rust-examples'
 
@@ -494,6 +495,14 @@ alias jakt='jg; ./target/debug/jakt'
 #  Iox
 ##
 export INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
+
+export TEST_INTEGRATION=1
+export TEST_INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
+export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/tmp07/iox_data'
+alias tdir='export TMPDIR="/Users/ma/j/tmp33"'
+
+alias gpiox='git pull https://github.com/influxdata/influxdb_iox main'
+
 alias psqliox='psql postgres:///iox_shared'
 
 alias ioxg='cd ~/j/tmp06/influxdb_iox'
@@ -527,6 +536,9 @@ alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 ### iox crates
 alias ioxn='cd ~/j/tmp06/ioxnotes'
 alias ioxdg='ioxg; cd iox_data_generator'
+alias ioxioxt='ioxg; cd influxdb_iox/tests/end_to_end_cases'
+alias ioxth='ioxg; cd test_helpers_end_to_end'
+alias ioxiox='ioxg; cd influxdb_iox'
 alias ioxqt='ioxg; cd query_tests'
 alias ioxpar='ioxg; cd parquet_file'
 
