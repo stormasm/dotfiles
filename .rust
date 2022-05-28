@@ -494,7 +494,14 @@ alias jakt='jg; ./target/debug/jakt'
 ##
 #  Iox
 ##
+
+alias ioxg='cd ~/j/tmp06/influxdb_iox'
+alias ioxd='cd ~/j/tmp22/iox_datadir'
+
 export INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
+
+alias ioxdbcreate='DATABASE_URL=postgres:///iox_shared sqlx database create'
+alias ioxdbstart='ioxg; cargo run -q -- catalog setup; cargo run -- catalog topic update iox-shared'
 
 export TEST_INTEGRATION=1
 export TEST_INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
@@ -508,8 +515,12 @@ alias gpiox='git pull https://github.com/influxdata/influxdb_iox main'
 
 alias psqliox='psql postgres:///iox_shared'
 
-alias ioxg='cd ~/j/tmp06/influxdb_iox'
-alias ioxd='cd ~/j/tmp06/iox_data'
+### start iox with --data-dir
+alias iox22a='iox --data-dir /Users/ma/j/tmp22/iox_datadir'
+alias iox22b='iox --data-dir /Users/ma/j/tmp22/iox_datadir --persist-partition-age-threshold-seconds 10 --persist-partition-cold-threshold-seconds 10'
+alias iox22c='iox --data-dir /Users/ma/j/tmp22/iox_datadir --persist-memory-threshold-bytes 100'
+
+alias iox22='iox --data-dir /Users/ma/j/tmp22/iox_datadir'
 
 ### start and store data in memory
 alias iox='influxdb_iox'
