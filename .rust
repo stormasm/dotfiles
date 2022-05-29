@@ -190,9 +190,6 @@ alias polc="cd ~/j/tmp06/polars01c"
 alias polm="cd ~/j/tmp06/polars01/polars-core"
 alias polme="cd ~/j/tmp06/polars01/polars-core"
 
-export ARROW_TEST_DATA=/Users/ma/j/tmp06/arrow-testing/data
-export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
-
 alias arex1='cre read_csv --features "prettyprint"'
 alias arex2='cre read_csv_infer_schema --features "prettyprint"'
 alias arex3='cre read_csv_ui --features "prettyprint"'
@@ -492,24 +489,33 @@ alias jak='jg; ./target/debug/jakt'
 alias jakt='jg; ./target/debug/jakt'
 
 ##
+#  Iox ENV
+##
+
+export INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
+export INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datadir'
+
+export TEST_INTEGRATION=1
+export TEST_INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
+export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_data'
+
+alias ckdir='env | grep TMPDIR'
+alias tdir='export TMPDIR="/Users/ma/j/tmp33/iox01"'
+alias ioxtmp='cd /Users/ma/j/tmp33'
+alias ioxcc='ioxtmp; rm -fr iox01; mkdir iox01'
+
+export ARROW_TEST_DATA=/Users/ma/j/tmp06/arrow-testing/data
+export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
+
+##
 #  Iox
 ##
 
 alias ioxg='cd ~/j/tmp06/influxdb_iox'
 alias ioxd='cd ~/j/tmp22/iox_datadir'
 
-export INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
-
 alias ioxdbcreate='DATABASE_URL=postgres:///iox_shared sqlx database create'
 alias ioxdbstart='ioxg; cargo run -q -- catalog setup; cargo run -- catalog topic update iox-shared'
-
-export TEST_INTEGRATION=1
-export TEST_INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
-export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/tmp07/iox_data'
-alias ckdir='env | grep TMPDIR'
-alias tdir='export TMPDIR="/Users/ma/j/tmp33/iox01"'
-alias ioxtmp='cd /Users/ma/j/tmp33'
-alias ioxcc='ioxtmp; rm -fr iox01; mkdir iox01'
 
 alias gpiox='git pull https://github.com/influxdata/influxdb_iox main'
 
@@ -520,10 +526,13 @@ alias iox22a='iox --data-dir /Users/ma/j/tmp22/iox_datadir'
 alias iox22b='iox --data-dir /Users/ma/j/tmp22/iox_datadir --persist-partition-age-threshold-seconds 10 --persist-partition-cold-threshold-seconds 10'
 alias iox22c='iox --data-dir /Users/ma/j/tmp22/iox_datadir --persist-memory-threshold-bytes 100'
 
-alias iox22='iox --data-dir /Users/ma/j/tmp22/iox_datadir'
+alias iox22='ioxg; ./target/debug/influxdb_iox --data-dir /Users/ma/j/tmp22/iox_datadir'
 
-### start and store data in memory
-alias iox='influxdb_iox'
+alias iox='ioxg; ./target/debug/influxdb_iox'
+
+alias ioxinfo='iox run all-in-one --log-filter info'
+alias ioxdebug='iox run all-in-one --log-filter debug'
+
 alias ioxmem='ioxg; ./target/debug/influxdb_iox run all-in-one'
 alias ioxdb='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
 alias ioxrun='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
