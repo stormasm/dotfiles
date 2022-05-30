@@ -41,8 +41,6 @@ alias fu='sudo mount -uw /'
 alias atom='atom .'
 alias matom='matom .'
 
-alias bm='cd ~/j/tmp99/bookmarks'
-
 alias c='clear'
 alias cp='cp -p'
 alias dl='cd ~/k/dl'
@@ -159,6 +157,8 @@ alias snapshot='cd ~/mm/equity-data/snapshot'
 alias ss='cd ~/mm/equity-data/snapshot'
 alias ubnt='cd ~/mm/ubnt'
 
+alias bm='cd ~/j/tmp99/bookmarks'
+alias hackmd='cd ~/j/tmp99/hackmd'
 alias music='cd ~/j/tmp99/music'
 alias pdf='cd ~/j/tmp99/pdf'
 alias res='cd ~/j/tmp99/research'
