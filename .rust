@@ -558,13 +558,14 @@ alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 
 ### iox crates
 alias ioxn='cd ~/j/tmp06/ioxnotes'
+alias ioxcat='ioxg; cd iox_catalog'
 alias ioxdg='ioxg; cd iox_data_generator'
 alias ioxioxt='ioxg; cd influxdb_iox/tests/end_to_end_cases'
 alias ioxing='ioxg; cd ingester'
-alias ioxth='ioxg; cd test_helpers_end_to_end'
 alias ioxiox='ioxg; cd influxdb_iox'
-alias ioxqt='ioxg; cd query_tests'
 alias ioxpar='ioxg; cd parquet_file'
+alias ioxqt='ioxg; cd query_tests'
+alias ioxth='ioxg; cd test_helpers_end_to_end'
 
 ##
 # Sqlx
