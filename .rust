@@ -179,6 +179,9 @@ alias polt="cd ~/j/tmp06/polars"
 
 alias arr="cd ~/j/tmp06/arrow-rs"
 alias arr2="cd ~/j/tmp06/arrow2/src"
+alias datafust='cd ~/j/tmp06/arrow-datafusion'
+alias datafus='cd ~/j/tmp06/arrow-datafusion/datafusion/core/src'
+alias datafusion='cd ~/j/tmp06/arrow-datafusion/datafusion/core/src'
 alias par="cd ~/j/tmp06/arrow-rs/parquet"
 alias par2="cd ~/j/tmp06/parquet2"
 alias part="cd ~/j/tmp06/parquet-testing/data"
@@ -501,7 +504,8 @@ export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_data'
 
 alias ckdir='env | grep TMPDIR'
 alias tdir='export TMPDIR="/Users/ma/j/tmp33/iox01"'
-alias ioxtmp='cd /Users/ma/j/tmp33'
+alias ioxtmp='cd /Users/ma/j/tmp06/ioxtmp'
+alias ioxtmpg='cd /Users/ma/j/tmp33'
 alias ioxcc='ioxtmp; rm -fr iox01; mkdir iox01'
 
 export ARROW_TEST_DATA=/Users/ma/j/tmp06/arrow-testing/data
@@ -512,6 +516,13 @@ export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
 ##
 
 alias ioxg='cd ~/j/tmp06/influxdb_iox'
+alias iox='ioxg; ./target/debug/influxdb_iox'
+
+### Iox with logging, note the run all-in-one is needed for logging to work
+
+alias ioxinfo='iox run all-in-one --log-filter info'
+alias ioxdebug='iox run all-in-one --log-filter debug'
+
 alias ioxd='cd ~/j/tmp22/iox_datadir'
 
 alias ioxdbcreate='DATABASE_URL=postgres:///iox_shared sqlx database create'
@@ -522,16 +533,12 @@ alias gpiox='git pull https://github.com/influxdata/influxdb_iox main'
 alias psqliox='psql postgres:///iox_shared'
 
 ### start iox with --data-dir
+
+alias iox22='ioxg; ./target/debug/influxdb_iox --data-dir /Users/ma/j/tmp22/iox_datadir'
 alias iox22a='iox --data-dir /Users/ma/j/tmp22/iox_datadir'
 alias iox22b='iox --data-dir /Users/ma/j/tmp22/iox_datadir --persist-partition-age-threshold-seconds 10 --persist-partition-cold-threshold-seconds 10'
 alias iox22c='iox --data-dir /Users/ma/j/tmp22/iox_datadir --persist-memory-threshold-bytes 100'
 
-alias iox22='ioxg; ./target/debug/influxdb_iox --data-dir /Users/ma/j/tmp22/iox_datadir'
-
-alias iox='ioxg; ./target/debug/influxdb_iox'
-
-alias ioxinfo='iox run all-in-one --log-filter info'
-alias ioxdebug='iox run all-in-one --log-filter debug'
 
 alias ioxmem='ioxg; ./target/debug/influxdb_iox run all-in-one'
 alias ioxdb='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
@@ -559,11 +566,13 @@ alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 ### iox crates
 alias ioxn='cd ~/j/tmp06/ioxnotes'
 alias ioxcat='ioxg; cd iox_catalog'
+alias ioxcompact='ioxg; cd compactor'
 alias ioxdg='ioxg; cd iox_data_generator'
 alias ioxioxt='ioxg; cd influxdb_iox/tests/end_to_end_cases'
 alias ioxing='ioxg; cd ingester'
 alias ioxiox='ioxg; cd influxdb_iox'
 alias ioxpar='ioxg; cd parquet_file'
+alias ioxquery='ioxg; cd iox_query'
 alias ioxqt='ioxg; cd query_tests'
 alias ioxth='ioxg; cd test_helpers_end_to_end'
 
@@ -574,6 +583,9 @@ alias sqlxtodo='DATABASE_URL=postgres:///todos sqlx database create'
 alias psqltodo='psql postgres:///todos'
 
 ##
-#  Rust Truisms
+#  Rust ripgrep (rg)
 ##
 alias rgpaf='rg "pub async fn"'
+alias rgtrait='rg "pub trait"'
+alias rgstruct='rg "pub struct"'
+alias rgenum='rg "pub enum"'
