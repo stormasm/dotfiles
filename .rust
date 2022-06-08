@@ -523,6 +523,8 @@ alias iox='ioxg; ./target/debug/influxdb_iox'
 alias ioxinfo='iox run all-in-one --log-filter info'
 alias ioxdebug='iox run all-in-one --log-filter debug'
 
+alias ioxdebugnoh2='iox run all-in-one --log-filter debug,hyper::proto::h1=info,h2=info'
+
 alias ioxsql='iox sql'
 
 alias ioxd='cd ~/j/tmp22/iox_datadir'
