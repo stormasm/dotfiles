@@ -516,7 +516,10 @@ export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
 ##
 
 alias ioxg='cd ~/j/tmp06/influxdb_iox'
+alias ioxgs='cd ~/j/tmp07/iox_sql_v00'
+
 alias iox='ioxg; ./target/debug/influxdb_iox'
+alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
 
 ### Iox with logging, note the run all-in-one is needed for logging to work
 
