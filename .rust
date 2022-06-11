@@ -516,7 +516,9 @@ export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
 ##
 
 alias ioxg='cd ~/j/tmp06/influxdb_iox'
-alias ioxgs='cd ~/j/tmp07/iox_sql_v00'
+alias ioxgs='cd ~/j/tmp06/iox_sql_v00'
+alias ioxioxs='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
+alias ioxioxsql='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
 
 alias iox='ioxg; ./target/debug/influxdb_iox'
 alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
