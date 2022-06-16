@@ -177,7 +177,7 @@ alias rgc="rg polars -g Cargo.toml"
 alias pol="cd ~/j/tmp06/polars/polars"
 alias polt="cd ~/j/tmp06/polars"
 
-alias arr="cd ~/j/tmp06/arrow-rs"
+alias arr="cd ~/j/tmp06/arrow-rs/arrow"
 alias arr2="cd ~/j/tmp06/arrow2/src"
 alias datafust='cd ~/j/tmp06/arrow-datafusion'
 alias datafus='cd ~/j/tmp06/arrow-datafusion/datafusion/core/src'
@@ -270,6 +270,8 @@ alias nudir='cd ~/j/tmp17'
 alias nutop='cd ~/j/tmp17/nushell'
 alias nutopp='cd ~/j/tmp26/nushell'
 
+alias nucore='cd ~/j/tmp17/nushell-core'
+
 alias nubo='cd ~/j/tmp11/nushell.github.io'
 alias nubook='cd ~/j/tmp11/nushell.github.io'
 
@@ -278,7 +280,7 @@ alias nutmp='cd ~/j/tmp17/nutmp'
 
 alias nur='./target/debug/nu'
 alias nurun='~/j/tmp17/nushell/target/debug/nu'
-alias nurunn='~/j/tmp26/nushell/target/debug/nu'
+alias nurunn='./target/debug/nu'
 alias nu44='~/mia/nu44/nu'
 alias nu59='~/mia/nu59/nu'
 alias nu61='~/mia/nu61/nu'
@@ -492,6 +494,13 @@ alias jak='jg; ./target/debug/jakt'
 alias jakt='jg; ./target/debug/jakt'
 
 ##
+#  Tokio, Tonic
+##
+alias tonic='cd ~/j/tmp06/tonic'
+
+
+
+##
 #  Iox ENV
 ##
 
@@ -577,6 +586,7 @@ alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 ### iox crates
 alias ioxn='cd ~/j/tmp06/ioxnotes'
 alias ioxcat='ioxg; cd iox_catalog'
+alias ioxclient='ioxg; cd influxdb_iox_client/src'
 alias ioxcompact='ioxg; cd compactor'
 alias ioxdg='ioxg; cd iox_data_generator'
 alias ioxioxt='ioxg; cd influxdb_iox/tests/end_to_end_cases'
