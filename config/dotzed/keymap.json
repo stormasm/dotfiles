@@ -2,7 +2,7 @@
     {
         "context": "Workspace",
         "bindings": {
-            "cmd-shift-I": [
+            "cmd-\\": [
                 "workspace::ToggleSidebarItem",
                 {
                     "side": "Left",
