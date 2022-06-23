@@ -1,0 +1,14 @@
+[
+    {
+        "context": "Workspace",
+        "bindings": {
+            "cmd-shift-I": [
+                "workspace::ToggleSidebarItem",
+                {
+                    "side": "Left",
+                    "item_index": 0
+                }
+            ]
+        }
+    }
+]
