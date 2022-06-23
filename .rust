@@ -281,7 +281,8 @@ alias nutmp='cd ~/j/tmp17/nutmp'
 alias nur='./target/debug/nu'
 alias nurun='~/j/tmp17/nushell/target/debug/nu'
 alias nurunn='./target/debug/nu'
-alias nurunno='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
+alias nuruno='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
+alias nurunoconfig='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
 alias nu44='~/mia/nu44/nu'
 alias nu59='~/mia/nu59/nu'
 alias nu61='~/mia/nu61/nu'
@@ -528,7 +529,7 @@ export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
 alias ioxg='cd ~/j/tmp06/influxdb_iox'
 alias ioxgs='cd ~/j/tmp06/iox_sql_v00'
 alias ioxioxs='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
-alias ioxioxsql='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
+alias ioxsqlg='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
 
 alias iox='ioxg; ./target/debug/influxdb_iox'
 alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
@@ -597,6 +598,9 @@ alias ioxpar='ioxg; cd parquet_file'
 alias ioxquery='ioxg; cd iox_query'
 alias ioxqt='ioxg; cd query_tests'
 alias ioxth='ioxg; cd test_helpers_end_to_end'
+
+alias ioxc='cd ~/j/tmp06/influxdb_iox_client/influxdb_iox_client'
+alias ioxcli='cd ~/j/tmp06/influxdb_iox_client/influxdb_iox_client'
 
 ##
 # Sqlx
