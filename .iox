@@ -1,0 +1,105 @@
+
+##
+#  Iox ENV
+##
+
+export INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
+export INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datadir'
+
+export TEST_INTEGRATION=1
+export TEST_INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
+export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_data'
+
+alias ckdir='env | grep TMPDIR'
+alias tdir='export TMPDIR="/Users/ma/j/tmp33/iox01"'
+alias ioxtmp='cd /Users/ma/j/tmp06/ioxtmp'
+alias ioxtmpg='cd /Users/ma/j/tmp33'
+alias ioxcc='ioxtmp; rm -fr iox01; mkdir iox01'
+
+export ARROW_TEST_DATA=/Users/ma/j/tmp06/arrow-testing/data
+export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
+
+##
+#  Iox
+##
+
+alias ioxg='cd ~/j/tmp06/influxdb_iox'
+alias ioxgs='cd ~/j/tmp06/iox_sql_v00'
+alias ioxioxs='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
+alias ioxsqlg='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
+
+alias iox='ioxg; ./target/debug/influxdb_iox'
+alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
+
+### Iox with logging, note the run all-in-one is needed for logging to work
+
+alias ioxinfo='iox run all-in-one --log-filter info'
+alias ioxdebug='iox run all-in-one --log-filter debug'
+
+alias ioxdebugnoh2='iox run all-in-one --log-filter debug,hyper::proto::h1=info,h2=info'
+
+alias ioxsql='iox sql'
+
+alias ioxd='cd ~/j/tmp22/iox_datadir'
+
+alias ioxdbcreate='DATABASE_URL=postgres:///iox_shared sqlx database create'
+alias ioxdbstart='ioxg; cargo run -q -- catalog setup; cargo run -- catalog topic update iox-shared'
+
+alias gpiox='git pull https://github.com/influxdata/influxdb_iox main'
+
+alias psqliox='psql postgres:///iox_shared'
+
+### start iox with --data-dir
+
+alias iox22='ioxg; ./target/debug/influxdb_iox --data-dir /Users/ma/j/tmp22/iox_datadir'
+alias iox22a='iox --data-dir /Users/ma/j/tmp22/iox_datadir'
+alias iox22b='iox --data-dir /Users/ma/j/tmp22/iox_datadir --persist-partition-age-threshold-seconds 10 --persist-partition-cold-threshold-seconds 10'
+alias iox22c='iox --data-dir /Users/ma/j/tmp22/iox_datadir --persist-memory-threshold-bytes 100'
+
+
+alias ioxmem='ioxg; ./target/debug/influxdb_iox run all-in-one'
+alias ioxdb='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
+alias ioxrun='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
+
+### bring up iox "a" uses HARDCODED binary
+alias ioxa='iox --catalog-dsn postgres:///iox_shared --data-dir=/Users/ma/j/tmp06/iox_data'
+
+### write data out to iox "a" uses HARDCODED binary
+alias ioxwa='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+
+alias ioxwab='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+
+alias ioxwtemp='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/temperature.lp --host http://localhost:8081'
+
+### health check to make sure its up and running
+alias ioxchk='curl localhost:8080/health'
+alias ioxt='curl localhost:8080/health'
+
+### run all tests
+alias ctiox='ioxg; RUST_MIN_STACK=10485760 cargo test --all'
+
+### print iox help
+alias ioxh='ioxg; ./target/debug/influxdb_iox --help'
+alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
+
+### iox crates
+alias ioxn='cd ~/j/tmp06/ioxnotes'
+alias ioxcat='ioxg; cd iox_catalog'
+alias ioxclient='ioxg; cd influxdb_iox_client/src'
+alias ioxcompact='ioxg; cd compactor'
+alias ioxdg='ioxg; cd iox_data_generator'
+alias ioxioxt='ioxg; cd influxdb_iox/tests/end_to_end_cases'
+alias ioxing='ioxg; cd ingester'
+alias ioxiox='ioxg; cd influxdb_iox'
+alias ioxpar='ioxg; cd parquet_file'
+alias ioxquery='ioxg; cd iox_query'
+alias ioxqt='ioxg; cd query_tests'
+alias ioxth='ioxg; cd test_helpers_end_to_end'
+
+alias ioxc='cd ~/j/tmp06/influxdb_iox_client/influxdb_iox_client'
+alias ioxcli='cd ~/j/tmp06/influxdb_iox_client/influxdb_iox_client'
+
+### iox commands
+
+alias ioxdbga='iox debug namespace list'
+alias ioxdbgb='iox debug schema get postgresql:///iox_shared'
