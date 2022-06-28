@@ -602,6 +602,11 @@ alias ioxth='ioxg; cd test_helpers_end_to_end'
 alias ioxc='cd ~/j/tmp06/influxdb_iox_client/influxdb_iox_client'
 alias ioxcli='cd ~/j/tmp06/influxdb_iox_client/influxdb_iox_client'
 
+### iox commands
+
+alias ioxdbga='iox debug namespace list'
+alias ioxdbgb='iox debug schema get postgresql:///iox_shared'
+
 ##
 # Sqlx
 ##
