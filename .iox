@@ -3,11 +3,11 @@
 #  Iox ENV
 ##
 
-export INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
+export INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
 export INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datadir'
 
 export TEST_INTEGRATION=1
-export TEST_INFLUXDB_IOX_CATALOG_DSN='postgres:///iox_shared'
+export TEST_INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
 export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_data'
 
 alias ckdir='env | grep TMPDIR'

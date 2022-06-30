@@ -308,7 +308,8 @@ alias nuansi='nutop; cd crates/nu-ansi-term/src'
 alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
 alias nucomc='nutop; cd crates/nu-command/src/commands'
-alias nucomt='nutop; cd crates/nu-command/tests/commands'
+alias nucomt='nutop; cd crates/nu-command'
+alias nuiox='nutop; cd crates/nu-command/src/iox'
 
 alias tff='nutop; cd tests/fixtures/formats'
 
