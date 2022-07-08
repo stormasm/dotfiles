@@ -3,6 +3,8 @@
 #  Iox ENV
 ##
 
+#export IOX_DBNAME='bananas'
+export IOX_DBNAME='plums'
 export INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
 export INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datadir'
 

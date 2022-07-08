@@ -30,6 +30,8 @@ alias cbr='cargo build --release'
 
 alias cbndf='cargo build --no-default-features'
 alias cbd='cargo build --features=extra'
+alias cbdb='cargo build --features=extra'
+alias cbdf='cargo build --features=extra'
 alias cbf='cargo build --features=extra'
 
 alias cdoc='cargo doc --no-deps --open'
@@ -302,6 +304,7 @@ alias nurunls='nurunt -c ls'
 ### Changing to various nushell crates
 
 alias nuc='nutop; cd crates'
+alias nucr='nutop; cd crates/nu-crate/src'
 alias nuco='cd ~/j/tmp17/nucode'
 alias nucode='cd ~/j/tmp17/nucode'
 alias nuansi='nutop; cd crates/nu-ansi-term/src'
