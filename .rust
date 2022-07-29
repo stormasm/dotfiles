@@ -312,7 +312,8 @@ alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
 alias nucomc='nutop; cd crates/nu-command/src/commands'
 alias nucomt='nutop; cd crates/nu-command'
-alias nuiox='nutop; cd crates/nu-command/src/iox'
+alias nuiox='cd ~/j/tmp06/influxdb_iox/nu_iox/src/iox'
+alias nuioxt='cd ~/j/tmp06/influxdb_iox/nu_iox'
 
 alias tff='nutop; cd tests/fixtures/formats'
 
@@ -498,6 +499,15 @@ alias jg='cd ~/j/tmp17/jakt'
 alias ja='~/j/tmp17/jakt//target/debug/jakt'
 alias jak='jg; ./target/debug/jakt'
 alias jakt='jg; ./target/debug/jakt'
+
+##
+#  Nom
+##
+alias nom='cd ~/j/tmp17/nom'
+alias rexnom='cd ~/j/tmp17/rust-examples/nom'
+alias rexnomex='cd ~/j/tmp17/rust-examples/nom/examples'
+alias nomrex='cd ~/j/tmp17/rust-examples/nom'
+alias nomrexex='cd ~/j/tmp17/rust-examples/nom/examples'
 
 ##
 #  Tokio, Tonic
