@@ -10,7 +10,7 @@ export INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datadir'
 
 export TEST_INTEGRATION=1
 export TEST_INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
-export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_data'
+export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datadir'
 
 alias ckdir='env | grep TMPDIR'
 alias tdir='export TMPDIR="/Users/ma/j/tmp33/iox01"'
@@ -58,20 +58,22 @@ alias iox22a='iox --data-dir /Users/ma/j/tmp22/iox_datadir'
 alias iox22b='iox --data-dir /Users/ma/j/tmp22/iox_datadir --persist-partition-age-threshold-seconds 10 --persist-partition-cold-threshold-seconds 10'
 alias iox22c='iox --data-dir /Users/ma/j/tmp22/iox_datadir --persist-memory-threshold-bytes 100'
 
-
 alias ioxmem='ioxg; ./target/debug/influxdb_iox run all-in-one'
 alias ioxdb='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
 alias ioxrun='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn postgres:///iox_shared --data-dir=~/iox_data'
 
-### bring up iox "a" uses HARDCODED binary
+### bring up iox uses HARDCODED binary
 alias ioxa='iox --catalog-dsn postgres:///iox_shared --data-dir=/Users/ma/j/tmp06/iox_data'
 
-### write data out to iox "a" uses HARDCODED binary
-alias ioxwa='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+### write data out to iox uses HARDCODED binary
+alias ioxwmetrics='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+alias ioxwmetricsplums='ioxg; iox write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
 
-alias ioxwab='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+alias ioxwb='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+alias ioxwbplums='ioxg; cargo run -- write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
 
 alias ioxwtemp='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/temperature.lp --host http://localhost:8081'
+alias ioxwtemplums='ioxg; iox write plums ./test_fixtures/lineproto/temperature.lp --host http://localhost:8081'
 
 ### health check to make sure its up and running
 alias ioxchk='curl localhost:8080/health'
@@ -87,7 +89,7 @@ alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 ### iox crates
 alias ioxn='cd ~/j/tmp06/ioxnotes'
 alias ioxcat='ioxg; cd iox_catalog'
-alias ioxclient='ioxg; cd influxdb_iox_client/src'
+
 alias ioxcompact='ioxg; cd compactor'
 alias ioxdg='ioxg; cd iox_data_generator'
 alias ioxioxt='ioxg; cd influxdb_iox/tests/end_to_end_cases'
@@ -98,10 +100,19 @@ alias ioxquery='ioxg; cd iox_query'
 alias ioxqt='ioxg; cd query_tests'
 alias ioxth='ioxg; cd test_helpers_end_to_end'
 
-alias ioxc='cd ~/j/tmp06/influxdb_iox_client/influxdb_iox_client'
-alias ioxcli='cd ~/j/tmp06/influxdb_iox_client/influxdb_iox_client'
+alias ioxc='ioxg; cd influxdb_iox_client/src'
+alias ioxcli='ioxg; cd influxdb_iox_client/src/client'
+alias ioxcme='cd ~/j/tmp06/influxdb_iox_client/influxdb_iox_client'
 
 ### iox commands
 
 alias ioxdbga='iox debug namespace list'
 alias ioxdbgb='iox debug schema get postgresql:///iox_shared'
+alias ioxdbgplums='iox debug schema get plums'
+
+##
+#  Iox Nu
+##
+
+alias ioxnu='ioxg; cd iox_nu'
+alias nuruniox='ioxg; ./target/debug/nu'
