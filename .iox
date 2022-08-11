@@ -38,6 +38,7 @@ alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
 alias ioxinfo='iox run all-in-one --log-filter info'
 alias ioxdbg='iox run all-in-one --log-filter debug'
 alias ioxdebug='iox run all-in-one --log-filter debug'
+alias ioxdbgcr='ioxg; cr run all-in-one --log-filter debug'
 
 alias ioxdebugnoh2='iox run all-in-one --log-filter debug,hyper::proto::h1=info,h2=info'
 
