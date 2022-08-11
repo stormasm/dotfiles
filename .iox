@@ -4,7 +4,7 @@
 ##
 
 #export IOX_DBNAME='bananas'
-export IOX_DBNAME='plums'
+export IOX_DBNAME='iox_shared'
 export INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
 export INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datadir'
 
@@ -36,6 +36,7 @@ alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
 ### Iox with logging, note the run all-in-one is needed for logging to work
 
 alias ioxinfo='iox run all-in-one --log-filter info'
+alias ioxdbg='iox run all-in-one --log-filter debug'
 alias ioxdebug='iox run all-in-one --log-filter debug'
 
 alias ioxdebugnoh2='iox run all-in-one --log-filter debug,hyper::proto::h1=info,h2=info'

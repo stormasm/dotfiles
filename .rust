@@ -37,11 +37,15 @@ alias cbf='cargo build --features=extra'
 alias cdoc='cargo doc --no-deps --open'
 alias cor='cargo outdated -R'
 
-### rustup
+### cargo run
 
-alias rustdoc='rustup doc'
-alias rustdoch='rustup doc -h'
-alias docrust='rustup doc'
+alias cr='cargo run'
+alias crb='cargo run --bin'
+alias cre='cargo run --example'
+alias crr='cargo run --release'
+
+alias cref='cargo run --features="runtime unstable-stream" --example'
+alias crec='cargo run --example connect 127.0.0.1:8080'
 
 alias ciman='cargo fmt; cargo check; cargo clippy; cargo test --all --all-features'
 alias ccfcc='cargo fmt; cargo check; cargo clippy'
@@ -51,15 +55,14 @@ alias cch='cargo check'
 alias check='cargo check'
 alias cf='cargo fmt'
 alias cn='cargo new'
-alias cr='cargo run'
-alias crb='cargo run --bin'
 
-alias cre='cargo run --example'
-alias cref='cargo run --features="runtime unstable-stream" --example'
-
-alias crec='cargo run --example connect 127.0.0.1:8080'
 alias cup='cargo update'
 alias cv='cargo -V'
+
+### rustup
+alias rustdoc='rustup doc'
+alias rustdoch='rustup doc -h'
+alias docrust='rustup doc'
 
 ### rust-bio
 alias rb='cd ~/j/tmp18/rust-bio'
