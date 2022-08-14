@@ -49,9 +49,6 @@ alias ioxsql='iox sql'
 
 alias ioxd='cd ~/j/tmp22/iox_datadir'
 
-alias ioxdbcreate='DATABASE_URL=postgres:///iox_shared sqlx database create'
-alias ioxdbstart='ioxg; cargo run -q -- catalog setup; cargo run -- catalog topic update iox-shared'
-
 alias gpiox='git pull https://github.com/influxdata/influxdb_iox main'
 
 alias psqliox='psql postgres:///iox_shared'
@@ -121,3 +118,16 @@ alias ioxdbgplums='iox debug schema get plums'
 
 alias ioxnu='ioxg; cd iox_nu'
 alias nuruniox='ioxg; ./target/debug/nu'
+
+##
+#  Sqlx
+##
+alias sqlg='06; cd sqlx'
+alias sqlxg='06; cd sqlx'
+
+alias ioxdbcreate='DATABASE_URL=postgres:///iox_shared sqlx database create'
+alias ioxdbstart='ioxg; cargo run -q -- catalog setup; cargo run -- catalog topic update iox-shared'
+
+alias dbon='export DATABASE_URL="postgres:///todos"'
+alias dboff='unset DATABASE_URL'
+alias dbchk='export | grep DATABASE_URL'
