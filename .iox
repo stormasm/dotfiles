@@ -9,17 +9,21 @@ export INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
 export INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datadir'
 
 export TEST_INTEGRATION=1
-export TEST_INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
-export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datadir'
+export TEST_INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_test'
+export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datatest'
+
+### Iox Router
+## export INFLUXDB_IOX_WRITE_BUFFER_TYPE='file'
+## export INFLUXDB_IOX_WRITE_BUFFER_ADDR='127.0.0.1:8081'
+
+export ARROW_TEST_DATA=/Users/ma/j/tmp06/arrow-testing/data
+export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
 
 alias ckdir='env | grep TMPDIR'
 alias tdir='export TMPDIR="/Users/ma/j/tmp33/iox01"'
 alias ioxtmp='cd /Users/ma/j/tmp06/ioxtmp'
 alias ioxtmpg='cd /Users/ma/j/tmp33'
 alias ioxcc='ioxtmp; rm -fr iox01; mkdir iox01'
-
-export ARROW_TEST_DATA=/Users/ma/j/tmp06/arrow-testing/data
-export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
 
 ##
 #  Iox
