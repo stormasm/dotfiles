@@ -37,6 +37,12 @@ alias ioxsqlg='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
 alias iox='ioxg; ./target/debug/influxdb_iox'
 alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
 
+####
+#     Iox run
+####
+
+alias irr='iox run router'
+
 ### Iox with logging, note the run all-in-one is needed for logging to work
 
 alias ioxinfo='iox run all-in-one --log-filter info'
