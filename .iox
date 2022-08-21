@@ -41,7 +41,7 @@ alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
 #     Iox run
 ####
 
-alias irr='iox run router'
+alias irr='iox run router --write-buffer 'file' --write-buffer-addr '/Users/ma/j/tmp22/iox_datadir' -vv'
 
 ### Iox with logging, note the run all-in-one is needed for logging to work
 
