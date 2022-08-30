@@ -160,7 +160,20 @@ alias tk1='rsk; TEST_INTEGRATION=1 TEST_BROKER_IMPL=kafka KAFKA_CONNECT=localhos
 alias kl='cd /usr/local/var/lib'
 alias kb='cd /usr/local/Cellar/kafka/3.2.1/bin'
 alias kc='cd /usr/local/Cellar/kafka/3.2.1/bin'
-alias kt='kafka-topics --bootstrap-server=localhost:9092 --list'
+
+##
+#  Kafka Topics
+##
+alias ktc1='kafka-topics --create --topic iris --bootstrap-server localhost:9092'
+alias ktdes='kafka-topics --bootstrap-server=localhost:9092 --describe --topic iris'
+alias ktl='kafka-topics --bootstrap-server=localhost:9092 --list'
+alias ktd='kafka-topics --bootstrap-server=localhost:9092 --delete --topic iris'
+
+##
+#  Kafka Pub / Sub
+##
+alias kcp='kafka-console-producer --topic iris --bootstrap-server localhost:9092'
+alias kcc='kafka-console-consumer --topic iris --from-beginning --bootstrap-server localhost:9092'
 
 ##
 #  Redpanda
