@@ -81,8 +81,8 @@ alias ioxa='iox --catalog-dsn postgres:///iox_shared --data-dir=/Users/ma/j/tmp0
 alias ioxwmetrics='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
 alias ioxwmetricsplums='ioxg; iox write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
 
-alias ioxwb='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
-alias ioxwbplums='ioxg; cargo run -- write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+alias ioxmetrics='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+alias ioxmetricsplums='ioxg; cargo run -- write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
 
 alias ioxwtemp='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/temperature.lp --host http://localhost:8081'
 alias ioxwtemplums='ioxg; iox write plums ./test_fixtures/lineproto/temperature.lp --host http://localhost:8081'
@@ -113,6 +113,7 @@ alias ioxpar='ioxg; cd parquet_file'
 alias ioxquery='ioxg; cd iox_query'
 alias ioxqt='ioxg; cd query_tests'
 alias ioxth='ioxg; cd test_helpers_end_to_end'
+alias ioxwb='ioxg; cd write_buffer'
 
 alias ioxc='ioxg; cd influxdb_iox_client/src'
 alias ioxcli='ioxg; cd influxdb_iox_client/src/client'
