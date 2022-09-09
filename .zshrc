@@ -169,6 +169,10 @@ alias span='cd ~/j/tmp99/spanish'
 alias pray='cd ~/j/tmp99/spanish/prayers'
 alias sentd='cd ~/j/tmp99/spanish/sentences'
 
+alias spain='cd ~/j/tmp99/travel/spain'
+alias camino='cd ~/j/tmp99/travel/spain/camino'
+alias travel='cd ~/j/tmp99/travel'
+
 alias yt='cd ~/j/tmp99/youtube'
 alias yts='cd ~/j/tmp99/spanish/youtube'
 alias ytspan='cd ~/j/tmp99/spanish/youtube'
