@@ -3,6 +3,10 @@
 #  Iox ENV
 ##
 
+export AWS_ACCESS_KEY_ID="minioadmin"
+export AWS_SECRET_ACCESS_KEY="minioadmin"
+export AWS_ENDPOINT="http://localhost:9000"
+
 #export IOX_DBNAME='bananas'
 export IOX_DBNAME='iox_shared'
 export INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
@@ -47,6 +51,8 @@ alias irr='iox run router --write-buffer 'file' --write-buffer-addr '/Users/ma/j
 ### Iox with logging, note the run all-in-one is needed for logging to work
 
 alias ioxinfo='iox run all-in-one --log-filter info'
+
+alias ioxaws='cargo run --features aws -- run all-in-one --object-store s3 --aws-endpoint http://localhost:9000 --bucket lowcard --aws-allow-http --log-filter debug,compactor=error'
 
 alias ioxdbg='iox run all-in-one --log-filter debug,compactor=error'
 alias ioxdebug='iox run all-in-one --log-filter debug'
