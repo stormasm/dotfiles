@@ -67,6 +67,7 @@ alias ioxsql='iox sql'
 alias ioxd='cd ~/j/tmp22/iox_datadir'
 
 alias gpiox='git pull https://github.com/influxdata/influxdb_iox main'
+alias gpdf='git pull https://github.com/apache/arrow-datafusion master'
 
 alias psqliox='psql postgres:///iox_shared'
 
