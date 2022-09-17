@@ -152,8 +152,12 @@ alias pcom2='ping 75.75.76.76'
 alias rtve='cd ~/mm/rtve'
 alias tur='cd ~/mm/rtve/turismo'
 
-alias ark='cd ~/mm/equity/ark'
-alias baba='cd ~/mm/equity/baba'
+alias equity='cd ~/mm/equity'
+
+alias arkk='equity; cd arkk'
+alias baba='equity; cd baba'
+alias vz='equity; cd vz'
+
 alias snapshot='cd ~/mm/equity-data/snapshot'
 alias ss='cd ~/mm/equity-data/snapshot'
 alias ubnt='cd ~/mm/ubnt'

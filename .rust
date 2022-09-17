@@ -333,7 +333,7 @@ alias nupro='nutop; cd crates/nu-protocol/src'
 alias nuprom='cd ~/j/tmp17/nupro'
 alias nuprome='cd ~/j/tmp17/nupro'
 alias nudfr='nutop; cd crates/nu-command/src/dataframe'
-alias dfg='nutop; cd crates/nu-command/src/dataframe'
+alias nudfg='nutop; cd crates/nu-command/src/dataframe'
 alias nts='nutop; cd crates/nu-test-support/src'
 
 alias nuj='cd ~/j/tmp17/engine-q/crates/nu-json/src'
@@ -402,14 +402,16 @@ alias zb='zola build'
 #
 # Rust Examples
 #
-alias rex='cd ~/j/tmp17/rust-examples'
-alias rexe='cd ~/j/tmp17/rust-examples/error'
-alias rexp='cd ~/j/tmp17/rust-examples/polars'
-alias rexr='cd ~/j/tmp17/rust-examples/redis'
-alias rexs='cd ~/j/tmp17/rust-examples/sqlite'
-alias rext='cd ~/j/tmp17/rust-examples/tempfile'
-alias rexv='cd ~/j/tmp17/rust-examples/vec'
-alias rustex='cd ~/j/tmp17/rust-examples'
+
+alias rex='cd ~/j/tmp06/rust-examples'
+
+alias rexa='rex; cd arrow'
+alias rexe='rex; cd error'
+alias rexp='rex; cd polars'
+alias rexr='rex; cd redis'
+alias rexs='rex; cd sqlite'
+alias rext='rex; cd tempfile'
+alias rexv='rex; cd vec'
 
 #
 # Special Case Nushell Testing

@@ -67,7 +67,6 @@ alias ioxsql='iox sql'
 alias ioxd='cd ~/j/tmp22/iox_datadir'
 
 alias gpiox='git pull https://github.com/influxdata/influxdb_iox main'
-alias gpdf='git pull https://github.com/apache/arrow-datafusion master'
 
 alias psqliox='psql postgres:///iox_shared'
 
@@ -201,3 +200,18 @@ alias rpkpurge='rpk container purge'
 
 alias lc='cd ~/j/tmp06/low_card'
 alias lowcard='cd ~/j/tmp06/low_card'
+
+##
+#  arrow and data fusion
+##
+
+alias dfg='cd ~/j/tmp06/arrow-datafusion'
+alias gpar='git pull https://github.com/apache/arrow-rs master'
+alias gparr='git pull https://github.com/apache/arrow-rs master'
+alias gpdf='git pull https://github.com/apache/arrow-datafusion master'
+
+##
+#  minio
+##
+
+alias miniostart='ioxd; minio server ./data &'
