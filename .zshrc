@@ -156,6 +156,7 @@ alias equity='cd ~/mm/equity'
 
 alias arkk='equity; cd arkk'
 alias baba='equity; cd baba'
+alias morningstar='equity; cd morningstar'
 alias vz='equity; cd vz'
 
 alias snapshot='cd ~/mm/equity-data/snapshot'

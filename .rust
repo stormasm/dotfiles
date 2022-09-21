@@ -182,8 +182,6 @@ alias rgc="rg polars -g Cargo.toml"
 alias pol="cd ~/j/tmp06/polars/polars"
 alias polt="cd ~/j/tmp06/polars"
 
-alias arr="cd ~/j/tmp06/arrow-rs/arrow"
-alias arr2="cd ~/j/tmp06/arrow2/src"
 alias datafust='cd ~/j/tmp06/arrow-datafusion'
 alias datafus='cd ~/j/tmp06/arrow-datafusion/datafusion/core/src'
 alias datafusion='cd ~/j/tmp06/arrow-datafusion/datafusion/core/src'
@@ -532,3 +530,11 @@ alias rgpaf='rg "pub async fn"'
 alias rgtrait='rg "pub trait"'
 alias rgstruct='rg "pub struct"'
 alias rgenum='rg "pub enum"'
+
+##
+#  Rust arrow, see .iox as well for stuff
+##
+alias arr="cd ~/j/tmp06/arrow-rs/arrow"
+alias nar="cd ~/j/tmp06/narrow/arrow"
+
+alias ctdg='ct data_gen --features="test_utils"'
