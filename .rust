@@ -5,6 +5,7 @@ alias nightly='rustup default nightly'
 alias nightlyinstall='rustup install nightly'
 
 alias rbin='cd ~/mia/rust/bin'
+alias rustbin='cd ~/mia/rust/bin'
 
 alias rback='RUST_BACKTRACE=1'
 alias rbackfull='RUST_BACKTRACE=full'
@@ -85,6 +86,10 @@ alias shake='cd ~/j/tmp17/nuproj/shakespeare'
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
 alias nu='cd ~/j/tmp17/nushell'
+alias gram='cd ~/j/tmp17/grammar'
+alias pest='cd ~/j/tmp17/pest'
+alias pestb='cd ~/j/tmp17/pest_book'
+alias pestbook='cd ~/j/tmp17/pest_book'
 
 ### reedline
 alias rl='cd ~/j/tmp17/reedline'
@@ -248,6 +253,7 @@ alias gpnu='git pull https://github.com/nushell/nushell main'
 alias gpnus='git pull https://github.com/nushell/nu_scripts main'
 alias gpnusn='git pull https://github.com/nushell/nu_scripts main'
 alias gprl='git pull https://github.com/nushell/reedline main'
+alias gpgram='git pull https://github.com/nushell/grammar main'
 
 
 ###                                           ###
@@ -405,6 +411,7 @@ alias rex='cd ~/j/tmp06/rust-examples'
 
 alias rexa='rex; cd arrow'
 alias rexe='rex; cd error'
+alias rexn='rex; cd narrow'
 alias rexp='rex; cd polars'
 alias rexr='rex; cd redis'
 alias rexs='rex; cd sqlite'
@@ -535,6 +542,12 @@ alias rgenum='rg "pub enum"'
 #  Rust arrow, see .iox as well for stuff
 ##
 alias arr="cd ~/j/tmp06/arrow-rs/arrow"
+alias art="cd ~/j/tmp06/arrow-rs"
+alias ara="cd ~/j/tmp06/arrow-rs/arrow-array"
+alias ard="cd ~/j/tmp06/arrow-rs/arrow-data"
+alias arb="cd ~/j/tmp06/arrow-rs/arrow-buffer"
+alias ars="cd ~/j/tmp06/arrow-rs/arrow-schema"
+
 alias nar="cd ~/j/tmp06/narrow/arrow"
 
 alias ctdg='ct data_gen --features="test_utils"'
