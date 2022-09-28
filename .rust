@@ -548,6 +548,8 @@ alias ard="cd ~/j/tmp06/arrow-rs/arrow-data"
 alias arb="cd ~/j/tmp06/arrow-rs/arrow-buffer"
 alias ars="cd ~/j/tmp06/arrow-rs/arrow-schema"
 
+alias arpar="cd ~/j/tmp06/arrow-rs/parquet"
+
 alias nar="cd ~/j/tmp06/narrow/arrow"
 
 alias ctdg='ct data_gen --features="test_utils"'
