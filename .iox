@@ -206,6 +206,7 @@ alias lowcard='cd ~/j/tmp06/low_card'
 ##
 
 alias dfg='cd ~/j/tmp06/arrow-datafusion'
+alias dfgo='cd ~/j/tmp06/arrow-datafusion'
 alias gpar='git pull https://github.com/apache/arrow-rs master'
 alias gparr='git pull https://github.com/apache/arrow-rs master'
 alias gpdf='git pull https://github.com/apache/arrow-datafusion master'
@@ -222,3 +223,11 @@ alias miniostart='ioxd; minio server ./data &'
 #  ioxpartolp [parquet filename]
 ##
 alias ioxpartolp='iox debug parquet-to-lp'
+
+##
+#  datafusion
+##
+alias dcl='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
+alias dcli='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
+alias dfcl='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
+alias dfcli='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
