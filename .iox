@@ -215,3 +215,10 @@ alias gpdf='git pull https://github.com/apache/arrow-datafusion master'
 ##
 
 alias miniostart='ioxd; minio server ./data &'
+
+##
+#  parquet to line protocol PR 5734 for more details
+#
+#  ioxpartolp [parquet filename]
+##
+alias ioxpartolp='iox debug parquet-to-lp'
