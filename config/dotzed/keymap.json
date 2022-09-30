@@ -5,7 +5,7 @@
             "cmd-\\": [
                 "workspace::ToggleSidebarItem",
                 {
-                    "side": "Left",
+                    "sidebar_side": "Left",
                     "item_index": 0
                 }
             ]
