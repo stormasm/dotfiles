@@ -233,3 +233,4 @@ alias dcl='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafu
 alias dcli='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
 alias dfcl='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
 alias dfcli='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
+alias ctpp='cnr physical_plan::'
