@@ -553,3 +553,8 @@ alias arpar="cd ~/j/tmp06/arrow-rs/parquet"
 alias nar="cd ~/j/tmp06/narrow/arrow"
 
 alias ctdg='ct data_gen --features="test_utils"'
+
+##
+#   exa
+##
+alias tree="exa -T"
