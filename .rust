@@ -87,6 +87,8 @@ alias shake='cd ~/j/tmp17/nuproj/shakespeare'
 alias eq='cd ~/j/tmp17/nushell'
 alias nu='cd ~/j/tmp17/nushell'
 alias gram='cd ~/j/tmp17/grammar'
+alias tsg='cd ~/j/tmp17/tree-sitter-nu'
+alias ts='tree-sitter'
 alias pest='cd ~/j/tmp17/pest'
 alias pestb='cd ~/j/tmp17/pest_book'
 alias pestbook='cd ~/j/tmp17/pest_book'
@@ -254,7 +256,8 @@ alias gpnus='git pull https://github.com/nushell/nu_scripts main'
 alias gpnusn='git pull https://github.com/nushell/nu_scripts main'
 alias gprl='git pull https://github.com/nushell/reedline main'
 alias gpgram='git pull https://github.com/nushell/grammar main'
-
+alias gpts='git pull https://github.com/fdncred/tree-sitter-nu main'
+alias gptsn='git pull https://github.com/fdncred/tree-sitter-nu main'
 
 ###                                           ###
 #    nushell config location and manipulation   #
