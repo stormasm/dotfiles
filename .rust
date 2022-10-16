@@ -86,9 +86,14 @@ alias shake='cd ~/j/tmp17/nuproj/shakespeare'
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
 alias nu='cd ~/j/tmp17/nushell'
-alias gram='cd ~/j/tmp17/grammar'
+
+### tree sitter
 alias tsg='cd ~/j/tmp17/tree-sitter-nu'
+alias tsm='cd ~/j/tmp17/tree-sitter-me'
 alias ts='tree-sitter'
+
+### pest
+alias gram='cd ~/j/tmp17/grammar'
 alias pest='cd ~/j/tmp17/pest'
 alias pestb='cd ~/j/tmp17/pest_book'
 alias pestbook='cd ~/j/tmp17/pest_book'

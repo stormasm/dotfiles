@@ -209,7 +209,12 @@ alias lowcard='cd ~/j/tmp06/low_card'
 
 alias dfg='cd ~/j/tmp06/arrow-datafusion'
 alias dfgo='cd ~/j/tmp06/arrow-datafusion'
+
+alias dfgcli='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
+
+alias dfcore='dfg; cd datafusion/core'
 alias dfexpr='dfg; cd datafusion/expr'
+alias dfex='dfg; cd datafusion-examples/examples'
 
 alias gpar='git pull https://github.com/apache/arrow-rs master'
 alias gparr='git pull https://github.com/apache/arrow-rs master'
