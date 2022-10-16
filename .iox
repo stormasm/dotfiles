@@ -210,6 +210,8 @@ alias lowcard='cd ~/j/tmp06/low_card'
 alias dfg='cd ~/j/tmp06/arrow-datafusion'
 alias dfgo='cd ~/j/tmp06/arrow-datafusion'
 
+alias dfgc='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
+alias dfgcl='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 alias dfgcli='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 
 alias dfcore='dfg; cd datafusion/core'
