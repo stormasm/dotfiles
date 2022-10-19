@@ -207,16 +207,17 @@ alias lowcard='cd ~/j/tmp06/low_card'
 #  arrow and data fusion
 ##
 
-alias dfg='cd ~/j/tmp06/arrow-datafusion'
+alias dfg='cd ~/j/tmp06/arrow-datafusion/datafusion'
+alias dfgt='cd ~/j/tmp06/arrow-datafusion'
 alias dfgo='cd ~/j/tmp06/arrow-datafusion'
 
 alias dfgc='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 alias dfgcl='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 alias dfgcli='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 
-alias dfcore='dfg; cd datafusion/core'
-alias dfexpr='dfg; cd datafusion/expr'
-alias dfex='dfg; cd datafusion-examples/examples'
+alias dfcore='dfgt; cd datafusion/core/src'
+alias dfexpr='dfgt; cd datafusion/expr'
+alias dfex='dfgt; cd datafusion-examples/examples'
 
 alias gpar='git pull https://github.com/apache/arrow-rs master'
 alias gparr='git pull https://github.com/apache/arrow-rs master'
@@ -240,6 +241,7 @@ alias ioxpartolp='iox debug parquet-to-lp'
 ##
 alias dcl='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
 alias dcli='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
+alias dfc='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
 alias dfcl='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
 alias dfcli='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
 alias ctpp='cnr physical_plan::'
