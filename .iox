@@ -245,3 +245,11 @@ alias dfc='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafu
 alias dfcl='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
 alias dfcli='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
 alias ctpp='cnr physical_plan::'
+
+##
+#  GlueSql
+##
+
+alias gsg='cd ~/j/tmp06/GlueSql'
+alias gpglue='git pull https://github.com/gluesql/gluesql main'
+alias gsp='cd ~/j/tmp06/sqlparser-rs'
