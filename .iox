@@ -250,6 +250,8 @@ alias ctpp='cnr physical_plan::'
 #  GlueSql
 ##
 
+alias gg='cd ~/j/tmp06/GlueSql/core/src'
+alias ggt='cd ~/j/tmp06/GlueSql'
 alias gsg='cd ~/j/tmp06/GlueSql'
 alias gpglue='git pull https://github.com/gluesql/gluesql main'
 alias gsp='cd ~/j/tmp06/sqlparser-rs'

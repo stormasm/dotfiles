@@ -175,20 +175,6 @@ alias tan='cd /tmp13/rust-search/tantivy/tan00'
 
 alias cws='cargo-web start --port 3000'
 
-### ripgrep
-#
-### https://github.com/BurntSushi/ripgrep/issues/193
-#
-### rgf pb   // search for all files with the pattern pb in lets say bayard
-#            // which both use protocol buffers
-#
-alias rgf='rg --files | rg'
-alias rgt="rg 'cfg\(test\)'"
-alias rgtest="rg 'cfg\(test\)'"
-alias mr="rg 'macro_rules! '"
-### Find all references to polars in all Cargo.toml files
-alias rgc="rg polars -g Cargo.toml"
-
 ### arrow and parquet and polars
 
 alias pol="cd ~/j/tmp06/polars/polars"
@@ -214,8 +200,6 @@ alias arex3='cre read_csv_ui --features "prettyprint"'
 
 alias cmakear1='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON ..'
 alias cmakear2='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON -DARROW_PARQUET=ON ..'
-
-alias rgp='rgf "\.parquet"'
 
 ### serde
 alias rgs='rg Serialize'
@@ -424,6 +408,7 @@ alias rex='cd ~/j/tmp06/rust-examples'
 
 alias rexa='rex; cd arrow'
 alias rexe='rex; cd error'
+alias rexg='rex; cd gluesql'
 alias rexn='rex; cd narrow'
 alias rexp='rex; cd polars'
 alias rexr='rex; cd redis'
@@ -545,11 +530,29 @@ alias psqltodo='psql postgres:///todos'
 
 ##
 #  Rust ripgrep (rg)
+#
+### https://github.com/BurntSushi/ripgrep/issues/193
 ##
 alias rgpaf='rg "pub async fn"'
+alias rgpf='rg "pub fn"'
 alias rgtrait='rg "pub trait"'
 alias rgstruct='rg "pub struct"'
 alias rgenum='rg "pub enum"'
+
+#
+### rgf pb   // search for all files with the pattern pb in lets say bayard
+#            // which both use protocol buffers
+
+alias rgf='rg --files | rg'
+alias rgp='rgf "\.parquet"'
+
+alias rgt="rg 'cfg\(test\)'"
+alias rgtest="rg 'cfg\(test\)'"
+alias mr="rg 'macro_rules! '"
+
+### Find all references to polars in all Cargo.toml files
+alias rgc="rg polars -g Cargo.toml"
+
 
 ##
 #  Rust arrow, see .iox as well for stuff
