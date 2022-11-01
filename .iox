@@ -216,7 +216,8 @@ alias dfgcl='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 alias dfgcli='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 
 alias dfcore='dfgt; cd datafusion/core/src'
-alias dfexpr='dfgt; cd datafusion/expr'
+alias dfexpr='dfgt; cd datafusion/expr/src'
+alias dfpe='dfgt; cd datafusion/physical-expr/src'
 alias dfex='dfgt; cd datafusion-examples/examples'
 
 alias gpar='git pull https://github.com/apache/arrow-rs master'
