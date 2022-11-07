@@ -548,6 +548,7 @@ alias rgp='rgf "\.parquet"'
 
 alias rgt="rg 'cfg\(test\)'"
 alias rgtest="rg 'cfg\(test\)'"
+alias rgtoktest="rg '\[tokio::test\]'"
 alias mr="rg 'macro_rules! '"
 
 ### Find all references to polars in all Cargo.toml files
