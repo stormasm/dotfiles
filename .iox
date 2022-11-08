@@ -214,6 +214,7 @@ alias dfgo='cd ~/j/tmp06/arrow-datafusion'
 alias dfgc='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 alias dfgcl='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 alias dfgcli='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
+alias dfclig='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 
 alias dfcore='dfgt; cd datafusion/core/src'
 alias dfexpr='dfgt; cd datafusion/expr/src'
