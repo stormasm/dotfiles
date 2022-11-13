@@ -423,6 +423,7 @@ alias rexv='rex; cd vec'
 #
 
 alias cnr='cargo nextest run'
+alias cnra='cargo nextest run --all --all-features'
 alias cnrn='cargo nextest run --no-capture'
 alias cnrno='cargo nextest run --no-capture'
 
