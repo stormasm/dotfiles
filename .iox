@@ -142,9 +142,13 @@ alias ioxnu='ioxg; cd iox_nu'
 alias nuruniox='ioxg; ./target/debug/nu'
 
 ##
+#  Sqlite
+##
+alias sqlg='06; cd sqlite'
+
+##
 #  Sqlx
 ##
-alias sqlg='06; cd sqlx'
 alias sqlxg='06; cd sqlx'
 
 alias ioxdbcreate='DATABASE_URL=postgres:///iox_shared sqlx database create'
@@ -218,6 +222,7 @@ alias dfclig='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 
 alias dfcore='dfgt; cd datafusion/core/src'
 alias dfexpr='dfgt; cd datafusion/expr/src'
+alias dfopt='dfgt; cd datafusion/optimizer/src'
 alias dfpe='dfgt; cd datafusion/physical-expr/src'
 alias dfex='dfgt; cd datafusion-examples/examples'
 
