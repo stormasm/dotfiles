@@ -305,15 +305,18 @@ alias nurunls='nurunt -c ls'
 
 ### Changing to various nushell crates
 
+alias nuansi='nutop; cd crates/nu-ansi-term/src'
 alias nuc='nutop; cd crates'
 alias nucr='nutop; cd crates/nu-crate/src'
 alias nuco='cd ~/j/tmp17/nucode'
 alias nucode='cd ~/j/tmp17/nucode'
-alias nuansi='nutop; cd crates/nu-ansi-term/src'
+
 alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
+alias nudf='nutop; cd crates/nu-command/src/dataframe'
 alias nucomc='nutop; cd crates/nu-command/src/commands'
 alias nucomt='nutop; cd crates/nu-command'
+
 alias nuiox='cd ~/j/tmp06/influxdb_iox/nu_iox/src/iox'
 alias nuioxt='cd ~/j/tmp06/influxdb_iox/nu_iox'
 
@@ -336,6 +339,7 @@ alias nuprome='cd ~/j/tmp17/nupro'
 alias nudfr='nutop; cd crates/nu-command/src/dataframe'
 alias nudfg='nutop; cd crates/nu-command/src/dataframe'
 alias nts='nutop; cd crates/nu-test-support/src'
+alias nutab='nutop; cd crates/nu-table/src'
 
 alias nuj='cd ~/j/tmp17/engine-q/crates/nu-json/src'
 alias nujson='cd ~/j/tmp17/engine-q/crates/nu-json/src'
@@ -424,6 +428,7 @@ alias rexv='rex; cd vec'
 
 alias cnr='cargo nextest run'
 alias cnra='cargo nextest run --all --all-features'
+alias cnrb='cargo nextest run --all --features extra'
 alias cnrn='cargo nextest run --no-capture'
 alias cnrno='cargo nextest run --no-capture'
 
@@ -560,8 +565,10 @@ alias rgc="rg polars -g Cargo.toml"
 ##
 #  Rust arrow, see .iox as well for stuff
 ##
+
 alias arr="cd ~/j/tmp06/arrow-rs/arrow"
 alias art="cd ~/j/tmp06/arrow-rs"
+alias arg="cd ~/j/tmp06/arrow-rs"
 alias ara="cd ~/j/tmp06/arrow-rs/arrow-array"
 alias ard="cd ~/j/tmp06/arrow-rs/arrow-data"
 alias arb="cd ~/j/tmp06/arrow-rs/arrow-buffer"
