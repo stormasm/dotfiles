@@ -30,10 +30,11 @@ alias cbaf='cargo build --all-features'
 alias cbr='cargo build --release'
 
 alias cbndf='cargo build --no-default-features'
-alias cbd='cargo build --features=extra'
-alias cbdb='cargo build --features=extra'
-alias cbdf='cargo build --features=extra'
-alias cbf='cargo build --features=extra'
+alias cbd='cargo build --features=dataframe'
+alias cbdf='cargo build --features=dataframe'
+alias cbdb='cargo build --features=database'
+alias cbsql='cargo build --features=database'
+
 
 alias cdoc='cargo doc --no-deps --open'
 alias cor='cargo outdated -R'
@@ -48,7 +49,7 @@ alias crr='cargo run --release'
 alias cref='cargo run --features="runtime unstable-stream" --example'
 alias crec='cargo run --example connect 127.0.0.1:8080'
 
-alias ciman='cargo fmt; cargo check; cargo clippy; cargo test --all --all-features'
+alias ciman='cargo fmt; cargo check; cargo clippy; cargo test --workspace --all-features'
 alias ccfcc='cargo fmt; cargo check; cargo clippy'
 alias ccl='cargo clippy'
 alias clip='cargo clippy'
@@ -85,7 +86,6 @@ alias shake='cd ~/j/tmp17/nuproj/shakespeare'
 
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
-alias nu='cd ~/j/tmp17/nushell'
 
 ### tree sitter
 alias tsg='cd ~/j/tmp17/tree-sitter-nu'
@@ -107,6 +107,7 @@ export REEDLINE_HISTFILE="$HOME/.reedline/history.txt"
 
 alias fix='rg "FIXME: jt"'
 alias fixme='rg "FIXME: jt"'
+alias rgfdf='rg "feature = \"dataframe\""'
 
 alias mi='cd ~/j/tmp17/miette'
 alias req='./target/debug/engine-q'
@@ -229,6 +230,7 @@ alias loglevel='env | grep RUST_LOG'
 ### miette
 alias miup='cargo update --workspace -p miette'
 
+alias gcnu='gc git@github.com:nushell/nushell.git'
 alias getnu='gc git@github.com:nushell/nushell.git'
 alias getnustorm='gc git@github.com:stormasm/nushell.git'
 
@@ -314,6 +316,7 @@ alias nucode='cd ~/j/tmp17/nucode'
 alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
 alias nudf='nutop; cd crates/nu-command/src/dataframe'
+alias dfnu='nutop; cd crates/nu-command/src/dataframe'
 alias nucomc='nutop; cd crates/nu-command/src/commands'
 alias nucomt='nutop; cd crates/nu-command'
 
@@ -340,6 +343,12 @@ alias nudfr='nutop; cd crates/nu-command/src/dataframe'
 alias nudfg='nutop; cd crates/nu-command/src/dataframe'
 alias nts='nutop; cd crates/nu-test-support/src'
 alias nutab='nutop; cd crates/nu-table/src'
+alias nutable='nutop; cd crates/nu-table'
+
+alias df4='cd ~/j/tmp16/w/nushell-df4'
+alias df4p='cd ~/j/tmp16/w/nushell-df4/crates/nu-polars'
+alias df5='cd ~/j/tmp16/ww/nushell-df5'
+alias df5p='cd ~/j/tmp16/ww/nushell-df5/crates/nu-polars'
 
 alias nuj='cd ~/j/tmp17/engine-q/crates/nu-json/src'
 alias nujson='cd ~/j/tmp17/engine-q/crates/nu-json/src'
@@ -353,8 +362,8 @@ alias npq='nutop; cd crates/nu_plugin_query/src'
 
 # Nushell Testing
 #
-alias ntalls='cargo test --all --features=stable'
-alias ntallx='cargo test --all --features=extra'
+alias ntalls='cargo test --workspace --features=stable'
+alias ntallx='cargo test --workspace --features=extra'
 #
 #  Testing an individual nushell command
 #   Type the command name after typing the alias
@@ -442,10 +451,13 @@ alias cthno='ctno commands::help'
 
 alias ctnoex='ctno commands::tests::examples_work_as_expected'
 
-alias cta='cargo test --all --all-features'
-alias ctan='cargo test --all'
-alias ctas='cargo test --all --features=stable'
+alias cta='cargo test --workspace --all-features'
+alias ctan='cargo test --workspace'
+alias ctas='cargo test --workspace --features=stable'
+alias ctm='cargo test --test main'
 alias ct100='cargo test --package nu-cli --test main -- commands::each'
+
+alias ctdf='ct --features=dataframe dataframe::'
 
 #
 # Helix
