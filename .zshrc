@@ -91,6 +91,7 @@ alias gcobp1='git checkout -b bp1 master'
 alias gcobp2='git checkout -b bp2 bp1'
 alias gcom='git commit -m'
 alias gcmw='git commit -m mw'
+alias gccc='git commit -m code-cleanup'
 alias gcomm='git commit -m'
 alias gd='git diff'
 

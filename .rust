@@ -78,7 +78,7 @@ alias sql='sqlite3'
 ### parse-camino + dataset
 
 alias ds='cd ~/j/tmp17/dataset/csv'
-alias pc='cd ~/j/tmp17/parse-camino'
+alias pcamino='cd ~/j/tmp17/parse-camino'
 alias pcd='cd ~/j/tmp17/parse-camino-data'
 
 ### shakespeare
@@ -178,6 +178,8 @@ alias cws='cargo-web start --port 3000'
 
 ### arrow and parquet and polars
 
+alias pc="rm *.parquet"
+
 alias pol="cd ~/j/tmp06/polars/polars"
 alias polt="cd ~/j/tmp06/polars"
 
@@ -198,6 +200,8 @@ alias polme="cd ~/j/tmp06/polars01/polars-core"
 alias arex1='cre read_csv --features "prettyprint"'
 alias arex2='cre read_csv_infer_schema --features "prettyprint"'
 alias arex3='cre read_csv_ui --features "prettyprint"'
+
+alias c2p='cd ~/j/tmp06/csv2par'
 
 alias cmakear1='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON ..'
 alias cmakear2='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON -DARROW_PARQUET=ON ..'
