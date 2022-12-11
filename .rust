@@ -319,6 +319,7 @@ alias nucode='cd ~/j/tmp17/nucode'
 
 alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
+alias nucomft='nutop; cd crates/nu-command/src/formats/to'
 alias nudf='nutop; cd crates/nu-command/src/dataframe'
 alias dfnu='nutop; cd crates/nu-command/src/dataframe'
 alias nucomc='nutop; cd crates/nu-command/src/commands'
@@ -362,6 +363,9 @@ alias nustr='nutopp; cd crates/nu-stream/src'
 alias nutest='nutopp; cd crates/nu-test-support/src'
 
 # Plugins
+
+alias nuplug='nutop; cd crates/nu-plugin/src'
+alias nuplugin='nutop; cd crates/nu-plugin/src'
 alias npq='nutop; cd crates/nu_plugin_query/src'
 
 # Nushell Testing
