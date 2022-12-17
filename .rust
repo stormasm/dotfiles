@@ -355,8 +355,8 @@ alias df4p='cd ~/j/tmp16/w/nushell-df4/crates/nu-polars'
 alias df5='cd ~/j/tmp16/ww/nushell-df5'
 alias df5p='cd ~/j/tmp16/ww/nushell-df5/crates/nu-polars'
 
-alias nuj='cd ~/j/tmp17/engine-q/crates/nu-json/src'
-alias nujson='cd ~/j/tmp17/engine-q/crates/nu-json/src'
+alias nuj='cd ~/j/tmp17/nushell/crates/nu-json/src'
+alias nujson='cd ~/j/tmp17/nushell/crates/nu-json/src'
 
 alias nusource='nutopp; cd crates/nu-source/src'
 alias nustr='nutopp; cd crates/nu-stream/src'
@@ -573,8 +573,10 @@ alias rgenum='rg "pub enum"'
 alias rgf='rg --files | rg'
 alias rgp='rgf "\.parquet"'
 
-alias rgt="rg 'cfg\(test\)'"
-alias rgtest="rg 'cfg\(test\)'"
+alias rgct="rg 'cfg\(test\)'"
+alias rgctest="rg 'cfg\(test\)'"
+alias rgt="rg '\#\[test\]'"
+alias rgtest="rg '\#\[test\]'"
 alias rgtoktest="rg '\[tokio::test\]'"
 alias mr="rg 'macro_rules! '"
 
