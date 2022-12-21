@@ -45,6 +45,7 @@ alias c='clear'
 alias cp='cp -p'
 alias dl='cd ~/k/dl'
 alias e='emacs -nw'
+alias en='cd ~/mm/equity/equity-notes'
 
 alias h='history'
 alias hclear='history -c'
