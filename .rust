@@ -208,6 +208,12 @@ alias cmakear2='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON -DARROW_PA
 
 ### serde
 alias rgs='rg Serialize'
+alias sj='cd ~/j/tmp06/serde-json'
+alias rmp='cd ~/j/tmp06/msgpack-rust'
+alias ron='cd ~/j/tmp06/ron'
+alias sm='cd ~/j/tmp06/msgpack-rust/rmp-serde'
+alias st='cd ~/j/tmp06/serde-toml'
+alias sy='cd ~/j/tmp06/serde-yaml'
 
 ### canop/whalespotter.git
 alias ws='whalespotter'
@@ -495,19 +501,6 @@ alias rr='./test/run-tests.py -p --no-roundtrip'
 alias wt=wasmtime
 alias wtg='cd ~/j/tmp19/wasmtime'
 alias wtc='cd ~/j/tmp19/wasmtime/cranelift'
-
-##
-#  @phiresky sqlite code
-##
-alias cbsql='cargo build --features=sqlite'
-alias crsql='cargo run --features=sqlite'
-alias ctsql='cargo nextest run --features=sqlite history::'
-
-#alias ctsqlcsv='cargo test --lib --features "backup blob chrono csvtab functions hooks limits load_extension serde_json trace vtab bundled"'
-#alias ctsqlcsv='cargo nextest run --lib --features "backup blob chrono csvtab functions hooks limits load_extension serde_json trace vtab bundled"'
-#alias ctvtab='cargo nextest run --lib --features "backup blob chrono csvtab serde_json trace vtab bundled" vtab::'
-
-alias ctvtab='cargo nextest run --lib --features "csvtab bundled" vtab::'
 
 ##
 #  Tauri
