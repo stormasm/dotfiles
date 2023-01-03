@@ -39,6 +39,11 @@ alias cbsql='cargo build --features=database'
 alias cdoc='cargo doc --no-deps --open'
 alias cor='cargo outdated -R'
 
+### cargo expand
+
+alias ce0='cargo expand --example ex00'
+alias ce1='cargo expand --example ex01'
+
 ### cargo run
 
 alias cr='cargo run'
@@ -208,6 +213,9 @@ alias cmakear2='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON -DARROW_PA
 
 ### serde
 alias rgs='rg Serialize'
+alias se='cd ~/j/tmp06/serde'
+alias sex='cd ~/j/tmp06/serde-examples'
+alias sexr='cd ~/j/tmp06/serde-examples/ron'
 alias sj='cd ~/j/tmp06/serde-json'
 alias rmp='cd ~/j/tmp06/msgpack-rust'
 alias ron='cd ~/j/tmp06/ron'
