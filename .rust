@@ -41,8 +41,11 @@ alias cor='cargo outdated -R'
 
 ### cargo expand
 
-alias ce0='cargo expand --example ex00'
-alias ce1='cargo expand --example ex01'
+alias ce='cargo expand'
+alias cee='ce --example'
+alias ce0='cee ex00'
+alias ce1='cee ex01'
+alias ce2='cee ex02'
 
 ### cargo run
 
