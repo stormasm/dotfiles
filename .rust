@@ -133,56 +133,11 @@ alias rn='cd ~/j/tmp17/rust-notes'
 ### nudev
 alias nudev='cd ~/j/tmp17/nudev'
 
-### reedline
-
-
-
-
-### https://github.com/timberio/vector
-
-alias vc='cd /mia/vector-config'
-alias crv='cargo run -- --config /mia/vector-config/vector.toml'
-alias crvv='cargo run -- -vv --config /mia/vector-config/vector.toml'
-alias crvx='cargo run -- --config'
-alias vrun='vector --config /mia/vector-config/vector.toml'
-alias vvrun='vector -vv --config /mia/vector-config/vector.toml'
-alias vrunchk='vector -d -vv --config /mia/vector-config/vector.toml'
-
-### https://github.com/meilisearch/MeiliES
-
-alias mes='meilies-server --db-path /miarust/data/mes.edb'
-alias mec='meilies-cli subscribe rick'
-alias mep='meilies-cli publish rick blue'
-alias mer='redisc -p 6480 publish rick blue'
-
-alias ess='ess --db-path /miarust/data/mes.edb'
-alias esc='esc subscribe rick'
-alias esp='esc publish rick blue'
-
-alias cess='cargo run -- --db-path /miarust/data/mes.edb'
-alias cesc='cargo run subscribe rick'
-alias cesp='cargo run publish rick blue'
-
-alias ekrun='ekvsb workload put --count 10 --value-size 10 | ekvsb run sled --dir /tmp41 | ekvsb summary'
-
 ### hyper example echo server testing
 
 alias ech='curl localhost:3000/echo -XPOST -d'
 alias echm='curl localhost:3000/mia -XPOST -d'
 alias echr='curl localhost:3000/echo/reversed -XPOST -d'
-
-### rust search and tantivy
-
-alias ttclean='cd /tmp; rm -fr tantivy; mkdir tantivy'
-
-alias tt='cd /tmp/tantivy'
-alias ttc='cd /tmp00/tantivycli0redis'
-alias tti='cargo run index --file ./data/j10.json --index /tmp/tantivy/wiki/'
-alias ttr='cargo run redis --file ./data/j10.json --index /tmp/tantivy/wiki/'
-
-alias tan='cd /tmp13/rust-search/tantivy/tan00'
-
-alias cws='cargo-web start --port 3000'
 
 ### arrow and parquet and polars
 
