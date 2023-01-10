@@ -96,9 +96,24 @@ alias shake='cd ~/j/tmp17/nuproj/shakespeare'
 alias eq='cd ~/j/tmp17/nushell'
 
 ### tree sitter
-alias tsg='cd ~/j/tmp17/tree-sitter-nu'
-alias tsm='cd ~/j/tmp17/tree-sitter-me'
+alias tsg='cd ~/j/tmp17/tree-sitter'
+alias tstop='cd ~/j/tmp17/tree-sitter'
 alias ts='tree-sitter'
+alias tsg='ts generate'
+alias tst='ts test'
+
+alias tsbash='cd ~/j/tmp17/tree-sitter-bash'
+alias tscss='cd ~/j/tmp17/tree-sitter-css'
+alias tsj='cd ~/j/tmp17/tree-sitter-javascript'
+alias tsjson='cd ~/j/tmp17/tree-sitter-json'
+alias tsmath='cd ~/j/tmp17/tree-sitter-math'
+alias tsm='cd ~/j/tmp17/tree-sitter-me'
+alias tsn='cd ~/j/tmp17/tree-sitter-nu'
+alias tsnu='cd ~/j/tmp17/tree-sitter-nu'
+alias tsp='cd ~/j/tmp17/tree-sitter-python'
+alias tsr='cd ~/j/tmp17/tree-sitter-rust'
+alias tstoml='cd ~/j/tmp17/tree-sitter-toml'
+alias tsyaml='cd ~/j/tmp17/tree-sitter-yaml'
 
 ### pest
 alias gram='cd ~/j/tmp17/grammar'
