@@ -211,6 +211,7 @@ alias lowcard='cd ~/j/tmp06/low_card'
 #  arrow and data fusion
 ##
 
+alias getdf='gc git@github.com:apache/arrow-datafusion.git'
 alias dfg='cd ~/j/tmp06/arrow-datafusion/datafusion'
 alias dfgt='cd ~/j/tmp06/arrow-datafusion'
 alias dfgo='cd ~/j/tmp06/arrow-datafusion'
