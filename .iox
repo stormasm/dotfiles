@@ -91,7 +91,7 @@ alias ioxwmetricsplums='ioxg; iox write plums ./test_fixtures/lineproto/metrics.
 alias ioxmetrics='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
 alias ioxmetricsplums='ioxg; cargo run -- write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
 
-alias ioxwtemp='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/temperature.lp --host http://localhost:8081'
+alias ioxwtemp='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/temperature.lp --host http://localhost:8080'
 alias ioxwtemplums='ioxg; iox write plums ./test_fixtures/lineproto/temperature.lp --host http://localhost:8081'
 
 ### health check to make sure its up and running
