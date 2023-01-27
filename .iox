@@ -92,7 +92,7 @@ alias ioxmetrics='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtu
 alias ioxmetricsplums='ioxg; cargo run -- write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
 
 alias ioxwtemp='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/temperature.lp --host http://localhost:8080'
-alias ioxwtemplums='ioxg; iox write plums ./test_fixtures/lineproto/temperature.lp --host http://localhost:8081'
+alias ioxwtemplums='ioxg; iox write plums ./test_fixtures/lineproto/temperature.lp --host http://localhost:8080'
 
 ### health check to make sure its up and running
 alias ioxchk='curl localhost:8080/health'
@@ -105,8 +105,13 @@ alias ctiox='ioxg; RUST_MIN_STACK=10485760 cargo test --all'
 alias ioxh='ioxg; ./target/debug/influxdb_iox --help'
 alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 
-### iox crates
+### database notes
+
+alias dbn='cd ~/j/tmp06/dbnotes'
 alias ioxn='cd ~/j/tmp06/ioxnotes'
+
+### iox crates
+
 alias ioxcat='ioxg; cd iox_catalog'
 
 alias ioxcompact='ioxg; cd compactor'
