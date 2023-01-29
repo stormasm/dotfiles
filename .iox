@@ -42,9 +42,22 @@ alias ioxsqlg='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
 alias iox='ioxg; ./target/debug/influxdb_iox'
 alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
 
+###
+#   Iox Wal Directory
+###
+
+alias tiox='cd /tmp/iox'
+alias tmpiox='cd /tmp/iox'
+alias ioxd='cd ~/j/tmp22/iox_datadir'
+
 ####
 #     Iox run
 ####
+
+alias ioxja='ioxg; INFLUXDB_IOX_RPC_MODE=2 ./target/debug/influxdb_iox run ingester2 --api-bind=127.0.0.1:8081 --grpc-bind=127.0.0.1:8042 --wal-directory /tmp/iox/wal  --catalog-dsn postgres:///iox_shared --object-store=file --data-dir=/tmp/iox/obj -v'
+alias ioxjb='ioxg; INFLUXDB_IOX_RPC_MODE=2 ./target/debug/influxdb_iox run router2 --api-bind=127.0.0.1:8080 --grpc-bind=127.0.0.1:8085 --ingester-addresses=127.0.0.1:8042 --catalog-dsn postgres:///iox_shared -v'
+alias ioxjc='ioxg; INFLUXDB_IOX_RPC_MODE=2 ./target/debug/influxdb_iox run compactor2 --api-bind 127.0.0.1:8084 --grpc-bind 127.0.0.1:8088 --catalog-dsn postgres:///iox_shared --object-store=file --data-dir=/tmp/iox/obj -v'
+alias ioxjd='ioxg; INFLUXDB_IOX_RPC_MODE=2 ./target/debug/influxdb_iox run querier --api-bind 127.0.0.1:8083 --grpc-bind 127.0.0.1:8082 --ingester-addresses=http://127.0.0.1:8042 --catalog-dsn postgres:///iox_shared --object-store=file --data-dir=/tmp/iox/obj -v'
 
 alias irr='iox run router --write-buffer 'file' --write-buffer-addr '/Users/ma/j/tmp22/iox_datadir' -vv'
 
@@ -63,8 +76,6 @@ alias ioxdbgno='iox run all-in-one --log-filter debug,sqlx::query=error'
 alias ioxdebugnoh2='iox run all-in-one --log-filter debug,hyper::proto::h1=info,h2=info'
 
 alias ioxsql='iox sql'
-
-alias ioxd='cd ~/j/tmp22/iox_datadir'
 
 alias gpiox='git pull https://github.com/influxdata/influxdb_iox main'
 
@@ -118,6 +129,7 @@ alias ioxcompact='ioxg; cd compactor'
 alias ioxdg='ioxg; cd iox_data_generator'
 alias ioxioxt='ioxg; cd influxdb_iox/tests/end_to_end_cases'
 alias ioxing='ioxg; cd ingester'
+alias ioxing2='ioxg; cd ingester2'
 alias ioxiox='ioxg; cd influxdb_iox'
 alias ioxioxa='ioxg; cd influxdb_iox/src/commands/run'
 alias ioxioxg='ioxg; cd influxdb_iox/src/commands/run'
