@@ -323,5 +323,3 @@ export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.python" ]] && source "$HOME/.python"
 [[ -s "$HOME/.rust" ]] && source "$HOME/.rust"
 [[ -s "$HOME/.iox" ]] && source "$HOME/.iox"
-
-source '/Users/ma/Library/Application Support/org.dystroy.broot/launcher/bash/br'
