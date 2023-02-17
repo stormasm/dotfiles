@@ -313,7 +313,7 @@ export PKG_CONFIG_PATH="/usr/local/opt/python@3.9/lib/pkgconfig"
 # export PROTOC_INCLUDE="/mia/protoc/include"
 
 # For prost and others
-export OUT_DIR="/j/tmp14/out"
+# export OUT_DIR="/j/tmp14/out"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"

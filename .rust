@@ -276,7 +276,6 @@ alias nutop='cd ~/j/tmp17/nushell'
 alias nutopp='cd ~/j/tmp26/nushell'
 
 alias nucore='cd ~/j/tmp17/nushell-core'
-alias nucomcore='cd ~/j/tmp17/nu-command-core'
 
 alias nubo='cd ~/j/tmp11/nushell.github.io'
 alias nubook='cd ~/j/tmp11/nushell.github.io'
@@ -314,11 +313,15 @@ alias nuco='cd ~/j/tmp17/nucode'
 alias nucode='cd ~/j/tmp17/nucode'
 
 alias nucli='nutop; cd crates/nu-cli/src'
+
 alias nucom='nutop; cd crates/nu-command/src'
+alias nucomc='nutop; cd crates/nu-command-core/src'
+alias nucomlang='nutop; cd crates/nu-cmd-lang/src'
+alias nulang='nutop; cd crates/nu-cmd-lang/src'
+
 alias nucomft='nutop; cd crates/nu-command/src/formats/to'
 alias nudf='nutop; cd crates/nu-command/src/dataframe'
 alias dfnu='nutop; cd crates/nu-command/src/dataframe'
-alias nucomc='nutop; cd crates/nu-command/src/commands'
 alias nucomt='nutop; cd crates/nu-command'
 
 alias nuiox='cd ~/j/tmp06/influxdb_iox/nu_iox/src/iox'
@@ -581,6 +584,7 @@ alias arb="cd ~/j/tmp06/arrow-rs/arrow-buffer"
 alias ars="cd ~/j/tmp06/arrow-rs/arrow-schema"
 
 alias arpar="cd ~/j/tmp06/arrow-rs/parquet"
+alias arf="cd ~/j/tmp06/arrow-rs/arrow-flight/src"
 
 alias nar="cd ~/j/tmp06/narrow/arrow"
 
