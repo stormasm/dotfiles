@@ -96,11 +96,11 @@ alias ioxrun='ioxg; ./target/debug/influxdb_iox run all-in-one --catalog-dsn pos
 alias ioxa='iox --catalog-dsn postgres:///iox_shared --data-dir=/Users/ma/j/tmp06/iox_data'
 
 ### write data out to iox uses HARDCODED binary
-alias ioxwmetrics='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
-alias ioxwmetricsplums='ioxg; iox write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+alias ioxwmetrics='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8080'
+alias ioxwmetricsplums='ioxg; iox write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8080'
 
-alias ioxmetrics='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
-alias ioxmetricsplums='ioxg; cargo run -- write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8081'
+alias ioxmetrics='ioxg; cargo run -- write postgresql:///iox_shared ./test_fixtures/lineproto/metrics.lp --host http://localhost:8080'
+alias ioxmetricsplums='ioxg; cargo run -- write plums ./test_fixtures/lineproto/metrics.lp --host http://localhost:8080'
 
 alias ioxwtemp='ioxg; iox write postgresql:///iox_shared ./test_fixtures/lineproto/temperature.lp --host http://localhost:8080'
 alias ioxwtemplums='ioxg; iox write plums ./test_fixtures/lineproto/temperature.lp --host http://localhost:8080'
