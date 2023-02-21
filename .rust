@@ -585,6 +585,7 @@ alias ars="cd ~/j/tmp06/arrow-rs/arrow-schema"
 
 alias arpar="cd ~/j/tmp06/arrow-rs/parquet"
 alias arf="cd ~/j/tmp06/arrow-rs/arrow-flight/src"
+alias arbal="cd ~/j/tmp06/arrow-ballista"
 
 alias nar="cd ~/j/tmp06/narrow/arrow"
 
