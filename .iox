@@ -155,7 +155,7 @@ alias ioxdbgplums='iox debug schema get plums'
 #  Iox Nu
 ##
 
-alias ioxnu='ioxg; cd iox_nu'
+alias ioxnug='cd ~/j/tmp10/ioxnu'
 alias nuruniox='ioxg; ./target/debug/nu'
 
 ##
@@ -287,4 +287,7 @@ alias gsp='cd ~/j/tmp06/sqlparser-rs'
 alias slg='cd ~/j/tmp06/schnapslatte/src'
 alias slgt='cd ~/j/tmp06/schnapslatte'
 alias slr='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
-alias slrun='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
+alias slrex='cargo run --example ex00 -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
+
+alias sl='cd ~/j/tmp06/sl/flight/src'
+alias slex='cd ~/j/tmp06/sl/examples'

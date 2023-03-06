@@ -25,16 +25,12 @@ alias cben='cargo bench'
 alias cbench='cargo bench'
 
 alias cb='cargo build'
-alias cbaf='cargo build --all-features'
+alias cba='cargo build --workspace'
 
-alias cbr='cargo build --release'
-
-alias cbndf='cargo build --no-default-features'
 alias cbd='cargo build --features=dataframe'
 alias cbdf='cargo build --features=dataframe'
 alias cbdb='cargo build --features=database'
 alias cbsql='cargo build --features=database'
-
 
 alias cdoc='cargo doc --no-deps --open'
 alias cor='cargo outdated -R'
@@ -150,7 +146,7 @@ alias com='cd ~/j/tmp17/nushell/crates/nu-command'
 alias fil='cd ~/j/tmp17/nushell/crates/nu-command/src/filters'
 
 ### rust-notes
-alias nun='cd ~/j/tmp17/nunotes'
+alias nuno='cd ~/j/tmp17/nunotes'
 alias rn='cd ~/j/tmp17/rust-notes'
 
 ### nudev
@@ -285,6 +281,7 @@ alias nutmp='cd ~/j/tmp17/nutmp'
 
 alias nur='./target/debug/nu'
 alias nurun='~/j/tmp17/nushell/target/debug/nu'
+alias nun='nurun -n'
 alias nurunn='./target/debug/nu'
 alias nuruno='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
 alias nurunoconfig='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
@@ -317,7 +314,10 @@ alias nucli='nutop; cd crates/nu-cli/src'
 alias nucom='nutop; cd crates/nu-command/src'
 alias nucomc='nutop; cd crates/nu-command-core/src'
 alias nucomlang='nutop; cd crates/nu-cmd-lang/src'
+
+alias ncl='cd ~/j/tmp17/nu_cmd_lang76'
 alias nulang='nutop; cd crates/nu-cmd-lang/src'
+alias nulangt='nutop; cd crates/nu-cmd-lang/tests/commands'
 
 alias nucomft='nutop; cd crates/nu-command/src/formats/to'
 alias nudf='nutop; cd crates/nu-command/src/dataframe'
@@ -358,9 +358,7 @@ alias df5p='cd ~/j/tmp16/ww/nushell-df5/crates/nu-polars'
 alias nuj='cd ~/j/tmp17/nushell/crates/nu-json/src'
 alias nujson='cd ~/j/tmp17/nushell/crates/nu-json/src'
 
-alias nusource='nutopp; cd crates/nu-source/src'
-alias nustr='nutopp; cd crates/nu-stream/src'
-alias nutest='nutopp; cd crates/nu-test-support/src'
+alias nutest='nutop; cd crates/nu-test-support/src'
 
 # Plugins
 
