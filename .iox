@@ -291,3 +291,8 @@ alias slrex='cargo run --example ex00 -- --listen-ip=127.0.0.1 --leader-hostname
 
 alias sl='cd ~/j/tmp06/sl/flight/src'
 alias slex='cd ~/j/tmp06/sl/examples'
+
+##
+#  Sxtdb
+##
+alias sxg='cd ~/j/tmp06/sxtdb/src'
