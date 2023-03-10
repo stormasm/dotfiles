@@ -441,6 +441,7 @@ alias rexv='rex; cd vec'
 # You have to run the cta command first prior to running the tests
 #
 
+alias cnrlist='cargo nextest list'
 alias cnr='cargo nextest run'
 alias cnra='cargo nextest run --all --all-features'
 alias cnrb='cargo nextest run --all --features extra'
@@ -448,6 +449,7 @@ alias cnrn='cargo nextest run --no-capture'
 alias cnrno='cargo nextest run --no-capture'
 
 alias ct='cargo test'
+alias ctlist='cargo test -- --list'
 alias ctno='cargo test -- --nocapture'
 
 alias ctrl='cargo test --features rustyline-support'

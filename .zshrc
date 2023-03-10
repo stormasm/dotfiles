@@ -13,6 +13,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/bin:$PATH"
 
+### java
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
 export WASMTIME_HOME="$HOME/.wasmtime"
 export PATH="$WASMTIME_HOME/bin:$PATH"
 
@@ -20,10 +23,6 @@ export PATH="$WASMTIME_HOME/bin:$PATH"
 # need to sync this with my new machine
 # ulimit -n 100000
 
-#
-# JAVA
-#
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
 export HELIX_RUNTIME=/Users/ma/j/tmp19/helix/runtime
 
 export MANPATH=/opt/local/share/man:$MANPATH
