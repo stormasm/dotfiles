@@ -441,6 +441,8 @@ alias rexv='rex; cd vec'
 # You have to run the cta command first prior to running the tests
 #
 
+
+alias cnrlistall='cargo nextest list --workspace --cargo-profile ci --all-features'
 alias cnrlist='cargo nextest list'
 alias cnr='cargo nextest run'
 alias cnra='cargo nextest run --all --all-features'
