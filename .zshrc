@@ -14,7 +14,9 @@ export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/bin:$PATH"
 
 ### java
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
+export PATH="/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home/bin:$PATH"
+export CPPFLAGS="-I/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home/include"
 
 export WASMTIME_HOME="$HOME/.wasmtime"
 export PATH="$WASMTIME_HOME/bin:$PATH"
