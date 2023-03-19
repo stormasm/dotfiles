@@ -315,7 +315,7 @@ alias nucom='nutop; cd crates/nu-command/src'
 alias nucomc='nutop; cd crates/nu-command-core/src'
 alias nucomlang='nutop; cd crates/nu-cmd-lang/src'
 
-alias ncl='cd ~/j/tmp17/nu_cmd_lang76'
+alias ncl='cd ~/j/tmp17/nu_cmd_lang77'
 alias nulang='nutop; cd crates/nu-cmd-lang/src'
 alias nulangt='nutop; cd crates/nu-cmd-lang/tests/commands'
 
@@ -453,6 +453,7 @@ alias cnrno='cargo nextest run --no-capture'
 alias ct='cargo test'
 alias ctlist='cargo test -- --list'
 alias ctno='cargo test -- --nocapture'
+alias ctex='ct test_examples'
 
 alias ctrl='cargo test --features rustyline-support'
 
