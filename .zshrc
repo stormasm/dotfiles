@@ -2,7 +2,7 @@
 # Setting up the PATH always is the first line in the file
 #
 
-export PATH=~/mia/sqlitetools:~/mia/rust/bin:/usr/local/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/nodejs/node/bin:~/mia/golang/go/bin:~/go/bin:~/.local/bin:$PATH
+export PATH=~/mia/sqlitetools:~/mia/rust/bin:/usr/local/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/nodejs/node/bin:~/mia/go/bin:~/.local/bin:$PATH
 
 # Always add the current directory to your PATH so it finds local binaries
 
@@ -12,6 +12,7 @@ export PATH="$HOME/j/tmp49/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
 ### java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
