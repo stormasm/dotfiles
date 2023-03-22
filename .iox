@@ -335,7 +335,7 @@ alias arfc='cre flight_sql_server --features="flight-sql-experimental tls cli"'
 #  Arrow Flight SchnapsLatte
 ##
 
-alias slfcr='arf; cr --features="cli flight-sql-experimental tls" -- --host 0.0.0.0 --port 3033 "select 1;"'
+alias slfcr='arf; cr --features="cli flight-sql-experimental tls" -- --host 0.0.0.0 --port 3033 --username admin --password password "select 1;"'
 
 ##
 #  Sxtdb
