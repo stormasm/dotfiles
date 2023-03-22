@@ -1,5 +1,11 @@
 
 ##
+#  Datafusion ENV
+##
+
+# export TPCH_DATA=/Users/ma/j/tmp06/arrow-datafusion/benchmarks/data
+
+##
 #  Iox ENV
 ##
 
@@ -230,6 +236,7 @@ alias lowcard='cd ~/j/tmp06/low_card'
 
 alias getdf='gc git@github.com:apache/arrow-datafusion.git'
 alias dfg='cd ~/j/tmp06/arrow-datafusion/datafusion'
+alias dfgb='cd ~/j/tmp06/arrow-datafusion/benchmarks'
 alias dfgt='cd ~/j/tmp06/arrow-datafusion'
 alias dfgo='cd ~/j/tmp06/arrow-datafusion'
 
@@ -282,6 +289,27 @@ alias gpglue='git pull https://github.com/gluesql/gluesql main'
 alias gsp='cd ~/j/tmp06/sqlparser-rs'
 
 ##
+#  Rust arrow, see .iox as well for stuff
+##
+
+alias arr="cd ~/j/tmp06/arrow-rs/arrow"
+alias art="cd ~/j/tmp06/arrow-rs"
+alias arg="cd ~/j/tmp06/arrow-rs"
+alias ara="cd ~/j/tmp06/arrow-rs/arrow-array"
+alias ard="cd ~/j/tmp06/arrow-rs/arrow-data"
+alias arb="cd ~/j/tmp06/arrow-rs/arrow-buffer"
+alias ars="cd ~/j/tmp06/arrow-rs/arrow-schema"
+
+alias arpar="cd ~/j/tmp06/arrow-rs/parquet"
+alias arbal="cd ~/j/tmp06/arrow-ballista"
+
+alias arba="cd ~/j/tmp06/arrow-ballista"
+
+alias nar="cd ~/j/tmp06/narrow/arrow"
+
+alias ctdg='ct data_gen --features="test_utils"'
+
+##
 #  Schnappslatte
 ##
 alias slg='cd ~/j/tmp06/schnapslatte/src'
@@ -293,6 +321,15 @@ alias slrex='cargo run --example ex00 -- --listen-ip=127.0.0.1 --leader-hostname
 
 alias sl='cd ~/j/tmp06/sl/flight/src'
 alias slex='cd ~/j/tmp06/sl/examples'
+
+##
+#  Arrow Flight
+##
+
+alias arf="cd ~/j/tmp06/arrow-rs/arrow-flight/src"
+alias arft="cd ~/j/tmp06/arrow-rs/arrow-flight"
+alias arfs='cre flight_sql_server --features="flight-sql-experimental tls"'
+alias arfc='cre flight_sql_server --features="flight-sql-experimental tls cli"'
 
 ##
 #  Sxtdb

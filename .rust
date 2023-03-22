@@ -574,28 +574,6 @@ alias rgnu="rg nu\!"
 ### Find all references to polars in all Cargo.toml files
 alias rgc="rg polars -g Cargo.toml"
 
-
-##
-#  Rust arrow, see .iox as well for stuff
-##
-
-alias arr="cd ~/j/tmp06/arrow-rs/arrow"
-alias art="cd ~/j/tmp06/arrow-rs"
-alias arg="cd ~/j/tmp06/arrow-rs"
-alias ara="cd ~/j/tmp06/arrow-rs/arrow-array"
-alias ard="cd ~/j/tmp06/arrow-rs/arrow-data"
-alias arb="cd ~/j/tmp06/arrow-rs/arrow-buffer"
-alias ars="cd ~/j/tmp06/arrow-rs/arrow-schema"
-
-alias arpar="cd ~/j/tmp06/arrow-rs/parquet"
-alias arf="cd ~/j/tmp06/arrow-rs/arrow-flight/src"
-alias afg="cd ~/j/tmp06/arrow-rs/arrow-flight"
-alias arbal="cd ~/j/tmp06/arrow-ballista"
-
-alias nar="cd ~/j/tmp06/narrow/arrow"
-
-alias ctdg='ct data_gen --features="test_utils"'
-
 ##
 #   exa
 ##
