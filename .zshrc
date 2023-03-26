@@ -175,6 +175,7 @@ alias res='cd ~/j/tmp99/research'
 alias resbio='cd ~/j/tmp99/research/bio'
 
 alias span='cd ~/j/tmp99/spanish'
+alias hp='cd ~/j/tmp99/spanish/books/harrypotter'
 alias pray='cd ~/j/tmp99/spanish/prayers'
 alias sentd='cd ~/j/tmp99/spanish/sentences'
 

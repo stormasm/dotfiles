@@ -310,11 +310,20 @@ alias nar="cd ~/j/tmp06/narrow/arrow"
 alias ctdg='ct data_gen --features="test_utils"'
 
 ##
+#  sl325
+##
+alias slj='cd ~/j/tmp08/sl325/src'
+alias sljt='cd ~/j/tmp08/sl325'
+
+##
 #  Schnappslatte
 ##
 alias slg='cd ~/j/tmp06/schnapslatte/src'
 alias slgt='cd ~/j/tmp06/schnapslatte'
 alias sln='cd ~/j/tmp06/slnotes'
+alias slt='cd ~/j/tmp06/sltmp'
+alias sltmp='cd ~/j/tmp06/sltmp'
+alias af='cd ~/j/tmp06/archive-flight'
 
 alias slr='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
 alias slrex='cargo run --example ex00 -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
@@ -342,3 +351,10 @@ alias slfcr='arf; cr --features="cli flight-sql-experimental tls" -- --host 0.0.
 ##
 alias sxg='cd ~/j/tmp06/sxtdb/src'
 alias psg='cd ~/j/tmp06/proofs-service/src'
+
+##
+#  Databend
+##
+alias db='cd ~/j/tmp06/databend'
+alias dbend='cd ~/j/tmp06/databend'
+alias dbf='cd ~/j/tmp06/databend/src/query/service/src/servers/flight_sql'
