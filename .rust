@@ -578,3 +578,10 @@ alias rgc="rg polars -g Cargo.toml"
 #   exa
 ##
 alias tree="exa -T"
+
+##
+#   how to run tests when they live inside an example file
+#   the key point here is that you have to put the name of the example file first before tests
+##
+
+alias ctflex='cargo test --example flight_sql_server tests --features="cli flight-sql-experimental tls"'
