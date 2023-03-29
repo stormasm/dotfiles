@@ -318,8 +318,9 @@ alias sljt='cd ~/j/tmp06/sl325'
 ##
 #  Schnappslatte
 ##
-alias slg='cd ~/j/tmp06/schnapslatte/src'
-alias slgt='cd ~/j/tmp06/schnapslatte'
+alias slg='cd ~/j/tmp09/schnapslatte/src'
+alias slgt='cd ~/j/tmp09/schnapslatte'
+alias slget='gc git@github.com:spaceandtimelabs/schnapslatte.git'
 alias sln='cd ~/j/tmp06/slnotes'
 alias slt='cd ~/j/tmp06/sltmp'
 alias sltmp='cd ~/j/tmp06/sltmp'
