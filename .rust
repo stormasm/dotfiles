@@ -315,7 +315,7 @@ alias nucom='nutop; cd crates/nu-command/src'
 alias nucomc='nutop; cd crates/nu-command-core/src'
 alias nucomlang='nutop; cd crates/nu-cmd-lang/src'
 
-alias ncl='cd ~/j/tmp17/nu_cmd_lang77'
+alias ncl='cd ~/j/tmp17/nushell/crates/nu-cmd-lang'
 alias nulang='nutop; cd crates/nu-cmd-lang/src'
 alias nulangt='nutop; cd crates/nu-cmd-lang/tests/commands'
 

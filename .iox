@@ -320,6 +320,9 @@ alias sljt='cd ~/j/tmp06/sl325'
 ##
 alias slg='cd ~/j/tmp09/schnapslatte/src'
 alias slgt='cd ~/j/tmp09/schnapslatte'
+
+alias flegt='cd ~/j/tmp09/flight-testing'
+
 alias slget='gc git@github.com:spaceandtimelabs/schnapslatte.git'
 alias sln='cd ~/j/tmp06/slnotes'
 alias slt='cd ~/j/tmp06/sltmp'
@@ -327,7 +330,7 @@ alias sltmp='cd ~/j/tmp06/sltmp'
 alias af='cd ~/j/tmp06/archive-flight'
 
 alias slr='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
-alias slrun='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
+alias slrun='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=50060'
 alias slrex='cargo run --example ex00 -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
 
 alias sl='cd ~/j/tmp06/sl/flight/src'
@@ -337,16 +340,28 @@ alias slex='cd ~/j/tmp06/sl/examples'
 #  Arrow Flight
 ##
 
+# Build Arrow Flight by going to the arrow-flight subdirectory
+
+alias cbflight='cargo build --bin flight_sql_client --features="cli flight-sql-experimental tls"'
+
 alias arf="cd ~/j/tmp06/arrow-rs/arrow-flight/src"
 alias arft="cd ~/j/tmp06/arrow-rs/arrow-flight"
 alias arfs='cre flight_sql_server --features="flight-sql-experimental tls"'
 alias arfc='cre flight_sql_server --features="flight-sql-experimental tls cli"'
 
 ##
+#  Arrow Flight Legacy Client
+##
+
+alias flegg="cd ~/j/tmp06/flight-legacy"
+
+##
 #  Arrow Flight SchnapsLatte
 ##
 
+alias aflex='arf; cre flight_sql_server --features="flight-sql-experimental tls"'
 alias slfcr='arf; cr --features="cli flight-sql-experimental tls" -- --host 0.0.0.0 --port 3033 --username admin --password password "select 1;"'
+alias slfcrq='arf; cr --features="cli flight-sql-experimental tls" -- --host 0.0.0.0 --port 3033 --username admin --password password'
 
 ##
 #  Sxtdb
@@ -360,3 +375,10 @@ alias psg='cd ~/j/tmp06/proofs-service/src'
 alias db='cd ~/j/tmp06/databend'
 alias dbend='cd ~/j/tmp06/databend'
 alias dbf='cd ~/j/tmp06/databend/src/query/service/src/servers/flight_sql'
+
+##
+#  Java
+##
+
+alias jn='cd ~/j/tmp06/javanotes'
+alias aj='cd ~/j/tmp06/arrow/java'
