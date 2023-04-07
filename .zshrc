@@ -12,12 +12,6 @@ export PATH="$HOME/j/tmp49/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/bin:$PATH"
-export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
-
-### java
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
-export PATH="/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home/bin:$PATH"
-export CPPFLAGS="-I/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home/include"
 
 export WASMTIME_HOME="$HOME/.wasmtime"
 export PATH="$WASMTIME_HOME/bin:$PATH"
@@ -26,6 +20,10 @@ export PATH="$WASMTIME_HOME/bin:$PATH"
 # need to sync this with my new machine
 # ulimit -n 100000
 
+#
+# JAVA
+#
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
 export HELIX_RUNTIME=/Users/ma/j/tmp19/helix/runtime
 
 export MANPATH=/opt/local/share/man:$MANPATH
@@ -326,4 +324,3 @@ export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.python" ]] && source "$HOME/.python"
 [[ -s "$HOME/.rust" ]] && source "$HOME/.rust"
 [[ -s "$HOME/.iox" ]] && source "$HOME/.iox"
-[[ -s "$HOME/.java" ]] && source "$HOME/.java"
