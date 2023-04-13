@@ -375,6 +375,7 @@ alias psg='cd ~/j/tmp06/proofs-service/src'
 alias db='cd ~/j/tmp06/databend'
 alias dbend='cd ~/j/tmp06/databend'
 alias dbf='cd ~/j/tmp06/databend/src/query/service/src/servers/flight_sql'
+alias or='cd ~/j/tmp09/openraft'
 
 ##
 #  Java
