@@ -246,6 +246,7 @@ alias dfgcli='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 alias dfclig='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
 
 alias dfcore='dfgt; cd datafusion/core/src'
+alias dft='dfgt; cd datafusion/core/tests'
 alias dfexpr='dfgt; cd datafusion/expr/src'
 alias dfopt='dfgt; cd datafusion/optimizer/src'
 alias dfpe='dfgt; cd datafusion/physical-expr/src'
@@ -330,6 +331,9 @@ alias sltmp='cd ~/j/tmp06/sltmp'
 alias af='cd ~/j/tmp06/archive-flight'
 
 alias slr='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
+
+alias slr1='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1'
+
 alias slrun='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=50060'
 alias slrex='cargo run --example ex00 -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
 

@@ -147,7 +147,7 @@ alias fil='cd ~/j/tmp17/nushell/crates/nu-command/src/filters'
 
 ### rust-notes
 alias nuno='cd ~/j/tmp17/nunotes'
-alias rn='cd ~/j/tmp17/rust-notes'
+alias rn='cd ~/j/tmp06/rust-notes'
 
 ### nudev
 alias nudev='cd ~/j/tmp17/nudev'
@@ -452,6 +452,7 @@ alias cnrn='cargo nextest run --no-capture'
 alias cnrno='cargo nextest run --no-capture'
 
 alias ct='cargo test'
+alias ctt='ct --test'
 alias ctlist='cargo test -- --list'
 alias ctno='cargo test -- --nocapture'
 alias ctex='ct test_examples'
