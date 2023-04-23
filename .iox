@@ -324,7 +324,7 @@ alias slgt='cd ~/j/tmp09/schnapslatte'
 
 alias flegt='cd ~/j/tmp09/flight-testing'
 
-alias slget='gc git@github.com:spaceandtimelabs/schnapslatte.git'
+alias getsl='gc git@github.com:spaceandtimelabs/schnapslatte.git'
 alias sln='cd ~/j/tmp06/slnotes'
 alias slt='cd ~/j/tmp06/sltmp'
 alias sltmp='cd ~/j/tmp06/sltmp'
@@ -379,11 +379,16 @@ alias psg='cd ~/j/tmp06/proofs-service/src'
 alias db='cd ~/j/tmp06/databend'
 alias dbend='cd ~/j/tmp06/databend'
 alias dbf='cd ~/j/tmp06/databend/src/query/service/src/servers/flight_sql'
+
+##
+#  Raft
+##
+alias getraft='gc git@github.com:datafuselabs/openraft.git'
 alias or='cd ~/j/tmp09/openraft'
+alias orex='cd ~/j/tmp09/raft-kv-memstore'
 
 ##
 #  Java
 ##
-
 alias jn='cd ~/j/tmp06/javanotes'
 alias aj='cd ~/j/tmp06/arrow/java'
