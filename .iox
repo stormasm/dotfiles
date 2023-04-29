@@ -330,11 +330,19 @@ alias slt='cd ~/j/tmp06/sltmp'
 alias sltmp='cd ~/j/tmp06/sltmp'
 alias af='cd ~/j/tmp06/archive-flight'
 
-alias slr='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
+alias slr='cargo run -- --advertise-endpoint=127.0.0.1:50060 --listen-endpoint=127.0.0.1:50060 --leader-endpoint=127.0.0.1:50060'
 
-alias slr1='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1'
+alias slr1='cargo run -- --advertise-endpoint=127.0.0.1:50061 --listen-endpoint=127.0.0.1:50061 --leader-endpoint=127.0.0.1:50060'
 
-alias slrun='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=50060'
+alias slr2='cargo run -- --advertise-endpoint=127.0.0.1:50062 --listen-endpoint=127.0.0.1:50062 --leader-endpoint=127.0.0.1:50060'
+
+alias slr3='cargo run -- --advertise-endpoint=127.0.0.1:50063 --listen-endpoint=127.0.0.1:50063 --leader-endpoint=127.0.0.1:50060'
+
+#alias slr='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
+
+#alias slr1='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1'
+
+#alias slrun='cargo run -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=50060'
 alias slrex='cargo run --example ex00 -- --listen-ip=127.0.0.1 --leader-hostname=127.0.0.1 --advertise-hostname=127.0.0.1 --port=3033'
 
 alias sl='cd ~/j/tmp06/sl/flight/src'
@@ -370,7 +378,7 @@ alias slfcrq='arf; cr --features="cli flight-sql-experimental tls" -- --host 0.0
 ##
 #  Sxtdb
 ##
-alias sxg='cd ~/j/tmp06/sxtdb/src'
+alias sxt='cd ~/j/tmp09/sxtdb/src'
 alias psg='cd ~/j/tmp06/proofs-service/src'
 
 ##
