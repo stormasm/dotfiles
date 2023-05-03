@@ -325,6 +325,8 @@ alias slgt='cd ~/j/tmp09/schnapslatte'
 alias flegt='cd ~/j/tmp09/flight-testing'
 
 alias getsl='gc git@github.com:spaceandtimelabs/schnapslatte.git'
+alias getsxt='gc git@github.com:spaceandtimelabs/sxtdb.git'
+alias getsxtdb='gc git@github.com:spaceandtimelabs/sxtdb.git'
 alias sln='cd ~/j/tmp06/slnotes'
 alias slt='cd ~/j/tmp06/sltmp'
 alias sltmp='cd ~/j/tmp06/sltmp'
@@ -379,6 +381,7 @@ alias slfcrq='arf; cr --features="cli flight-sql-experimental tls" -- --host 0.0
 #  Sxtdb
 ##
 alias sxt='cd ~/j/tmp09/sxtdb/src'
+alias sxtt='cd ~/j/tmp09/sxtdb'
 alias psg='cd ~/j/tmp06/proofs-service/src'
 
 ##
