@@ -262,6 +262,8 @@ alias confignu='cd /Users/ma/Library/Application\ Support/nushell'
 alias nuconfig='cd /Users/ma/Library/Application\ Support/nushell'
 alias nuconfigme='nutop; cd ..; cd nuconfig'
 
+alias slconfig='cd /Users/ma/Library/Application\ Support/io.spaceandtime.schnapslatte'
+
 #
 # nutop is the latest nushell and engine-q code snapshot
 #
