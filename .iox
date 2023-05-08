@@ -175,7 +175,7 @@ alias sqlg='06; cd sqlite'
 alias sqlxg='06; cd sqlx'
 
 alias ioxdbcreate='DATABASE_URL=postgres:///iox_shared sqlx database create'
-alias ioxdbstart='ioxg; cargo run -q -- catalog setup; cargo run -- catalog topic update iox-shared'
+alias ioxdbstart='ioxg; cargo run -q -- catalog setup'
 
 alias dbon='export DATABASE_URL="postgres:///todos"'
 alias dboff='unset DATABASE_URL'
@@ -321,6 +321,7 @@ alias sljt='cd ~/j/tmp06/sl325'
 ##
 alias slg='cd ~/j/tmp09/schnapslatte/src'
 alias slgt='cd ~/j/tmp09/schnapslatte'
+alias slpr='cd ~/j/tmp09/slpr'
 
 alias flegt='cd ~/j/tmp09/flight-testing'
 
@@ -395,7 +396,11 @@ alias dbf='cd ~/j/tmp06/databend/src/query/service/src/servers/flight_sql'
 #  Raft
 ##
 alias getraft='gc git@github.com:datafuselabs/openraft.git'
+alias de='cd ~/j/tmp09/delta-rs'
+alias dr='cd ~/j/tmp09/delta-rs'
+alias drs='cd ~/j/tmp09/delta-rs'
 alias or='cd ~/j/tmp09/openraft'
+alias ordoc='cd ~/j/tmp09/openraft/openraft/src/docs'
 alias orex='cd ~/j/tmp09/raft-kv-memstore'
 
 ##
