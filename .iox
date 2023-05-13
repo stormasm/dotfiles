@@ -237,6 +237,9 @@ alias lowcard='cd ~/j/tmp06/low_card'
 alias getdf='gc git@github.com:apache/arrow-datafusion.git'
 alias dfg='cd ~/j/tmp06/arrow-datafusion/datafusion'
 alias dfgb='cd ~/j/tmp06/arrow-datafusion/benchmarks'
+alias dfben='cd ~/j/tmp06/arrow-datafusion/benchmarks'
+alias dfbenme='cd ~/j/tmp06/datafusion-benchmarks'
+
 alias dfgt='cd ~/j/tmp06/arrow-datafusion'
 alias dfgo='cd ~/j/tmp06/arrow-datafusion'
 
