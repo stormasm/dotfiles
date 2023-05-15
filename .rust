@@ -324,7 +324,7 @@ alias nulang='nutop; cd crates/nu-cmd-lang/src'
 alias nulangt='nutop; cd crates/nu-cmd-lang/tests/commands'
 
 alias nucomft='nutop; cd crates/nu-command/src/formats/to'
-alias nudf='nutop; cd crates/nu-command/src/dataframe'
+alias nudf='nutop; cd crates/nu-cmd-dataframe/src/dataframe'
 alias dfnu='nutop; cd crates/nu-command/src/dataframe'
 alias nucomt='nutop; cd crates/nu-command'
 
