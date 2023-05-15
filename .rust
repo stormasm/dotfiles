@@ -29,6 +29,8 @@ alias cba='cargo build --workspace'
 
 alias cbd='cargo build --features=dataframe'
 alias cbdf='cargo build --features=dataframe'
+alias crdf='cargo run --features=dataframe'
+
 alias cbdb='cargo build --features=database'
 alias cbsql='cargo build --features=database'
 
@@ -472,7 +474,8 @@ alias ctas='cargo test --workspace --features=stable'
 alias ctm='cargo test --test main'
 alias ct100='cargo test --package nu-cli --test main -- commands::each'
 
-alias ctdf='ct --features=dataframe dataframe::'
+alias ctdf='ct --workspace --features=dataframe dataframe::'
+alias cndf='cargo nextest run --all --features=dataframe dataframe::'
 
 #
 # Helix
