@@ -90,6 +90,8 @@ alias pcd='cd ~/j/tmp17/parse-camino-data'
 ### shakespeare
 alias shake='cd ~/j/tmp17/nuproj/shakespeare'
 
+alias fea='cd ~/j/tmp03/features'
+
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
 
@@ -325,6 +327,7 @@ alias nulangt='nutop; cd crates/nu-cmd-lang/tests/commands'
 
 alias nucomft='nutop; cd crates/nu-command/src/formats/to'
 alias nudf='nutop; cd crates/nu-cmd-dataframe/src/dataframe'
+alias nudft='nutop; cd crates/nu-cmd-dataframe'
 alias dfnu='nutop; cd crates/nu-command/src/dataframe'
 alias nucomt='nutop; cd crates/nu-command'
 
@@ -474,8 +477,10 @@ alias ctas='cargo test --workspace --features=stable'
 alias ctm='cargo test --test main'
 alias ct100='cargo test --package nu-cli --test main -- commands::each'
 
-alias ctdf='ct --workspace --features=dataframe dataframe::'
-alias cndf='cargo nextest run --all --features=dataframe dataframe::'
+alias ctdf='ct --workspace --features=dataframe'
+alias ctdff='ct --workspace --features=dataframe dataframe::'
+alias cndf='cargo nextest run --all --features=dataframe'
+alias cndff='cargo nextest run --all --features=dataframe dataframe::'
 
 #
 # Helix
