@@ -238,7 +238,7 @@ alias getdf='gc git@github.com:apache/arrow-datafusion.git'
 alias dfg='cd ~/j/tmp06/arrow-datafusion/datafusion'
 alias dfgb='cd ~/j/tmp06/arrow-datafusion/benchmarks'
 alias dfben='cd ~/j/tmp06/arrow-datafusion/benchmarks'
-alias dfbenme='cd ~/j/tmp06/datafusion-benchmarks'
+alias dfbenme='cd ~/j/tmp09/datafusion-benchmarks'
 
 alias dfgt='cd ~/j/tmp06/arrow-datafusion'
 alias dfgo='cd ~/j/tmp06/arrow-datafusion'
@@ -411,3 +411,10 @@ alias orex='cd ~/j/tmp09/raft-kv-memstore'
 ##
 alias jn='cd ~/j/tmp06/javanotes'
 alias aj='cd ~/j/tmp06/arrow/java'
+
+alias tdb='cd ~/j/tmp08/toydb/src'
+alias toy='cd ~/j/tmp08/toydb/src'
+alias tdbt='cd ~/j/tmp08/toydb'
+alias toyt='cd ~/j/tmp08/toydb'
+
+alias slb='cd ~/j/tmp09/slbench'
