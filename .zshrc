@@ -35,10 +35,14 @@ export MANPATH=/opt/local/share/man:$MANPATH
 #
 
 #
-# Run this command everytime you reboot
+# Run this command everytime you reboot on old mac
 #
 
 alias fu='sudo mount -uw /'
+
+# New 16 inch mac issue
+
+alias fixf3='defaults write com.apple.dock mcx-expose-disabled -bool FALSE; killall Dock'
 
 alias atom='atom .'
 alias matom='matom .'
@@ -71,6 +75,7 @@ alias mia='cd ~/mia'
 alias mm='cd ~/mm'
 alias mmta='cd ~/mm/ta'
 alias ta='cd ~/mm/ta'
+alias wcme='wc -l *'
 
 alias sp='source ~/.zshrc'
 
