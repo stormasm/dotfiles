@@ -605,3 +605,8 @@ alias tree="exa -T"
 ##
 
 alias ctflex='cargo test --example flight_sql_server tests --features="cli flight-sql-experimental tls"'
+
+##
+#   dply
+##
+alias dp1="dply -c 'parquet(\"region.parquet\") | show()'"
