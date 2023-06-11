@@ -75,6 +75,7 @@ alias mia='cd ~/mia'
 alias mm='cd ~/mm'
 alias mmta='cd ~/mm/ta'
 alias ta='cd ~/mm/ta'
+alias wcl='wc -l *'
 alias wcme='wc -l *'
 
 alias sp='source ~/.zshrc'
@@ -103,7 +104,8 @@ alias gccc='git commit -m code-cleanup'
 alias gcomm='git commit -m'
 alias gd='git diff'
 
-
+### to get out of detached HEAD state
+alias gitout='git switch -'
 
 alias gl='git log'
 alias gll='gem list --local'

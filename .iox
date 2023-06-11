@@ -419,3 +419,4 @@ alias tdbt='cd ~/j/tmp08/toydb'
 alias toyt='cd ~/j/tmp08/toydb'
 
 alias slb='cd ~/j/tmp09/slbench'
+alias bdf='cd ~/j/tmp09/benchdf'

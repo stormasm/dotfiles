@@ -29,6 +29,8 @@ alias cba='cargo build --workspace'
 
 alias cbd='cargo build --features=dataframe'
 alias cbdf='cargo build --features=dataframe'
+alias cbex='cargo build --features=extra'
+alias cbdfex='cargo build --features="dataframe extra"'
 alias crdf='cargo run --features=dataframe'
 
 alias cbdb='cargo build --features=database'
@@ -343,7 +345,7 @@ alias nud='nudir; cd nudata'
 
 alias nuen='nutop; cd crates/nu-engine/src'
 alias nueng='nutop; cd crates/nu-engine/src'
-alias nuex='nutop; cd crates/nu-explore/src'
+alias nuex='nutop; cd crates/nu-cmd-extra/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupar='nutop; cd crates/nu-parser/src'
 alias nupar2='cd ~/j/tmp06/nu_parser2'
@@ -462,7 +464,7 @@ alias ct='cargo test'
 alias ctt='ct --test'
 alias ctlist='cargo test -- --list'
 alias ctno='cargo test -- --nocapture'
-alias ctex='ct test_examples'
+alias ctexam='ct test_examples'
 
 alias ctrl='cargo test --features rustyline-support'
 
@@ -481,6 +483,12 @@ alias ctdf='ct --workspace --features=dataframe'
 alias ctdff='ct --workspace --features=dataframe dataframe::'
 alias cndf='cargo nextest run --all --features=dataframe'
 alias cndff='cargo nextest run --all --features=dataframe dataframe::'
+
+alias ctex='ct --workspace --features=extra'
+alias ctexbits='ct --workspace --features=extra bits::'
+
+alias cnex='cargo nextest run --all --features=extra'
+alias cnexbits='cargo nextest run --all --features=extra bits::'
 
 #
 # Helix
