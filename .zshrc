@@ -171,7 +171,6 @@ alias morningstar='equity; cd morningstar'
 alias vz='equity; cd vz'
 
 alias snapshot='cd ~/mm/equity-data/snapshot'
-alias ss='cd ~/mm/equity-data/snapshot'
 alias ubnt='cd ~/j/tmp99/ubnt'
 
 alias bm='cd ~/j/tmp99/bookmarks'

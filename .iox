@@ -323,6 +323,7 @@ alias sljt='cd ~/j/tmp06/sl325'
 ##
 #  Schnappslatte
 ##
+alias ss='setopt rmstarsilent; slconfig; rm -fr *; slg; cargo run'
 alias slg='cd ~/j/tmp09/schnapslatte/src'
 alias slgt='cd ~/j/tmp09/schnapslatte'
 alias slpr='cd ~/j/tmp09/slpr'
@@ -402,7 +403,7 @@ alias dbf='cd ~/j/tmp06/databend/src/query/service/src/servers/flight_sql'
 alias getraft='gc git@github.com:datafuselabs/openraft.git'
 alias de='cd ~/j/tmp09/delta-rs'
 alias dr='cd ~/j/tmp09/delta-rs'
-alias drs='cd ~/j/tmp09/delta-rs'
+alias drs='cd ~/j/tmp09/delta-rs/rust'
 alias or='cd ~/j/tmp09/openraft'
 alias ordoc='cd ~/j/tmp09/openraft/openraft/src/docs'
 alias orex='cd ~/j/tmp09/raft-kv-memstore'
