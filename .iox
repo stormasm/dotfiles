@@ -323,6 +323,7 @@ alias sljt='cd ~/j/tmp06/sl325'
 ##
 #  Schnappslatte
 ##
+
 alias ss='setopt rmstarsilent; slconfig; rm -fr *; slg; cargo run'
 alias slg='cd ~/j/tmp09/schnapslatte/src'
 alias slgt='cd ~/j/tmp09/schnapslatte'
@@ -355,6 +356,13 @@ alias slrex='cargo run --example ex00 -- --listen-ip=127.0.0.1 --leader-hostname
 
 alias sl='cd ~/j/tmp06/sl/flight/src'
 alias slex='cd ~/j/tmp06/sl/examples'
+
+##
+#  Schnappslatte PRs
+##
+
+alias sl57='gco 83fd4d1efa5a05ec1c76d8c19124a9be7ca61677'
+alias sl56='gco 97d0806b76f3652c2d4f17e135efd547a3375460'
 
 ##
 #  Arrow Flight
