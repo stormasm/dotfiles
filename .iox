@@ -325,6 +325,7 @@ alias sljt='cd ~/j/tmp06/sl325'
 ##
 
 alias ss='setopt rmstarsilent; slconfig; rm -fr *; slg; cargo run'
+alias sl10='cd ~/j/tmp10/schnapslatte'
 alias slg='cd ~/j/tmp09/schnapslatte/src'
 alias slgt='cd ~/j/tmp09/schnapslatte'
 alias slpr='cd ~/j/tmp09/slpr'
@@ -414,7 +415,10 @@ alias dr='cd ~/j/tmp09/delta-rs'
 alias drs='cd ~/j/tmp09/delta-rs/rust'
 alias or='cd ~/j/tmp09/openraft'
 alias ordoc='cd ~/j/tmp09/openraft/openraft/src/docs'
-alias orex='cd ~/j/tmp09/raft-kv-memstore'
+alias orex='cd ~/j/tmp09/openraft/examples'
+alias ormem='cd ~/j/tmp09/openraft/examples/raft-kv-memstore'
+alias orocks='cd ~/j/tmp09/openraft/examples/raft-kv-rocksdb'
+alias ormeme='cd ~/j/tmp09/raft-kv-memstore'
 
 ##
 #  Java
