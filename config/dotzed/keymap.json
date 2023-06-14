@@ -1,14 +1,8 @@
 [
-    {
-        "context": "Workspace",
-        "bindings": {
-            "cmd-\\": [
-                "workspace::ToggleSidebarItem",
-                {
-                    "sidebar_side": "Left",
-                    "item_index": 0
-                }
-            ]
-        }
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-\\": "workspace::ToggleLeftDock"
     }
+  }
 ]
