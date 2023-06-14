@@ -413,7 +413,12 @@ alias getraft='gc git@github.com:datafuselabs/openraft.git'
 alias de='cd ~/j/tmp09/delta-rs'
 alias dr='cd ~/j/tmp09/delta-rs'
 alias drs='cd ~/j/tmp09/delta-rs/rust'
-alias or='cd ~/j/tmp09/openraft'
+
+##
+#  Openraft
+##
+alias or='cd ~/j/tmp09/openraft/openraft/src'
+alias ortop='cd ~/j/tmp09/openraft'
 alias ordoc='cd ~/j/tmp09/openraft/openraft/src/docs'
 alias orex='cd ~/j/tmp09/openraft/examples'
 alias ormem='cd ~/j/tmp09/openraft/examples/raft-kv-memstore'
