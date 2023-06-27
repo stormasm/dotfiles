@@ -321,6 +321,7 @@ alias nucli='nutop; cd crates/nu-cli/src'
 
 alias nucom='nutop; cd crates/nu-command/src'
 alias nucomc='nutop; cd crates/nu-command-core/src'
+alias nucomex='nutop; cd crates/nu-cmd-extra/src'
 alias nucomlang='nutop; cd crates/nu-cmd-lang/src'
 
 alias ncl='cd ~/j/tmp17/nushell/crates/nu-cmd-lang'
@@ -486,6 +487,7 @@ alias cndff='cargo nextest run --all --features=dataframe dataframe::'
 
 alias ctex='ct --workspace --features=extra'
 alias ctexbits='ct --workspace --features=extra bits::'
+alias ctexbytes='ct --workspace --features=extra bytes::'
 
 alias cnex='cargo nextest run --all --features=extra'
 alias cnexbits='cargo nextest run --all --features=extra bits::'

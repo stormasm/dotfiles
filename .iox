@@ -124,7 +124,7 @@ alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 
 ### database notes
 
-alias dbn='cd ~/j/tmp06/dbnotes'
+alias dbn='cd ~/j/tmp09/dbnotes'
 alias ioxn='cd ~/j/tmp06/ioxnotes'
 
 ### iox crates
@@ -236,18 +236,18 @@ alias lowcard='cd ~/j/tmp06/low_card'
 
 alias getar='gc git@github.com:apache/arrow-rs.git'
 alias getdf='gc git@github.com:apache/arrow-datafusion.git'
-alias dfg='cd ~/j/tmp06/arrow-datafusion/datafusion'
-alias dfgb='cd ~/j/tmp06/arrow-datafusion/benchmarks'
-alias dfben='cd ~/j/tmp06/arrow-datafusion/benchmarks'
+alias dfg='cd ~/j/tmp09/arrow-datafusion/datafusion'
+alias dfgb='cd ~/j/tmp09/arrow-datafusion/benchmarks'
+alias dfben='cd ~/j/tmp09/arrow-datafusion/benchmarks'
 alias dfbenme='cd ~/j/tmp09/datafusion-benchmarks'
 
-alias dfgt='cd ~/j/tmp06/arrow-datafusion'
-alias dfgo='cd ~/j/tmp06/arrow-datafusion'
+alias dfgt='cd ~/j/tmp09/arrow-datafusion'
+alias dfgo='cd ~/j/tmp09/arrow-datafusion'
 
-alias dfgc='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
-alias dfgcl='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
-alias dfgcli='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
-alias dfclig='cd ~/j/tmp06/arrow-datafusion/datafusion-cli/src'
+alias dfgc='cd ~/j/tmp09/arrow-datafusion/datafusion-cli/src'
+alias dfgcl='cd ~/j/tmp09/arrow-datafusion/datafusion-cli/src'
+alias dfgcli='cd ~/j/tmp09/arrow-datafusion/datafusion-cli/src'
+alias dfclig='cd ~/j/tmp09/arrow-datafusion/datafusion-cli/src'
 
 alias dfcore='dfgt; cd datafusion/core/src'
 alias dft='dfgt; cd datafusion/core/tests'
@@ -297,16 +297,16 @@ alias gsp='cd ~/j/tmp06/sqlparser-rs'
 #  Rust arrow, see .iox as well for stuff
 ##
 
-alias arr="cd ~/j/tmp06/arrow-rs/arrow"
-alias art="cd ~/j/tmp06/arrow-rs"
-alias arg="cd ~/j/tmp06/arrow-rs"
-alias ara="cd ~/j/tmp06/arrow-rs/arrow-array"
-alias ard="cd ~/j/tmp06/arrow-rs/arrow-data"
-alias arb="cd ~/j/tmp06/arrow-rs/arrow-buffer"
-alias ars="cd ~/j/tmp06/arrow-rs/arrow-schema"
+alias arr="cd ~/j/tmp09/arrow-rs/arrow"
+alias art="cd ~/j/tmp09/arrow-rs"
+alias arg="cd ~/j/tmp09/arrow-rs"
+alias ara="cd ~/j/tmp09/arrow-rs/arrow-array"
+alias ard="cd ~/j/tmp09/arrow-rs/arrow-data"
+alias arb="cd ~/j/tmp09/arrow-rs/arrow-buffer"
+alias ars="cd ~/j/tmp09/arrow-rs/arrow-schema"
 
-alias arpar="cd ~/j/tmp06/arrow-rs/parquet"
-alias arbal="cd ~/j/tmp06/arrow-ballista"
+alias arpar="cd ~/j/tmp09/arrow-rs/parquet"
+alias arbal="cd ~/j/tmp09/arrow-ballista"
 
 alias arba="cd ~/j/tmp06/arrow-ballista"
 
@@ -330,12 +330,25 @@ alias slg='cd ~/j/tmp09/schnapslatte/src'
 alias slgt='cd ~/j/tmp09/schnapslatte'
 alias slpr='cd ~/j/tmp09/slpr'
 
+##
+#  Schnappslatte wal
+##
+
+alias slor='cd ~/j/tmp09/slor/src'
+alias slort='cd ~/j/tmp09/slor'
+alias sloror='cd ~/j/tmp09/slor/crates/openraft/src'
+alias slw='cd ~/j/tmp09/slwal/src'
+alias slwt='cd ~/j/tmp09/slwal'
+alias crw='cr --bin wal'
+
 alias flegt='cd ~/j/tmp09/flight-testing'
 
+alias getor='gc git@github.com:datafuselabs/openraft.git'
 alias getsl='gc git@github.com:spaceandtimelabs/schnapslatte.git'
+alias getslwal='gc git@github.com:stormasm/slwal.git'
 alias getsxt='gc git@github.com:spaceandtimelabs/sxtdb.git'
 alias getsxtdb='gc git@github.com:spaceandtimelabs/sxtdb.git'
-alias sln='cd ~/j/tmp06/slnotes'
+alias sln='cd ~/j/tmp09/slnotes'
 alias slt='cd ~/j/tmp06/sltmp'
 alias sltmp='cd ~/j/tmp06/sltmp'
 alias af='cd ~/j/tmp06/archive-flight'
@@ -418,6 +431,7 @@ alias drs='cd ~/j/tmp09/delta-rs/rust'
 #  Openraft
 ##
 alias or='cd ~/j/tmp09/openraft/openraft/src'
+alias ort='cd ~/j/tmp09/openraft'
 alias ortop='cd ~/j/tmp09/openraft'
 alias ordoc='cd ~/j/tmp09/openraft/openraft/src/docs'
 alias orex='cd ~/j/tmp09/openraft/examples'
