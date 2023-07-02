@@ -415,9 +415,9 @@ alias psg='cd ~/j/tmp06/proofs-service/src'
 ##
 #  Databend
 ##
-alias db='cd ~/j/tmp06/databend'
-alias dbend='cd ~/j/tmp06/databend'
-alias dbf='cd ~/j/tmp06/databend/src/query/service/src/servers/flight_sql'
+alias db='cd ~/j/tmp09/databend'
+alias dbend='cd ~/j/tmp09/databend'
+alias dbf='cd ~/j/tmp09/databend/src/query/service/src/servers/flight_sql'
 
 ##
 #  Raft
@@ -431,12 +431,15 @@ alias drs='cd ~/j/tmp09/delta-rs/rust'
 #  Openraft
 ##
 alias or='cd ~/j/tmp09/openraft/openraft/src'
+alias ortest='cd ~/j/tmp09/openraft/tests'
+alias ortests='cd ~/j/tmp09/openraft/tests'
 alias ort='cd ~/j/tmp09/openraft'
 alias ortop='cd ~/j/tmp09/openraft'
+alias ormem='cd ~/j/tmp09/openraft/memstore/src'
 alias ordoc='cd ~/j/tmp09/openraft/openraft/src/docs'
 alias orex='cd ~/j/tmp09/openraft/examples'
-alias ormem='cd ~/j/tmp09/openraft/examples/raft-kv-memstore'
-alias orocks='cd ~/j/tmp09/openraft/examples/raft-kv-rocksdb'
+alias orexmem='cd ~/j/tmp09/openraft/examples/raft-kv-memstore'
+alias orexrocks='cd ~/j/tmp09/openraft/examples/raft-kv-rocksdb'
 alias ormeme='cd ~/j/tmp09/raft-kv-memstore'
 
 ##
