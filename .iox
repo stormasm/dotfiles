@@ -436,11 +436,28 @@ alias ortests='cd ~/j/tmp09/openraft/tests'
 alias ort='cd ~/j/tmp09/openraft'
 alias ortop='cd ~/j/tmp09/openraft'
 alias ormem='cd ~/j/tmp09/openraft/memstore/src'
+alias orsled='cd ~/j/tmp09/openraft/sledstore'
 alias ordoc='cd ~/j/tmp09/openraft/openraft/src/docs'
 alias orex='cd ~/j/tmp09/openraft/examples'
 alias orexmem='cd ~/j/tmp09/openraft/examples/raft-kv-memstore'
 alias orexrocks='cd ~/j/tmp09/openraft/examples/raft-kv-rocksdb'
 alias ormeme='cd ~/j/tmp09/raft-kv-memstore'
+
+##
+#  Clap
+##
+
+alias clap='cd ~/j/tmp09/clap'
+
+##
+#  Sled
+##
+
+alias sled='cd ~/j/tmp09/sled'
+alias sledex='cd ~/j/tmp09/sled-examples'
+alias sledt='cd ~/j/tmp09/sledtool'
+alias sledv='cd ~/j/tmp09/sledview'
+alias sv='cd ~/j/tmp09/sledview'
 
 ##
 #  Java

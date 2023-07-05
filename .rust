@@ -203,7 +203,6 @@ alias sj='cd ~/j/tmp06/serde-json'
 alias rmp='cd ~/j/tmp06/msgpack-rust'
 alias ron='cd ~/j/tmp06/ron'
 alias sm='cd ~/j/tmp06/msgpack-rust/rmp-serde'
-alias st='cd ~/j/tmp06/serde-toml'
 alias sy='cd ~/j/tmp06/serde-yaml'
 
 ### canop/whalespotter.git
