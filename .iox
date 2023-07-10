@@ -455,6 +455,8 @@ alias clap='cd ~/j/tmp09/clap'
 
 alias sled='cd ~/j/tmp09/sled'
 alias sledex='cd ~/j/tmp09/sled-examples'
+alias sleds='cd ~/j/tmp09/sledstore/sledstore'
+alias sledst='cd ~/j/tmp09/sledstore'
 alias sledt='cd ~/j/tmp09/sledtool'
 alias sledv='cd ~/j/tmp09/sledview'
 alias sv='cd ~/j/tmp09/sledview'
