@@ -348,6 +348,11 @@ alias getsl='gc git@github.com:spaceandtimelabs/schnapslatte.git'
 alias getslwal='gc git@github.com:stormasm/slwal.git'
 alias getsxt='gc git@github.com:spaceandtimelabs/sxtdb.git'
 alias getsxtdb='gc git@github.com:spaceandtimelabs/sxtdb.git'
+
+alias rock='cd ~/j/tmp09/raft-kv-rocksdb'
+alias rocks='cd ~/j/tmp09/rocksled'
+alias rocksled='cd ~/j/tmp09/rocksled'
+
 alias sln='cd ~/j/tmp09/slnotes'
 alias slt='cd ~/j/tmp06/sltmp'
 alias sltmp='cd ~/j/tmp06/sltmp'
