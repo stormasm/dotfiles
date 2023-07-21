@@ -349,6 +349,11 @@ alias getslwal='gc git@github.com:stormasm/slwal.git'
 alias getsxt='gc git@github.com:spaceandtimelabs/sxtdb.git'
 alias getsxtdb='gc git@github.com:spaceandtimelabs/sxtdb.git'
 
+##
+#  Tokio Tools
+##
+
+alias console='cd ~/j/tmp09/console'
 alias tracing='cd ~/j/tmp09/tracing'
 
 ### rocksled
