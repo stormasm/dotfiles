@@ -343,7 +343,6 @@ alias crw='cr --bin wal'
 
 alias flegt='cd ~/j/tmp09/flight-testing'
 
-alias getor='gc git@github.com:datafuselabs/openraft.git'
 alias getsl='gc git@github.com:spaceandtimelabs/schnapslatte.git'
 alias getslwal='gc git@github.com:stormasm/slwal.git'
 alias getsxt='gc git@github.com:spaceandtimelabs/sxtdb.git'
@@ -434,16 +433,13 @@ alias dbend='cd ~/j/tmp09/databend'
 alias dbf='cd ~/j/tmp09/databend/src/query/service/src/servers/flight_sql'
 
 ##
-#  Raft
-##
-alias getraft='gc git@github.com:datafuselabs/openraft.git'
-alias de='cd ~/j/tmp09/delta-rs'
-alias dr='cd ~/j/tmp09/delta-rs'
-alias drs='cd ~/j/tmp09/delta-rs/rust'
-
-##
 #  Openraft
 ##
+
+alias getor='gc git@github.com:datafuselabs/openraft.git'
+alias getorst='gc git@github.com:stormasm/openraft.git'
+alias getorstorm='gc git@github.com:stormasm/openraft.git'
+
 alias or='cd ~/j/tmp09/openraft/openraft/src'
 alias ortest='cd ~/j/tmp09/openraft/tests'
 alias ortests='cd ~/j/tmp09/openraft/tests'
