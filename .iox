@@ -349,11 +349,13 @@ alias getsxt='gc git@github.com:spaceandtimelabs/sxtdb.git'
 alias getsxtdb='gc git@github.com:spaceandtimelabs/sxtdb.git'
 
 ##
-#  Tokio Tools
+#  Tokio Tools and Tracing
 ##
 
+alias getracing='gc git@github.com:tokio-rs/tracing.git'
 alias console='cd ~/j/tmp09/console'
 alias tracing='cd ~/j/tmp09/tracing'
+alias tracingex='cd ~/j/tmp09/tracing/examples'
 
 ### rocksled
 alias rocks='cd ~/j/tmp09/rocksled/examples/raft-kv-rocksdb'
