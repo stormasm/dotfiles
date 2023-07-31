@@ -355,6 +355,8 @@ alias getsxtdb='gc git@github.com:spaceandtimelabs/sxtdb.git'
 alias getracing='gc git@github.com:tokio-rs/tracing.git'
 alias console='cd ~/j/tmp09/console'
 alias tracing='cd ~/j/tmp09/tracing'
+alias tracingcore='cd ~/j/tmp09/tracing/tracing-core'
+alias tracingsub='cd ~/j/tmp09/tracing/tracing-subscriber'
 alias tracingex='cd ~/j/tmp09/tracing/examples'
 
 ### rocksled
