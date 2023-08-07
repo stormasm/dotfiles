@@ -1,5 +1,13 @@
 
 ##
+#  RUST_LOG
+##
+
+export RUST_LOG=openraft::engine::engine_impl=info
+alias cklog='env | grep RUST_LOG'
+alias rml='rm *.log'
+
+##
 #  Datafusion ENV
 ##
 
@@ -362,6 +370,7 @@ alias tracingex='cd ~/j/tmp09/tracing/examples'
 ### rocksled
 alias rocks='cd ~/j/tmp09/rocksled/examples/raft-kv-rocksdb'
 alias rocksled='cd ~/j/tmp09/rocksled/examples/raft-kv-rocksdb'
+alias rocksledt='cd ~/j/tmp09/rocksled'
 alias rst='cd ~/j/tmp09/rocksled'
 alias rstor='cd ~/j/tmp09/rocksled/openraft/src'
 
@@ -467,7 +476,11 @@ alias clap='cd ~/j/tmp09/clap'
 #  Sled
 ##
 
-alias sled='cd ~/j/tmp09/sled'
+alias getsled='gc git@github.com:spacejam/sled.git'
+alias getsledstorm='gc git@github.com:stormasm/sled.git'
+alias sled='cd ~/j/tmp03/sled/src'
+alias sledo='cd ~/j/tmp09/sled'
+alias sledold='cd ~/j/tmp09/sled/src'
 alias sledex='cd ~/j/tmp09/sled-examples'
 alias sleds='cd ~/j/tmp09/sledstore/sledstore'
 alias sledst='cd ~/j/tmp09/sledstore'
