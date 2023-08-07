@@ -369,6 +369,7 @@ alias tracingex='cd ~/j/tmp09/tracing/examples'
 
 ### rocksled
 alias rocks='cd ~/j/tmp09/rocksled/examples/raft-kv-rocksdb'
+alias rockst='cd ~/j/tmp09/rocksled'
 alias rocksled='cd ~/j/tmp09/rocksled/examples/raft-kv-rocksdb'
 alias rocksledt='cd ~/j/tmp09/rocksled'
 alias rst='cd ~/j/tmp09/rocksled'
