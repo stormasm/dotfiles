@@ -83,6 +83,8 @@ alias sp='source ~/.zshrc'
 ### git commands
 
 alias jjj='git push origin main'
+alias jjt='git push origin t1'
+alias jjjt='git push origin t1'
 alias jjjm='git push origin master'
 alias jjj0='git push origin bp0'
 alias jjj1='git push origin bp1'

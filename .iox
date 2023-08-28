@@ -477,17 +477,27 @@ alias clap='cd ~/j/tmp09/clap'
 #  Sled
 ##
 
+alias dbc='rm -fr *.db'
+alias dbclean='rm -fr *.db'
 alias getsled='gc git@github.com:spacejam/sled.git'
 alias getsledstorm='gc git@github.com:stormasm/sled.git'
-alias sled='cd ~/j/tmp03/sled/src'
+alias sled='cd ~/j/tmp02/sledblood'
+alias sledb='cd ~/j/tmp02/sledblood'
 alias sledo='cd ~/j/tmp09/sled'
 alias sledold='cd ~/j/tmp09/sled/src'
 alias sledex='cd ~/j/tmp09/sled-examples'
+alias sledx='cd ~/j/tmp02/sledblood/examples'
 alias sleds='cd ~/j/tmp09/sledstore/sledstore'
 alias sledst='cd ~/j/tmp09/sledstore'
 alias sledt='cd ~/j/tmp09/sledtool'
 alias sledv='cd ~/j/tmp09/sledview'
 alias sv='cd ~/j/tmp09/sledview'
+
+##
+#  Okaywal
+##
+
+alias okw='cd ~/j/tmp09/okaywal'
 
 ##
 #  Java
