@@ -16,6 +16,8 @@ alias rml='rm *.log'
 ##
 #  Iox ENV
 ##
+export INFLUXDB_IOX_DB_DIR=$HOME/.influxdb_iox
+export TEST_INFLUXDB_IOX_DB_DIR=$HOME/.influxdb_iox
 
 export AWS_ACCESS_KEY_ID="minioadmin"
 export AWS_SECRET_ACCESS_KEY="minioadmin"
@@ -23,13 +25,12 @@ export AWS_ENDPOINT="http://localhost:9000"
 
 #export IOX_DBNAME='bananas'
 export IOX_DBNAME='iox_shared'
-export INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
-export INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datadir'
+#export INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
+
 export INFLUXDB_IOX_PERSIST_PARTITION_COLD_THRESHOLD_SECONDS='30'
 
 export TEST_INTEGRATION=1
-export TEST_INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_test'
-export TEST_INFLUXDB_IOX_DB_DIR='/Users/ma/j/tmp22/iox_datatest'
+#export TEST_INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_test'
 
 ### Iox Router
 ## export INFLUXDB_IOX_WRITE_BUFFER_TYPE='file'
