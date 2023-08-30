@@ -39,10 +39,10 @@ export ARROW_TEST_DATA=/Users/ma/j/tmp06/arrow-testing/data
 export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
 
 alias ckdir='env | grep TMPDIR'
-alias tdir='export TMPDIR="/Users/ma/j/tmp33/iox01"'
+alias tdir='export TMPDIR="/Users/ma/j/tmp33/iox44"'
 alias ioxtmp='cd /Users/ma/j/tmp06/ioxtmp'
 alias ioxtmpg='cd /Users/ma/j/tmp33'
-alias ioxcc='ioxtmp; rm -fr iox01; mkdir iox01'
+alias ioxcc='ioxtmp; rm -fr iox44; mkdir iox44'
 
 ##
 #  Iox
@@ -54,6 +54,9 @@ alias ioxioxs='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
 alias ioxsqlg='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
 
 alias iox='ioxg; ./target/debug/influxdb_iox'
+alias iox01='iox -vv write company_sensors test_fixtures/lineproto/metrics.lp --host http://localhost:8080'
+alias iox02='iox query company_sensors "SELECT * FROM cpu LIMIT 10"'
+
 alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
 
 ###
