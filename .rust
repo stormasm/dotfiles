@@ -227,6 +227,9 @@ alias loglevel='env | grep RUST_LOG'
 ### nushell
 #
 
+### Releases
+alias r84='cd ~/j/tmp18/release-84/nushell'
+
 ### miette
 alias miup='cargo update --workspace -p miette'
 
@@ -282,13 +285,16 @@ alias nutopp='cd ~/j/tmp26/nushell'
 alias nucore='cd ~/j/tmp17/nushell-core'
 
 alias nubo='cd ~/j/tmp11/nushell.github.io'
-alias nubook='cd ~/j/tmp11/nushell.github.io'
+alias nubook='cd ~/j/tmp26/nushell.github.io'
+alias nubookme='cd ~/j/tmp17/nushell.github.io'
+alias nubookrun='npm install; npm run dev'
 
 alias nut='cd ~/j/tmp17/nutmp'
 alias nutmp='cd ~/j/tmp17/nutmp'
 
 alias nur='./target/debug/nu'
-alias nurun='~/j/tmp17/nushell/target/debug/nu'
+alias nurun='~/j/tmp17/nushell/target/debug/nu --no-std-lib'
+alias nurunyes='~/j/tmp17/nushell/target/debug/nu'
 alias nun='nurun -n --no-std-lib'
 alias nurunn='./target/debug/nu'
 alias nuruno='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
