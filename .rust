@@ -292,13 +292,19 @@ alias nubookrun='npm install; npm run dev'
 alias nut='cd ~/j/tmp17/nutmp'
 alias nutmp='cd ~/j/tmp17/nutmp'
 
-alias nur='./target/debug/nu'
-alias nurun='~/j/tmp17/nushell/target/debug/nu --no-std-lib'
+alias nurun='~/j/tmp17/nushell/target/debug/nu'
 alias nurunyes='~/j/tmp17/nushell/target/debug/nu'
+
+alias nuruno='~/j/tmp17/nushell/target/debug/nu --no-std-lib'
+alias nurunno='~/j/tmp17/nushell/target/debug/nu --no-std-lib'
 alias nun='nurun -n --no-std-lib'
+
+alias nur='./target/debug/nu'
 alias nurunn='./target/debug/nu'
+
 alias nuruno='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
 alias nurunoconfig='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
+
 alias nu44='~/mia/nu44/nu'
 alias nu59='~/mia/nu59/nu'
 alias nu61='~/mia/nu61/nu'
@@ -339,9 +345,6 @@ alias nudf='nutop; cd crates/nu-cmd-dataframe/src/dataframe'
 alias nudft='nutop; cd crates/nu-cmd-dataframe'
 alias dfnu='nutop; cd crates/nu-command/src/dataframe'
 alias nucomt='nutop; cd crates/nu-command'
-
-alias nuiox='cd ~/j/tmp06/influxdb_iox/nu_iox/src/iox'
-alias nuioxt='cd ~/j/tmp06/influxdb_iox/nu_iox'
 
 alias tff='nutop; cd tests/fixtures/formats'
 

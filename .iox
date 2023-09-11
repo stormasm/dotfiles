@@ -24,7 +24,7 @@ export AWS_SECRET_ACCESS_KEY="minioadmin"
 export AWS_ENDPOINT="http://localhost:9000"
 
 #export IOX_DBNAME='bananas'
-export IOX_DBNAME='iox_shared'
+export IOX_DBNAME='company_sensors'
 #export INFLUXDB_IOX_CATALOG_DSN='postgresql:///iox_shared'
 
 export INFLUXDB_IOX_PERSIST_PARTITION_COLD_THRESHOLD_SECONDS='30'
@@ -49,6 +49,8 @@ alias ioxcc='ioxtmp; rm -fr iox44; mkdir iox44'
 #  Iox
 ##
 
+alias getioxstorm='gc git@github.com:stormasm/influxdb_iox.git'
+
 alias ioxg='cd ~/j/tmp06/influxdb_iox'
 alias ioxgs='cd ~/j/tmp06/iox_sql_v00'
 alias ioxioxs='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
@@ -59,6 +61,19 @@ alias iox01='iox -vv write company_sensors test_fixtures/lineproto/metrics.lp --
 alias iox02='iox query company_sensors "SELECT * FROM cpu LIMIT 10"'
 
 alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
+
+##
+#  Iox Nushell Integration
+##
+
+alias ioxnushell='ioxg; cd nushell'
+alias ioxnu='ioxg; cd nu-command/src/iox'
+alias nuiox='ioxg; cd nu-command/src/iox'
+alias ioxnucom='ioxg; cd nu-command/src/iox'
+alias ioxnut='ioxg; cd nu-command'
+alias nuioxt='ioxg; cd nu-command'
+alias ioxnucomt='ioxg; cd nu-command'
+alias nuruniox='ioxg; ./target/debug/nu'
 
 ###
 #   Iox Wal Directory
@@ -172,9 +187,6 @@ alias ioxdbgplums='iox debug schema get plums'
 ##
 #  Iox Nu
 ##
-
-alias ioxnug='cd ~/j/tmp10/ioxnu'
-alias nuruniox='ioxg; ./target/debug/nu'
 
 ##
 #  Sqlite
@@ -437,11 +449,12 @@ alias slfcr='arf; cr --features="cli flight-sql-experimental tls" -- --host 0.0.
 alias slfcrq='arf; cr --features="cli flight-sql-experimental tls" -- --host 0.0.0.0 --port 3033 --username admin --password password'
 
 ##
-#  Sxtdb
+#  Sxt Code
 ##
-alias sxt='cd ~/j/tmp09/sxtdb/src'
-alias sxtt='cd ~/j/tmp09/sxtdb'
-alias psg='cd ~/j/tmp06/proofs-service/src'
+alias sxt='cd ~/j/tmp23'
+alias psg='cd ~/j/tmp23/proofs-service/src'
+
+alias sxtdb='cd ~/j/tmp09/sxtdb'
 
 ##
 #  Databend
