@@ -39,6 +39,8 @@ export TEST_INTEGRATION=1
 export ARROW_TEST_DATA=/Users/ma/j/tmp06/arrow-testing/data
 export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
 
+alias ioxn='cd ~/j/tmp06/ioxnotes'
+
 alias ckdir='env | grep TMPDIR'
 alias tdir='export TMPDIR="/Users/ma/j/tmp33/iox44"'
 alias ioxtmp='cd /Users/ma/j/tmp06/ioxtmp'
@@ -59,6 +61,9 @@ alias ioxsqlg='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
 alias iox='ioxg; ./target/debug/influxdb_iox'
 alias iox01='iox -vv write company_sensors test_fixtures/lineproto/metrics.lp --host http://localhost:8080'
 alias iox02='iox query company_sensors "SELECT * FROM cpu LIMIT 10"'
+
+alias iox01nm='iox -vv write nm_pop /Users/ma/j/tmp06/ioxnotes/lineproto/popnm.lp --host http://localhost:8080'
+alias iox02nm='iox query nm_pop "SELECT * FROM pop_nm"'
 
 alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
 
@@ -152,7 +157,6 @@ alias ioxhelp='ioxg; ./target/debug/influxdb_iox --help'
 ### database notes
 
 alias dbn='cd ~/j/tmp09/dbnotes'
-alias ioxn='cd ~/j/tmp06/ioxnotes'
 
 ### iox crates
 
