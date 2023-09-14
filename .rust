@@ -444,6 +444,7 @@ alias zb='zola build'
 #
 
 alias rex='cd ~/j/tmp06/rust-examples'
+alias rustex='cd ~/j/tmp06/rust-examples'
 
 alias rexa='rex; cd arrow'
 alias rexdf='rex; cd datafusion'
