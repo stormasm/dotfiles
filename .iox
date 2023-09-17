@@ -81,6 +81,15 @@ alias ioxnucomt='ioxg; cd nu-cmd-iox'
 alias nuruniox='ioxg; ./target/debug/nu'
 
 ###
+#   Iox Testing
+###
+
+alias ioxetoe='ioxg; TEST_INTEGRATION=1 TEST_INFLUXDB_IOX_CATALOG_DSN=sqlite cargo test --test end_to_end'
+alias ioxetoecat='ioxg; TEST_INTEGRATION=1 TEST_INFLUXDB_IOX_CATALOG_DSN=sqlite cargo test -- --test end_to_end_cases::catalog::dsn_file'
+alias ioxetoeno='ioxg; TEST_INTEGRATION=1 TEST_INFLUXDB_IOX_CATALOG_DSN=sqlite cargo test -- --nocapture --test end_to_end'
+alias ioxetoenocat='ioxg; TEST_INTEGRATION=1 TEST_INFLUXDB_IOX_CATALOG_DSN=sqlite cargo test -- --nocapture --test end_to_end_cases::catalog::dsn_file'
+
+###
 #   Iox Wal Directory
 ###
 
