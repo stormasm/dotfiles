@@ -72,12 +72,12 @@ alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
 ##
 
 alias ioxnushell='ioxg; cd nushell'
-alias ioxnu='ioxg; cd nu-command/src/iox'
-alias nuiox='ioxg; cd nu-command/src/iox'
-alias ioxnucom='ioxg; cd nu-command/src/iox'
-alias ioxnut='ioxg; cd nu-command'
-alias nuioxt='ioxg; cd nu-command'
-alias ioxnucomt='ioxg; cd nu-command'
+alias ioxnu='ioxg; cd nu-cmd-iox/src/iox'
+alias nuiox='ioxg; cd nu-cmd-iox/src/iox'
+alias ioxnucom='ioxg; cd nu-cmd-iox/src/iox'
+alias ioxnut='ioxg; cd nu-cmd-iox'
+alias nuioxt='ioxg; cd nu-cmd-iox'
+alias ioxnucomt='ioxg; cd nu-cmd-iox'
 alias nuruniox='ioxg; ./target/debug/nu'
 
 ###
