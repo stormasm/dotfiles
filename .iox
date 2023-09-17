@@ -84,6 +84,7 @@ alias nuruniox='ioxg; ./target/debug/nu'
 #   Iox Testing
 ###
 
+### run all of the end to end tests
 alias ioxete='ioxg; TEST_INTEGRATION=1 TEST_INFLUXDB_IOX_CATALOG_DSN=sqlite cargo test --test end_to_end'
 alias ioxeteno='ioxg; TEST_INTEGRATION=1 TEST_INFLUXDB_IOX_CATALOG_DSN=sqlite cargo test -- --nocapture --test end_to_end'
 
@@ -93,9 +94,9 @@ alias ioxetego='ioxg; TEST_INTEGRATION=1 TEST_INFLUXDB_IOX_CATALOG_DSN=sqlite ca
 ### add your test to the end along with no capture
 alias ioxetenogo='ioxg; TEST_INTEGRATION=1 TEST_INFLUXDB_IOX_CATALOG_DSN=sqlite cargo test -- --nocapture --test '
 
-### hard coded test name
-alias ioxetecat='ioxg; TEST_INTEGRATION=1 TEST_INFLUXDB_IOX_CATALOG_DSN=sqlite cargo test -- --test end_to_end_cases::catalog::dsn_file'
-alias ioxetenocat='ioxg; TEST_INTEGRATION=1 TEST_INFLUXDB_IOX_CATALOG_DSN=sqlite cargo test -- --nocapture --test end_to_end_cases::catalog::dsn_file'
+### hard coded test names
+alias ioxetecat='ioxetego end_to_end_cases::catalog::dsn_file'
+alias ioxetenocat='ioxetenogo end_to_end_cases::catalog::dsn_file'
 
 alias ioxetewq='ioxetego end_to_end_cases::cli::write_and_query'
 alias ioxetenowq='ioxetenogo end_to_end_cases::cli::write_and_query'
