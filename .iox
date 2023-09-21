@@ -67,6 +67,8 @@ alias iox02nm='iox query nm_pop "SELECT * FROM pop_nm"'
 
 alias ioxs='ioxgs; ./target/debug/influxdb_iox sql'
 
+alias ioxclean='cd; cd .influxdb_iox; rm -fr wal; rm -fr object_store; rm catalog.sqlite; ioxg'
+
 ##
 #  Iox Nushell Integration
 ##
