@@ -53,7 +53,7 @@ alias ioxcc='ioxtmp; rm -fr iox44; mkdir iox44'
 
 alias getioxstorm='gc git@github.com:stormasm/influxdb_iox.git'
 
-alias ioxg='cd ~/j/tmp06/influxdb_iox'
+alias ioxg='cd ~/j/tmp06/influxdb'
 alias ioxgs='cd ~/j/tmp06/iox_sql_v00'
 alias ioxioxs='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
 alias ioxsqlg='cd ~/j/tmp06/iox_sql_v00/influxdb_iox/src/commands/sql'
