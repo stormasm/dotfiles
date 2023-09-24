@@ -13,12 +13,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
-### python virtualenvwrapper
-export VIRTUALENVWRAPPER_PYTHON=/opt/homebrew/bin/python3
-export WORKON_HOME=$HOME/j/tmp49/virtualenvs
-export PROJECT_HOME=$HOME/j/tmp34
-source $HOME/j/tmp49/bin/virtualenvwrapper.sh
-
 ### java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
 export PATH="/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home/bin:$PATH"
@@ -159,9 +153,8 @@ alias redislog='cd ~/mia/redislog'
 # Comcast Trouble Shooting and onend
 #
 
-alias pcom='ping 69.252.80.75'
-alias pcom1='ping 75.75.75.75'
-alias pcom2='ping 75.75.76.76'
+alias pcom='ping 75.75.75.75'
+alias pcom1='ping 75.75.76.76'
 
 #
 # Misc miamedia tmp99
@@ -338,3 +331,11 @@ export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.rust" ]] && source "$HOME/.rust"
 [[ -s "$HOME/.iox" ]] && source "$HOME/.iox"
 [[ -s "$HOME/.java" ]] && source "$HOME/.java"
+
+### the following lines have to be located after .python gets run
+### python virtualenvwrapper
+export VIRTUALENVWRAPPER_PYTHON=/opt/homebrew/bin/python3
+export WORKON_HOME=$HOME/j/tmp49/virtualenvs
+export PROJECT_HOME=$HOME/j/tmp34
+export VIRTUALENVWRAPPER_VIRTUALENV=$HOME/j/tmp49/bin/virtualenv
+source $HOME/j/tmp49/bin/virtualenvwrapper.sh
