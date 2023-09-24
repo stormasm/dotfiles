@@ -4,11 +4,16 @@ alias ctos='csvs-to-sqlite'
 alias ip='ipython'
 alias p='python3'
 alias py='/usr/bin/python3'
+
 alias pip='/opt/homebrew/bin/pip3'
+alias pli='pip list'
+alias pu='pip uninstall -y'
+
 alias pj='py -m json.tool'
 alias ppath='env | grep PYTHONPATH'
 alias pyenv='env | grep PYTHONPATH'
 alias jn='jupyter notebook'
+alias pn='cd ~/j/tmp34/python-notes'
 
 # To install a local github repo simply go to that repo and type this command
 alias pidot='pip3 install .'
