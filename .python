@@ -13,7 +13,6 @@ alias pun='pip uninstall -y'
 
 alias pj='py -m json.tool'
 alias ppath='env | grep PYTHONPATH'
-alias pyenv='env | grep PYTHONPATH'
 alias jn='jupyter notebook'
 alias pn='cd ~/j/tmp34/python-notes'
 
@@ -21,7 +20,8 @@ alias pn='cd ~/j/tmp34/python-notes'
 alias pidot='pip3 install .'
 alias 49p='cd ~/j/tmp49/lib/python/site-packages'
 
-export PYTHONPATH=~/j/tmp49/lib/python/site-packages:~/j/tmp10/blueark/py:~/j/tmp10/local
+export PYTHONPATH=~/j/tmp49/lib/python/site-packages
+## export PYTHONPATH=~/j/tmp49/lib/python/site-packages:~/j/tmp10/blueark/py:~/j/tmp10/local
 export PYTHONUSERBASE=~/j/tmp49
 export PIP_USER=yes
 
