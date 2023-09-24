@@ -7,7 +7,9 @@ alias py='/usr/bin/python3'
 
 alias pip='/opt/homebrew/bin/pip3'
 alias pli='pip list'
+alias plist='pip list'
 alias pu='pip uninstall -y'
+alias pun='pip uninstall -y'
 
 alias pj='py -m json.tool'
 alias ppath='env | grep PYTHONPATH'
