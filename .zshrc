@@ -332,10 +332,13 @@ export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.iox" ]] && source "$HOME/.iox"
 [[ -s "$HOME/.java" ]] && source "$HOME/.java"
 
+### Leave these files here for a bit
+### But for now virtualenvwrapper does not appear to be working
+
 ### the following lines have to be located after .python gets run
 ### python virtualenvwrapper
-export VIRTUALENVWRAPPER_PYTHON=/opt/homebrew/bin/python3
-export WORKON_HOME=$HOME/j/tmp49/virtualenvs
-export PROJECT_HOME=$HOME/j/tmp34
-export VIRTUALENVWRAPPER_VIRTUALENV=$HOME/j/tmp49/bin/virtualenv
-source $HOME/j/tmp49/bin/virtualenvwrapper.sh
+# export VIRTUALENVWRAPPER_PYTHON=/opt/homebrew/bin/python3
+# export WORKON_HOME=$HOME/j/tmp49/virtualenvs
+# export PROJECT_HOME=$HOME/j/tmp34
+# export VIRTUALENVWRAPPER_VIRTUALENV=$HOME/j/tmp49/bin/virtualenv
+# source $HOME/j/tmp49/bin/virtualenvwrapper.sh
