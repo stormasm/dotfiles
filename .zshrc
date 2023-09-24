@@ -13,6 +13,12 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
+### python virtualenvwrapper
+export VIRTUALENVWRAPPER_PYTHON=/opt/homebrew/bin/python3
+export WORKON_HOME=$HOME/j/tmp49/virtualenvs
+export PROJECT_HOME=$HOME/j/tmp34
+source $HOME/j/tmp49/bin/virtualenvwrapper.sh
+
 ### java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
 export PATH="/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home/bin:$PATH"
