@@ -11,7 +11,6 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH="$HOME/j/tmp49/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
-export PATH="/usr/local/opt/python@3.9/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
 ### java
@@ -316,9 +315,6 @@ alias ztmp='cd ztmp'
 
 # This is the command prompt setting for zsh
 PS1='%1d$ '
-
-export LDFLAGS="-L/usr/local/opt/python@3.9/lib"
-export PKG_CONFIG_PATH="/usr/local/opt/python@3.9/lib/pkgconfig"
 
 # For protoc
 # export PROTOC="/mia/protoc/bin/protoc"
