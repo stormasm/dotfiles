@@ -35,18 +35,6 @@ alias shs='python3 -m http.server 3000'
 ###
 alias bmg='cd ~/j/tmp34'
 
-###
-#     bluemesa
-###
-
-alias blue='bmg; cd bluemesa/py/bluemesa'
-alias bme='bmg; cd bluemesa/py/bluemesa/edgar'
-alias bat='bmg; cd blueark'
-alias bmt='bmg; cd bluemesa'
-
-alias edd='cd ~/j/tmp39/edgar-data'
-alias edu='cd ~/j/tmp39/edgar-data/ubnt'
-
 # RustPython
 alias cpg='cd ~/j/tmp10/cpython'
 alias rpg='cd ~/j/tmp10/RustPython'
@@ -67,11 +55,25 @@ alias sx='bmg; cd soup-xbrl'
 alias yf='cd ~/j/tmp10/yahoo_fin_examples/v00'
 alias yfe='cd ~/j/tmp10/yahoo_fin_examples/v00'
 
+###
+#     bluemesa
+###
+
+alias blue='bmg; cd bluemesa/py/bluemesa'
+alias bme='bmg; cd bluemesa/py/bluemesa/edgar'
+alias bat='bmg; cd blueark'
+alias bmt='bmg; cd bluemesa'
+
+alias edd='cd ~/j/tmp39/edgar-data'
+alias edu='cd ~/j/tmp39/edgar-data/ubnt'
+
 # Sec-edgar-downloader
 
-alias sedd='cd ~/j/tmp33/sec-edgar-dl'
-alias sedl='cd ~/j/tmp33/sec-edgar-dl'
-alias sef='cd ~/j/tmp33/sec-edgar-filings'
+alias edn='cd ~/j/tmp30/edgar-notes'
+
+alias sedd='cd ~/j/tmp31/sec-edgar-dl'
+alias sedl='cd ~/j/tmp31/sec-edgar-dl'
+alias sef='cd ~/j/tmp31/sec-edgar-filings'
 
 # Random environment variables associated with python projects
 export BMTOP=~/j/tmp39
