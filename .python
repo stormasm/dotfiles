@@ -67,5 +67,11 @@ alias sx='bmg; cd soup-xbrl'
 alias yf='cd ~/j/tmp10/yahoo_fin_examples/v00'
 alias yfe='cd ~/j/tmp10/yahoo_fin_examples/v00'
 
+# Sec-edgar-downloader
+
+alias sedd='cd ~/j/tmp33/sec-edgar-dl'
+alias sedl='cd ~/j/tmp33/sec-edgar-dl'
+alias sef='cd ~/j/tmp33/sec-edgar-filings'
+
 # Random environment variables associated with python projects
 export BMTOP=~/j/tmp39
