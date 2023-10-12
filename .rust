@@ -625,3 +625,5 @@ alias ctflex='cargo test --example flight_sql_server tests --features="cli fligh
 #   dply
 ##
 alias dp1="dply -c 'parquet(\"region.parquet\") | show()'"
+
+alias nnp='cd ~/j/tmp17/new-nu-parser'
