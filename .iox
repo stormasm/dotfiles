@@ -3,7 +3,9 @@
 #  RUST_LOG
 ##
 
-export RUST_LOG=openraft::engine::engine_impl=info
+## export RUST_LOG=openraft::engine::engine_impl=info
+export RUST_LOG=trace
+
 alias cklog='env | grep RUST_LOG'
 alias rml='rm *.log'
 
@@ -333,6 +335,22 @@ alias dfc='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafu
 alias dfcl='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
 alias dfcli='/Users/ma/j/tmp06/arrow-datafusion/datafusion-cli/target/debug/datafusion-cli'
 alias ctpp='cnr physical_plan::'
+
+##
+#  Glaredb
+##
+
+alias getglare='gc https://github.com/GlareDB/glaredb'
+
+alias glg='cd ~/j/tmp08/glaredb/crates/glaredb'
+alias glgt='cd ~/j/tmp08/glaredb'
+
+alias glrun='~/j/tmp08/glaredb/target/debug/glaredb'
+alias glrunn='./target/debug/glaredb'
+
+alias glrunlog='glaredb --verbose 2 --log-mode full server'
+alias glcrunlog='glaredb --verbose 2 --log-mode full local'
+alias glarerunlog='glaredb --verbose 2 --log-mode full local'
 
 ##
 #  GlueSql
