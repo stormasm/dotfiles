@@ -216,11 +216,20 @@ alias ws='whalespotter'
 alias cce='cr --features cursive/crossterm-backend --bin'
 
 #
-### rust logging
+## rust logging
 #
 
+# Module declarations take comma separated entries formatted like
+# path::to::module=log_level.
+
+# Run the test application as follows:
+# RUST_LOG="warn,test::foo=info,test::foo::bar=debug" ./test
+
+# Sets the default log::Level to warn, module foo and module foo::bar to info and debug.
+# RUST_LOG="warn,test::foo=info,test::foo::bar=debug" ./test
+
 ## export RUST_LOG=openraft::engine::engine_impl=info
-export RUST_LOG=info
+export RUST_LOG=logutil=trace,metastore=trace,sqlexec=trace
 
 alias cklog='env | grep RUST_LOG'
 alias loglevel='env | grep RUST_LOG'

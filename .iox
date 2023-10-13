@@ -341,11 +341,7 @@ alias glrun='~/j/tmp08/glaredb/target/debug/glaredb'
 alias glrunn='./target/debug/glaredb'
 
 alias glcrun='glaredb --verbose 2 --log-mode full local'
-alias glcrunlog='glaredb --verbose 2 --log-mode full local'
-alias glarerunlog='glaredb --verbose 2 --log-mode full local'
-
 alias glsrun='glaredb --verbose 2 --log-mode full server'
-alias glsrunlog='glaredb --verbose 2 --log-mode full server'
 
 ##
 #  GlueSql
