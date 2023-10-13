@@ -1,12 +1,4 @@
 
-##
-#  RUST_LOG
-##
-
-## export RUST_LOG=openraft::engine::engine_impl=info
-export RUST_LOG=trace
-
-alias cklog='env | grep RUST_LOG'
 alias rml='rm *.log'
 
 ##

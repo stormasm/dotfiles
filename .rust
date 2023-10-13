@@ -219,12 +219,17 @@ alias cce='cr --features cursive/crossterm-backend --bin'
 ### rust logging
 #
 
+## export RUST_LOG=openraft::engine::engine_impl=info
+export RUST_LOG=info
+
+alias cklog='env | grep RUST_LOG'
+alias loglevel='env | grep RUST_LOG'
+
 alias loge='export RUST_LOG=error'
 alias logw='export RUST_LOG=warn'
 alias logi='export RUST_LOG=info'
 alias logd='export RUST_LOG=debug'
 alias logt='export RUST_LOG=trace'
-alias loglevel='env | grep RUST_LOG'
 
 #
 ### nushell
