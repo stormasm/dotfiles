@@ -343,6 +343,8 @@ alias glrunn='./target/debug/glaredb'
 alias glcrun='glaredb --verbose 2 --log-mode full local'
 alias glsrun='glaredb --verbose 2 --log-mode full server'
 
+alias gpsql='psql "host=localhost user=glaredb dbname=glaredb port=6543"'
+
 ##
 #  GlueSql
 ##
