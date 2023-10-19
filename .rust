@@ -438,6 +438,8 @@ alias nuver='cd /mia/rust/nushell/nuver'
 
 ### mdbook
 
+alias numd='nutop; cd ../numdbook'
+
 alias mdb='mdbook build'
 alias mdc='mdbook clean'
 alias mdd='mdbook build -d ./docs'
