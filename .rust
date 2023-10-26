@@ -643,3 +643,16 @@ alias ctflex='cargo test --example flight_sql_server tests --features="cli fligh
 alias dp1="dply -c 'parquet(\"region.parquet\") | show()'"
 
 alias nnp='cd ~/j/tmp17/new-nu-parser'
+
+##
+#   nu-git-manager
+##
+alias ngm='cd ~/j/tmp17/nu-git-manager'
+alias ngmg='cd ~/j/tmp17/nu-git-manager'
+alias gmg='cd ~/j/tmp17/nu-git-manager'
+alias nupmg='cd ~/j/tmp17/nupm'
+alias pmg='cd ~/j/tmp17/nupm'
+alias gpm='cd ~/j/tmp17/nupm'
+
+alias gpgm='git pull https://github.com/amtoine/nu-git-manager main'
+alias gppm='git pull https://github.com/nushell/nupm main'
