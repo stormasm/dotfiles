@@ -112,7 +112,7 @@ alias gl='git log'
 alias gll='gem list --local'
 alias gls='git log --stat'
 
-alias gcom='gco main'
+alias gcomain='gco main'
 alias gmm='git merge main'
 
 alias gp='git pull'
