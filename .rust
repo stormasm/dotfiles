@@ -25,6 +25,7 @@ alias cben='cargo bench'
 alias cbench='cargo bench'
 
 alias cb='cargo build'
+alias cbr='cargo build --release'
 alias cba='cargo build --workspace'
 
 alias cbd='cargo build --features=dataframe'
@@ -254,11 +255,13 @@ alias gcnu='gc git@github.com:nushell/nushell.git'
 alias getnu='gc git@github.com:nushell/nushell.git'
 alias getnustorm='gc git@github.com:stormasm/nushell.git'
 
-alias getnustormbook='gc git@github.com:stormasm/nushell.github.io.git'
+alias getnubook='gc git@github.com:stormasm/nushell.github.io.git'
 
 alias getnusn='gc git@github.com:stormasm/nu_scripts.git'
-alias getnusnstorm='gc git@github.com:stormasm/nu_scripts.git'
-alias getrlstorm='gc git@github.com:stormasm/reedline.git'
+alias getnurl='gc git@github.com:stormasm/reedline.git'
+
+alias getnupm='gc git@github.com:stormasm/nupm.git'
+alias getnugm='gc git@github.com:stormasm/nu-git-manager.git'
 
 alias gpbook='git pull https://github.com/nushell/nushell.github.io main'
 alias gpeq='git pull https://github.com/nushell/nushell main'
@@ -310,6 +313,7 @@ alias nut='cd ~/j/tmp17/nutmp'
 alias nutmp='cd ~/j/tmp17/nutmp'
 
 alias nurun='~/j/tmp17/nushell/target/debug/nu'
+alias nurel='~/j/tmp17/nushell/target/release/nu'
 alias nurunyes='~/j/tmp17/nushell/target/debug/nu'
 
 alias nuruno='~/j/tmp17/nushell/target/debug/nu --no-std-lib'
@@ -549,32 +553,6 @@ alias rr='./test/run-tests.py -p --no-roundtrip'
 alias wt=wasmtime
 alias wtg='cd ~/j/tmp19/wasmtime'
 alias wtc='cd ~/j/tmp19/wasmtime/cranelift'
-
-##
-#  Tauri
-##
-alias tgo='cd ~/j/tmp15/tauri/core'
-alias got='cd ~/j/tmp15/tauri/core/tauri/src'
-alias gott='cd ~/j/tmp15/tauri'
-
-alias bill='cd ~/j/tmp01/tauri-helloworld/bill'
-alias billg='cd ~/j/tmp01/tauri-helloworld/bill/src-tauri/crates/tauri/src'
-
-##
-#  Nana
-##
-alias getnana='gc git@github.com:nushell/nana.git'
-alias getnanastorm='gc git@github.com:stormasm/nana.git'
-alias nana='cd ~/j/tmp15/nana'
-alias psn='ps | rg nana'
-
-##
-#  Jakt
-##
-alias jg='cd ~/j/tmp17/jakt'
-alias ja='~/j/tmp17/jakt//target/debug/jakt'
-alias jak='jg; ./target/debug/jakt'
-alias jakt='jg; ./target/debug/jakt'
 
 ##
 #  Nom
