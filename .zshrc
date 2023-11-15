@@ -50,7 +50,6 @@ alias c='clear'
 alias cp='cp -p'
 alias dl='cd ~/k/dl'
 alias e='emacs -nw'
-alias en='cd ~/j/tmp99/equity-notes'
 
 alias h='history'
 alias hclear='history -c'
@@ -156,10 +155,6 @@ alias redislog='cd ~/mia/redislog'
 alias pcom='ping 75.75.75.75'
 alias pcom1='ping 75.75.76.76'
 
-#
-# Misc miamedia tmp99
-#
-
 alias rtve='cd ~/mm/rtve'
 alias tur='cd ~/mm/rtve/turismo'
 
@@ -171,6 +166,10 @@ alias morningstar='equity; cd morningstar'
 alias vz='equity; cd vz'
 
 alias snapshot='cd ~/mm/equity-data/snapshot'
+
+# /tmp99
+
+alias en='cd ~/j/tmp99/equity-notes'
 alias ubnt='cd ~/j/tmp99/ubnt'
 
 alias bm='cd ~/j/tmp99/bookmarks'
@@ -181,18 +180,21 @@ alias pt='cd ~/mm/ptme'
 alias res='cd ~/j/tmp99/research'
 alias resbio='cd ~/j/tmp99/research/bio'
 
+# spanish
+
 alias span='cd ~/j/tmp99/spanish'
+alias et='cd ~/j/tmp99/spanish/books/eterovic'
 alias hp='cd ~/j/tmp99/spanish/books/harrypotter'
 alias pray='cd ~/j/tmp99/spanish/prayers'
 alias sentd='cd ~/j/tmp99/spanish/sentences'
+alias yts='cd ~/j/tmp99/spanish/youtube'
+alias ytspan='cd ~/j/tmp99/spanish/youtube'
 
 alias spain='cd ~/j/tmp99/travel/spain'
 alias camino='cd ~/j/tmp99/travel/spain/camino'
 alias travel='cd ~/j/tmp99/travel'
 
 alias yt='cd ~/j/tmp99/youtube'
-alias yts='cd ~/j/tmp99/spanish/youtube'
-alias ytspan='cd ~/j/tmp99/spanish/youtube'
 
 #
 # /tmp
