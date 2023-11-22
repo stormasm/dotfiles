@@ -270,9 +270,6 @@ alias gpnu='git pull https://github.com/nushell/nushell main'
 alias gpnus='git pull https://github.com/nushell/nu_scripts main'
 alias gpnusn='git pull https://github.com/nushell/nu_scripts main'
 alias gprl='git pull https://github.com/nushell/reedline main'
-alias gpar2='git pull https://github.com/jntrnr/nu_parser2 main'
-alias gppar='git pull https://github.com/jntrnr/nu_parser2 main'
-alias gpnp='git pull https://github.com/jntrnr/nu_parser2 main'
 alias gpgram='git pull https://github.com/nushell/grammar main'
 alias gpts='git pull https://github.com/fdncred/tree-sitter-nu main'
 alias gptsn='git pull https://github.com/fdncred/tree-sitter-nu main'
@@ -621,6 +618,8 @@ alias ctflex='cargo test --example flight_sql_server tests --features="cli fligh
 alias dp1="dply -c 'parquet(\"region.parquet\") | show()'"
 
 alias nnp='cd ~/j/tmp17/new-nu-parser'
+alias gpnp='git pull https://github.com/sophiajt/new-nu-parser main'
+alias gpnnp='git pull https://github.com/sophiajt/new-nu-parser main'
 
 ##
 #   nu-git-manager
