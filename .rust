@@ -137,6 +137,8 @@ alias pestbook='cd ~/j/tmp07/pest_book'
 
 ### reedline
 alias rl='cd ~/j/tmp17/reedline'
+alias rl16='cd ~/j/tmp16/reedline'
+alias rl18='cd ~/j/tmp18/reedline'
 alias rlg='~/j/tmp17/reedline/target/debug/reedline'
 alias rlrun='~/j/tmp17/reedline/target/debug/reedline'
 alias rls='cd ~/j/tmp17/reedline/src'
@@ -258,7 +260,7 @@ alias getnustorm='gc git@github.com:stormasm/nushell.git'
 alias getnubook='gc git@github.com:stormasm/nushell.github.io.git'
 
 alias getnusn='gc git@github.com:stormasm/nu_scripts.git'
-alias getnurl='gc git@github.com:stormasm/reedline.git'
+alias getnurl='gc git@github.com:nushell/reedline.git'
 
 alias getnupm='gc git@github.com:stormasm/nupm.git'
 alias getnugm='gc git@github.com:stormasm/nu-git-manager.git'
