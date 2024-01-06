@@ -136,13 +136,17 @@ alias pestb='cd ~/j/tmp07/pest_book'
 alias pestbook='cd ~/j/tmp07/pest_book'
 
 ### reedline
+export EDITOR=emacs
 alias rl='cd ~/j/tmp17/reedline'
+alias cro='cd ~/j/tmp17/crossterm'
+alias cross='cd ~/j/tmp17/crossterm'
+alias rl15='cd ~/j/tmp15/reedline'
 alias rl16='cd ~/j/tmp16/reedline'
 alias rl18='cd ~/j/tmp18/reedline'
 alias rlg='~/j/tmp17/reedline/target/debug/reedline'
 alias rlrun='~/j/tmp17/reedline/target/debug/reedline'
 alias rls='cd ~/j/tmp17/reedline/src'
-export REEDLINE_HISTFILE="$HOME/.reedline/history.txt"
+
 
 alias fix='rg "FIXME: jt"'
 alias fixme='rg "FIXME: jt"'
