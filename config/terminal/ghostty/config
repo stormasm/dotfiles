@@ -1,0 +1,10 @@
+# The syntax is "key = value". The whitespace around the equals doesn't matter.
+title = "angerman-hb"
+background = 000000
+foreground = 7fff00
+
+font-family = "Menlo Regular 18"
+font-size = 18
+font-thicken = true
+font-style-bold = false
+font-feature = -calt
