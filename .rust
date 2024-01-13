@@ -145,6 +145,7 @@ alias rl16='cd ~/j/tmp16/reedline'
 alias rl18='cd ~/j/tmp18/reedline'
 alias rlg='~/j/tmp17/reedline/target/debug/reedline'
 alias rlrun='~/j/tmp17/reedline/target/debug/reedline'
+alias rlex='cd ~/j/tmp17/reedline/examples'
 alias rls='cd ~/j/tmp17/reedline/src'
 
 
