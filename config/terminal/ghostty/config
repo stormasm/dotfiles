@@ -8,3 +8,6 @@ font-size = 18
 font-thicken = true
 font-style-bold = false
 font-feature = -calt
+
+window-width = 154
+window-height = 43
