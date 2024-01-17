@@ -11,3 +11,4 @@ font-feature = -calt
 
 window-width = 154
 window-height = 43
+macos-option-as-alt = true
