@@ -567,3 +567,12 @@ alias toyt='cd ~/j/tmp08/toydb'
 
 alias slb='cd ~/j/tmp09/slbench'
 alias bdf='cd ~/j/tmp09/benchdf'
+
+##
+#   Greptimedb
+##
+
+alias gtg='cd ~/j/tmp09/greptimedb'
+alias gti='cd ~/j/tmp09/greptimedb-ingester-rust'
+alias gtrun='cargo run -- standalone start'
+alias gtpsql='psql -h 127.0.0.1 -p 4003 -d public'
