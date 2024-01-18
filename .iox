@@ -33,6 +33,16 @@ export TEST_INTEGRATION=1
 export ARROW_TEST_DATA=/Users/ma/j/tmp06/arrow-testing/data
 export PARQUET_TEST_DATA=/Users/ma/j/tmp06/parquet-testing/data
 
+##
+#  Ripgrep
+##
+
+alias rgdf='rg datafusion -g Cargo.toml'
+
+##
+#  Iox
+##
+
 alias ioxn='cd ~/j/tmp06/ioxnotes'
 
 alias ckdir='env | grep TMPDIR'
@@ -41,9 +51,6 @@ alias ioxtmp='cd /Users/ma/j/tmp06/ioxtmp'
 alias ioxtmpg='cd /Users/ma/j/tmp33'
 alias ioxcc='ioxtmp; rm -fr iox44; mkdir iox44'
 
-##
-#  Iox
-##
 
 alias getioxstorm='gc git@github.com:stormasm/influxdb_iox.git'
 
