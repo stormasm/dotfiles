@@ -2,7 +2,7 @@
 # Setting up the PATH always is the first line in the file
 #
 
-export PATH=~/mia/sqlitetools:~/mia/rust/bin:/usr/local/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/node/bin:~/mia/zig:~/mia/go/bin:~/.local/bin:$PATH
+export PATH=~/mia/sqlitetools:~/mia/rust/bin:/usr/local/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/node/bin:~/mia/zig:~/mia/go/bin:~/go/bin:~/.local/bin:$PATH
 
 # Always add the current directory to your PATH so it finds local binaries
 
@@ -344,3 +344,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # export PROJECT_HOME=$HOME/j/tmp34
 # export VIRTUALENVWRAPPER_VIRTUALENV=$HOME/j/tmp49/bin/virtualenv
 # source $HOME/j/tmp49/bin/virtualenvwrapper.sh
+
+[[ "$TERM_PROGRAM" == "CodeEditApp_Terminal" ]] && . "/Applications/CodeEdit.app/Contents/Resources/codeedit_shell_integration.zsh"
