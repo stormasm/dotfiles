@@ -579,7 +579,17 @@ alias bdf='cd ~/j/tmp09/benchdf'
 #   Greptimedb
 ##
 
+alias getgt='gc git@github.com:greptimeteam/greptimedb.git'
+alias getgtstorm='gc git@github.com:stormasm/greptimedb.git'
+alias gpg='git pull https://github.com/GreptimeTeam/greptimedb main'
+alias gpgt='git pull https://github.com/GreptimeTeam/greptimedb main'
+
 alias gtg='cd ~/j/tmp09/greptimedb'
+alias gtgs='cd ~/j/tmp09/greptimedb/src'
+alias gtgt='cd ~/j/tmp09/greptimedb/tests'
+alias gtgti='cd ~/j/tmp09/greptimedb/tests-integration'
+
 alias gti='cd ~/j/tmp09/greptimedb-ingester-rust'
+
 alias gtrun='cargo run -- standalone start'
 alias gtpsql='psql -h 127.0.0.1 -p 4003 -d public'
