@@ -1,0 +1,11 @@
+{
+  "language_overrides": {
+    "Rust": {
+      "enable_language_server": true
+    }
+  },
+  "experimental.theme_overrides": {
+    "editor.background": "#111111",
+    "search.match_background": "#0000aa"
+  }
+}
