@@ -101,6 +101,12 @@ alias fea='cd ~/j/tmp03/features'
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
 
+### zed
+alias zme='zgo; ./target/debug/Zed &'
+alias zno='cd ~/j/tmp08/zednotes'
+alias zgo='cd ~/j/tmp08/zed'
+alias zui='zgo; cd crates/gpui'
+
 ### tree sitter
 #alias tsg='cd ~/j/tmp07/tree-sitter'
 alias tstop='cd ~/j/tmp07/tree-sitter'
