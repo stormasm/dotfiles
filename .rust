@@ -102,10 +102,16 @@ alias fea='cd ~/j/tmp03/features'
 alias eq='cd ~/j/tmp17/nushell'
 
 ### zed
+alias getzed='gc git@github.com:zed-industries/zed.git'
 alias zme='zgo; ./target/debug/Zed &'
 alias zno='cd ~/j/tmp08/zednotes'
 alias zgo='cd ~/j/tmp08/zed'
-alias zui='zgo; cd crates/gpui'
+
+### Zed crates
+alias zgoc='zgo; cd crates'
+alias zfb='zgo; cd crates/feedback'
+alias zgui='zgo; cd crates/gpui'
+alias zui='zgo; cd crates/ui'
 
 ### tree sitter
 #alias tsg='cd ~/j/tmp07/tree-sitter'
