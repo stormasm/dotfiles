@@ -101,10 +101,25 @@ alias fea='cd ~/j/tmp03/features'
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
 
+### loungy
+alias lou='cd ~/j/tmp07/loungy'
+alias lourun='lou; ./target/debug/loungy'
+
+### jed
+alias getjed='gc git@github.com:stormasm/jed.git'
+alias jme='jgo; ./target/debug/Jed &'
+alias jgo='cd ~/j/tmp07/jed'
+
+### Jed crates
+alias jgoc='jgo; cd crates'
+alias jgui='jgo; cd crates/gpui'
+alias jui='jgo; cd crates/ui'
+alias jwork='jgo; cd crates/workspace'
+
 ### zed
 alias getzed='gc git@github.com:zed-industries/zed.git'
 alias zme='zgo; ./target/debug/Zed &'
-alias zno='cd ~/j/tmp08/zednotes'
+alias zno='cd ~/j/tmp07/zednotes'
 alias zgo='cd ~/j/tmp08/zed'
 
 ### Zed crates
@@ -112,6 +127,9 @@ alias zgoc='zgo; cd crates'
 alias zfb='zgo; cd crates/feedback'
 alias zgui='zgo; cd crates/gpui'
 alias zui='zgo; cd crates/ui'
+alias zwork='zgo; cd crates/workspace'
+
+alias rggt='rg gpui::test'
 
 ### tree sitter
 #alias tsg='cd ~/j/tmp07/tree-sitter'
