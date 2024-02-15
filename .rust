@@ -113,6 +113,7 @@ alias jgo='cd ~/j/tmp07/jed'
 ### Jed crates
 alias jgoc='jgo; cd crates'
 alias jgui='jgo; cd crates/gpui'
+alias jgpui='jgo; cd crates/gpui'
 alias jui='jgo; cd crates/ui'
 alias jwork='jgo; cd crates/workspace'
 
@@ -126,6 +127,7 @@ alias zgo='cd ~/j/tmp08/zed'
 alias zgoc='zgo; cd crates'
 alias zfb='zgo; cd crates/feedback'
 alias zgui='zgo; cd crates/gpui'
+alias zgpui='zgo; cd crates/gpui'
 alias zui='zgo; cd crates/ui'
 alias zwork='zgo; cd crates/workspace'
 
