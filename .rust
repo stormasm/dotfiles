@@ -124,10 +124,12 @@ alias zno='cd ~/j/tmp07/zednotes'
 alias zgo='cd ~/j/tmp08/zed'
 
 ### Zed crates
+alias cblade='cargo build --features=gpui/macos-blade'
 alias zgoc='zgo; cd crates'
 alias zfb='zgo; cd crates/feedback'
 alias zgui='zgo; cd crates/gpui'
 alias zgpui='zgo; cd crates/gpui'
+alias zmac='zgo; cd crates/gpui_macros'
 alias zui='zgo; cd crates/ui'
 alias zwork='zgo; cd crates/workspace'
 
