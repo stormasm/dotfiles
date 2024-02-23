@@ -2,7 +2,7 @@
 # Setting up the PATH always is the first line in the file
 #
 
-export PATH=~/mia/sqlitetools:~/mia/rust/bin:/usr/local/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/node/bin:~/mia/zig:~/mia/go/bin:~/go/bin:~/.local/bin:$PATH
+export PATH=~/mia/sqlitetools:~/mia/rust/bin:/usr/local/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/node/bin:~/mia/zig:~/mia/go/bin:~/go/bin:~/.local/bin:$PATH
 
 # Always add the current directory to your PATH so it finds local binaries
 
