@@ -105,6 +105,20 @@ alias eq='cd ~/j/tmp17/nushell'
 alias lou='cd ~/j/tmp07/loungy'
 alias lourun='lou; ./target/debug/loungy'
 
+### zed
+alias gpz='git pull https://github.com/zed-industries/zed main'
+alias gpzed='git pull https://github.com/zed-industries/zed main'
+alias getzed='gc git@github.com:zed-industries/zed.git'
+alias zme='zgo; ./target/debug/Zed &'
+alias zno='cd ~/j/tmp07/zednotes'
+alias zgo='cd ~/j/tmp08/zed'
+
+### storybook
+alias sbr='zgo; ./target/debug/storybook'
+alias sbrun='zgo; ./target/debug/storybook'
+alias sb='cd ~/j/tmp08/zed/crates/storybook'
+alias sbgo='cd ~/j/tmp08/zed/crates/storybook'
+
 ### jed
 alias getjed='gc git@github.com:stormasm/jed.git'
 alias jme='jgo; ./target/debug/Jed &'
@@ -116,12 +130,6 @@ alias jgui='jgo; cd crates/gpui'
 alias jgpui='jgo; cd crates/gpui'
 alias jui='jgo; cd crates/ui'
 alias jwork='jgo; cd crates/workspace'
-
-### zed
-alias getzed='gc git@github.com:zed-industries/zed.git'
-alias zme='zgo; ./target/debug/Zed &'
-alias zno='cd ~/j/tmp07/zednotes'
-alias zgo='cd ~/j/tmp08/zed'
 
 ### Zed crates
 alias cblade='cargo build --features=gpui/macos-blade'
@@ -544,8 +552,9 @@ alias cthno='ctno commands::help'
 
 alias ctnoex='ctno commands::tests::examples_work_as_expected'
 
-alias cta='cargo test --workspace --all-features'
-alias ctan='cargo test --workspace'
+alias cta='cargo test --workspace'
+alias ctaf='cargo test --workspace --all-features'
+alias ctan='cargo test --workspace --all-features'
 alias ctas='cargo test --workspace --features=stable'
 alias ctm='cargo test --test main'
 alias ct100='cargo test --package nu-cli --test main -- commands::each'
