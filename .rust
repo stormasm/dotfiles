@@ -101,6 +101,9 @@ alias fea='cd ~/j/tmp03/features'
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
 
+### gpui-examples
+alias gpui='07; cd gpui-examples'
+
 ### loungy
 alias lou='cd ~/j/tmp07/loungy'
 alias lourun='lou; ./target/debug/loungy'
