@@ -144,6 +144,7 @@ alias zmac='zgo; cd crates/gpui_macros'
 alias zui='zgo; cd crates/ui'
 alias zwork='zgo; cd crates/workspace'
 
+alias rgdiv='rg "\-> Div"'
 alias rggt='rg gpui::test'
 
 ### tree sitter
