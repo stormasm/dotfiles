@@ -145,6 +145,9 @@ alias zui='zgo; cd crates/ui'
 alias zwork='zgo; cd crates/workspace'
 
 alias rgdiv='rg "\-> Div"'
+alias rgintoelement='rg "#\[derive\(IntoElement\)\]"'
+alias rgintoelementfor='rg "impl IntoElement for"'
+
 alias rggt='rg gpui::test'
 
 ### tree sitter
