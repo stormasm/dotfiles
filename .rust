@@ -104,6 +104,11 @@ alias eq='cd ~/j/tmp17/nushell'
 ### gpui-examples
 alias gpuix='07; cd gpui-examples'
 alias gpuiex='07; cd gpui-examples'
+alias gpl='07; cd gpui-list'
+alias gplist='07; cd gpui-list'
+alias gpuilist='07; cd gpui-list'
+alias km='07; cd gpui-keymap'
+
 
 ### loungy
 alias lou='cd ~/j/tmp07/loungy'
@@ -113,15 +118,22 @@ alias lourun='lou; ./target/debug/loungy'
 alias gpz='git pull https://github.com/zed-industries/zed main'
 alias gpzed='git pull https://github.com/zed-industries/zed main'
 alias getzed='gc git@github.com:zed-industries/zed.git'
-alias zme='zgo; ./target/debug/Zed &'
+alias getzedstorm='gc git@github.com:stormasm/zed.git'
+alias zme='./target/debug/Zed &'
 alias zno='cd ~/j/tmp07/zednotes'
 alias zgo='cd ~/j/tmp08/zed'
 
 ### storybook
-alias sbr='zgo; ./target/debug/storybook'
-alias sbrun='zgo; ./target/debug/storybook'
-alias sb='cd ~/j/tmp08/zed/crates/storybook'
-alias sbgo='cd ~/j/tmp08/zed/crates/storybook'
+alias sb='cd ~/j/tmp06/storybook'
+alias sbr='sb; ./target/debug/sb &'
+alias sbrun='sb; ./target/debug/sb &'
+alias sbgo='sb; cd ./crates/storybook'
+
+### noed
+
+alias getnoed='gc git@github.com:stormasm/zed-noed.git'
+alias noed='06; cd zed-noed'
+alias noedme='noed; ./target/debug/Noed &'
 
 ### jed
 alias getjed='gc git@github.com:stormasm/jed.git'
@@ -135,8 +147,12 @@ alias jgpui='jgo; cd crates/gpui'
 alias jui='jgo; cd crates/ui'
 alias jwork='jgo; cd crates/workspace'
 
-### Zed crates
+### Linux Port
+
 alias cblade='cargo build --features=gpui/macos-blade'
+
+### Zed crates
+
 alias zgoc='zgo; cd crates'
 alias zfb='zgo; cd crates/feedback'
 alias gpui='zgo; cd crates/gpui'
@@ -145,6 +161,7 @@ alias zgpui='zgo; cd crates/gpui'
 alias zmac='zgo; cd crates/gpui_macros'
 alias zui='zgo; cd crates/ui'
 alias zwork='zgo; cd crates/workspace'
+alias zzed='zgo; cd crates/zed'
 
 alias rgrequestlayout='rg request_layout'
 alias rgdiv='rg "\-> Div"'
@@ -361,7 +378,7 @@ alias nutopp='cd ~/j/tmp26/nushell'
 alias nucore='cd ~/j/tmp17/nushell-core'
 
 alias nubo='cd ~/j/tmp11/nushell.github.io'
-alias nubook='cd ~/j/tmp26/nushell.github.io'
+alias nubook='cd ~/j/tmp17/nushell.github.io'
 alias nubookme='cd ~/j/tmp17/nushell.github.io'
 alias nubookrun='npm install; npm run dev'
 
