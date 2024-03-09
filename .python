@@ -45,7 +45,7 @@ alias rptd='~/j/tmp10/RustPython/target/debug/rustpython'
 # Random aliases associated with python projects
 alias pe='cd ~/j/tmp10/python-examples'
 alias pep='cd ~/j/tmp10/python-examples/pandas'
-alias pyex='cd ~/j/tmp10/python-examples'
+alias pyex='cd ~/j/tmp34/python-examples'
 alias pyep='cd ~/j/tmp10/python-examples/pandas'
 alias eqd='cd ~/j/tmp10/equity-data'
 alias eqe='cd ~/j/tmp10/equity-etf'
