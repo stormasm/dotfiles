@@ -4,5 +4,11 @@
     "bindings": {
       "cmd-\\": "workspace::ToggleLeftDock"
     }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-b": "pane::CloseAllItems"
+    }
   }
 ]
