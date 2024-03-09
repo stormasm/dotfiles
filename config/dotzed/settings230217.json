@@ -1,0 +1,8 @@
+{
+    "language_overrides": {
+        "Rust": {
+            "enable_language_server": false
+        }
+    }
+}
+
