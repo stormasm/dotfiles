@@ -30,6 +30,12 @@ export HELIX_RUNTIME=/Users/ma/j/tmp19/helix/runtime
 export MANPATH=/opt/local/share/man:$MANPATH
 
 #
+#  Nushell
+#
+
+export XDG_CONFIG_HOME=/Users/ma/.config
+
+#
 #  Begin alias definitions
 #
 
