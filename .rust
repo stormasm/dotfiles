@@ -359,12 +359,9 @@ alias gptsn='git pull https://github.com/fdncred/tree-sitter-nu main'
 
 alias appsup='cd /Users/ma/Library/Application\ Support'
 
-alias configpath='cd /Users/ma/Library/Application\ Support/nushell'
-alias configpathold='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
-alias nuconfigold='cd /Users/ma/Library/Application\ Support/org.nushell.nu'
-
-alias confignu='cd /Users/ma/Library/Application\ Support/nushell'
-alias nuconfig='cd /Users/ma/Library/Application\ Support/nushell'
+### This is the nushell config if XDG_CONFIG_HOME is NOT set
+alias nuconfigold='cd /Users/ma/Library/Application\ Support/nushell'
+alias nuconfig='cd /Users/ma/.config/nushell'
 alias nuconfigme='nutop; cd ..; cd nuconfig'
 
 alias slconfig='cd /Users/ma/Library/Application\ Support/io.spaceandtime.schnapslatte'
