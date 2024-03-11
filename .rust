@@ -108,7 +108,10 @@ alias gpl='07; cd gpui-list'
 alias gplist='07; cd gpui-list'
 alias gpuilist='07; cd gpui-list'
 alias km='07; cd gpui-keymap'
+alias kal='07; cd kallex'
 
+alias cleank='cd /Users/ma/Library/Application\ Support/org.kallax.kallax; rm kallax.sqlite'
+alias cleankal='cd /Users/ma/Library/Application\ Support/org.kallax.kallax; rm kallax.sqlite'
 
 ### loungy
 alias lou='cd ~/j/tmp07/loungy'
