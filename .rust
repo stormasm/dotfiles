@@ -171,6 +171,9 @@ alias zui='zgo; cd crates/ui'
 alias zwork='zgo; cd crates/workspace'
 alias zzed='zgo; cd crates/zed'
 
+alias zedconfig='cd ~/.config/zed'
+alias zedlog='cd ~/Library/Logs/Zed'
+
 alias rgrequestlayout='rg request_layout'
 alias rgdiv='rg "\-> Div"'
 alias rgintoelement='rg "#\[derive\(IntoElement\)\]"'
