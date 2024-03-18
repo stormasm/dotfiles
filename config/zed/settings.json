@@ -6,6 +6,7 @@
   },
   "vim_mode": false,
   "theme": "Rosé Pine",
+  "hover_popover_enabled": false,
   "language_overrides": {
     "Rust": {
       "enable_language_server": false
