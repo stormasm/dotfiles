@@ -172,6 +172,7 @@ alias zwork='zgo; cd crates/workspace'
 alias zzed='zgo; cd crates/zed'
 
 alias zedconfig='cd ~/.config/zed'
+alias zedb='cd "/Users/ma/Library/Application Support/Zed/db"'
 alias zedlog='cd ~/Library/Logs/Zed'
 
 alias rgrequestlayout='rg request_layout'
