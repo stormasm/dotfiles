@@ -129,10 +129,10 @@ alias zgo='cd ~/j/tmp08/zed'
 alias ztmp='cd ~/j/tmp08/zedtmp'
 
 ### storybook
-alias sb='cd ~/j/tmp13/storybook'
-#alias sbr='sb; ./target/debug/sb &'
-alias sbrun='sb; ./target/debug/sb &'
-alias sbgo='sb; cd ./crates/storybook'
+alias sbt='cd ~/j/tmp06/storybook'
+#alias sbr='sbt; ./target/debug/sb &'
+alias sbrun='sbt; ./target/debug/sb &'
+alias sb='sbt; cd ./crates/storybook'
 
 ### zed storybook
 alias sbg='zgo; cd crates/storybook'
