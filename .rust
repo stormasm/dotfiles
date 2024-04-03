@@ -129,7 +129,7 @@ alias zgo='cd ~/j/tmp08/zed'
 alias ztmp='cd ~/j/tmp08/zedtmp'
 
 ### storybook
-alias sb='cd ~/j/tmp06/storybook'
+alias sb='cd ~/j/tmp13/storybook'
 #alias sbr='sb; ./target/debug/sb &'
 alias sbrun='sb; ./target/debug/sb &'
 alias sbgo='sb; cd ./crates/storybook'
@@ -247,7 +247,7 @@ alias fil='cd ~/j/tmp17/nushell/crates/nu-command/src/filters'
 
 ### rust-notes
 alias nuno='cd ~/j/tmp17/nunotes'
-alias rn='cd ~/j/tmp06/rust-notes'
+alias rn='cd ~/j/tmp13/rust-notes'
 
 ### nudev
 alias nudev='cd ~/j/tmp17/nudev'
@@ -262,42 +262,42 @@ alias echr='curl localhost:3000/echo/reversed -XPOST -d'
 
 alias pc="rm *.parquet"
 
-alias pol="cd ~/j/tmp06/polars/polars"
-alias polt="cd ~/j/tmp06/polars"
+alias pol="cd ~/j/tmp13/polars/polars"
+alias polt="cd ~/j/tmp13/polars"
 
-alias datafust='cd ~/j/tmp06/arrow-datafusion'
-alias datafus='cd ~/j/tmp06/arrow-datafusion/datafusion/core/src'
-alias datafusion='cd ~/j/tmp06/arrow-datafusion/datafusion/core/src'
-alias par="cd ~/j/tmp06/arrow-rs/parquet"
-alias par2="cd ~/j/tmp06/parquet2"
-alias part="cd ~/j/tmp06/parquet-testing/data"
+alias datafust='cd ~/j/tmp13/arrow-datafusion'
+alias datafus='cd ~/j/tmp13/arrow-datafusion/datafusion/core/src'
+alias datafusion='cd ~/j/tmp13/arrow-datafusion/datafusion/core/src'
+alias par="cd ~/j/tmp13/arrow-rs/parquet"
+alias par2="cd ~/j/tmp13/parquet2"
+alias part="cd ~/j/tmp13/parquet-testing/data"
 
-alias pola="cd ~/j/tmp06/polars01a"
-alias polb="cd ~/j/tmp06/polars01b"
-alias polc="cd ~/j/tmp06/polars01c"
+alias pola="cd ~/j/tmp13/polars01a"
+alias polb="cd ~/j/tmp13/polars01b"
+alias polc="cd ~/j/tmp13/polars01c"
 
-alias polm="cd ~/j/tmp06/polars01/polars-core"
-alias polme="cd ~/j/tmp06/polars01/polars-core"
+alias polm="cd ~/j/tmp13/polars01/polars-core"
+alias polme="cd ~/j/tmp13/polars01/polars-core"
 
 alias arex1='cre read_csv --features "prettyprint"'
 alias arex2='cre read_csv_infer_schema --features "prettyprint"'
 alias arex3='cre read_csv_ui --features "prettyprint"'
 
-alias c2p='cd ~/j/tmp06/csv2par'
+alias c2p='cd ~/j/tmp13/csv2par'
 
 alias cmakear1='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON ..'
 alias cmakear2='cmake -DCMAKE_BUILD_TYPE=Debug -DARROW_BUILD_TESTS=ON -DARROW_PARQUET=ON ..'
 
 ### serde
 alias rgs='rg Serialize'
-alias se='cd ~/j/tmp06/serde'
-alias sex='cd ~/j/tmp06/serde-examples'
-alias sexr='cd ~/j/tmp06/serde-examples/ron'
-alias sj='cd ~/j/tmp06/serde-json'
-alias rmp='cd ~/j/tmp06/msgpack-rust'
-alias ron='cd ~/j/tmp06/ron'
-alias sm='cd ~/j/tmp06/msgpack-rust/rmp-serde'
-alias sy='cd ~/j/tmp06/serde-yaml'
+alias se='cd ~/j/tmp13/serde'
+alias sex='cd ~/j/tmp13/serde-examples'
+alias sexr='cd ~/j/tmp13/serde-examples/ron'
+alias sj='cd ~/j/tmp13/serde-json'
+alias rmp='cd ~/j/tmp13/msgpack-rust'
+alias ron='cd ~/j/tmp13/ron'
+alias sm='cd ~/j/tmp13/msgpack-rust/rmp-serde'
+alias sy='cd ~/j/tmp13/serde-yaml'
 
 ### canop/whalespotter.git
 alias ws='whalespotter'
@@ -462,8 +462,8 @@ alias nueng='nutop; cd crates/nu-engine/src'
 alias nuex='nutop; cd crates/nu-cmd-extra/src'
 alias nup='nutop; cd crates/nu-parser/src'
 alias nupar='nutop; cd crates/nu-parser/src'
-alias nupar2='cd ~/j/tmp06/nu_parser2'
-alias npr='~/j/tmp06/nu_parser2/target/debug/nu_parser'
+alias nupar2='cd ~/j/tmp13/nu_parser2'
+alias npr='~/j/tmp13/nu_parser2/target/debug/nu_parser'
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nustd='nutop; cd crates/nu-std/std'
 alias nuprom='cd ~/j/tmp17/nupro'
@@ -650,7 +650,7 @@ alias nomrexex='cd ~/j/tmp17/rust-examples/nom/examples'
 ##
 #  Tokio, Tonic
 ##
-alias tonic='cd ~/j/tmp06/tonic'
+alias tonic='cd ~/j/tmp13/tonic'
 
 ##
 # Sqlx
