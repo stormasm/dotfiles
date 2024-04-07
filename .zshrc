@@ -126,6 +126,8 @@ alias gpro='git remote prune origin'
 alias grpo='git remote prune origin'
 alias grso='git remote show origin'
 
+alias grl='git reflog'
+
 alias gs='git status'
 alias gsl='git log --stat'
 
