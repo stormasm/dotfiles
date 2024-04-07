@@ -110,6 +110,7 @@ alias gpuilist='07; cd gpui-list'
 alias km='07; cd gpui-keymap'
 alias kal='07; cd kallax'
 alias kel='07; cd kallex'
+alias lix='07; cd kallix'
 
 alias cleank='cd /Users/ma/Library/Application\ Support/org.kallax.kallax; rm kallax.sqlite'
 alias cleankal='cd /Users/ma/Library/Application\ Support/org.kallax.kallax; rm kallax.sqlite'
@@ -133,9 +134,11 @@ alias sbt='cd ~/j/tmp06/storybook'
 #alias sbr='sbt; ./target/debug/sb &'
 alias sbrun='sbt; ./target/debug/sb &'
 alias sb='sbt; cd ./crates/storybook'
+alias sbp='sbt; cd ./crates/storybookpicker'
 
 ### zed storybook
 alias sbg='zgo; cd crates/storybook'
+alias sbui='zgo; cd crates/storybook_ui'
 alias sbr='zgo; ./target/debug/storybook'
 
 ### noed
@@ -163,6 +166,10 @@ alias cblade='cargo build --features=gpui/macos-blade'
 ### Zed crates
 
 alias zgoc='zgo; cd crates'
+alias zcp='zgo; cd crates/command_palette'
+alias zcpex='zgo; cd crates/command_palette/examples'
+alias zcpx='zgo; cd crates/command_palette/examples'
+alias zext='zgo; cd crates/extensions_ui'
 alias zfb='zgo; cd crates/feedback'
 alias gpui='zgo; cd crates/gpui'
 alias zgui='zgo; cd crates/gpui'
