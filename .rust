@@ -327,7 +327,8 @@ alias cce='cr --features cursive/crossterm-backend --bin'
 # RUST_LOG="warn,test::foo=info,test::foo::bar=debug" ./test
 
 ## export RUST_LOG=openraft::engine::engine_impl=info
-export RUST_LOG=logutil=trace,metastore=trace,sqlexec=trace
+## export RUST_LOG=logutil=trace,metastore=trace,sqlexec=trace
+export RUST_LOG=zed=debug
 
 alias cklog='env | grep RUST_LOG'
 alias loglevel='env | grep RUST_LOG'
