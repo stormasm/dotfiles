@@ -10,5 +10,11 @@
     "bindings": {
       "cmd-b": "pane::CloseAllItems"
     }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-alt-g": "editor::ToggleGitBlame"
+    }
   }
 ]
