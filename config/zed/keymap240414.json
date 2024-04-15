@@ -1,0 +1,20 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-\\": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-b": "pane::CloseAllItems"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-alt-g": "editor::ToggleGitBlame"
+    }
+  }
+]
