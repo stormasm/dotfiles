@@ -184,6 +184,10 @@ alias zwork='zgo; cd crates/workspace'
 alias zzed='zgo; cd crates/zed'
 
 alias zedconfig='cd ~/.config/zed'
+
+alias melib='cd "/Users/ma/Library"'
+alias meas='cd "/Users/ma/Library/Application Support"'
+alias zedlib='cd "/Users/ma/Library/Application Support/Zed"'
 alias zedb='cd "/Users/ma/Library/Application Support/Zed/db"'
 alias zedlog='cd ~/Library/Logs/Zed'
 
