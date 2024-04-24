@@ -17,7 +17,7 @@
     "metrics": true
   },
   "vim_mode": false,
-  "theme": "Rosé Pine",
+  "theme": "Rosé Wine",
   "hover_popover_enabled": false,
   "language_overrides": {
     "Rust": {
@@ -27,5 +27,10 @@
   "experimental.theme_overrides": {
     "editor.background": "#111111",
     "search.match_background": "#0000aa"
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
   }
 }
