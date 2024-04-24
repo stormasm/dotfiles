@@ -25,8 +25,9 @@ alias cben='cargo bench'
 alias cbench='cargo bench'
 
 alias cb='cargo build'
+alias cba='cargo build --all-features'
 alias cbr='cargo build --release'
-alias cba='cargo build --workspace'
+alias cbw='cargo build --workspace'
 
 alias cbd='cargo build --features=dataframe'
 alias cbdf='cargo build --features=dataframe'
@@ -263,7 +264,8 @@ alias fil='cd ~/j/tmp17/nushell/crates/nu-command/src/filters'
 
 ### rust-notes
 alias nuno='cd ~/j/tmp17/nunotes'
-alias rn='cd ~/j/tmp13/rust-notes'
+alias rn='cd ~/j/tmp07/rust-notes'
+alias rno='cd ~/j/tmp07/rust-notes'
 
 ### nudev
 alias nudev='cd ~/j/tmp17/nudev'
