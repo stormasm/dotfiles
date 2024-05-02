@@ -102,25 +102,29 @@ alias fea='cd ~/j/tmp03/features'
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
 
+### zed
+alias zalt='07';
+
 ### gpui-examples
-alias gpuix='07; cd gpui-examples'
-alias gpuiex='07; cd gpui-examples'
-alias gpl='07; cd gpui-list'
-alias gplist='07; cd gpui-list'
-alias gpuilist='07; cd gpui-list'
-alias km='07; cd gpui-keymap'
-alias kal='07; cd kallax'
-alias kel='07; cd kallex'
-alias lix='07; cd kallix'
+alias gpuiac='zalt; cd gpui-action'
+alias gpuix='zalt; cd gpui-examples'
+alias gpuiex='zalt; cd gpui-examples'
+alias gpl='zalt; cd gpui-list'
+alias gplist='zalt; cd gpui-list'
+alias gpuilist='zalt; cd gpui-list'
+alias km='zalt; cd gpui-keymap'
+alias kal='zalt; cd kallax'
+alias kel='zalt; cd kallex'
+alias lix='zalt; cd kallix'
 
 alias cleank='cd /Users/ma/Library/Application\ Support/org.kallax.kallax; rm kallax.sqlite'
 alias cleankal='cd /Users/ma/Library/Application\ Support/org.kallax.kallax; rm kallax.sqlite'
 
 ### loungy
-alias lou='cd ~/j/tmp07/loungy'
+alias lou='zalt; cd loungy'
 alias lourun='lou; ./target/debug/loungy'
 
-### zed
+
 alias zedbuild='git submodule update --init --recursive'
 alias buildzed='git submodule update --init --recursive'
 
@@ -136,7 +140,7 @@ alias zcme='cd ~/mia/dotfiles/config/zed'
 alias zcfgme='cd ~/mia/dotfiles/config/zed'
 alias zconfigme='cd ~/mia/dotfiles/config/zed'
 alias zme='./target/debug/Zed &'
-alias zno='cd ~/j/tmp07/zednotes'
+alias zno='zalt; cd zednotes'
 alias zgo='cd ~/j/tmp08/zed'
 alias ztmp='cd ~/j/tmp08/zedtmp'
 
@@ -161,7 +165,7 @@ alias noedme='noed; ./target/debug/Noed &'
 ### jed
 alias getjed='gc git@github.com:stormasm/jed.git'
 alias jme='jgo; ./target/debug/Jed &'
-alias jgo='cd ~/j/tmp07/jed'
+alias jgo='zalt; cd jed'
 
 ### Jed crates
 alias jgoc='jgo; cd crates'
