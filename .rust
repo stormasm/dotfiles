@@ -142,6 +142,9 @@ alias zconfigme='cd ~/mia/dotfiles/config/zed'
 alias zme='./target/debug/Zed &'
 alias zno='zalt; cd zednotes'
 alias zgo='cd ~/j/tmp08/zed'
+alias zgo9='cd ~/j/tmp09/zed'
+alias zgo9gpui='cd ~/j/tmp09/zed/crates/gpui'
+alias zgo9ex='cd ~/j/tmp09/zed/crates/gpui/examples'
 alias ztmp='cd ~/j/tmp08/zedtmp'
 
 ### storybook
@@ -629,6 +632,7 @@ alias cthno='ctno commands::help'
 alias ctnoex='ctno commands::tests::examples_work_as_expected'
 
 alias cta='cargo test --workspace'
+alias ctazed='cargo nextest run --workspace --no-fail-fast'
 alias ctaf='cargo test --workspace --all-features'
 alias ctan='cargo test --workspace --all-features'
 alias ctas='cargo test --workspace --features=stable'
