@@ -146,6 +146,7 @@ alias zgo9='cd ~/j/tmp09/zed'
 alias zgo9gpui='cd ~/j/tmp09/zed/crates/gpui'
 alias zgo9ex='cd ~/j/tmp09/zed/crates/gpui/examples'
 alias ztmp='cd ~/j/tmp08/zedtmp'
+alias zex='cd ~/j/tmp08/zed-examples'
 
 ### storybook
 alias sbt='cd ~/j/tmp06/storybook'
