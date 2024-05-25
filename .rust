@@ -227,8 +227,9 @@ alias rgintoelementfor='rg "impl IntoElement for"'
 
 alias rggt='rg gpui::test'
 
-### tree sitter
+### rust analyzer, tree sitter
 alias tsg='cd ~/j/tmp06'
+alias rago='tsg; cd rust-analyzer'
 alias tstop='cd ~/j/tmp07/tree-sitter'
 alias ts='tree-sitter'
 alias tsgen='ts generate'
