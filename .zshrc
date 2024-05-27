@@ -113,7 +113,7 @@ alias gd='git diff'
 ### to get out of detached HEAD state
 alias gitout='git switch -'
 
-alias gl='git log'
+# alias gl='git log'
 alias gll='gem list --local'
 alias gls='git log --stat'
 
