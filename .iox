@@ -341,8 +341,8 @@ alias ctpp='cnr physical_plan::'
 
 alias getglare='gc https://github.com/GlareDB/glaredb'
 
-alias glg='cd ~/j/tmp08/glaredb/crates/glaredb'
-alias glgt='cd ~/j/tmp08/glaredb'
+#alias glg='cd ~/j/tmp08/glaredb/crates/glaredb'
+#alias glgt='cd ~/j/tmp08/glaredb'
 
 alias glrun='~/j/tmp08/glaredb/target/debug/glaredb'
 alias glrunn='./target/debug/glaredb'
