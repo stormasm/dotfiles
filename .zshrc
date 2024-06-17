@@ -182,6 +182,7 @@ alias ubnt='cd ~/j/tmp99/ubnt'
 
 alias bm='cd ~/j/tmp99/bookmarks'
 alias hackmd='cd ~/j/tmp99/hackmd'
+alias life='cd ~/j/tmp99/life'
 alias music='cd ~/j/tmp99/music'
 alias pdf='cd ~/j/tmp99/pdf'
 alias pt='cd ~/mm/ptme'
@@ -190,6 +191,7 @@ alias resbio='cd ~/j/tmp99/research/bio'
 
 # spanish
 
+alias ptme='cd ~/j/tmp99/ptme'
 alias span='cd ~/j/tmp99/spanish'
 alias et='cd ~/j/tmp99/spanish/books/eterovic'
 alias hp='cd ~/j/tmp99/spanish/books/harrypotter'

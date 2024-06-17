@@ -193,7 +193,8 @@ alias zcp='zgo; cd crates/command_palette'
 alias zcpex='zgo; cd crates/command_palette/examples'
 alias zcpx='zgo; cd crates/command_palette/examples'
 alias zeded='zgo; cd crates/editor'
-alias zext='zgo; cd crates/extensions_ui'
+alias zext='zgo; cd crates/extension/src'
+alias zextui='zgo; cd crates/extensions_ui'
 alias zfb='zgo; cd crates/feedback'
 alias gpui='zgo; cd crates/gpui'
 alias gpuix='gpui; cd examples'
@@ -216,6 +217,7 @@ alias melib='cd "/Users/ma/Library"'
 alias meap='cd "/Users/ma/Library/Application Support"'
 alias meapp='cd "/Users/ma/Library/Application Support"'
 alias meas='cd "/Users/ma/Library/Application Support"'
+alias zedapp='cd "/Users/ma/Library/Application Support/Zed"'
 alias zedlib='cd "/Users/ma/Library/Application Support/Zed"'
 alias zedb='cd "/Users/ma/Library/Application Support/Zed/db"'
 alias zedlog='cd ~/Library/Logs/Zed'
@@ -228,7 +230,7 @@ alias rgintoelementfor='rg "impl IntoElement for"'
 alias rggt='rg gpui::test'
 
 ### rust analyzer, tree sitter
-alias tsg='cd ~/j/tmp06'
+alias tsg='cd ~/j/tmp05'
 alias rago='tsg; cd rust-analyzer'
 alias tstop='cd ~/j/tmp07/tree-sitter'
 alias ts='tree-sitter'
@@ -244,6 +246,7 @@ alias tsex='tsg; cd tree-sitter-examples'
 alias tsj='tsg; cd tree-sitter-javascript'
 alias tsjson='tsg; cd tree-sitter-json'
 alias tsmath='tsg; cd tree-sitter-math'
+alias tsn='tsg; cd tree-sitter-nu'
 alias tsnu='tsg; cd tree-sitter-nu'
 alias tspy='tsg; cd py-tree-sitter'
 
@@ -404,8 +407,8 @@ alias gpnus='git pull https://github.com/nushell/nu_scripts main'
 alias gpnusn='git pull https://github.com/nushell/nu_scripts main'
 alias gprl='git pull https://github.com/nushell/reedline main'
 alias gpgram='git pull https://github.com/nushell/grammar main'
-alias gpts='git pull https://github.com/fdncred/tree-sitter-nu main'
-alias gptsn='git pull https://github.com/fdncred/tree-sitter-nu main'
+alias gpts='git pull https://github.com/nushell/tree-sitter-nu main'
+alias gptsn='git pull https://github.com/nushell/tree-sitter-nu main'
 
 ###                                           ###
 #    nushell config location and manipulation   #
@@ -426,8 +429,8 @@ alias slconfig='cd /Users/ma/Library/Application\ Support/io.spaceandtime.schnap
 
 alias nudir='cd ~/j/tmp17'
 
+alias nutop16='cd ~/j/tmp16/nushell'
 alias nutop='cd ~/j/tmp17/nushell'
-alias nutopp='cd ~/j/tmp26/nushell'
 
 alias nucore='cd ~/j/tmp17/nushell-core'
 
@@ -503,10 +506,12 @@ alias nud='nudir; cd nudata'
 alias nuen='nutop; cd crates/nu-engine/src'
 alias nueng='nutop; cd crates/nu-engine/src'
 alias nuex='nutop; cd crates/nu-cmd-extra/src'
-alias nup='nutop; cd crates/nu-parser/src'
-alias nupar='nutop; cd crates/nu-parser/src'
-alias nupar2='cd ~/j/tmp13/nu_parser2'
-alias npr='~/j/tmp13/nu_parser2/target/debug/nu_parser'
+alias nup='nutop16; cd crates/nu-parser/src'
+alias nupt='nutop16; cd crates/nu-parser'
+alias nuptf='nutop16; cd crates/nu-parser/fuzz'
+alias nupf='nutop16; cd crates/nu-parser/fuzz'
+alias nupar='nutop16; cd crates/nu-parser/src'
+
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nustd='nutop; cd crates/nu-std/std'
 alias nuprom='cd ~/j/tmp17/nupro'
@@ -748,7 +753,9 @@ alias ctflex='cargo test --example flight_sql_server tests --features="cli fligh
 ##
 alias dp1="dply -c 'parquet(\"region.parquet\") | show()'"
 
-alias nnp='cd ~/j/tmp17/new-nu-parser'
+alias nnp='cd ~/j/tmp16/new-nu-parser'
+alias nnpme='cd ~/j/tmp16/nnp'
+alias nnpjt='cd ~/j/tmp16/sophiajt-new-nu-parser'
 alias gpnp='git pull https://github.com/sophiajt/new-nu-parser main'
 alias gpnnp='git pull https://github.com/sophiajt/new-nu-parser main'
 
@@ -764,3 +771,15 @@ alias gpm='cd ~/j/tmp17/nupm'
 
 alias gpgm='git pull https://github.com/amtoine/nu-git-manager main'
 alias gppm='git pull https://github.com/nushell/nupm main'
+
+##
+#   If gleam sticks over the longer
+#   term I will move these aliases
+#   to a separate file
+#
+#   so for now leave them at the bottom of this file
+##
+alias glg='cd ~/j/tmp06'
+alias glgo='glg; cd gleam'
+
+alias pis='cd ~/j/tmp17/pipestream'
