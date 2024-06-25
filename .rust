@@ -786,3 +786,4 @@ alias glgo='glg; cd gleam'
 alias pis='cd ~/j/tmp17/pipestream'
 
 alias lgo='cd ~/j/tmp05/lox'
+alias getrust='gcfast git@github.com:rust-lang/rust.git'
