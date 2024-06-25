@@ -753,7 +753,8 @@ alias ctflex='cargo test --example flight_sql_server tests --features="cli fligh
 ##
 alias dp1="dply -c 'parquet(\"region.parquet\") | show()'"
 
-alias nnp='cd ~/j/tmp16/new-nu-parser'
+alias nnpt='cd ~/j/tmp17/nutmp/nnp'
+alias nnpgo='cd ~/j/tmp16/new-nu-parser'
 alias nnpme='cd ~/j/tmp16/nnp'
 alias nnpjt='cd ~/j/tmp16/sophiajt-new-nu-parser'
 alias gpnp='git pull https://github.com/sophiajt/new-nu-parser main'
@@ -783,3 +784,5 @@ alias glg='cd ~/j/tmp06'
 alias glgo='glg; cd gleam'
 
 alias pis='cd ~/j/tmp17/pipestream'
+
+alias lgo='cd ~/j/tmp05/lox'
