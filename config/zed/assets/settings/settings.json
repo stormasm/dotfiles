@@ -3,11 +3,7 @@
     "dock": "left"
   },
   "assistant": {
-    "dock": "bottom",
-    "version": "1",
-    "provider": {
-      "name": "anthropic"
-    }
+    "dock": "bottom"
   },
   "terminal": {
     "dock": "bottom"
@@ -22,10 +18,10 @@
   },
   "vim_mode": false,
   "theme": "Rosé Wine",
-  "hover_popover_enabled": false,
+  "hover_popover_enabled": true,
   "language_overrides": {
     "Rust": {
-      "enable_language_server": false
+      "enable_language_server": true
     }
   },
   "experimental.theme_overrides": {
@@ -35,6 +31,16 @@
   "git": {
     "inline_blame": {
       "enabled": false
+    }
+  },
+  "inlayHints": {
+    "maxLength": null,
+    "lifetimeElisionHints": {
+      "useParameterNames": true,
+      "enable": "skip_trivial"
+    },
+    "closureReturnTypeHints": {
+      "enable": "always"
     }
   }
 }
