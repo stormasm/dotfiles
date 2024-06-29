@@ -10,6 +10,16 @@ alias rustbin='cd ~/mia/rust/bin'
 alias rback='RUST_BACKTRACE=1'
 alias rbackfull='RUST_BACKTRACE=full'
 
+alias sgo='cd ~/j/tmp13/syn'
+alias syngo='cd ~/j/tmp13/syn'
+
+### fd tools
+#
+### Search across all of 'j' for a particular repo
+# fd -d 2 syn
+alias fdfind='fd -d 2'
+alias fdlook='fd -d 2'
+
 ### Find target directories
 
 alias rfme='fd -I -t=d'
@@ -452,6 +462,7 @@ alias nun='nurun -n --no-std-lib'
 
 alias nur='./target/debug/nu'
 alias nurunn='./target/debug/nu'
+alias nuir='./target/debug/nu -n --no-std-lib --use-ir'
 
 alias nurunoconfig='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
 
@@ -511,6 +522,8 @@ alias nupt='nutop16; cd crates/nu-parser'
 alias nuptf='nutop16; cd crates/nu-parser/fuzz'
 alias nupf='nutop16; cd crates/nu-parser/fuzz'
 alias nupar='nutop16; cd crates/nu-parser/src'
+
+alias devir='cd ~/j/tmp18/nushell'
 
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nustd='nutop; cd crates/nu-std/std'
