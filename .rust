@@ -464,7 +464,7 @@ alias nun='nurun -n --no-std-lib'
 alias nur='./target/debug/nu'
 alias nurunn='./target/debug/nu'
 alias nunn='nurunn -n --no-std-lib'
-alias nuir='./target/debug/nu -n --no-std-lib --use-ir'
+alias nuir='./target/debug/nu --use-ir'
 
 alias nurunoconfig='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
 
