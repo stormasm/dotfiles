@@ -301,6 +301,7 @@ alias fil='cd ~/j/tmp17/nushell/crates/nu-command/src/filters'
 
 ### rust-notes
 alias nuno='cd ~/j/tmp17/nunotes'
+alias nunoir='nuno; cd ir'
 alias rn='cd ~/j/tmp07/rust-notes'
 alias rno='cd ~/j/tmp07/rust-notes'
 
@@ -462,6 +463,7 @@ alias nun='nurun -n --no-std-lib'
 
 alias nur='./target/debug/nu'
 alias nurunn='./target/debug/nu'
+alias nunn='nurunn -n --no-std-lib'
 alias nuir='./target/debug/nu -n --no-std-lib --use-ir'
 
 alias nurunoconfig='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
@@ -634,6 +636,8 @@ alias cnrlistall='cargo nextest list --workspace --cargo-profile ci --all-featur
 alias cnrlist='cargo nextest list'
 alias cnr='cargo nextest run'
 alias cnra='cargo nextest run --all --all-features'
+alias cnranf='cnra --no-fail-fast'
+alias ctall='cnranf'
 alias cnrb='cargo nextest run --all --features extra'
 alias cnrn='cargo nextest run --no-capture'
 alias cnrno='cargo nextest run --no-capture'
@@ -668,8 +672,8 @@ alias ctex='ct --workspace --features=extra'
 alias ctexbits='ct --workspace --features=extra bits::'
 alias ctexbytes='ct --workspace --features=extra bytes::'
 
-alias cnex='cargo nextest run --all --features=extra'
-alias cnexbits='cargo nextest run --all --features=extra bits::'
+#alias cnex='cargo nextest run --all --features=extra'
+#alias cnexbits='cargo nextest run --all --features=extra bits::'
 
 #
 # Helix
@@ -770,8 +774,8 @@ alias nnpt='cd ~/j/tmp17/nutmp/nnp'
 alias nnpgo='cd ~/j/tmp16/new-nu-parser'
 alias nnpme='cd ~/j/tmp16/nnp'
 alias nnpjt='cd ~/j/tmp16/sophiajt-new-nu-parser'
-alias gpnp='git pull https://github.com/sophiajt/new-nu-parser main'
-alias gpnnp='git pull https://github.com/sophiajt/new-nu-parser main'
+alias gpnp='git pull https://github.com/nushell/new-nu-parser main'
+alias gpnnp='git pull https://github.com/nushell/new-nu-parser main'
 
 ##
 #   nu-git-manager
