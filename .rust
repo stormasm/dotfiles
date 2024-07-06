@@ -527,6 +527,8 @@ alias nupar='nutop16; cd crates/nu-parser/src'
 
 alias devir='cd ~/j/tmp18/nushell'
 
+alias wgo='cd ~/j/tmp17/nutmp/scripts/weather'
+
 alias nupro='nutop; cd crates/nu-protocol/src'
 alias nustd='nutop; cd crates/nu-std/std'
 alias nuprom='cd ~/j/tmp17/nupro'
