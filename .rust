@@ -642,7 +642,7 @@ alias cnrb='cargo nextest run --all --features extra'
 alias cnrn='cargo nextest run --no-capture'
 alias cnrno='cargo nextest run --no-capture'
 
-alias ct='cargo test'
+alias ct='cargo test --no-fail-fast'
 alias ctt='ct --test'
 alias ctlist='cargo test -- --list'
 alias ctno='cargo test -- --nocapture'
