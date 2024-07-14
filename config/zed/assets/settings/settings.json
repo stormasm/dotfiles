@@ -19,7 +19,7 @@
   "vim_mode": false,
   "theme": "Rosé Wine",
   "hover_popover_enabled": true,
-  "language_overrides": {
+  "languages": {
     "Rust": {
       "enable_language_server": true
     }
