@@ -1,4 +1,6 @@
 
+alias jl='jupyter lab'
+
 alias bf='black .'
 alias ctos='csvs-to-sqlite'
 alias ip='ipython'
