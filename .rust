@@ -214,6 +214,7 @@ alias zgpui='zgo; cd crates/gpui'
 alias zgpuix='zgo; cd crates/gpui/examples'
 alias zgpuiex='zgo; cd crates/gpui/examples'
 alias zmac='zgo; cd crates/gpui_macros'
+alias zhtml='zgo; cd crates/html_to_markdown/src'
 alias zproj='zgo; cd crates/project'
 alias zprojp='zgo; cd crates/project_panel'
 alias zprojpanel='zgo; cd crates/project_panel'
@@ -633,9 +634,13 @@ alias rexv='rex; cd vec'
 # You have to run the cta command first prior to running the tests
 #
 
+alias cta='cargo test --workspace'
+alias ctazed='cargo nextest run --workspace --no-fail-fast'
+alias ctalist='cargo nextest list --workspace'
 
 alias cnrlistall='cargo nextest list --workspace --cargo-profile ci --all-features'
 alias cnrlist='cargo nextest list'
+alias cnl='cargo nextest list'
 alias cnr='cargo nextest run'
 alias cnra='cargo nextest run --all --all-features'
 alias cnranf='cnra --no-fail-fast'
@@ -657,8 +662,6 @@ alias cthno='ctno commands::help'
 
 alias ctnoex='ctno commands::tests::examples_work_as_expected'
 
-alias cta='cargo test --workspace'
-alias ctazed='cargo nextest run --workspace --no-fail-fast'
 alias ctaf='cargo test --workspace --all-features'
 alias ctan='cargo test --workspace --all-features'
 alias ctas='cargo test --workspace --features=stable'
