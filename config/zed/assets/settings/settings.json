@@ -1,9 +1,14 @@
 {
+  "jupyter": {
+    "enabled": true,
+    "kernels": {
+      "python": "python3",
+      "typescript": "deno-debug"
+    }
+  },
+
   "chat_panel": {
     "dock": "left"
-  },
-  "assistant": {
-    "dock": "bottom"
   },
   "terminal": {
     "dock": "bottom"
