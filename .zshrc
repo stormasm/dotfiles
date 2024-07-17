@@ -8,10 +8,14 @@ export PATH=~/mia/sqlitetools:~/mia/rust/bin:/usr/local/bin:/Applications/Postgr
 
 export PATH=$PATH:$(pwd)
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
 export PATH="$HOME/j/tmp49/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+
+# Homebrew: Python
+export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"
 
 ### java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
