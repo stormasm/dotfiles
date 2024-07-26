@@ -66,7 +66,6 @@ alias crb='cargo run --bin'
 alias cre='cargo run --example'
 alias crr='cargo run --release'
 
-alias cref='cargo run --features="runtime unstable-stream" --example'
 alias crec='cargo run --example connect 127.0.0.1:8080'
 
 alias ciman='cargo fmt; cargo check; cargo clippy; cargo test --workspace --all-features'
@@ -220,7 +219,9 @@ alias zprojp='zgo; cd crates/project_panel'
 alias zprojpanel='zgo; cd crates/project_panel'
 alias zqab='zgo; cd crates/quick_action_bar/src'
 alias zrepl='zgo; cd crates/repl/src'
+alias rtd='zgo; cd ../runtimed/runtimed'
 alias rtl='zgo; cd ../runtimed/runtimelib/src'
+alias rtt='zgo; cd ../runtimed/runt'
 alias zui='zgo; cd crates/ui'
 alias zwork='zgo; cd crates/workspace'
 alias zzed='zgo; cd crates/zed'
@@ -811,5 +812,15 @@ alias glgo='glg; cd gleam'
 alias pis='cd ~/j/tmp17/pipestream'
 
 alias lgo='cd ~/j/tmp05/lox'
-alias getrust='gcfast git@github.com:rust-lang/rust.git'
 alias diary='cd ~/j/tmp99/diary'
+
+##
+#    Rust Compiler
+##
+
+alias getrust='gcfast git@github.com:rust-lang/rust.git'
+
+##
+#    Jupyter Repl
+##
+alias irust='cd ~/j/tmp08/irust'
