@@ -801,6 +801,9 @@ alias gpm='cd ~/j/tmp17/nupm'
 alias gpgm='git pull https://github.com/amtoine/nu-git-manager main'
 alias gppm='git pull https://github.com/nushell/nupm main'
 
+alias gpgp='git pull https://github.com/huacnlee/gpui-component main'
+alias gpuicom='cd ~/j/tmp07/gpui-component'
+
 ##
 #   If gleam sticks over the longer
 #   term I will move these aliases
