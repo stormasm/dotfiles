@@ -227,6 +227,7 @@ alias rtd='zgo; cd ../runtimed/runtimed'
 alias rtl='zgo; cd ../runtimed/runtimelib/src'
 alias rtt='zgo; cd ../runtimed/runt'
 alias zui='zgo; cd crates/ui'
+alias zwel='zgo; cd crates/welcome/src'
 alias zwork='zgo; cd crates/workspace'
 alias zzed='zgo; cd crates/zed'
 
