@@ -229,6 +229,8 @@ alias rtt='zgo; cd ../runtimed/runt'
 alias zui='zgo; cd crates/ui'
 alias zwel='zgo; cd crates/welcome/src'
 alias zwork='zgo; cd crates/workspace'
+alias zedzed='zgo; cd crates/zed'
+alias zgozed='zgo; cd crates/zed'
 alias zzed='zgo; cd crates/zed'
 
 alias zedconfig='cd ~/.config/zed'
