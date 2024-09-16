@@ -38,7 +38,7 @@ export MANPATH=/opt/local/share/man:$MANPATH
 #
 
 export XDG_CONFIG_HOME=/Users/ma/.config
-export NU_USE_IR=true
+#  export NU_USE_IR=true
 
 #
 #  Begin alias definitions
