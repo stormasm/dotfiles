@@ -34,6 +34,7 @@ alias ca='cargo'
 alias cben='cargo bench'
 alias cbench='cargo bench'
 
+alias cca='cargo cache -a'
 alias cb='cargo build'
 alias cba='cargo build --all-features'
 alias cbr='cargo build --release'
