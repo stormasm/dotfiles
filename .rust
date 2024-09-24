@@ -127,7 +127,7 @@ alias calc='zalt; cd gpui-calculator'
 alias km='zalt; cd gpui-keymap'
 alias kal='zalt; cd kallax'
 alias kel='zalt; cd kallex'
-alias lix='zalt; cd kallix'
+alias lix='zalt; cd kallix-1.77'
 alias zno='zalt; cd zednotes'
 
 alias cleank='cd /Users/ma/Library/Application\ Support/org.kallax.kallax; rm kallax.sqlite'
