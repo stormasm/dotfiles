@@ -128,6 +128,7 @@ alias km='zalt; cd gpui-keymap'
 alias kal='zalt; cd kallax'
 alias kel='zalt; cd kallex'
 alias lix='zalt; cd kallix-1.77'
+alias op='zalt; cd ownership_post'
 alias zno='zalt; cd zednotes'
 
 alias cleank='cd /Users/ma/Library/Application\ Support/org.kallax.kallax; rm kallax.sqlite'
@@ -851,3 +852,9 @@ alias getrust='gcfast git@github.com:rust-lang/rust.git'
 #    Jupyter Repl
 ##
 alias irust='cd ~/j/tmp08/irust'
+
+##
+#    Fish Shell
+##
+alias fish='~/j/tmp17/fish-shell/target/debug/fish'
+alias eqfish='cd ~/j/tmp17/fish-shell'
