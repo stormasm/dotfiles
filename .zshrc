@@ -144,6 +144,12 @@ alias gsur='git submodule update --init --recursive'
 
 alias gsw='git switch -'
 
+alias t1='gpo take1'
+alias t2='gpo take2'
+alias t3='gpo take3'
+alias t4='gpo take4'
+alias t5='gpo take5'
+
 ### dot commands
 
 alias dot='cd ~/mia/dotfiles'
