@@ -825,6 +825,8 @@ alias getgpuicomstorm='git clone git@github.com:stormasm/gpui-component.git'
 alias gpgp='git pull https://github.com/huacnlee/gpui-component main'
 alias gpuicom='cd ~/j/tmp07/gpui-component'
 alias gpuicomno='cd ~/j/tmp07/gpuicom-notes'
+alias gpuiui='gpuicom; cd crates/ui/src'
+alias gpuistory='gpuicom; cd crates/story/src'
 alias gpuiold='cd ~/j/tmp06/gpui-component-pre172'
 
 ##
