@@ -170,6 +170,14 @@ alias rediscsent='cd ~/mia/redisio/redis/src; ./redis-cli -p 26379'
 alias redislog='cd ~/mia/redislog'
 
 #
+# pics & jimkline
+#
+
+alias pics='cd ~/k/pics'
+alias jimkline='pics; cd jimkline'
+alias jk='pics; cd jimkline'
+
+#
 # Comcast Trouble Shooting and onend
 #
 
