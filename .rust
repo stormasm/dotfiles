@@ -833,6 +833,7 @@ alias gpuicom7='cd ~/j/tmp07/gpui-component-7de1c69'
 alias gpuicom7d='cd ~/j/tmp07/gpui-component-7de1c69'
 alias gpuiold='cd ~/j/tmp06/gpui-component-pre172'
 
+alias gpuino='cd ~/j/tmp07/gpuicom-notes'
 alias gpuicomno='cd ~/j/tmp07/gpuicom-notes'
 
 alias gpuiui='gpuicom; cd crates/ui/src'
@@ -869,3 +870,9 @@ alias irust='cd ~/j/tmp08/irust'
 ##
 alias fish='~/j/tmp17/fish-shell/target/debug/fish'
 alias eqfish='cd ~/j/tmp17/fish-shell'
+
+##
+#    egui
+##
+alias egui='cd ~/j/tmp28/egui'
+alias iced='cd ~/j/tmp28/iced'
