@@ -876,3 +876,8 @@ alias eqfish='cd ~/j/tmp17/fish-shell'
 ##
 alias egui='cd ~/j/tmp28/egui'
 alias iced='cd ~/j/tmp28/iced'
+alias muz='cd ~/j/tmp09/muzak'
+alias muzak='cd ~/j/tmp09/muzak'
+alias gpmuz='git pull https://github.com/143mailliw/muzak master'
+alias gpmuzak='git pull https://github.com/143mailliw/muzak master'
+alias diox='cd ~/j/tmp09/dioxus'
