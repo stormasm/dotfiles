@@ -375,9 +375,9 @@ alias se='cd ~/j/tmp13/serde'
 alias sex='cd ~/j/tmp13/serde-examples'
 alias sexr='cd ~/j/tmp13/serde-examples/ron'
 alias sj='cd ~/j/tmp13/serde-json'
-alias rmp='cd ~/j/tmp13/msgpack-rust'
+alias xxrmp='cd ~/j/tmp13/msgpack-rust'
 alias ron='cd ~/j/tmp13/ron'
-alias sm='cd ~/j/tmp13/msgpack-rust/rmp-serde'
+alias xxsm='cd ~/j/tmp13/msgpack-rust/rmp-serde'
 alias sy='cd ~/j/tmp13/serde-yaml'
 
 ### canop/whalespotter.git
@@ -881,3 +881,9 @@ alias muzak='cd ~/j/tmp09/muzak'
 alias gpmuz='git pull https://github.com/143mailliw/muzak master'
 alias gpmuzak='git pull https://github.com/143mailliw/muzak master'
 alias diox='cd ~/j/tmp09/dioxus'
+
+##
+#   tailwind et al
+##
+alias twex='cd ~/j/tmp10/tailwind-examples'
+alias twgo='npx tailwindcss -i ./src/input.css -o ./src/output.css --watch'
