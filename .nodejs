@@ -20,6 +20,9 @@ alias nrc='npx rollup --config'
 ### install rollup locally
 alias nroll='npm install rollup --save-dev'
 
+### pnpm commands
+alias pn='pnpm'
+
 ### npm commands
 
 alias nprb='npm run build'
@@ -45,4 +48,3 @@ alias jsb='js-beautify $1 -o $1'
 #
 alias jp='prettier --write'
 alias pj='prettier --write'
-
