@@ -48,3 +48,13 @@ alias jsb='js-beautify $1 -o $1'
 #
 alias jp='prettier --write'
 alias pj='prettier --write'
+
+##
+#   tailwind et al
+##
+alias twa='cd ~/j/tmp10/tailwindcss'
+alias twd='cd ~/j/tmp10/tailwindcss.com'
+alias twdoc='cd ~/j/tmp10/tailwindcss.com'
+alias twex='cd ~/j/tmp10/tailwind-examples'
+alias twgo='tailwindcss -i ./src/input.css -o ./src/output.css --watch'
+alias twgox='npx tailwindcss -i ./src/input.css -o ./src/output.css --watch'
