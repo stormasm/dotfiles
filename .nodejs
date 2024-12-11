@@ -26,7 +26,10 @@ alias pn='pnpm'
 ### npm commands
 
 alias nprb='npm run build'
+alias nrd='npm run dev'
+alias npr='npm run dev'
 alias nprd='npm run dev'
+alias nprun='npm run dev'
 alias nprdeploy='npm run deploy'
 alias npi='npm install'
 alias npiy='npm init -y'
@@ -53,8 +56,12 @@ alias pj='prettier --write'
 #   tailwind et al
 ##
 alias twa='cd ~/j/tmp10/tailwindcss'
-alias twd='cd ~/j/tmp10/tailwindcss.com'
-alias twdoc='cd ~/j/tmp10/tailwindcss.com'
+
+alias twdorig='cd ~/j/tmp10/tailwindcss.com'
+alias twdcss='cd ~/j/tmp10/tailwindcss.com'
+alias twd='cd ~/j/tmp11/tailwindoc'
+alias twdoc='cd ~/j/tmp11/tailwindoc'
+
 alias twex='cd ~/j/tmp10/tailwind-examples'
 alias twgo='tailwindcss -i ./src/input.css -o ./src/output.css --watch'
 alias twgox='npx tailwindcss -i ./src/input.css -o ./src/output.css --watch'
