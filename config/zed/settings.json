@@ -1,0 +1,60 @@
+{
+  "jupyter": {
+    "enabled": true,
+    "kernels": {
+      "python": "python3",
+      "typescript": "deno-debug"
+    }
+  },
+
+  "chat_panel": {
+    "dock": "left"
+  },
+  "terminal": {
+    "dock": "bottom"
+  },
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "base_keymap": "VSCode",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "vim_mode": false,
+  "theme": "Rosé Pine",
+  "hover_popover_enabled": true,
+  "languages": {
+    "Rust": {
+      "enable_language_server": true
+    }
+  },
+  "experimental.theme_overrides": {
+    "editor.background": "#111111",
+    "search.match_background": "#0000aa"
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "inlayHints": {
+    "maxLength": null,
+    "lifetimeElisionHints": {
+      "useParameterNames": true,
+      "enable": "skip_trivial"
+    },
+    "closureReturnTypeHints": {
+      "enable": "always"
+    }
+  },
+  // Toolbar related settings
+  "toolbar": {
+    // Whether to show breadcrumbs.
+    "breadcrumbs": false,
+    // Whether to show quick action buttons.
+    "quick_actions": true,
+    // Whether to show the Selections menu in the editor toolbar
+    "selections_menu": true
+  }
+}
