@@ -888,6 +888,6 @@ alias diox='cd ~/j/tmp09/dioxus'
 #
 # Random
 #
-alias mex='cd ~/j/tmp99/travel/mexico'
-alias mexico='cd ~/j/tmp99/travel/mexico'
+alias mex='cd ~/j/tmp99/mexico'
+alias mexico='cd ~/j/tmp99/mexico'
 alias logos='cd ~/j/tmp05/logos'
