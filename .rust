@@ -891,3 +891,16 @@ alias diox='cd ~/j/tmp09/dioxus'
 alias mex='cd ~/j/tmp99/mexico'
 alias mexico='cd ~/j/tmp99/mexico'
 alias logos='cd ~/j/tmp05/logos'
+
+# https://github.com/static-web-server/static-web-server
+#
+# static-web-server --root ./purple241226 --port 3000
+#
+# sws --root ./purple241226 --port 3000
+#
+# or make your default folder ./public
+# and then this will work
+alias sws='sws --port 3000'
+#
+#
+# type this as your url: http://localhost:3000/Sheet1.html
