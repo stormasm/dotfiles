@@ -909,3 +909,4 @@ alias sws='sws --port 3000'
 # https://www.reddit.com/r/rust/comments/3ovsm0/how_do_i_count_all_files_in_directory/
 #
 alias numofiles='find /Users/ma/j/tmp33/nushell.github.io | wc -l'
+alias nof='lsr | wc -l'
