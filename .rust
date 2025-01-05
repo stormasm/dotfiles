@@ -904,3 +904,8 @@ alias sws='sws --port 3000'
 #
 #
 # type this as your url: http://localhost:3000/Sheet1.html
+
+#
+# https://www.reddit.com/r/rust/comments/3ovsm0/how_do_i_count_all_files_in_directory/
+#
+alias numofiles='find /Users/ma/j/tmp33/nushell.github.io | wc -l'
