@@ -903,10 +903,9 @@ alias logos='cd ~/j/tmp05/logos'
 alias sws='sws --port 3000'
 #
 #
-# type this as your url: http://localhost:3000/Sheet1.html
-
-#
-# https://www.reddit.com/r/rust/comments/3ovsm0/how_do_i_count_all_files_in_directory/
+# type this as your url:
+# http://localhost:3000/Sheet1.html
+# http://localhost:3000/bookmarks_1_20_25.html
 #
 alias numofiles='find /Users/ma/j/tmp33/nushell.github.io | wc -l'
 alias nof='lsr | wc -l'
