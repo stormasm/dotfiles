@@ -155,7 +155,10 @@ alias t5='gpo take5'
 alias dot='cd ~/mia/dotfiles'
 alias dotc='cd ~/mia/dotfiles'
 
-alias dotcp='cd ~; cp .gitconfig ~/mia/dotfiles; cp .zshrc ~/mia/dotfiles; cp .python ~/mia/dotfiles; cp .golang ~/mia/dotfiles; cp .vimrc ~/mia/dotfiles; cp .secret ~/mia/dotfiles; cp .nodejs ~/mia/dotfiles; cp .rust ~/mia/dotfiles; cp .iox ~/mia/dotfiles'
+alias dotcp='cd ~; cp .gitconfig ~/mia/dotfiles; cp .zshrc ~/mia/dotfiles; cp .rust ~/mia/dotfiles'
+
+alias dotcpold='cd ~; cp .gitconfig ~/mia/dotfiles; cp .zshrc ~/mia/dotfiles; cp .python ~/mia/dotfiles; cp .golang ~/mia/dotfiles; cp .vimrc ~/mia/dotfiles; cp .secret ~/mia/dotfiles; cp .nodejs ~/mia/dotfiles; cp .rust ~/mia/dotfiles; cp .iox ~/mia/dotfiles'
+
 
 alias dotdiff='cd ~; diff .zshrc ~/mia/dotfiles/.zshrc; diff .python ~/mia/dotfiles/.python; diff .golang ~/mia/dotfiles/.golang; diff .secret ~/mia/dotfiles/.secret; diff .nodejs ~/mia/dotfiles/.nodejs; diff .rust ~/mia/dotfiles/.rust; diff .iox ~/mia/dotfiles/.iox'
 
