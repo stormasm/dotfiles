@@ -1,15 +1,6 @@
+# This is Git's per-user configuration file.
 [user]
+# Please adapt and uncomment the following lines:
 	name = Michael Angerman
 	email = 1809991+stormasm@users.noreply.github.com
-[core]
-	editor = emacs
-	deltaBaseCacheLimit = 1G
-[credential]
-	helper = osxkeychain
-[filter "lfs"]
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-[pull]
-	ff = only
+	
