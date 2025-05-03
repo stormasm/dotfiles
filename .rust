@@ -907,3 +907,5 @@ alias sws='sws --port 3000'
 #
 alias numofiles='find /Users/ma/j/tmp33/nushell.github.io | wc -l'
 alias nof='lsr | wc -l'
+
+alias memg='cd ~/j/tmp07/memgame'
