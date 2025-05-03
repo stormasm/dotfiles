@@ -71,7 +71,7 @@ alias crec='cargo run --example connect 127.0.0.1:8080'
 
 alias ciman='cargo fmt; cargo check; cargo clippy; cargo test --workspace --all-features'
 alias ccfcc='cargo fmt; cargo check; cargo clippy'
-alias ccl='cargo clippy'
+alias ccl='cargo clean'
 alias clip='cargo clippy'
 alias cch='cargo check'
 alias check='cargo check'
