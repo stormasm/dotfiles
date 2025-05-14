@@ -830,6 +830,7 @@ alias gpgp='git pull https://github.com/longbridge/gpui-component main'
 alias dock='cd ~/j/tmp15/gpuicom-dock'
 alias dockdock='cd ~/j/tmp15/gpuicom-dock/crates/ui/src/dock'
 
+alias gpuicome='cd ~/j/tmp07/gpui-component'
 alias gpuicom='cd ~/j/tmp11/gpui-component'
 
 alias gno='cd ~/j/tmp07/gpuicom-notes'
@@ -837,9 +838,9 @@ alias gnotes='cd ~/j/tmp07/gpuicom-notes'
 alias gpuino='cd ~/j/tmp07/gpuicom-notes'
 alias gpuicomno='cd ~/j/tmp07/gpuicom-notes'
 
-alias gpuiui='gpuicom; cd crates/ui/src'
-alias gpuistory='gpuicom; cd crates/story/src'
-alias gpuicomex='gpuicom; cd crates/story/examples'
+alias gpuiui='gpuicome; cd crates/ui/src'
+alias gpuistory='gpuicome; cd crates/story/src'
+alias gpuicomex='gpuicome; cd crates/story/examples'
 
 alias gpui25='cd ~/j/tmp07/gpuicom-2504'
 
