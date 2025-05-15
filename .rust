@@ -218,7 +218,7 @@ alias zextui='zgo; cd crates/extensions_ui'
 alias zfb='zgo; cd crates/feedback'
 alias gpui='zgo; cd crates/gpui'
 alias gpuix='gpui; cd examples'
-alias gpuiex='gpui; cd examples'
+#alias gpuiex='gpui; cd examples'
 alias zgui='zgo; cd crates/gpui'
 alias zgpui='zgo; cd crates/gpui'
 alias zgpuim='zgo; cd crates/gpui_macros'
@@ -840,7 +840,7 @@ alias gpuicomno='cd ~/j/tmp07/gpuicom-notes'
 
 alias gpuiui='gpuicome; cd crates/ui/src'
 alias gpuistory='gpuicome; cd crates/story/src'
-alias gpuicomex='gpuicome; cd crates/story/examples'
+alias gpuiex='gpuicome; cd crates/story/examples'
 
 alias gpui25='cd ~/j/tmp07/gpuicom-2504'
 
