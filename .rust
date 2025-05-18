@@ -839,6 +839,7 @@ alias gpuino='cd ~/j/tmp07/gpuicom-notes'
 alias gpuicomno='cd ~/j/tmp07/gpuicom-notes'
 
 alias gpuiui='gpuicome; cd crates/ui/src'
+alias gpuidock='gpuicome; cd crates/ui/src/dock'
 alias gpuistory='gpuicome; cd crates/story/src'
 alias gpuiex='gpuicome; cd crates/story/examples'
 
