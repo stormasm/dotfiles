@@ -331,7 +331,7 @@ alias fil='cd ~/j/tmp17/nushell/crates/nu-command/src/filters'
 alias nuno='cd ~/j/tmp17/nunotes'
 alias nunoir='nuno; cd ir'
 alias rn='cd ~/j/tmp07/rust-notes'
-alias rno='cd ~/j/tmp07/rust-notes'
+alias rno='cd ~/j/tmp21/rust-notes'
 
 ### nudev
 alias nudev='cd ~/j/tmp17/nudev'
@@ -895,21 +895,11 @@ alias mex='cd ~/j/tmp99/mexico'
 alias mexico='cd ~/j/tmp99/mexico'
 alias logos='cd ~/j/tmp05/logos'
 
-# https://github.com/static-web-server/static-web-server
 #
-# static-web-server --root ./purple241226 --port 3000
+# https://github.com/stormasm/rust-notes/blob/main/static-web-server.md
 #
-# sws --root ./purple241226 --port 3000
-#
-# or make your default folder ./public
-# and then this will work
 alias sws='sws --port 3000'
-#
-#
-# type this as your url:
-# http://localhost:3000/Sheet1.html
-# http://localhost:3000/bookmarks_1_20_25.html
-#
+
 alias numofiles='find /Users/ma/j/tmp33/nushell.github.io | wc -l'
 alias nof='lsr | wc -l'
 
