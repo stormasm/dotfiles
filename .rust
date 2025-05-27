@@ -17,6 +17,7 @@ alias syngo='cd ~/j/tmp13/syn'
 #
 ### Search across all of 'j' for a particular repo
 # fd -d 2 syn
+alias fdgo='cd ~/j/tmp20/fd'
 alias fdfind='fd -d 2'
 alias fdlook='fd -d 2'
 
