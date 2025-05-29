@@ -336,6 +336,10 @@ alias nunoir='nuno; cd ir'
 alias rn='cd ~/j/tmp07/rust-notes'
 alias rno='cd ~/j/tmp21/rust-notes'
 
+### python-notes
+alias pno='cd ~/j/tmp34/python-notes'
+alias pythonotes='cd ~/j/tmp34/python-notes'
+
 ### nudev
 alias nudev='cd ~/j/tmp17/nudev'
 
