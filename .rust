@@ -5,6 +5,8 @@ alias nightly='rustup default nightly'
 alias nightlyinstall='rustup install nightly'
 
 alias rbin='cd ~/mia/rust/bin'
+alias pbin='cd ~/mia/uv/python/bin'
+alias pythonbin='cd ~/mia/uv/python/bin'
 alias rustbin='cd ~/mia/rust/bin'
 
 alias rback='RUST_BACKTRACE=1'

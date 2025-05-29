@@ -2,7 +2,7 @@
 # Setting up the PATH always is the first line in the file
 #
 
-export PATH=~/mia/sqlitetools:~/mia/rust/bin:/usr/local/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/node/bin:~/mia/zig:~/mia/go/bin:~/go/bin:~/mia/gh/bin:~/mia/nvim/bin:~/.cache/rebar3/bin:~/.local/bin:$PATH
+export PATH=~/mia/sqlitetools:~/mia/rust/bin:~/mia/uv/python/bin:~/mia/uv/bin:/usr/local/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:~/.rvm/bin:~/mia/protoc/bin:~/mia/node/bin:~/mia/zig:~/mia/go/bin:~/go/bin:~/mia/gh/bin:~/mia/nvim/bin:~/.cache/rebar3/bin:~/.local/bin:$PATH
 
 # Always add the current directory to your PATH so it finds local binaries
 
@@ -16,6 +16,9 @@ export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
 # Homebrew: Python
 export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"
+
+### python uv
+export UV_PYTHON_INSTALL_DIR=/Users/ma/mia/uv
 
 ### java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
