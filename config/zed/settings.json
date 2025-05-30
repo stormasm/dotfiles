@@ -14,6 +14,20 @@
     "light": "One Light",
     "dark": "Rosé Pine"
   },
+  "languages": {
+    "Python": {
+      "language_servers": ["!pylsp", "..."]
+    }
+  },
+  "jupyter": {
+    "kernel_selections": {
+      "nu": "nu",
+      "python": "python3",
+      "typescript": "deno",
+      "javascript": "deno",
+      "r": "ark"
+    }
+  },
   "git": {
     "inline_blame": {
       "enabled": false
