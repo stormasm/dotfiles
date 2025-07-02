@@ -880,6 +880,14 @@ alias getrust='gcfast git@github.com:rust-lang/rust.git'
 alias irust='cd ~/j/tmp08/irust'
 
 ##
+#    Taffy
+##
+alias taf='cd ~/j/tmp08/taffy'
+alias taffy='cd ~/j/tmp08/taffy'
+alias gptaf='git pull https://github.com/DioxusLabs/taffy main'
+alias gptaffy='git pull https://github.com/DioxusLabs/taffy main'
+
+##
 #    Fish Shell
 ##
 alias fish='~/j/tmp17/fish-shell/target/debug/fish'
