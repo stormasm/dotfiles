@@ -880,10 +880,14 @@ alias getrust='gcfast git@github.com:rust-lang/rust.git'
 alias irust='cd ~/j/tmp08/irust'
 
 ##
-#    Taffy
+#    Blitz & Dioxus & Taffy
 ##
-alias taf='cd ~/j/tmp08/taffy'
-alias taffy='cd ~/j/tmp08/taffy'
+alias bl='cd ~/j/tmp09/blitz'
+alias diox='cd ~/j/tmp09/dioxus'
+alias taf='cd ~/j/tmp09/taffy'
+alias taffy='cd ~/j/tmp09/taffy'
+alias gpbl='git pull https://github.com/DioxusLabs/blitz main'
+alias gpdiox='git pull https://github.com/DioxusLabs/dioxus main'
 alias gptaf='git pull https://github.com/DioxusLabs/taffy main'
 alias gptaffy='git pull https://github.com/DioxusLabs/taffy main'
 
