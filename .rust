@@ -134,9 +134,6 @@ alias kel='zalt; cd kallex'
 alias lix='zalt; cd kallix-1.77'
 alias op='zalt; cd ownership_post'
 alias zno='cd ~/j/tmp08/zednotes'
-alias uin='cd ~/j/tmp09/uinotes'
-alias uino='cd ~/j/tmp09/uinotes'
-alias uinotes='cd ~/j/tmp09/uinotes'
 
 alias cleank='cd /Users/ma/Library/Application\ Support/org.kallax.kallax; rm kallax.sqlite'
 alias cleankal='cd /Users/ma/Library/Application\ Support/org.kallax.kallax; rm kallax.sqlite'
@@ -168,12 +165,6 @@ alias zmexa='./target/debug/zedxa &'
 alias zmexan='./target/debug/zedxa'
 
 alias zgo='cd ~/j/tmp08/zed'
-alias zgo9='cd ~/j/tmp09/zed'
-alias zedrel='cd ~/j/tmp06/zedrel'
-alias zedpick='cd ~/j/tmp05/zedpick'
-alias zgo9gpui='cd ~/j/tmp09/zed/crates/gpui/src'
-alias gpui3='cd ~/j/tmp09/zed/crates/gpui3/src'
-alias zgo9ex='cd ~/j/tmp09/zed/crates/gpui/examples'
 alias ztmp='cd ~/j/tmp08/zedtmp'
 alias zex='cd ~/j/tmp08/zed-examples'
 
@@ -883,14 +874,24 @@ alias getrust='gcfast git@github.com:rust-lang/rust.git'
 alias irust='cd ~/j/tmp08/irust'
 
 ##
-#    Blitz & Dioxus & Taffy
+#    Tmp09 Blitz & Dioxus & Taffy
 ##
+
+alias be='cd ~/j/tmp09/bevy'
 alias bl='cd ~/j/tmp09/blitz'
+alias bli='cd ~/j/tmp09/blitz'
 alias diox='cd ~/j/tmp09/dioxus'
+alias fl='cd ~/j/tmp09/floem'
 alias taf='cd ~/j/tmp09/taffy'
 alias taffy='cd ~/j/tmp09/taffy'
+alias uin='cd ~/j/tmp09/uinotes'
+alias uino='cd ~/j/tmp09/uinotes'
+alias uinotes='cd ~/j/tmp09/uinotes'
+
 alias gpbl='git pull https://github.com/DioxusLabs/blitz main'
 alias gpdiox='git pull https://github.com/DioxusLabs/dioxus main'
+alias gpfl='git pull https://github.com/lapce/floem main'
+alias gpfloem='git pull https://github.com/lapce/floem main'
 alias gptaf='git pull https://github.com/DioxusLabs/taffy main'
 alias gptaffy='git pull https://github.com/DioxusLabs/taffy main'
 
