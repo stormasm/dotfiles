@@ -826,6 +826,7 @@ alias gppm='git pull https://github.com/nushell/nupm main'
 alias getzedpicker='git clone https://github.com/stormasm/zedpicker'
 alias getgpuicom='git clone https://github.com/longbridge/gpui-component'
 alias getgpuicomstorm='git clone git@github.com:stormasm/gpui-component.git'
+alias getgpuicome='git clone git@github.com:stormasm/gpui-component.git'
 alias gpgp='git pull https://github.com/longbridge/gpui-component main'
 
 alias dock='cd ~/j/tmp15/gpuicom-dock'
@@ -887,6 +888,9 @@ alias taffy='cd ~/j/tmp09/taffy'
 alias uin='cd ~/j/tmp09/uinotes'
 alias uino='cd ~/j/tmp09/uinotes'
 alias uinotes='cd ~/j/tmp09/uinotes'
+alias vs='cd ~/j/tmp05/viewskater'
+alias wi='cd ~/j/tmp09/winit'
+alias win='cd ~/j/tmp09/winit'
 
 alias gpbl='git pull https://github.com/DioxusLabs/blitz main'
 alias gpdiox='git pull https://github.com/DioxusLabs/dioxus main'
@@ -894,6 +898,9 @@ alias gpfl='git pull https://github.com/lapce/floem main'
 alias gpfloem='git pull https://github.com/lapce/floem main'
 alias gptaf='git pull https://github.com/DioxusLabs/taffy main'
 alias gptaffy='git pull https://github.com/DioxusLabs/taffy main'
+alias gpwi='git pull https://github.com/rust-windowing/winit master'
+alias gpwin='git pull https://github.com/rust-windowing/winit master'
+alias gpvs='git pull https://github.com/ggand0/viewskater main'
 
 ##
 #    Fish Shell
