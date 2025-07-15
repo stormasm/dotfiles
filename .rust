@@ -257,6 +257,8 @@ alias zedlib='cd "/Users/ma/Library/Application Support/Zed"'
 alias zedb='cd "/Users/ma/Library/Application Support/Zed/db"'
 alias zedlog='cd ~/Library/Logs/Zed'
 
+alias vslog='cd "/Users/ma/Library/Application Support/viewskater/logs"'
+
 alias rgrequestlayout='rg request_layout'
 alias rgdiv='rg "\-> Div"'
 alias rgintoelement='rg "#\[derive\(IntoElement\)\]"'
@@ -406,7 +408,8 @@ alias cce='cr --features cursive/crossterm-backend --bin'
 
 ## export RUST_LOG=openraft::engine::engine_impl=info
 ## export RUST_LOG=logutil=trace,metastore=trace,sqlexec=trace
-export RUST_LOG=zed=debug
+## export RUST_LOG=zed=debug
+export RUST_LOG=viewskater=debug
 
 alias cklog='env | grep RUST_LOG'
 alias loglevel='env | grep RUST_LOG'
@@ -888,7 +891,8 @@ alias taffy='cd ~/j/tmp09/taffy'
 alias uin='cd ~/j/tmp09/uinotes'
 alias uino='cd ~/j/tmp09/uinotes'
 alias uinotes='cd ~/j/tmp09/uinotes'
-alias vs='cd ~/j/tmp05/viewskater'
+alias vsgo='cd ~/j/tmp05/viewskater/src'
+alias vs="viewskater"
 alias wi='cd ~/j/tmp09/winit'
 alias win='cd ~/j/tmp09/winit'
 
