@@ -864,7 +864,9 @@ alias glgo='glg; cd gleam'
 alias pis='cd ~/j/tmp17/pipestream'
 
 alias lgo='cd ~/j/tmp05/lox'
-alias diary='cd ~/j/tmp99/diary'
+alias diary='cd ~/mm/diary'
+alias diaryrun='cd ~/mm/diary; sws -z --directory-listing-order 0'
+alias dirun='cd ~/mm/diary; sws -z --directory-listing-order 0'
 
 ##
 #    Rust Compiler
