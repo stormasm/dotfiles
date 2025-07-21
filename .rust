@@ -895,8 +895,11 @@ alias taffy='cd ~/j/tmp09/taffy'
 alias uin='cd ~/j/tmp09/uinotes'
 alias uino='cd ~/j/tmp09/uinotes'
 alias uinotes='cd ~/j/tmp09/uinotes'
+alias emugo='cd ~/j/tmp05/emulsion/src'
+alias emu="emulsion"
 alias vsgo='cd ~/j/tmp05/viewskater/src'
 alias vs="viewskater"
+
 alias wi='cd ~/j/tmp09/winit'
 alias win='cd ~/j/tmp09/winit'
 
