@@ -1,4 +1,6 @@
 
+alias ttt='rm -fr target'
+
 alias stable='rustup default stable'
 alias stableinstall='rustup install stable'
 alias nightly='rustup default nightly'
@@ -914,7 +916,12 @@ alias vsgo='cd ~/j/tmp05/viewskater/src'
 alias vs="viewskater"
 
 alias wi='cd ~/j/tmp09/winit'
+alias wiold='cd ~/j/tmp05/winit'
 alias win='cd ~/j/tmp09/winit'
+alias winleg='cd ~/j/tmp05/winit'
+alias winold='cd ~/j/tmp05/winit'
+alias pix='cd ~/j/tmp05/pixels'
+alias mini='cd ~/j/tmp05/rust_minifb'
 
 alias gpbevy='git pull https://github.com/bevyengine/bevy main'
 alias gpbl='git pull https://github.com/DioxusLabs/blitz main'
