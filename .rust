@@ -200,9 +200,10 @@ alias jgpui='jgo; cd crates/gpui'
 alias jui='jgo; cd crates/ui'
 alias jwork='jgo; cd crates/workspace'
 
-### Linux Port
+### Blade
 
-alias cblade='cargo build --features=gpui/macos-blade'
+alias blade='cd ~/j/tmp09/blade'
+alias hwb='cre hello_world --features=macos-blade'
 
 ### Zed crates
 
@@ -218,6 +219,8 @@ alias zfb='zgo; cd crates/feedback'
 alias gpui='zgo; cd crates/gpui'
 alias gpuix='gpui; cd examples'
 #alias gpuiex='gpui; cd examples'
+alias gpuionly='cd ~/j/tmp11/gpuionly-250827'
+alias gpuio='cd ~/j/tmp11/gpuionly-250827'
 alias zgui='zgo; cd crates/gpui'
 alias zgpui='zgo; cd crates/gpui'
 alias zgpuim='zgo; cd crates/gpui_macros'
@@ -893,6 +896,7 @@ alias diox='cd ~/j/tmp09/dioxus'
 alias fl='cd ~/j/tmp09/floem'
 alias ice='cd ~/j/tmp05/iced'
 alias iced='cd ~/j/tmp05/iced'
+alias soft='cd ~/j/tmp05/softbuffer'
 alias taf='cd ~/j/tmp09/taffy'
 alias taffy='cd ~/j/tmp09/taffy'
 alias uin='cd ~/j/tmp09/uinotes'
@@ -924,7 +928,8 @@ alias pix='cd ~/j/tmp05/pixels'
 alias mini='cd ~/j/tmp05/rust_minifb'
 
 alias gpbevy='git pull https://github.com/bevyengine/bevy main'
-alias gpbl='git pull https://github.com/DioxusLabs/blitz main'
+alias gpblitz='git pull https://github.com/DioxusLabs/blitz main'
+alias gpblade='git pull https://github.com/kvark/blade main'
 alias gpdiox='git pull https://github.com/DioxusLabs/dioxus main'
 alias gpfl='git pull https://github.com/lapce/floem main'
 alias gpfloem='git pull https://github.com/lapce/floem main'
