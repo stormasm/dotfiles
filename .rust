@@ -203,6 +203,7 @@ alias jwork='jgo; cd crates/workspace'
 ### Blade
 
 alias blade='cd ~/j/tmp09/blade'
+alias objc2='cd ~/j/tmp09/objc2'
 alias hwb='cre hello_world --features=macos-blade'
 
 ### Zed crates
@@ -899,9 +900,9 @@ alias iced='cd ~/j/tmp05/iced'
 alias soft='cd ~/j/tmp05/softbuffer'
 alias taf='cd ~/j/tmp09/taffy'
 alias taffy='cd ~/j/tmp09/taffy'
-alias uin='cd ~/j/tmp09/uinotes'
-alias uino='cd ~/j/tmp09/uinotes'
-alias uinotes='cd ~/j/tmp09/uinotes'
+alias uin='cd ~/j/tmp99/uinotes'
+alias uino='cd ~/j/tmp99/uinotes'
+alias uinotes='cd ~/j/tmp99/uinotes'
 alias bevme='cd ~/j/tmp06/bevy'
 alias bevyme='cd ~/j/tmp06/bevy'
 alias bev='cd ~/j/tmp09/bevy'
@@ -922,6 +923,7 @@ alias vs="viewskater"
 alias wi='cd ~/j/tmp09/winit'
 alias wiold='cd ~/j/tmp05/winit'
 alias win='cd ~/j/tmp09/winit'
+alias winex='cd ~/j/tmp09/winit/examples'
 alias winleg='cd ~/j/tmp05/winit'
 alias winold='cd ~/j/tmp05/winit'
 alias pix='cd ~/j/tmp05/pixels'
@@ -977,3 +979,5 @@ alias numofiles='find /Users/ma/j/tmp33/nushell.github.io | wc -l'
 alias nof='lsr | wc -l'
 
 alias memg='cd ~/j/tmp07/memgame'
+
+alias med='cd ~/j/tmp99/medicare'
