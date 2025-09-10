@@ -204,6 +204,7 @@ alias jwork='jgo; cd crates/workspace'
 
 alias blade='cd ~/j/tmp09/blade'
 alias objc2='cd ~/j/tmp09/objc2'
+alias wgpu='cd ~/j/tmp09/wgpu'
 alias hwb='cre hello_world --features=macos-blade'
 
 ### Zed crates
@@ -942,6 +943,7 @@ alias gptaf='git pull https://github.com/DioxusLabs/taffy main'
 alias gptaffy='git pull https://github.com/DioxusLabs/taffy main'
 alias gpwi='git pull https://github.com/rust-windowing/winit master'
 alias gpwin='git pull https://github.com/rust-windowing/winit master'
+alias gpwgpu='git pull https://github.com/gfx-rs/wgpu trunk'
 alias gpixels='git pull https://github.com/parasyte/pixels main'
 alias gppixels='git pull https://github.com/parasyte/pixels main'
 alias gpminifb='git pull https://github.com/emoon/rust_minifb master'
