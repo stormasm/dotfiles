@@ -1,4 +1,5 @@
 
+alias jjjt='git push origin trunk'
 alias ttt='rm -fr target'
 
 alias stable='rustup default stable'
