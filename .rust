@@ -897,6 +897,7 @@ alias irust='cd ~/j/tmp08/irust'
 ##
 
 alias be='cd ~/j/tmp09/bevy'
+alias bex='cd ~/j/tmp09/bevy/examples'
 alias bl='cd ~/j/tmp09/blitz'
 alias bli='cd ~/j/tmp09/blitz'
 alias diox='cd ~/j/tmp09/dioxus'
@@ -990,3 +991,8 @@ alias nof='lsr | wc -l'
 alias memg='cd ~/j/tmp07/memgame'
 
 alias med='cd ~/j/tmp99/medicare'
+
+#
+#  Bevy Stuff
+#
+alias tet='cd ~/j/tmp09/tetris'
