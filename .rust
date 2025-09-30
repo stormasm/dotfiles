@@ -900,6 +900,7 @@ alias be='cd ~/j/tmp09/bevy'
 alias bex='cd ~/j/tmp09/bevy/examples'
 alias bl='cd ~/j/tmp09/blitz'
 alias bli='cd ~/j/tmp09/blitz'
+alias bno='cd ~/j/tmp99/bevynotes'
 alias diox='cd ~/j/tmp09/dioxus'
 alias fl='cd ~/j/tmp09/floem'
 alias ice='cd ~/j/tmp05/iced'
@@ -995,4 +996,8 @@ alias med='cd ~/j/tmp99/medicare'
 #
 #  Bevy Stuff
 #
-alias tet='cd ~/j/tmp09/tetris'
+alias tet='cd ~/j/tmp13/tetris'
+alias tetris='cd ~/j/tmp13/tetris'
+alias bevygame='cd ~/j/tmp13/bevygamechapter1'
+alias pong='cd ~/j/tmp13/pong-tutorial'
+alias gpong='git pull https://github.com/nolantait/pong-tutorial master'
