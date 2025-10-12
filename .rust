@@ -896,8 +896,8 @@ alias irust='cd ~/j/tmp08/irust'
 #    Tmp09 Blitz & Dioxus & Taffy
 ##
 
-alias be='cd ~/j/tmp09/bevy'
-alias bex='cd ~/j/tmp09/bevy/examples'
+alias be='cd ~/j/tmp13/bevy'
+alias bex='cd ~/j/tmp13/bevy/examples'
 alias bl='cd ~/j/tmp09/blitz'
 alias bli='cd ~/j/tmp09/blitz'
 alias bno='cd ~/j/tmp99/bevynotes'
@@ -913,8 +913,8 @@ alias uino='cd ~/j/tmp99/uinotes'
 alias uinotes='cd ~/j/tmp99/uinotes'
 alias bevme='cd ~/j/tmp06/bevy'
 alias bevyme='cd ~/j/tmp06/bevy'
-alias bev='cd ~/j/tmp09/bevy'
-alias bevy='cd ~/j/tmp09/bevy'
+alias bev='cd ~/j/tmp13/bevy'
+alias bevy='cd ~/j/tmp13/bevy'
 alias emugel='cd ~/j/tmp05/emulsion/subcrates/gelatin'
 alias emugot='cd ~/j/tmp05/emulsion'
 alias emugo='cd ~/j/tmp05/emulsion/src'
@@ -1001,3 +1001,9 @@ alias tetris='cd ~/j/tmp13/tetris'
 alias bevygame='cd ~/j/tmp13/bevygamechapter1'
 alias pong='cd ~/j/tmp13/pong-tutorial'
 alias gpong='git pull https://github.com/nolantait/pong-tutorial master'
+
+#
+# Bevy Games
+#
+alias ss='cd ~/j/tmp13/solarsim'
+alias sss='cd ~/j/tmp13/solarsim/src/simulation'
