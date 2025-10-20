@@ -893,11 +893,28 @@ alias getrust='gcfast git@github.com:rust-lang/rust.git'
 alias irust='cd ~/j/tmp08/irust'
 
 ##
+#    Bevy Games
+##
+
+alias av='cd ~/j/tmp13/avian'
+alias be='cd ~/j/tmp13/bevy'
+alias bex='cd ~/j/tmp13/bevy/examples'
+
+alias bevme='cd ~/j/tmp06/bevy'
+alias bevyme='cd ~/j/tmp06/bevy'
+alias bev='cd ~/j/tmp13/bevy'
+alias bevy='cd ~/j/tmp13/bevy'
+
+alias pb='cd ~/j/tmp13/Pinball2dAvian'
+
+alias gpav='git pull https://github.com/avianphysics/avian main'
+alias gpbevy='git pull https://github.com/bevyengine/bevy main'
+alias gppb='git pull https://github.com/francisdb/Pinball2DAvian main'
+
+##
 #    Tmp09 Blitz & Dioxus & Taffy
 ##
 
-alias be='cd ~/j/tmp13/bevy'
-alias bex='cd ~/j/tmp13/bevy/examples'
 alias bl='cd ~/j/tmp09/blitz'
 alias bli='cd ~/j/tmp09/blitz'
 alias bno='cd ~/j/tmp99/bevynotes'
@@ -911,10 +928,6 @@ alias taffy='cd ~/j/tmp09/taffy'
 alias uin='cd ~/j/tmp99/uinotes'
 alias uino='cd ~/j/tmp99/uinotes'
 alias uinotes='cd ~/j/tmp99/uinotes'
-alias bevme='cd ~/j/tmp06/bevy'
-alias bevyme='cd ~/j/tmp06/bevy'
-alias bev='cd ~/j/tmp13/bevy'
-alias bevy='cd ~/j/tmp13/bevy'
 alias emugel='cd ~/j/tmp05/emulsion/subcrates/gelatin'
 alias emugot='cd ~/j/tmp05/emulsion'
 alias emugo='cd ~/j/tmp05/emulsion/src'
@@ -937,7 +950,6 @@ alias winold='cd ~/j/tmp05/winit'
 alias pix='cd ~/j/tmp05/pixels'
 alias mini='cd ~/j/tmp05/rust_minifb'
 
-alias gpbevy='git pull https://github.com/bevyengine/bevy main'
 alias gpblitz='git pull https://github.com/DioxusLabs/blitz main'
 alias gpblade='git pull https://github.com/kvark/blade main'
 alias gpcocoa='git pull https://github.com/servo/core-foundation-rs main'
@@ -948,6 +960,7 @@ alias gpglium='git pull https://github.com/glium/glium master'
 alias gpice='git pull https://github.com/iced-rs/iced master'
 alias gpiced='git pull https://github.com/iced-rs/iced master'
 alias gpmetal='git pull https://github.com/gfx-rs/metal-rs master'
+
 alias gptaf='git pull https://github.com/DioxusLabs/taffy main'
 alias gptaffy='git pull https://github.com/DioxusLabs/taffy main'
 alias gpwi='git pull https://github.com/rust-windowing/winit master'
@@ -1007,3 +1020,5 @@ alias gpong='git pull https://github.com/nolantait/pong-tutorial master'
 #
 alias ss='cd ~/j/tmp13/solarsim'
 alias sss='cd ~/j/tmp13/solarsim/src/simulation'
+
+alias tmp='cd ~/mm/tmp'
