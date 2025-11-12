@@ -171,35 +171,8 @@ alias zgo='cd ~/j/tmp08/zed'
 alias ztmp='cd ~/j/tmp08/zedtmp'
 alias zex='cd ~/j/tmp08/zed-examples'
 
-### storybook
-alias sbt='cd ~/j/tmp06/storybook'
-#alias sbr='sbt; ./target/debug/sb &'
-alias sbrun='sbt; ./target/debug/sb &'
-alias sb='sbt; cd ./crates/storybook'
-alias sbp='sbt; cd ./crates/storybookpicker'
-
-### zed storybook
-alias sbg='zgo; cd crates/storybook'
-alias sbui='zgo; cd crates/storybook_ui'
-alias sbr='zgo; ./target/debug/storybook'
-
-### noed
-
-alias getnoed='gc git@github.com:stormasm/zed-noed.git'
-alias noed='06; cd zed-noed'
-alias noedme='noed; ./target/debug/Noed &'
-
-### jed
-alias getjed='gc git@github.com:stormasm/jed.git'
-alias jme='jgo; ./target/debug/Jed &'
-alias jgo='zalt; cd jed'
-
-### Jed crates
-alias jgoc='jgo; cd crates'
-alias jgui='jgo; cd crates/gpui'
-alias jgpui='jgo; cd crates/gpui'
-alias jui='jgo; cd crates/ui'
-alias jwork='jgo; cd crates/workspace'
+### goose
+alias goo='cd ~/j/tmp06/goose'
 
 ### Blade
 
