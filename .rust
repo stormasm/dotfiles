@@ -172,7 +172,12 @@ alias ztmp='cd ~/j/tmp08/zedtmp'
 alias zex='cd ~/j/tmp08/zed-examples'
 
 ### goose
+alias ain='cd ~/j/tmp99/ainotes'
+alias aino='cd ~/j/tmp99/ainotes'
+alias ainotes='cd ~/j/tmp99/ainotes'
 alias goo='cd ~/j/tmp06/goose'
+alias gpgoo='git pull https://github.com/block/goose main'
+alias gpgoose='git pull https://github.com/block/goose main'
 
 ### Blade
 
