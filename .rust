@@ -172,6 +172,8 @@ alias ztmp='cd ~/j/tmp08/zedtmp'
 alias zex='cd ~/j/tmp08/zed-examples'
 
 ### goose
+alias gooc='cd ~/j/tmp06/goose/crates'
+alias goot='cd ~/j/tmp33/goose'
 alias ain='cd ~/j/tmp99/ainotes'
 alias aino='cd ~/j/tmp99/ainotes'
 alias ainotes='cd ~/j/tmp99/ainotes'
@@ -317,7 +319,7 @@ alias com='cd ~/j/tmp17/nushell/crates/nu-command'
 alias fil='cd ~/j/tmp17/nushell/crates/nu-command/src/filters'
 
 ### rust-notes
-alias nuno='cd ~/j/tmp17/nunotes'
+alias nuno='cd ~/j/tmp99/nunotes'
 alias nunoir='nuno; cd ir'
 alias rn='cd ~/j/tmp07/rust-notes'
 alias rno='cd ~/j/tmp21/rust-notes'
@@ -601,7 +603,6 @@ alias nusn='nutop; cd ..; cd nu_scripts'
 
 # Nushell Projects
 alias nume='nutop; cd ..; cd nume'
-alias nunotes='nutop; cd ..; cd nunotes'
 alias nuproj='nutop; cd ..; cd nuproj'
 alias peval='nuproj; cd parseval'
 
