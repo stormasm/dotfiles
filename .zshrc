@@ -180,6 +180,8 @@ alias redislog='cd ~/mia/redislog'
 #
 
 alias pics='cd ~/k/pics'
+alias picsm='cd ~/k/pics/mexico'
+alias picsmex='cd ~/k/pics/mexico'
 alias jimkline='pics; cd jimkline'
 alias jk='pics; cd jimkline'
 
