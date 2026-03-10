@@ -228,6 +228,8 @@ alias et='cd ~/j/tmp99/spanish/books/eterovic'
 alias hp='cd ~/j/tmp99/spanish/books/harrypotter'
 alias pray='cd ~/j/tmp99/spanish/prayers'
 alias sentd='cd ~/j/tmp99/spanish/sentences'
+alias turn='cd ~/j/tmp99/spanish/books/turner'
+alias turner='cd ~/j/tmp99/spanish/books/turner'
 alias yts='cd ~/j/tmp99/spanish/youtube'
 alias ytspan='cd ~/j/tmp99/spanish/youtube'
 
