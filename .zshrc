@@ -224,6 +224,8 @@ alias resbio='cd ~/j/tmp99/research/bio'
 
 alias ptme='cd ~/j/tmp99/ptme'
 alias span='cd ~/j/tmp99/spanish'
+alias es='cd ~/j/tmp99/es26'
+alias es26='cd ~/j/tmp99/es26'
 alias et='cd ~/j/tmp99/spanish/books/eterovic'
 alias hp='cd ~/j/tmp99/spanish/books/harrypotter'
 alias pray='cd ~/j/tmp99/spanish/prayers'
