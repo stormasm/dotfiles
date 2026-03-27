@@ -210,6 +210,7 @@ alias en='cd ~/j/tmp99/equity-notes'
 alias ubnt='cd ~/j/tmp99/ubnt'
 
 alias bm='cd ~/j/tmp99/bookmarks'
+alias bmt='cd ~/j/tmp99/bookmarkstmp'
 alias hackmd='cd ~/j/tmp99/hackmd'
 alias life='cd ~/j/tmp99/life'
 alias music='cd ~/j/tmp99/music'
