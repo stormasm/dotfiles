@@ -321,8 +321,8 @@ alias fil='cd ~/j/tmp17/nushell/crates/nu-command/src/filters'
 ### rust-notes
 alias nuno='cd ~/j/tmp99/nunotes'
 alias nunoir='nuno; cd ir'
-alias rn='cd ~/j/tmp07/rust-notes'
-alias rno='cd ~/j/tmp21/rust-notes'
+alias rn='cd ~/j/tmp99/rust-notes'
+alias rno='cd ~/j/tmp99/rust-notes'
 
 ### python-notes
 alias pno='cd ~/j/tmp34/python-notes'
