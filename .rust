@@ -164,8 +164,6 @@ alias zcfgme='cd ~/mia/dotfiles/config/zed'
 alias zconfigme='cd ~/mia/dotfiles/config/zed'
 alias zme='./target/debug/zed &'
 alias zmen='./target/debug/zed'
-alias zmexa='./target/debug/zedxa &'
-alias zmexan='./target/debug/zedxa'
 
 alias zgo='cd ~/j/tmp08/zed'
 alias ztmp='cd ~/j/tmp08/zedtmp'
@@ -521,7 +519,6 @@ alias nucli='nutop; cd crates/nu-cli/src'
 
 alias nucom='nutop; cd crates/nu-command/src'
 alias nucomc='nutop; cd crates/nu-command-core/src'
-alias nucomex='nutop; cd crates/nu-cmd-extra/src'
 alias nucomlang='nutop; cd crates/nu-cmd-lang/src'
 
 alias ncl='cd ~/j/tmp17/nushell/crates/nu-cmd-lang'
@@ -731,15 +728,6 @@ alias rr='./test/run-tests.py -p --no-roundtrip'
 alias wt=wasmtime
 alias wtg='cd ~/j/tmp19/wasmtime'
 alias wtc='cd ~/j/tmp19/wasmtime/cranelift'
-
-##
-#  Nom
-##
-alias nom='cd ~/j/tmp17/nom'
-alias rexnom='cd ~/j/tmp17/rust-examples/nom'
-alias rexnomex='cd ~/j/tmp17/rust-examples/nom/examples'
-alias nomrex='cd ~/j/tmp17/rust-examples/nom'
-alias nomrexex='cd ~/j/tmp17/rust-examples/nom/examples'
 
 ##
 #  Tokio, Tonic
@@ -972,7 +960,7 @@ alias diox='cd ~/j/tmp09/dioxus'
 #
 alias mex='cd ~/j/tmp99/mexico'
 alias mexico='cd ~/j/tmp99/mexico'
-alias logos='cd ~/j/tmp05/logos'
+alias mexh='cd ~/j/tmp99/mexico/history'
 
 #
 # https://github.com/stormasm/rust-notes/blob/main/static-web-server.md
