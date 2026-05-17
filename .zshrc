@@ -217,13 +217,14 @@ alias music='cd ~/j/tmp99/music'
 alias prax='cd ~/mm/prax'
 alias osu='cd ~/mm/prax'
 alias pdf='cd ~/j/tmp99/pdf'
-alias pt='cd ~/mm/ptme'
+
 alias res='cd ~/j/tmp99/research'
 alias resbio='cd ~/j/tmp99/research/bio'
 
 # spanish
 
 alias ptme='cd ~/j/tmp99/ptme'
+alias ptm='cd ~/j/tmp99/ptme/misc'
 alias span='cd ~/j/tmp99/spanish'
 alias es='cd ~/j/tmp99/es26'
 alias es26='cd ~/j/tmp99/es26'
