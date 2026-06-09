@@ -375,6 +375,7 @@ PS1='%1d$ '
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+[[ -s "$HOME/.secret" ]] && source "$HOME/.secret"
 [[ -s "$HOME/.nodejs" ]] && source "$HOME/.nodejs"
 [[ -s "$HOME/.golang" ]] && source "$HOME/.golang"
 [[ -s "$HOME/.python" ]] && source "$HOME/.python"

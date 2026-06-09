@@ -994,3 +994,10 @@ alias ss='cd ~/j/tmp13/solarsim'
 alias sss='cd ~/j/tmp13/solarsim/src/simulation'
 
 alias tmp='cd ~/mm/tmp'
+
+#
+#  mbox mail-parser
+#
+alias mp='cd ~/j/tmp18/mail-parser/src'
+alias mpa='cd ~/j/tmp19/mail-parser/src'
+alias mp1='cd ~/j/tmp19/mail-parser'
