@@ -2,7 +2,8 @@
   {
     "context": "Editor",
     "bindings": {
-      "cmd-alt-g": "editor::ToggleGitBlame"
-    }
-  }
+      "cmd-alt-g": "git::Blame",
+      "cmd-g": "go_to_line::Toggle",
+    },
+  },
 ]
