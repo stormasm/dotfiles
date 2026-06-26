@@ -1009,3 +1009,9 @@ alias mp1='cd ~/j/tmp19/mail-parser'
 #
 
 alias rat='cd ~/j/tmp17/ratatui'
+
+#
+#  Zig: Everything below here will go in its own file .zig (eventually)
+#
+
+alias zr='zig run'
