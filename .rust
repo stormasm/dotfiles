@@ -675,6 +675,12 @@ alias cnrb='cargo nextest run --all --features extra'
 alias cnrn='cargo nextest run --no-capture'
 alias cnrno='cargo nextest run --no-capture'
 
+### cargo test --doc function_name
+alias ctdoc='cargo test --doc'
+
+### list all of the doc tests
+alias ctdoclist='cargo test --doc -- --list'
+
 alias ct='cargo test --no-fail-fast'
 alias ctt='ct --test'
 alias ctlist='cargo test -- --list'
