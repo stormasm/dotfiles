@@ -1,0 +1,4 @@
+
+[[keymaps]]
+command = "toggle_panel_left_visual"
+key = "Meta+b"
