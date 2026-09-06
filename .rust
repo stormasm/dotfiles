@@ -169,6 +169,9 @@ alias zgo='cd ~/j/tmp08/zed'
 alias ztmp='cd ~/j/tmp08/zedtmp'
 alias zex='cd ~/j/tmp08/zed-examples'
 
+### lapce
+alias lapgo='cd ~/j/tmp16/lapce'
+
 ### goose
 alias gooc='cd ~/j/tmp06/goose/crates'
 alias goot='cd ~/j/tmp33/goose'
@@ -437,6 +440,7 @@ alias getnugm='gc git@github.com:stormasm/nu-git-manager.git'
 
 alias gpbook='git pull https://github.com/nushell/nushell.github.io main'
 alias gpeq='git pull https://github.com/nushell/nushell main'
+alias gplap='git pull https://github.com/lapce/lapce master'
 alias gpor='git pull https://github.com/datafuselabs/openraft main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
 alias gpnus='git pull https://github.com/nushell/nu_scripts main'
