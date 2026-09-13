@@ -171,6 +171,7 @@ alias zex='cd ~/j/tmp08/zed-examples'
 
 ### lapce
 alias lapgo='cd ~/j/tmp16/lapce'
+alias lg='cd ~/j/tmp16/lapce'
 
 ### goose
 alias gooc='cd ~/j/tmp06/goose/crates'
@@ -223,6 +224,7 @@ alias zprojpanel='zgo; cd crates/project_panel'
 alias zqab='zgo; cd crates/quick_action_bar/src'
 alias zrepl='zgo; cd crates/repl/src'
 alias zset='zgo; cd crates/settings/src'
+alias zst='zgo; cd crates/sum_tree/src'
 alias rtop='zgo; cd ../runtimed'
 alias rttop='zgo; cd ../runtimed'
 alias rtd='zgo; cd ../runtimed/runtimed'
