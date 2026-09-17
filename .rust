@@ -173,6 +173,12 @@ alias zex='cd ~/j/tmp08/zed-examples'
 alias lapgo='cd ~/j/tmp16/lapce'
 alias lg='cd ~/j/tmp16/lapce'
 
+### ropey
+alias rgo='cd ~/j/tmp16/ropey'
+alias rogo='cd ~/j/tmp16/ropey'
+alias ropego='cd ~/j/tmp16/ropey'
+alias ropeygo='cd ~/j/tmp16/ropey'
+
 ### goose
 alias gooc='cd ~/j/tmp06/goose/crates'
 alias goot='cd ~/j/tmp33/goose'
@@ -450,6 +456,8 @@ alias gpor='git pull https://github.com/datafuselabs/openraft main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
 alias gpnus='git pull https://github.com/nushell/nu_scripts main'
 alias gpnusn='git pull https://github.com/nushell/nu_scripts main'
+alias gpr='git pull https://github.com/cessen/ropey master'
+alias gpropey='git pull https://github.com/cessen/ropey master'
 alias gprl='git pull https://github.com/nushell/reedline main'
 alias gpgram='git pull https://github.com/nushell/grammar main'
 alias gpts='git pull https://github.com/nushell/tree-sitter-nu main'
