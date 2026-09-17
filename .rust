@@ -732,7 +732,8 @@ alias ctexbytes='ct --workspace --features=extra bytes::'
 #
 # Helix
 #
-alias hxg='cd ~/j/tmp17/helix'
+alias hxg='cd ~/j/tmp16/helix'
+alias hxgo='cd ~/j/tmp16/helix'
 
 #
 # tickrs
