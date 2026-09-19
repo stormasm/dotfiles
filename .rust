@@ -1039,3 +1039,9 @@ alias rat='cd ~/j/tmp17/ratatui'
 #
 
 alias zr='zig run'
+
+#
+# Github repos
+#
+
+alias eno='cd ~/j/tmp99/equity-notes'
