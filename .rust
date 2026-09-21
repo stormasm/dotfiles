@@ -117,6 +117,7 @@ alias fea='cd ~/j/tmp03/features'
 
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
+alias nuw='cd ~/j/tmp17/nu_winnow'
 
 ### zed
 alias zalt='07';
@@ -451,6 +452,7 @@ alias getnugm='gc git@github.com:stormasm/nu-git-manager.git'
 
 alias gpbook='git pull https://github.com/nushell/nushell.github.io main'
 alias gpeq='git pull https://github.com/nushell/nushell main'
+alias gpwin='git pull https://github.com/fdncred/nu_winnow main'
 alias gplap='git pull https://github.com/lapce/lapce master'
 alias gpor='git pull https://github.com/datafuselabs/openraft main'
 alias gpnu='git pull https://github.com/nushell/nushell main'
@@ -961,7 +963,7 @@ alias gpmetal='git pull https://github.com/gfx-rs/metal-rs master'
 alias gptaf='git pull https://github.com/DioxusLabs/taffy main'
 alias gptaffy='git pull https://github.com/DioxusLabs/taffy main'
 alias gpwi='git pull https://github.com/rust-windowing/winit master'
-alias gpwin='git pull https://github.com/rust-windowing/winit master'
+alias gpwinit='git pull https://github.com/rust-windowing/winit master'
 alias gpwgpu='git pull https://github.com/gfx-rs/wgpu trunk'
 alias gpixels='git pull https://github.com/parasyte/pixels main'
 alias gppixels='git pull https://github.com/parasyte/pixels main'
