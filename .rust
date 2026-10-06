@@ -118,6 +118,7 @@ alias fea='cd ~/j/tmp03/features'
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
 alias nuw='cd ~/j/tmp17/nu_winnow'
+alias win='cd ~/j/tmp17/nu_winnow'
 
 ### zed
 alias zalt='07';
@@ -942,8 +943,8 @@ alias vs="viewskater"
 
 alias wi='cd ~/j/tmp09/winit'
 alias wiold='cd ~/j/tmp05/winit'
-alias win='cd ~/j/tmp09/winit'
-alias winex='cd ~/j/tmp09/winit/examples'
+alias winit='cd ~/j/tmp09/winit'
+alias winitex='cd ~/j/tmp09/winit/examples'
 alias winleg='cd ~/j/tmp05/winit'
 alias winold='cd ~/j/tmp05/winit'
 alias pix='cd ~/j/tmp05/pixels'
@@ -1049,3 +1050,9 @@ alias zr='zig run'
 alias eno='cd ~/j/tmp99/equity-notes'
 alias wn='cd ~/j/tmp99/worknotes'
 alias wno='cd ~/j/tmp99/worknotes'
+alias bs='cd ~/j/tmp99/bookstore'
+
+#
+# fd list directories only use the -t flag so the example is fd -t d pdf
+#
+alias fdd='fd -t d'
