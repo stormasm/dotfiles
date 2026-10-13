@@ -499,6 +499,8 @@ alias nut='cd ~/j/tmp17/nutmp'
 alias nutmp='cd ~/j/tmp17/nutmp'
 
 alias nurun='~/j/tmp17/nushell/target/debug/nu'
+alias nuwin='nurun --experimental-options winnow-parser'
+
 alias nurel='~/j/tmp17/nushell/target/release/nu'
 alias nurunyes='~/j/tmp17/nushell/target/debug/nu'
 
