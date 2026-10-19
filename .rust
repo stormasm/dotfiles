@@ -417,7 +417,7 @@ alias cce='cr --features cursive/crossterm-backend --bin'
 ## export RUST_LOG=logutil=trace,metastore=trace,sqlexec=trace
 ## export RUST_LOG=zed=debug
 ## export RUST_LOG=viewskater=debug
-export RUST_LOG=emulsion=debug
+## export RUST_LOG=emulsion=debug
 
 alias cklog='env | grep RUST_LOG'
 alias loglevel='env | grep RUST_LOG'
@@ -930,14 +930,6 @@ alias taffy='cd ~/j/tmp09/taffy'
 alias uin='cd ~/j/tmp99/uinotes'
 alias uino='cd ~/j/tmp99/uinotes'
 alias uinotes='cd ~/j/tmp99/uinotes'
-alias emugel='cd ~/j/tmp05/emulsion/subcrates/gelatin'
-alias emugot='cd ~/j/tmp05/emulsion'
-alias emugo='cd ~/j/tmp05/emulsion/src'
-alias emu="emulsion"
-alias emuc='cd /Users/ma/Library/Caches/Emulsion'
-alias emucache='cd /Users/ma/Library/Caches/Emulsion'
-alias emucfg='cd /Users/ma/Library/Application\ Support/Emulsion'
-alias emuconfig='cd /Users/ma/Library/Application\ Support/Emulsion'
 alias gligo='cd ~/j/tmp05/glium/src'
 alias gligot='cd ~/j/tmp05/glium'
 alias vsgo='cd ~/j/tmp05/viewskater/src'
