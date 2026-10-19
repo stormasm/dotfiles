@@ -118,6 +118,7 @@ alias fea='cd ~/j/tmp03/features'
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
 alias win='cd ~/j/tmp17/nushell/crates/nu-winnow-parser'
+alias nuconf='cd ~/j/tmp17/nu-conformance'
 
 ### zed
 alias zalt='07';
