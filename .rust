@@ -498,15 +498,37 @@ alias nubookrun='npm install; npm run dev'
 alias nut='cd ~/j/tmp17/nutmp'
 alias nutmp='cd ~/j/tmp17/nutmp'
 
-alias nurun='~/j/tmp17/nushell/target/debug/nu'
-alias nuwin='nurun --experimental-options winnow-parser'
+#
+# nurun aliases
+#
 
+alias nurun='~/j/tmp17/nushell/target/debug/nu'
 alias nurel='~/j/tmp17/nushell/target/release/nu'
-alias nurunyes='~/j/tmp17/nushell/target/debug/nu'
+
+alias nuwin='nurun --experimental-options winnow-parser'
+alias nuwinp='nurun --experimental-options winnow-parser --log-level perf'
+
+#
+# nushell alias logging
+#
+
+alias nurunp='nurun --log-level perf'
+alias nuruni='nurun --log-level info'
+alias nurund='nurun --log-level debug'
+alias nurunt='nurun --log-level trace'
+alias nuruntlog='nurun -l trace 2> log.txt'
+
+#
+# nushell aliases no-std-lib
+#
 
 alias nuruno='~/j/tmp17/nushell/target/debug/nu --no-std-lib'
 alias nurunno='~/j/tmp17/nushell/target/debug/nu --no-std-lib'
 alias nun='nurun -n --no-std-lib'
+
+#
+# nushell aliases not in tmp17
+#
 
 alias nur='./target/debug/nu'
 alias nurunn='./target/debug/nu'
@@ -515,18 +537,8 @@ alias nuir='./target/debug/nu'
 
 alias nurunoconfig='./target/debug/nu --config ~/config.nu --env-config ~/env.nu'
 
-alias nu44='~/mia/nu44/nu'
-alias nu59='~/mia/nu59/nu'
-alias nu61='~/mia/nu61/nu'
-
 alias nulegrun='nutopp; ./target/debug/nu --skip-plugins'
 alias nulegruns='cd ~/j/tmp26/nutmp/scripts; ~/j/tmp26/nushell/target/debug/nu --skip-plugins'
-
-alias nurunp='nutop; ./target/debug/nu'
-alias nuruni='nurun --log-level info'
-alias nurund='nurun --log-level debug'
-alias nurunt='nurun --log-level trace'
-alias nuruntlog='nurun -l trace 2> log.txt'
 
 alias nurundate='nurunt -c date'
 alias nurunls='nurunt -c ls'
