@@ -1062,3 +1062,6 @@ alias bs='cd ~/j/tmp99/bookstore'
 # fd list directories only use the -t flag so the example is fd -t d pdf
 #
 alias fdd='fd -t d'
+alias f='fffinder &'
+
+alias texas='cd ~/j/tmp99/southwest/texas'
