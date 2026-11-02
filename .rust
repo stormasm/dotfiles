@@ -44,6 +44,7 @@ alias cca='cargo cache -a'
 alias cb='cargo build'
 alias cba='cargo build --all-features'
 alias cbr='cargo build --release'
+alias cbre='cargo build --release --example'
 alias cbw='cargo build --workspace'
 
 alias cbd='cargo build --features=dataframe'
@@ -117,8 +118,9 @@ alias fea='cd ~/j/tmp03/features'
 
 ### nushell
 alias eq='cd ~/j/tmp17/nushell'
-alias win='cd ~/j/tmp17/nushell/crates/nu-winnow-parser'
+#alias win='cd ~/j/tmp17/nushell/crates/nu-winnow-parser'
 alias nuconf='cd ~/j/tmp17/nu-conformance'
+alias nuconfme='cd ~/j/tmp05/nu-conf/tests'
 
 ### zed
 alias zalt='07';
@@ -506,7 +508,11 @@ alias nurun='~/j/tmp17/nushell/target/debug/nu'
 alias nurel='~/j/tmp17/nushell/target/release/nu'
 
 alias nuwin='nurun --experimental-options winnow-parser'
+alias nuwinr='nurel --experimental-options winnow-parser'
+
 alias nuwinp='nurun --experimental-options winnow-parser --log-level perf'
+
+alias winh='cd ~/j/tmp17/nushell/crates/nu-parser/winnow/tools/nushell-harness'
 
 #
 # nushell alias logging
@@ -581,7 +587,7 @@ alias nup='nutop; cd crates/nu-parser/src'
 alias nupt='nutop; cd crates/nu-parser'
 alias nuptf='nutop; cd crates/nu-parser/fuzz'
 alias nupf='nutop; cd crates/nu-parser/fuzz'
-alias nupar='nutop; cd crates/nu-parser/src'
+alias nupar='nutop; cd crates/nu-parser'
 
 alias devir='cd ~/j/tmp18/nushell'
 
@@ -1065,3 +1071,4 @@ alias fdd='fd -t d'
 alias f='fffinder &'
 
 alias texas='cd ~/j/tmp99/southwest/texas'
+alias tex='cd ~/j/tmp99/southwest/texas'
